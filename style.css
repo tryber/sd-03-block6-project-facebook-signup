@@ -24,10 +24,6 @@ section{
   padding-bottom: 12px;
 }
 
-body {
-  margin: 0;
-}
-
 .top-bar .facebook-logo {
   font-family: Helvetica;
   font-weight: 800;
@@ -83,6 +79,7 @@ body {
 .lado-direito{
     display: flex;
     flex-direction: column;
+    margin-left: 275px;
 }
 
 .nome-sobrenome{
@@ -100,8 +97,11 @@ body {
     flex-direction: row;
 }
 
+.tudo{
+    display: flex;
+    flex-direction: row;
+}
+
 #text1{
     font-size: 36px;
-    margin-bottom: 150px;
-
 }
