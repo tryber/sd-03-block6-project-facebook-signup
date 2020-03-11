@@ -1,4 +1,12 @@
-div img {
-  width: 170px;
+.facebook-logo {
   height: 34px;
+  overflow: hidden;
+
+}
+
+.facebook-logo img {
+    width: 170px;
+}
+.top-bar {
+
 }
