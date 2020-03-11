@@ -1,7 +1,7 @@
 const input = document.getElementById('user-email-phone');
 
 window.onload = function () {
-	const submitLogin = document.getElementById('button-login');	
+	const submitLogin = document.getElementById('button-login');
 	const submitForm = document.getElementById('facebook-register');
 
 	submitLogin.addEventListener('click', submit);
