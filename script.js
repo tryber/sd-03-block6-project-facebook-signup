@@ -20,10 +20,10 @@ function submit() {
 // function verificaFormulario() {
 // }
 
-		window.onload = function () {
-		  const submitLogin = document.getElementById('button-login');
-		//   const submitForm = document.getElementById('facebook-register');
-		
-		  submitLogin.addEventListener('click', submit);
-		//   submitForm.addEventListener('click', verificaFormulario);
-		};
+window.onload = function () {
+	const submitLogin = document.getElementById('button-login');
+	// const submitForm = document.getElementById('facebook-register');
+
+	submitLogin.addEventListener('click', submit);
+	// submitForm.addEventListener('click', verificaFormulario);
+};
