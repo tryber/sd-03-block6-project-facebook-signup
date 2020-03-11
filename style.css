@@ -22,21 +22,66 @@ section{
 .top-bar {
   display: flex;
   justify-content: space-between;
+  background-color: #3b5998;
+  color: white;
+  padding-top: 26px;
+  padding-bottom: 12px;
+}
+
+body {
+  margin: 0;
+}
+
+.top-bar .facebook-logo {
+  font-family: Helvetica;
+  font-weight: 800;
+  font-size: 40px;
+  margin-left: 17%;
 }
 
 .login-container {
   display: flex;
   flex-direction: row;
-}
+  align-items: center;
+  margin-right: 15%;
+  }
 
 .email-phone {
   display: flex;
   flex-direction: column;
+  padding-right: 15px;
+  width: 150px;
+}
+
+.email-phone label {
+  font-size: 0.85rem;
+  padding-bottom: 5px;
 }
 
 .password {
   display: flex;
   flex-direction: column;
+  padding-right: 15px;
+  width: 150px;
+}
+
+.password label {
+  font-size: 0.85rem;
+  padding-bottom: 5px;
+}
+
+.enter-button {
+  width: 55px;
+  height: 25px;
+  margin-top: 20px;
+  border: 1px solid #4F62A9;
+  background-color: #4F7AC2;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.enter-button:hover {
+  background-color: #3b5998;
 }
 
 #text1{
