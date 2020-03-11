@@ -1,0 +1,22 @@
+* {
+  border: 1px solid red;
+}
+
+.facebook-logo {
+  width: 170px;
+}
+
+.top-bar {
+  background: linear-gradient(#4e69a2, #3b5998 50%);
+  display: flex;
+  height: 82px;
+  justify-content: space-between;
+}
+
+.content {
+  margin: 0 auto;
+  width: 986px;
+}
+
+.login-div {
+}
