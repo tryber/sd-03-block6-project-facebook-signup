@@ -20,6 +20,6 @@ window.onload= function(){
     let novaPers= document.getElementById("Personalizado")
     let botaoCadasatrar= document.getElementById("facebook-register")
     botaoCadasatrar.addEventListener("click", function(){
-        
+        if(.value|| ||)
     })
 }
