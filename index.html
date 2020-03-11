@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Facebook - entre ou cadastre-se</title>
+    <script src="https://kit.fontawesome.com/e47adab8ce.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,8 +17,8 @@
             <form action="">
                 <label for="user-email-phone" id="user-email-phone-label" >Email ou telefone</label>
                 <input id="user-email-phone" type="text">
-                <label for="senha">Senha</label>
-                <input id="senha" type="password">
+                <label for="user-password">Senha</label>
+                <input id="user-password" type="password">
                 <button id="button-login">Entrar</button>
                 <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a>
             </form>
@@ -42,17 +43,17 @@
             <div>
                 <label for="data-cadastro">Data de nascimento</label>
                 <input type="text" id="data-cadastro" placeholder="dd/mm/aaaa">
-                <a href="">?</a>
+                <a href=""><i class="fas fa-question-circle"></i></a>
             </div>
             <div>
                 <p>Gênero</p>
                 <input type="radio" name="genero" id="genero-feminino" ><label for="genero-feminino">Feminino</label>
                 <input type="radio" name="genero" id="genero-masculino"><label for="genero-masculino">Masculino</label>
                 <input type="radio" name="genero" id="genero-Personalizado"><label for="genero-Personalizado">Personalizado</label>
-                <a href="">?</a>
+                <a href=""><i class="fas fa-question-circle"></i></a>
             </div>
-            <div>
-                <select name="" id="gen-personalizado">
+            <div id="gen-personalizado">
+                <select name="">
                     <option disabled selected>Selecione seu pronome</option>
                     <option value="Feminino">Feminino: "Deseje a ela um feliz aniversário!"</option>
                     <option value="Masculino">Masculino: "Deseje a ele um feliz aniversário!"</option>

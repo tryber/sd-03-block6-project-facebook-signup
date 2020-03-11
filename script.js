@@ -1,5 +1,9 @@
-const variavel = document.querySelector('.top-bar');
-
-variavel.addEventListener('click', function () {
-  alert('Funcionando');
-});
+function generoPersonalizado() {
+  document.getElementById('gen-personalizado').style.display = "flex";
+}
+function generoDefinido() {
+  document.getElementById('gen-personalizado').style.display= "none";
+}
+document.getElementById('genero-Personalizado').addEventListener('click', generoPersonalizado);
+document.getElementById('genero-feminino').addEventListener('click', generoDefinido);
+document.getElementById('genero-masculino').addEventListener('click', generoDefinido);
