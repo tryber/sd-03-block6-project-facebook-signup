@@ -10,7 +10,6 @@
   display: block;
   float: left;
   height: 45px;
-  justify-self: center;
   margin-left: 10%;
   padding-top: 13px;
   width: 170px;
@@ -39,7 +38,7 @@
   width: 35%;
 }
 
-.geral h1 {
+.titulo1 {
   color: #0e385f;
   font-size: xx-large;
   margin-bottom: 10px;
@@ -56,12 +55,12 @@
   margin-left: 15px;
 }
 
-.form h2 {
+.titulo2 {
   color: #333;
   font-size: 36px;
 }
 
-.form h3 {
+.titulo3 {
   color: #1d2129;
   font-size: 19px;
   margin-bottom: 10px;
