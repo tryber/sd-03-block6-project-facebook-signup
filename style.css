@@ -175,8 +175,6 @@ header {
   background-color: rgb(105, 167, 78);
   background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
   background-origin: padding-box;
-  background-position-x: 0;
-  background-position-y: 0;
   background-size: auto;
   border-bottom-color: rgb(44, 81, 21);
   border-bottom-left-radius: 5px;
