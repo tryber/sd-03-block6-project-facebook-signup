@@ -1,5 +1,17 @@
+.header-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.header-items {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
 .top-bar {
   background-color: blue;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
