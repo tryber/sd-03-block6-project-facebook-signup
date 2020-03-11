@@ -3,9 +3,9 @@
 } */
 
 body {
+  font-family: helvetica, Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: helvetica, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 section {
@@ -97,16 +97,16 @@ header {
 }
 
 .open-account {
-  font-size: 36px;
   color: #333;
+  font-size: 36px;
   font-weight: 600;
   padding: 20px 0 5px 0;
 }
 
 .fast {
-  padding-bottom: 20px;
   color: #1d2129;
   font-size: 19px;
+  padding-bottom: 20px;
 }
 
 .middle input {
