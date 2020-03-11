@@ -1,7 +1,6 @@
-
 .button-login {
-  background-color: rgb(66,103,178);
-  border: 1px solid rgb(41,72,125);
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
   cursor: pointer;
   width: 50px;
   height: 24px;
@@ -10,19 +9,17 @@
   font-size: 12px;
   font-weight: bold;
 }
-
 .facebook-logo {
   width: 205px;
   height: 75px;
   margin-left: 170px;
   margin-top: 12px;
 }
-
 header {
   background-color: rgb(59, 89, 152);
   width: 100%;
   height: 82px;
-  border-bottom: 1px solid rgb(29,42,91);
+  border-bottom: 1px solid rgb(29, 42, 91);
   position: absolute;
   top: 0;
   left: 0;
@@ -30,44 +27,36 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
 body , html {
   border: 0;
   margin: 0;
   padding: 0;
 }
-
 .input-password , .user-email-phone {
   background-color: rgb(232, 240, 254);
-  border: 1px solid rgb(29,42,91);
+  border: 1px solid rgb(29, 42, 91);
   margin-top: 3px;
   width: 150px;
   height: 20px;
 }
-
 label {
   font-family: Helvetica, sans-serif;
   font-size: 12px;
   color: white;
 }
-
 .login {
   height: 82px;
   margin-right: 200px;
 }
-
 .login li {
   display: list-item;
   margin-left: 15px;
 }
-
-
 .login ul {
   display: flex;
   flex-direction: row;
   list-style: none;
 }
-
 .senha a {
   font-size: 12px;
   font-family: Helvetica, sans-serif;
