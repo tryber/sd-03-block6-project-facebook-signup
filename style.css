@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  margin: 0;
+}
+
+div {
+  border: tomato solid 1px;
+}
+
+.top-bar {
+  background-color: rgb(59, 89, 152);
+  height: 70px;
+  padding: 13px;
+  width: 100%;
+}
+
+.a {
+  font-size: 36px;
+}
