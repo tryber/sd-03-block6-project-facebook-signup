@@ -8,7 +8,7 @@
   color: white;
   display: flex;
   justify-content: space-around;
-  width: 100vw;
+  width: 100%;
 }
 
 .forms-header {
