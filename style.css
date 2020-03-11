@@ -63,7 +63,7 @@ header div label {
   white-space: nowrap;
 }
 
-.radio-buttons{
+.radio-buttons {
   flex-direction: row;
   margin-bottom: 20px;
 }
