@@ -169,7 +169,6 @@ header {
 }
 
 .sign {
-  align-items: flex-start;
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgb(105, 167, 78);
@@ -215,10 +214,7 @@ header {
   height: 39px;
   letter-spacing: normal;
   line-height: 23.94px;
-  margin-bottom: 10px;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 10;
+  margin: 10px 0;
   min-width: 194px;
   padding: 7px 20px;
   position: relative;
