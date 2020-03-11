@@ -1,43 +1,45 @@
-.cabecalho{
-  justify-content: center;
-  flex-direction: column;
+.cabecalho {
+    flex-direction: column;
+    justify-content: center;
 }
 
 .conteudo {
-  background: linear-gradient(white,#5483cc);
-  display: flex;
-  flex-direction: row;
-  height: 500px;
-  width: 100%;
+    background: linear-gradient(white, #5483cc);
+    display: flex;
+    flex-direction: row;
+    padding-left: 95px;
+    height: 500px;
+    width: 100%;
 }
 
 .facebook-logo {
-  height: 34px;
-  width: 170px;
+    height: 34px;
+    width: 170px;
 }
 
 .formulario {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .header-form {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .header-items {
-  align-items: baseline;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .top-bar {
-  background-color:#3260a8;
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  width: 100%;
+    background-color: #3260a8;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 100%;
 }
