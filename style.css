@@ -28,14 +28,14 @@ body {
   flex-direction: row;
   font-size: 8px;
   height: 82px;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 0;
   min-width: 980px;
   padding: 0 10%;
 }
 
 .top-bar input {
-  height: 25px;
+  height: 20px;
   width: 142px;
 }
 
@@ -75,7 +75,6 @@ body {
 }
 
 .labels-login {
-  background-color: #3b5998;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
@@ -85,7 +84,7 @@ body {
 .main {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 1% 10%;
 }
 
@@ -98,10 +97,15 @@ body {
 }
 
 .newuser {
+  margin: 10px;
   width: 355px;
 }
 
-#newuser button#facebook-register {
+.newuser form input, button {
+	margin: 5px;
+}
+
+.newuser button#facebook-register {
   background-color: #69a74e;
   background: linear-gradient(#67ae55, #578843);
   border-color: #3b6e22 #3b6e22 #2c5115;
@@ -119,4 +123,13 @@ body {
   text-align: center;
   text-rendering: optimizelegibility;
   text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+.footer{
+  display: flex;
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
 }
