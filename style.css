@@ -1,8 +1,16 @@
 body {
-  display: flex;
-  margin: 0px;
+  margin: 0;
 }
 
 .top-bar {
   background-color: rgb(59, 89, 152);
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  padding: 13px;
+  width: 100%;
+}
+
+.a {
+  font-size: 36px;
 }
