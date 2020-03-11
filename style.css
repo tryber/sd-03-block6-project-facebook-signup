@@ -5,11 +5,12 @@
 }
 
 .header-items {
+  align-items: baseline;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
-  justify-content: space-evenly;
+  justify-content: center;
 }
+
 .top-bar {
   background-color: blue;
   display: flex;
