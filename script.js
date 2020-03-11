@@ -1,8 +1,8 @@
 function generoPersonalizado() {
-  document.getElementById('gen-personalizado').style.display = "flex";
+  document.getElementById('gen-personalizado').style.display = 'flex';
 }
 function generoDefinido() {
-  document.getElementById('gen-personalizado').style.display= "none";
+  document.getElementById('gen-personalizado').style.display = 'none';
 }
 document.getElementById('genero-Personalizado').addEventListener('click', generoPersonalizado);
 document.getElementById('genero-feminino').addEventListener('click', generoDefinido);
