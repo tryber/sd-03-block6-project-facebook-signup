@@ -1,60 +1,20 @@
-/**
- * Images a now responsive
- */
- img {
-	max-width: 100%;
-	height: auto;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+img {
+    max-height: 80px;
 }
 
-/**
- * Limit the container in
- * width for big screens
- */
 .top-bar {
-    background-color: rgb(71,60,156);
-    color: white;
-	max-width: 100%;
-	padding: 20px;
-    margin: 0 auto;
-}
-/**
- * By using display: flex
- * Logo and nav are in 2 cols
- * align-items make them
- * vertically centered
- * justify-content distribute
- * horizontal spaces around
- * and flex-wrap break the
- * things in two lines in
- * small screens
- */
-.main-header .top-bar {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
+    color: aliceblue;
+    font-family: 'Open Sans';
+    display: flex;
+    background-color: blue;
+    margin: 0px;
+    max-height: 20%;
+    justify-content: space-around;
 }
 
-/**
- * The followings are to
- * make things more
- * clean and airy
- * and contents centered
- */
-.main-nav ul {
-	margin: 1em 0 .5em;
-	text-align: center;
-}
-.main-nav li {
-	display: inline;
-}
-.main-nav a {
-	display: inline-block;
-	padding: .5em 1.5em;
-}
-
-@media (min-width: 960px) {
-	.main-header .top-bar {
-		justify-content: space-between;
-	}
+.user-email-phone {
+    flex-direction: column;
 }
