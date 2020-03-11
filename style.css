@@ -1,0 +1,21 @@
+.top-bar {
+    display: flex;
+}
+
+.logo {
+
+}
+
+.email-phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+}
+
+.password-input {
+    height: fit-content;
+}
