@@ -1,4 +1,4 @@
-html , body , div , h1 , h2 , p , form , input , main , label , section {
+html , body , div , p , form , input , main , label , section {
   border: 0;
   font-family: sans-serif;
   font-size: 100%;
@@ -9,7 +9,6 @@ html , body , div , h1 , h2 , p , form , input , main , label , section {
 main {
   background-image: linear-gradient(white, rgb(211, 216, 232));
   display: flex;
-  height: 600px;
   justify-content: center;
 }
 
@@ -23,6 +22,7 @@ h1 {
   font-size: 36px;
   font-weight: 600;
   line-height: 20px;
+  margin-bottom: 0;
   margin-top: 10px;
 }
 
@@ -31,6 +31,22 @@ h2 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 19px;
   font-weight: 400;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+input {
+  align-content: space-around;
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  height: 39px;
+  margin: 5px 0;
+}
+
+::placeholder {
+  color: rgb(189, 199, 216);
+  font-size: 18px;
+  padding: 0 5px;
 }
 
 .texto {
@@ -58,4 +74,8 @@ h2 {
   height: 600px;
   margin: 40px;
   width: 450px;
+}
+
+.nome {
+  width: 194px;
 }
