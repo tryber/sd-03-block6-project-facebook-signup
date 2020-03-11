@@ -26,6 +26,17 @@ header div label {
   font-size: 12px;
 }
 
+.gender-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.facebook-logo {
+  color: white;
+  height: 34px;
+  width: 170px;
+}
+
 .header-right {
   display: flex;
   flex-flow: column wrap;
@@ -52,8 +63,7 @@ header div label {
   white-space: nowrap;
 }
 
-.facebook-logo {
-  color: white;
-  height: 34px;
-  width: 170px;
+.radio-buttons{
+  flex-direction: row;
+  margin-bottom: 20px;
 }
