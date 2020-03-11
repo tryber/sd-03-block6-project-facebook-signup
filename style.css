@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: helvetica, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 section {
@@ -41,7 +42,6 @@ header {
 
 .top-labels {
   color: white;
-  font-family: helvetica, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   line-height: 16px;
   margin-bottom: 4px;
@@ -53,9 +53,13 @@ header {
   margin-top: 8px;
 }
 
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
 .forgot-pass {
   color: #9cb4d8;
-  font-family: helvetica, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
   text-decoration: none;
 }
@@ -63,4 +67,199 @@ header {
 .user-email-phone {
   height: 20px;
   width: 142px;
+}
+
+.map {
+  height: 195px;
+  width: 537px;
+}
+
+.help {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+.middle {
+  display: flex;
+}
+
+.open-account {
+  font-size: 36px;
+  color: #333;
+  font-weight: 600;
+  padding: 20px 0 5px 0;
+}
+
+.fast {
+  padding-bottom: 20px;
+  color: #1d2129;
+  font-size: 19px;
+}
+
+.middle input {
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  padding: 8px 10px;
+  width: 377px;
+  height: 21px;
+  margin-bottom: 10px;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  width: 399px;
+}
+
+.name input {
+  padding: 8px 10px;
+  width: 172px;
+}
+
+.middle label {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.gen {
+  display: flex;
+}
+
+.gen label {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
+}
+
+.gen input {
+  width: 16px;
+  height: 16px;
+}
+
+.politic {
+  color: rgb(119, 119, 119);
+  direction: ltr;
+  display: block;
+  font-size: 11px;
+  height: 42px;
+  line-height: 14.74px;
+  margin-block-end: 11px;
+  margin-block-start: 11px;
+  margin-bottom: 11px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 11px;
+  width: 316px;
+}
+
+.middle a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.sign {
+  align-items: flex-start;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(105, 167, 78);
+  background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  border-bottom-color: rgb(44, 81, 21);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(59, 110, 34);
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: rgb(59, 110, 34);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: rgb(59, 110, 34);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  box-shadow: rgb(164, 227, 136) 0px 1px 1px 0px inset;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  direction: ltr;
+  display: inline-block;
+  font-family: "Freight Sans Bold", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 700;
+  height: 39px;
+  letter-spacing: normal;
+  line-height: 23.94px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  min-width: 194px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  position: relative;
+  text-align: center;
+  text-indent: 0px;
+  text-rendering: optimizelegibility;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+  text-transform: none;
+  width: 194px;
+  word-spacing: 0px;
+}
+
+.create-page {
+  border-top-color: rgb(221, 223, 226);
+  border-top-style: solid;
+  border-top-width: 1px;
+  color: rgb(102, 102, 102);
+  direction: ltr;
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  height: 17px;
+  line-height: 17.42px;
+  margin-top: 10px;
+  padding-top: 15px;
+  width: 400px;
+}
+
+.date {
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
