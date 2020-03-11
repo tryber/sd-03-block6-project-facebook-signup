@@ -1,0 +1,30 @@
+label{
+    color: white;
+    display: flex;
+    
+}
+
+
+.facebook-logo{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.form{
+
+}
+
+.form:nth-child(){
+}
+
+
+.top-bar{
+    background-color: rgb(36, 36, 207);
+    border: black 1px solid;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;    
+}
+
