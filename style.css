@@ -6,14 +6,8 @@ label {
   color: white;
 }
 
-input {
-  display: flex;
-  margin-left: auto;
-}
-
 .facebook-logo {
   color: white;
-  display: flex;
   font-family: sans-serif;
   justify-content: flex-start;
 }
