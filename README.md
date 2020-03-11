@@ -147,7 +147,7 @@ Caso você faça o _download_ de bibliotecas externas, utilize o diretório _lib
         * `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
   * Faça o `commit` inicial
       * Exemplo:
-        * `git commit -m 'iniciando o projeto pixel art'` (fazendo o primeiro commit)
+        * `git commit -m 'iniciando o projeto facebook signup'` (fazendo o primeiro commit)
         * `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
 
 5. Adicione a sua branch com o novo `commit` ao repositório remoto
