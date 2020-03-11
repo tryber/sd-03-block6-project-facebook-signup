@@ -8,42 +8,42 @@
 </head>
 <body>
   <main>
-    <section>
-      <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
-      <img src="imgs/networking.png" alt="Pessoas conectadas pelo mundo" id="facebook-networking">
-    </section>
-    <section>
-      <h1>Abra uma conta</h1>
-      <h2>É rapido e fácil.</h2>
-      <form action="post">
+      <section class="esquerda">
+        <p class="texto">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+        <img src="imgs/networking.png" alt="Pessoas conectadas pelo mundo" id="facebook-networking">
+      </section>
+      <section class="direita">
+        <h1>Abra uma conta</h1>
+        <h2>É rapido e fácil.</h2>
+        <form action="post">
+          <div>
+            <input type="text" placeholder="Nome">
+            <input type="text" placeholder="Sobrenome">
+            <input type="text" placeholder="Celular ou email">
+            <input type="password" name="senha" id="senha" placeholder="Nova senha">
+          </div>
+          <div>
+            <p>Data de nascimento</p>
+            <input type="date" name="nascimento" id="nascimento">
+          </div>
+          <div>
+            <p for="gender">Gênero</p>
+            <label for="gender">Feminino</label>
+            <input type="radio" name="feminino" id="feminino">
+            <label for="gender">Masculino</label>
+            <input type="radio" name="feminino" id="feminino">
+            <label for="gender">Personalizado</label>
+            <input type="radio" name="feminino" id="feminino">
+          </div>
+          <div>
+            <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update">Termos</a> ,<a href="https://www.facebook.com/about/privacy/update">Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+          </div>
+        </form>
+        <button facebook-register>Cadastre-se</button>
         <div>
-          <input type="text" placeholder="Nome">
-          <input type="text" placeholder="Sobrenome">
-          <input type="text" placeholder="Celular ou email">
-          <input type="password" name="senha" id="senha" placeholder="Nova senha">
+          <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Criar uma Página</a>para uma celebridade, banda ou empresa.</p>
         </div>
-        <div>
-          <p>Data de nascimento</p>
-          <input type="date" name="nascimento" id="nascimento">
-        </div>
-        <div>
-          <p for="gender">Gênero</p>
-          <label for="gender">Feminino</label>
-          <input type="radio" name="feminino" id="feminino">
-          <label for="gender">Masculino</label>
-          <input type="radio" name="feminino" id="feminino">
-          <label for="gender">Personalizado</label>
-          <input type="radio" name="feminino" id="feminino">
-        </div>
-        <div>
-          <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update">Termos</a> ,<a href="https://www.facebook.com/about/privacy/update">Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
-        </div>
-      </form>
-      <button facebook-register>Cadastre-se</button>
-      <div>
-        <p><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Criar uma Página</a>para uma celebridade, banda ou empresa.</p>
-      </div>
-    </section>
+      </section>
   </main>
 </body>
 </html>
