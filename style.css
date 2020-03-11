@@ -18,18 +18,18 @@ img {
 }
 
 .texto {
-  color: rgb(11 ,56 ,97);
+  color: rgb(11, 56, 97);
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 29px;
+  width: 400px;
   word-spacing: -1px;
 }
 
 .esquerda {
   align-content: flex-start;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   height: 600px;
   margin: 40px;
   width: 450px;
@@ -38,8 +38,7 @@ img {
 .direita {
   align-content: flex-start;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   height: 600px;
   margin: 40px;
   width: 450px;
