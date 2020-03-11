@@ -2,15 +2,28 @@
   border: 1px solid red;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .facebook-logo {
+  margin-top: 27px;
   width: 170px;
+  height: 34px;
+}
+
+header {
+  background: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #133783 ;
 }
 
 .top-bar {
-  background: linear-gradient(#4e69a2, #3b5998 50%);
+
   display: flex;
   height: 82px;
   justify-content: space-between;
+
 }
 
 .content {
@@ -19,4 +32,34 @@
 }
 
 .login-div {
+  display: flex;
+  margin: 4px;
+  padding: 0 10px;
+}
+
+label {
+  margin-bottom: 4px;
+  font-family: helvetica;
+ color: white;
+ font-size: 12px;
+ line-height: 16px;
+}
+
+.col-top-bar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+
+.forgot-pass {
+  font-family: helvetica;
+  font-size: 12px;
+  color: #9cb4d8 ;
+  text-decoration: none;
+
+}
+
+.user-email-phone {
+  width: 142px;
+  height: 20px;
 }
