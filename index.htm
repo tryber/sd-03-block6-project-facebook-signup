@@ -1,78 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="top-bar">
-            <div class="facebook-logo">
-                <img src="imgs/facebook-logo.png" width="200px" alt="logo facebook">
-            </div>
-            
-            <form class="loginArea">
-                <div class="input-content">
-                    <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
-                    <input type="text" name="user-email-phone" id="user-email-phone">
-                </div>
-                <div class="input-content">
-                    <label for="">Senha</label>
-                    <input type="password" name="user-senha" id="user-senha">
-                </div>
-                
-                <input id="button-login" type="submit" value="Entrar">                
-            </form>            
-        </div>
-    </header>
+	<header>
+		<div class="top-bar">
+			<div class="facebook-logo">
+				<img src="imgs/facebook-logo.png" width="200px" alt="logo facebook">
+			</div>
 
-    <section>
-        <section id="lado-esquerdo">
-            <p>O Facebook ajuda você a se conectar e 
-                    compartilhar com as pessoas 
-                        que fazem parte da sua vida.</p>
-            <p><img id="facebook-networking" src="imgs/networking.png" alt="network facebook"></p>
-        </section>
-        <div id="lado-direito">
-            <header id="header-lado-direito">
-                <h2>Abra uma conta</h2>
-                <h3>É rápido e fácil.</h3>
-            </header>
-            
-            <form action="">
-                <div class="content-formulario">
-                    <div classe="nomeSobrenome">
-                        <input type="text" placeholder="Nome" name="nomeForm" id="nomeForm" required>
-                        <input type="text" placeholder="Sobrenome" name="sobrenomeForm" id="sobrenomeForm" required>
-                    </div>
-                    <div class="contatoEmail">
-                        <input type="text" placeholder="Celular ou email" name="emailForm" id="emailForm" required>
-                        <input type="password" placeholder="Nova senha" name="senhaForm" id="senhaForm" required>
-                    </div>
-                    <div class="dataNascimento">
-                        <label for="">Data de nascimento</label>
-                        <input type="text" placeholder="dd/mm/aaaa" name="dataForm" id="dataForm" required>
-                    </div>
-                    <div class="genero">
-                        <label for="">Gênero</label>
-                        <input type="radio" name="femininoForm" id="femininoForm" required>
-                        <label for="">Feminino</label>
-                        <input type="radio" name="masculinoForm" id="masculinoForm" required>
-                        <label for="">Masculino</label>
-                        <input type="radio" name="personForm" id="personForm" required>
-                        <label for="">Personalizado</label>
-                    </div>                    
-                </div>
+			<form class="loginArea">
+				<div class="input-content">
+					<label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+					<input type="text" name="user-email-phone" id="user-email-phone">
+				</div>
+				<div class="input-content">
+					<label for="">Senha</label>
+					<input type="password" name="user-senha" id="user-senha">
+				</div>
+				<input id="button-login" type="submit" value="Entrar">
+			</form>
+		</div>
+	</header>
 
-                <input type="submit" id="facebook-register" value="Cadastre-se">
-            </form>
+	<section>
+		<section id="lado-esquerdo">
+			<p>O Facebook ajuda você a se conectar e
+				compartilhar com as pessoas
+				que fazem parte da sua vida.</p>
+			<p><img id="facebook-networking" src="imgs/networking.png" alt="network facebook"></p>
+		</section>
+		<div id="lado-direito">
+			<header id="header-lado-direito">
+				<h2>Abra uma conta</h2>
+				<h3>É rápido e fácil.</h3>
+			</header>
 
-        </div>
-    </section>
+			<form action="">
+				<div class="content-formulario">
+					<div classe="nomeSobrenome">
+						<input type="text" placeholder="Nome" name="nomeForm" id="nomeForm" required>
+						<input type="text" placeholder="Sobrenome" name="sobrenomeForm" id="sobrenomeForm" required>
+					</div>
+					<div class="contatoEmail">
+						<input type="text" placeholder="Celular ou email" name="emailForm" id="emailForm" required>
+						<input type="password" placeholder="Nova senha" name="senhaForm" id="senhaForm" required>
+					</div>
+					<div class="dataNascimento">
+						<label for="">Data de nascimento</label>
+						<input type="text" placeholder="dd/mm/aaaa" name="dataForm" id="dataForm" required>
+					</div>
+					<div class="genero">
+						<label for="">Gênero</label>
+						<input type="radio" name="femininoForm" id="femininoForm" required>
+						<label for="">Feminino</label>
+						<input type="radio" name="masculinoForm" id="masculinoForm" required>
+						<label for="">Masculino</label>
+						<input type="radio" name="personForm" id="personForm" required>
+						<label for="">Personalizado</label>
+					</div>
+				</div>
 
-    <script src="script.js"></script>
+				<input type="submit" id="facebook-register" value="Cadastre-se">
+			</form>
+		</div>
+	</section>
+	<script src="script.js"></script>
 </body>
 </html>
