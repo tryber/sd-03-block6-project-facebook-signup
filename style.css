@@ -6,7 +6,6 @@
 .top-bar {
     display: flex;
     justify-content: space-around;
-    width: ;
     background-color: #3b5998;
     color: white;
 }
@@ -44,3 +43,47 @@
     margin-top: 8px;
     
 }
+
+.section-cadastro-container{
+    background: linear-gradient(white, #D3D8E8);
+  }
+  .frase{
+    color: #0E385F;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+    font-family: inherit;
+  }
+  .cadastro-container{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+  }
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .name-container{
+    display: flex;
+    flex-direction: row;
+  }
+  #name-input{
+    width: 172px;
+    border-color: #BDC7D8;
+      border-radius: 5px;
+      margin: 0;
+      font-size: 18px;
+  }
+  #lastname-input{
+    width: 172px;
+    border-color: #BDC7D8;
+      border-radius: 5px;
+      margin: 0;
+      font-size: 18px;
+  }
