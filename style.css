@@ -1,6 +1,7 @@
         body {
             padding: 0;
             margin: 0;
+            font-family: helvetica, arial;
         }
         
         header {
@@ -10,7 +11,7 @@
             justify-content: center;
             justify-content: space-between;
             width: 100vw;
-            height: 100px;
+            height: 65px;
             background-color: #3b5998;
         }
         
@@ -18,25 +19,53 @@
             background-image: url(./facebook-logo-9.png);
             background-size: cover;
             background-position: center;
-            background-color: violet;
-            width: 220px;
-            height: 80px;
+            width: 165px;
+            height: 65px;
+            margin-left: 95px;
         }
         
-        #loginContent {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            width: 500px;
-            height: 100%;
-            background-color: red;
-        }
-        
-        #loginContent>form {
+        header>form {
             display: flex;
             height: 100%;
+            width: 350px;
             align-items: center;
             justify-content: space-around;
-            background-color: lawngreen;
+            margin-right: 10%;
+        }
+        
+        header>form>div>a {
+            margin: 0px;
+            color: white;
+            background-color: grey;
+            text-decoration: none;
+            position: relative;
+            margin-bottom: 0px;
+            height: 10px;
+            width: 80px;
+            font-size: 8px;
+        }
+        
+        .form1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 8px;
+            width: 125px;
+            color: white;
+            height: 30px;
+        }
+        
+        .form2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 9px;
+            width: 50px;
+            height: 30px;
+        }
+        
+        .form2>p {
+            color: white;
+            padding: 9px;
+            border: 1px solid black;
         }
