@@ -29,11 +29,14 @@ body {
   color: white;
   display: flex;
   margin-top: 12px;
-  width: 392px;
 }
 
 .form-login input , label , button , small {
   margin-left: 14px;
+}
+
+.form-login input {
+  width: 150px;
 }
 
 small {
@@ -63,4 +66,43 @@ small {
   margin-top: 40px;
   width: 450px;
   word-spacing: 4px;
+}
+
+.cadastro {
+  width: 400px;
+}
+
+.name-lastName , .input-email-senha {
+  display: flex;
+  width: 100%;
+}
+
+.name-lastName {
+  justify-content: space-between;
+}
+
+.input-email-senha {
+  flex-direction: column;
+}
+
+.name-lastName input {
+  
+  width: 194px;
+}
+
+.input-email-senha input {
+  
+}
+
+.data input , .input-email-senha input , .name-lastName input {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 39px;
+  margin: 8px 0;
+  padding: 8px 10px;
+}
+
+.data input {
+  width: 100px;
 }
