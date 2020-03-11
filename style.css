@@ -15,36 +15,33 @@ h1 {
 .user-login {
   display: flex;
   flex-direction: row;
-
+  font-size: 12px;
 }
 
 form {
   display: flex;
-  justify-content: flex-end;
   flex-flow: column;
-
+  justify-content: flex-end;
 }
 
 article {
   display: flex;
   padding: 20px;
-
 }
 
 .radio {
   flex-flow: nowrap row;
-
 }
 
 input {
-  padding: 10px;
   margin: 15px;
+  padding: 10px;
 }
 
 .leftSide {
   display: flex;
-  justify-items: flex-start;
   flex-flow: column nowrap;
+  justify-content: flex-start;
 }
 
 .bt-entrar {
