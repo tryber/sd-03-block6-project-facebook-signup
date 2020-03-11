@@ -36,7 +36,28 @@
       <p class="rapido-e-facil">
         É rápido e fácil.
       </p>
-      <form action=""></form>
+      <form action="" method="POST" class="registerForm">
+        <fieldset>
+          <input type="text" placeholder="Nome" />
+          <input type="text" placeholder="Sobrenome" />
+          <br />
+          <input type="text" placeholder="Celular ou email" />
+          <input type="password" placeholder="Nova senha" />
+        </fieldset>
+        <fieldset>
+          <label for="">Data de nascimento</label>
+          <input type="date" />
+        </fieldset>
+        <fieldset>
+          <p>Gender:</p>
+          <input type="radio" name="Gen" id="malGen" />
+          <label for="malGen">Homem</label>
+          <input type="radio" name="Gen" id="femGen" />
+          <label for="femGen">Mulher</label>
+          <input type="radio" name="Gen" id="otherGen" />
+          <label for="otherGen">Outros</label>
+        </fieldset>
+      </form>
     </section>
   </body>
 </html>
