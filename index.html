@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook - entre ou cadastre-se</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+
   </head>
 
   <body>
@@ -37,8 +40,8 @@
         <input type="text" name="sobrenome" id="surname-text" placeholder="Sobrenome">
         <input type="text" name="telefone" id="phone-email" placeholder="Celular ou email">
         <input type="text" name="senha" id="user-password" placeholder="Nova senha">
-        <label for="user-birthday">Data de nascimento</label>
-        <input type="text" name="data-de-nascimento" id="user-birthday" placeholder="dd/mm/aaaa">
+        <label for="datepicker">Data de nascimento</label>
+        <input type="text" name="data-de-nascimento" id="datepicker" placeholder="dd/mm/aaaa">
         <span>
           <p>Gênero</p>
         </span>
@@ -50,7 +53,8 @@
       </form>
     </section>
 
-
+    <script src="pikaday.js"></script>
+    <script src="script.js"></script>
   </body>
 
 </html>
