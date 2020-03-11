@@ -1,12 +1,14 @@
+const input = document.getElementById('user-email-phone');
+
 window.onload = function () {
-  submitLogin.addEventListener('click', submit);
-  submitForm.addEventListener('click', verificaFormulario);
+	const submitLogin = document.getElementById('button-login');	
+	const submitForm = document.getElementById('facebook-register');
+
+	submitLogin.addEventListener('click', submit);
+	submitForm.addEventListener('click', verificaFormulario);
 }
 
 // login
-const submitLogin = document.getElementById('button-login');
-const input = document.getElementById('user-email-phone');
-
 // Formulario
 // const nomeForm = document.getElementById('nomeForm');
 // const sobreNomeForm = document.getElementById('sobrenomeForm');
@@ -17,10 +19,9 @@ const input = document.getElementById('user-email-phone');
 // const radioMascForm = document.getElementById('masculinoForm');
 // const radioPersonForm = document.getElementById('personForm');
 // submit
-const submitForm = document.getElementById('facebook-register');
 
-function submit () {
-  alert(input.value);
+function submit() {
+	alert(input.value);
 }
 
 // function verificaFormulario() {
