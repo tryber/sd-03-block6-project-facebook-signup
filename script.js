@@ -1,3 +1,8 @@
+window.onload = function () {
+  submitLogin.addEventListener('click', submit);
+  submitForm.addEventListener('click', verificaFormulario);
+}
+
 // login
 const submitLogin = document.getElementById('button-login');
 const input = document.getElementById('user-email-phone');
@@ -14,14 +19,9 @@ const input = document.getElementById('user-email-phone');
 // submit
 const submitForm = document.getElementById('facebook-register');
 
-window.onload = function () {
-  submitLogin.addEventListener('click',submit);
-  submitForm.addEventListener('click',verificaFormulario)
-}
-
 function submit () {
-  alert(input.value)
+  alert(input.value);
 }
 
-function verificaFormulario() {
-}
+// function verificaFormulario() {
+// }
