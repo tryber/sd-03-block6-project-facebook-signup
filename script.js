@@ -1,17 +1,17 @@
-const titulo = document.getElementsByClassName ('h1')[0];
+const titulo = document.getElementsByClassName('h1')[0];
 
-function mudabgCor(){
-    titulo.style.Color = 'red'
+function mudabgCor() {
+  titulo.style.Color = 'red';
 }
 const input = document.getElementById('user-email-phone');
 
-window.onload = function () {
-	const submitLogin = document.getElementById('button-login');	
-	const submitForm = document.getElementById('facebook-register');
+window.onload = function() {
+  const submitLogin = document.getElementById('button-login');
+  const submitForm = document.getElementById('facebook-register');
 
-	submitLogin.addEventListener('click', submit);
-	submitForm.addEventListener('click', verificaFormulario);
-}
+  submitLogin.addEventListener('click', submit);
+  submitForm.addEventListener('click', verificaFormulario);
+};
 
 // login
 // Formulario
@@ -26,7 +26,7 @@ window.onload = function () {
 // submit
 
 function submit() {
-	alert(input.value);
+  alert(input.value);
 }
 
 // function verificaFormulario() {
