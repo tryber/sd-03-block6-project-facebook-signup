@@ -1,0 +1,52 @@
+.top-bar {
+  align-items: center;
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  height: 100px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+section {
+  background-color: #e9ebee;
+  display: flex;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+  justify-content: flex-start;
+}
+
+input, select {
+  font-size: 15pt;
+  margin: 5px 0;
+}
+
+.blocoEsq {
+  color: #3b5998;
+  margin: 0 200px;
+  padding: 100px 0;
+  width: 50%;
+}
+
+.blocoDir {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.formCadastro {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginBtn {
+  background-color: #4267B2;
+}
+
+.registerBtn {
+  background-color: #60A04E;
+}
+
