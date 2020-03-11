@@ -5,6 +5,7 @@ body {
 }
 
 header {
+<<<<<<< HEAD
     display: flex;
     background-color: rgb(60, 89, 152);
     max-width: 100%;
@@ -58,3 +59,7 @@ header div label {
     height: 34px;
     color: white;
 }
+=======
+  display: flex;
+}
+>>>>>>> 8aa491f04c8dfcab45e9e2c96b6ba2c598d59d4b
