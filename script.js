@@ -1,7 +1,7 @@
 //
 
 const field = document.getElementById('datepicker');
-let picker = new Pikaday({
+const picker = new Pikaday({
   onSelect: function(date) {
     field.value = picker.toString();
   },
