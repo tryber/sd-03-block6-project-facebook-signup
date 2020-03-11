@@ -1,5 +1,6 @@
-$(function(){
-  $("#datepicker").datepicker({
-      dateFormat: "dd/mm/aaaa"
+/* eslint-env jquery*/
+$(function () {
+  $('#datepicker').datepicker({
+    dateFormat: 'dd/mm/aaaa',
   });
 });
