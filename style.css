@@ -1,6 +1,10 @@
 .top-bar {
   align-items: baseline;
+<<<<<<< HEAD
   background-color: rgb(59 , 89 , 152);
+=======
+  background-color: rgb(59, 89, 152);
+>>>>>>> 0e5cddf9808017937c3e0ee2150e7dce65b9a7cd
   color: white;
   display: flex;
   justify-content: space-around;
