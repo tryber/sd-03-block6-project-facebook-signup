@@ -5,8 +5,9 @@ window.onload = function () {
   const submitForm = document.getElementById('facebook-register');
 
   submitLogin.addEventListener('click', submit);
-  submitForm.addEventListener('click', verificaFormulario);
-}
+	submitForm.addEventListener('click', verificaFormulario);
+	
+};
 
 // login
 // Formulario
@@ -22,7 +23,7 @@ window.onload = function () {
 
 function submit() {
   alert(input.value);
-}
+};
 
-// function verificaFormulario() {
-// }
+function verificaFormulario() {
+};
