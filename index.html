@@ -18,41 +18,44 @@
         <img class="facebook-logo" src="facebook-logo.png">
       </div>
     </div>
-    <div>
-      <div>
-        <label for="user-email-phone">Email ou telefone</label>
+    <div class="header-items">
+      <div class="header-form">
+        <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
         <input type="email" id="user-email-phone" />
       </div>
-      <div>
-        <label for="user-email-phone-label" id="user-email-phone-label">Senha</label>
-        <input type="password" />
+      <div class="header-form">
+        <label for="user-password">Senha</label>
+        <input type="password" id="user-password"/>
       </div>
-      <div>
+      <div class="header-form">
         <button id="button-login">Entrar</button>
       </div>
+    </div>
   </header>
-  <div>
+  <div class="conteudo">
     <div>
       <p>O Facebook ajuda você a se conectar
         e compartilhar com as pessoas que fazem parte da sua vida.</p>
-      <img id="facebook-networking" src="networkin.png">
+      <img id="facebook-networking" src="networking.png">
     </div>
-    <div>
+    <div class="cabecalho">
       <h1>Abra uma conta</h1>
       <h4>É rápido e fácil.</h4>
       <form>
-        <div class="form-row">
-          <input class="form-control" type="text" placeholder="Nome">
-          <input class="form-row" type="text" placeholder="Sobrenome">
-          <input type="text" placeholder="Celular ou email">
-          <input type="password" placeholder="Nova Senha">
-          <label placeholder="dd/mm/aa"></label>Data de nascimento</label>
-          <input type="radio" id="feminino" value="Feminino">
-          <label for="masculino">Feminino</label>
-          <input type="radio" id="feminino" value="Maculino">
-          <label for="feminino">Masculino</label>
-          <input type="radio" id="other" name="gender" value="other">
-          <label for="other">Personalizado</label>
+        <div>
+          <div class="formulario">
+            <input type="text" placeholder="Nome">
+            <input type="text" placeholder="Sobrenome">
+            <input type="text" placeholder="Celular ou email">
+            <input type="password" placeholder="Nova Senha">
+            <label placeholder="dd/mm/aa"></label>Data de nascimento</label>
+            <input type="radio" id="feminino" value="Feminino">
+            <label for="masculino">Feminino</label>
+            <input type="radio" id="feminino" value="Maculino">
+            <label for="feminino">Masculino</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Personalizado</label>
+          </div>
         </div>
       </form>
     </div>
