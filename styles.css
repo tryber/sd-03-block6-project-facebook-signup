@@ -4,7 +4,6 @@
   color: white;
   cursor: pointer;
   font-size: 12px;
-  font-weight: bold;
   height: 24px;
   margin: 21px 0 0 15px;
   width: 50px;
@@ -54,6 +53,7 @@ label {
   height: 82px;
   margin-right: 200px;
 }
+
 .login li {
   display: list-item;
   margin-left: 15px;
