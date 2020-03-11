@@ -1,0 +1,19 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.email-phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+}
