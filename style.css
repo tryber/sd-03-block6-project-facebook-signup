@@ -10,6 +10,7 @@ label {
 .facebook-logo {
   color: white;
   display: flex;
+  justify-content: flex-start;
   font-family: sans-serif;
 }
 
