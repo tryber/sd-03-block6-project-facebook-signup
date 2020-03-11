@@ -1,5 +1,12 @@
 const input = document.getElementById('user-email-phone');
 
+function submit() {
+  alert(input.value);
+}
+
+function verificaFormulario() {
+}
+
 window.onload = function () {
   const submitLogin = document.getElementById('button-login');
   const submitForm = document.getElementById('facebook-register');
@@ -19,10 +26,3 @@ window.onload = function () {
 // const radioMascForm = document.getElementById('masculinoForm');
 // const radioPersonForm = document.getElementById('personForm');
 // submit
-
-function submit() {
-  alert(input.value);
-}
-
-function verificaFormulario() {
-};
