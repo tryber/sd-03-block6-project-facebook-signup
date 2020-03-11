@@ -96,7 +96,7 @@ body {
   padding: 8px 10px;
 }
 
-.register-form input:nth-child( 1 ) {
+.register-form input:nth-child(1) {
   margin-right: 8px;
 }
 
@@ -106,7 +106,6 @@ body {
 
 .register-form .p1 {
   color: #333;
-  font-family: Helvetica;
   font-size: 36px;
   font-weight: 600;
   line-height: 48.2px;
@@ -148,4 +147,20 @@ body {
   color: #385898;
   cursor: pointer;
   text-decoration: none;
+}
+
+.register-form div button {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115 #3b6e22;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
 }
