@@ -48,10 +48,6 @@ input {
   border-radius: 0;
 }
 
-.inputRadio {
-
-}
-
 ::placeholder {
   color: rgb(189, 199, 216);
   font-size: 18px;
@@ -117,7 +113,6 @@ input {
 .buttonCadastro {
   background-color: rgb(59, 110, 34);
   border-radius: 5px;
-  box-shadow: rgb(164, 227, 110);
   color: white;
   font-size: 19px;
   font-weight: 700;
