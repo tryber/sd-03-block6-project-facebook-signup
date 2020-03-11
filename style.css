@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  ma
+  rgin: 0;
 }
 .top-bar {
   align-items: center;
@@ -8,9 +9,11 @@ body {
   height: 82px;
   justify-content: space-around;
 }
+
 .facebook-logo {
   align-items: flex-end;
 }
+
 .facebook-logo img {
   height: 90px;
   width: 170;
