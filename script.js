@@ -14,7 +14,6 @@ window.onload = function () {
   submitLogin.addEventListener('click', submit);
   submitForm.addEventListener('click', verificaFormulario);
 }
-
 // login
 // Formulario
 // const nomeForm = document.getElementById('nomeForm');
