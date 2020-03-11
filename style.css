@@ -1,0 +1,73 @@
+.top-bar {
+  background-color: #2864be;
+  height: 82px;
+  margin: 0 auto;
+  padding-top: 13px;
+}
+
+.facebook-logo {
+  border: 1px;
+  display: block;
+  float: left;
+  height: 45px;
+  justify-self: center;
+  margin-left: 10%;
+  padding-top: 13px;
+  width: 170px;
+}
+
+.form-login {
+  float: right;
+  margin-right: 10%;
+  padding-top: 13px;
+}
+
+.form {
+  float: right;
+  height: auto;
+  margin-right: 10%;
+  margin-top: 30px;
+  width: 350px;
+}
+
+.geral {
+  clear: both;
+  display: flex;
+  float: left;
+  margin-left: 10%;
+  margin-top: 30px;
+  width: 35%;
+}
+
+.geral h1 {
+  color: #0e385f;
+  font-size: xx-large;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.text-label-login {
+  color: white;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.submit-login {
+  margin-left: 15px;
+}
+
+.form h2 {
+  color: #333;
+  font-size: 36px;
+}
+
+.form h3 {
+  color: #1d2129;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+.loginesenha {
+  border: 1px black;
+  border-radius: 4px;
+}

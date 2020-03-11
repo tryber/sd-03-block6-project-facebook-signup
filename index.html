@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Facebook</title>
+  </head>
+
+  <body>
+    <header class="top-bar">
+      <img
+        class="facebook-logo"
+        src="facebook-logo.png"
+        alt="Logo do facebook"
+      />
+      <form action="" class="form-login">
+        <table class="login">
+          <tr>
+            <thead>
+              <label for="email" class="text-label-login"
+                >Email ou telefone</label
+              >
+            </thead>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="loginesenha"
+              placeholder="E-mail ou telefone"
+            />
+          </tr>
+          <tr>
+            <thead>
+              <label for="senha" class="text-label-login">Senha</label>
+            </thead>
+            <input
+              type="password"
+              name="senha"
+              id="senha"
+              class="loginesenha"
+              placeholder="Senha"
+            />
+          </tr>
+          <tr>
+            <button type="submit" class="submit-login btn btn-primary">
+              Entrar
+            </button>
+          </tr>
+        </table>
+      </form>
+    </header>
+
+    <div class="geral">
+      <article>
+        <h1>
+          O Facebook ajuda você a se conectar e compartilhar com as pessoas que
+          fazem parte da sua vida.
+        </h1>
+        <img src="networking.png" alt="" id="facebook-networking" />
+      </article>
+    </div>
+
+    <form action="" class="form form-group">
+      <h2>Abra uma conta</h2>
+      <h3>É rápido e fácil.</h3>
+      <input
+        type="text"
+        name=""
+        id="nome"
+        class="form-control"
+        placeholder="Nome"
+      />
+      <input
+        type="text"
+        name=""
+        id="sobrenome"
+        class="form-control"
+        placeholder="Sobrenome"
+      />
+      <br />
+      <input
+        type="text"
+        name=""
+        id="celularouemail"
+        class="form-control"
+        placeholder="Celular ou email"
+      />
+      <br />
+      <input
+        type="password"
+        name=""
+        id="novasenha"
+        placeholder="Nova senha"
+        class="form-control"
+      />
+      <br />
+      <label for="datadia" class="datanascimento" id="datanascimento">
+        <br />
+        <p>Data de nascimento</p>
+        <input type="date" name="" id="datadia" placeholder="dd/mm/aaaa" />
+      </label>
+      <label for="genero" class="container" id="container">
+        <p>Gênero</p>
+        <label for="masculino">
+          <input type="radio" name="masculino" id="masculino" />
+          Masculino
+        </label>
+        <label for="feminino">
+          <input type="radio" name="Feminino" id="feminino" />
+          Feminino
+        </label>
+        <label for="personalizado">
+          <input type="radio" name="Personalizado" id="personalizado" />
+          Personalizado
+        </label>
+      </label>
+      <br />
+      <button type="submit" id="facebook-register" class="btn btn-primary">
+        Cadastrar-se
+      </button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
