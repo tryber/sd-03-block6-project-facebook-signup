@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Facebook Clone By Rodrigo and Gabriel</title>
-
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="libs/DatePickerX.css">
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +14,7 @@
             <form>
                 <table>
                     <tbody>
-                        <tr id="labels-login">
+                        <tr id="labels-login" class="labels-login">
                             <td>
                                 <label id='user-email-phone-label' title="Email ou telefone" for="email">Email ou telefone</label>
                             </td>
@@ -24,10 +24,10 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="email" name='email' id='user-email-phone'>
+                                <input class="form-control" type="email" name='email' id='user-email-phone'>
                             </td>
                             <td>
-                                <input type="password" name='senha' id='user-password'>
+                                <input class="form-control" type="password" name='senha' id='user-password'>
                             </td>
                             <td>
                                 <label for='botaoEntrar' id='label-entrar'>
@@ -48,13 +48,13 @@
             </form>
         </div>
     </header>
-	<section id="main">
-		<article id="connect">
+	<section id="main" class="main">
+		<article id="connect" class="connect">
             <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
             <img src="imgs/mapa-facebook.png" alt="" id="facebook-networking">
 		</article>
 
-		<article id="newuser">
+		<article id="newuser" class="newuser">
 			<h2>Abra uma conta</h2>
 			<h4>É rápido e fácil.</h4>
 
