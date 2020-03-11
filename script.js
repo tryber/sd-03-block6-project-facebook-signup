@@ -1,16 +1,17 @@
 const datepicker = document.getElementById('datepicker').DatePickerX;
 datepicker.init({ format: 'dd/mm/yyyy' });
 
-document.querySelector('form').addEventListener('submit', (e) => {
-  e.preventDefault();
-  let value = document.getElementById('name').value;
-  let gender = document.getElementsByName('gender');
-  let checked = "";
-  for(i = 0; i < gender.length; i++) { 
-	    if(gender[i].checked) {
-	      checked = gender[i].value; 
-	    }
-    }
+document.getElementById('register').addEventListener('submit', (e) => {
 
-  alert(value + " - " + checked);
+  e.preventDefault();
+  const value = document.getElementById('name').value;
+  const gender = document.getElementsByName('gender');
+  let checked = '';
+  for (let i = 0; i < gender.length; i+=1) {
+    if(gender[i].checked) {
+	  checked = gender[i].value;
+	}
+  }
+
+  alert(`${value} - ${checked}`);
 });
