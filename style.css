@@ -10,6 +10,7 @@ main {
   background-image: linear-gradient(white, rgb(211, 216, 232));
   display: flex;
   justify-content: center;
+  margin-top: 80px;
 }
 
 img {
@@ -41,6 +42,10 @@ input {
   border-radius: 5px;
   height: 39px;
   margin: 5px 0;
+}
+
+.inputHeader {
+  border-radius: 0;
 }
 
 ::placeholder {
@@ -103,4 +108,72 @@ input {
   font-size: 13px;
   font-weight: 700;
   margin: 30px 0;
+}
+
+.button-login {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  height: 24px;
+  margin: 21px 0 0 15px;
+  width: 50px;
+}
+
+.facebook-logo {
+  height: 75px;
+  margin-left: 170px;
+  margin-top: 12px;
+  width: 205px;
+}
+
+header {
+  align-items: center;
+  background-color: rgb(59, 89, 152);
+  border-bottom: 1px solid rgb(29, 42, 91);
+  display: flex;
+  height: 82px;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.input-password , .user-email-phone {
+  background-color: rgb(232, 240, 254);
+  border: 1px solid rgb(29, 42, 91);
+  height: 20px;
+  margin-top: 3px;
+  width: 150px;
+}
+
+label {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.login {
+  height: 82px;
+  margin-right: 200px;
+}
+
+.login li {
+  display: list-item;
+  margin-left: 15px;
+}
+
+.login ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.senha a {
+  color: rgb(140, 171, 194);
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
 }
