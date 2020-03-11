@@ -34,7 +34,6 @@ body {
 
 .top-bar td label {
   color: white;
-  font-weight: normal;
 }
 
 .top-bar td input {
@@ -88,7 +87,7 @@ body {
   flex-direction: column;
 }
 
-.register-form input {
+.register-form div input {
   border: 1px solid #ccd0d5;
   color: #999;
   cursor: text;
@@ -97,7 +96,7 @@ body {
   padding: 8px 10px;
 }
 
-.register-form input:nth-child(1) {
+.register-form input:nth-child( 1 ) {
   margin-right: 8px;
 }
 
@@ -145,7 +144,7 @@ body {
   padding-top: 15px;
 }
 
-.register-form a {
+.register-form div a {
   color: #385898;
   cursor: pointer;
   text-decoration: none;
