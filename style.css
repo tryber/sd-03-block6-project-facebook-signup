@@ -5,7 +5,7 @@ body {
 
 .top-bar {
   align-items: center;
-  background-color: rgb(60 , 89 , 152);
+  background-color: rgb(60, 89, 152);
   display: flex;
   height: 83px;
   justify-content: space-around;
@@ -15,12 +15,12 @@ body {
 
 .menu-bar {
   display: flex;
-  margin: 0 auto;
   justify-content: space-between;
+  margin: 0 auto;
   width: 980px;
 }
 
-.box-email, .box-senha {
+.box-email , .box-senha {
   display: flex;
   flex-direction: column;
 }
@@ -32,7 +32,7 @@ body {
   width: 392px;
 }
 
-.form-login input, label, button, small{
+.form-login input , label , button , small {
   margin-left: 14px;
 }
 
@@ -55,10 +55,10 @@ small {
 }
 
 .box-text {
-  color: rgb(14 , 56 , 95);
+  color: rgb(14, 56, 95);
   font-family: inherit;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 900;
   height: 87px;
   margin-top: 40px;
   width: 450px;
