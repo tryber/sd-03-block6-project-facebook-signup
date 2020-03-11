@@ -57,7 +57,7 @@ body {
   padding: 5px;
 }
 
-.cadastroButton {
+/* .cadastroButton {
   background: linear-gradient(#67ae55, #578843);
   background-color: #69a74e;
   border-color: #3b6e22 #3b6e22 #2c5115;
@@ -72,7 +72,7 @@ body {
   letter-spacing: 1px;
   position: relative;
   width: 150px;
-}
+} */
 
 button {
   cursor: pointer;
