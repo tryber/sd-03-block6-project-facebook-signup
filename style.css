@@ -1,20 +1,21 @@
-body {
-    margin: 0 auto;
-    text-align: text;
+body,
+html {
+    margin: 0;
+    padding: 0;
 }
 
 .facebook-logo {
-    width: 100px;
+    width: 20%;
 }
 
 .top-bar {
-    display: flex;
-    justify-content: space-around;
     background-color: blue;
+    display: flex;
+    justify-content: space-between;
     margin: 0;
 }
 
-.top-bar:last-child h6 {
+h6 {
     margin: 10px;
 }
 
