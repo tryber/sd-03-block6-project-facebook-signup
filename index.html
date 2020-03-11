@@ -12,7 +12,7 @@
     <header class="top-bar">
         <img src="facebook_logo.png" alt="Logo do Facebook">
         <section>
-            <form id="user-login" class="user-login"  action="" method="get">
+            <form id="user-login" class="user-login" action="" method="get">
                 <div class="user">
                     <h1 id="user-email-phone-label">Email ou telefone</h1>
                     <label for="user-email-phone"></label>
@@ -26,30 +26,30 @@
             </form>
         </section>
     </header>
-    <section>
-        <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
-        </p>
-    </section>
-    <section>
-        <img src="image(1).png" alt="" id="facebook-networking">
-    </section>
-    <form>
-        <p>Abra uma conta</p>
-        <p>É fácil e rápido</p>
-        <label><input placeholder="Nome"></label>
-        <label id="sobrenome"><input placeholder="Sobrenome"></label>
-        <label><input placeholder="Celular ou email"></label>
-        <label><input placeholder="Nova senha" type="password"></label>
-        <label>Data de Nascimento<input placeholder="dd/mm/aaaa"></label>
-        <h2>Gênero</h2>
-        <input type="radio" name="gender" id="homem" value="homem">
-        <label for="homem">Homem</label>
-        <input type="radio" name="gender" id="mulher" value="mulher">
-        <label for="mulher">Mulher</label>
-        <input type="radio" name="gender" id="personalizado" value="personalizado">
-        <label for="personalizado">Personalizado</label>
-        <button id="facebook-register">Cadastre-se</button>
-
+    <article>
+        <section class="leftSide">
+            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img src="image(1).png" alt="" id="facebook-networking">
+        </section>
+        <form>
+            <p>Abra uma conta</p>
+            <p>É fácil e rápido</p>
+            <label><input placeholder="Nome"></label>
+            <label id="sobrenome"><input placeholder="Sobrenome"></label>
+            <label><input placeholder="Celular ou email"></label>
+            <label><input placeholder="Nova senha" type="password"></label>
+            <label>Data de Nascimento</label><input placeholder="dd/mm/aaaa">
+            <section class="radio">
+                <h2>Gênero</h2>
+                <input type="radio" name="gender" id="homem" value="homem">
+                <label for="homem">Homem</label>
+                <input type="radio" name="gender" id="mulher" value="mulher">
+                <label for="mulher">Mulher</label>
+                <input type="radio" name="gender" id="personalizado" value="personalizado">
+                <label for="personalizado">Personalizado</label>
+            </section>
+            <button id="facebook-register">Cadastre-se</button>
+    </article>
     </form>
     <script src="script.js"></script>
 </body>

@@ -2,10 +2,42 @@ header {
   background-color: rgb(56, 88, 152);
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+
 }
 
 .user-login {
   display: flex;
   flex-direction: row;
+
+}
+
+form {
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column;
+
+}
+
+article {
+  display: flex;
+  padding: 20px;
+
+}
+
+.radio {
+  flex-flow: nowrap row;
+
+}
+
+input {
+  padding: 10px;
+  margin: 15px;
+}
+
+.leftSide {
+  display: flex;
+  justify-items: flex-start;
+  flex-flow: column nowrap;
+
 }
