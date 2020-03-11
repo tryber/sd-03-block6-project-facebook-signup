@@ -1,6 +1,5 @@
 const input = document.getElementById('user-email-phone');
 
-
 // login
 // Formulario
 // const nomeForm = document.getElementById('nomeForm');
@@ -14,16 +13,16 @@ const input = document.getElementById('user-email-phone');
 // submit
 
 function submit() {
-	alert(input.value);
+  alert(input.value);
 }
 
 // function verificaFormulario() {
 // }
 
-window.onload = function () {
-	const submitLogin = document.getElementById('button-login');
-	// const submitForm = document.getElementById('facebook-register');
+window.onload = function() {
+  const submitLogin = document.getElementById('button-login');
+  // const submitForm = document.getElementById('facebook-register');
 
-	submitLogin.addEventListener('click', submit);
-	// submitForm.addEventListener('click', verificaFormulario);
+  submitLogin.addEventListener('click', submit);
+  // submitForm.addEventListener('click', verificaFormulario);
 };
