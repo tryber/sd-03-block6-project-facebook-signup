@@ -40,8 +40,8 @@ header div label {
   color: white;
   cursor: pointer;
   display: inline-block;
-  font-weight: bold;
   font-size: 12px;
+  font-weight: 700;
   line-height: 18px;
   margin-top: 15px;
   padding: 2px 6px;
