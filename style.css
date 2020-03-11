@@ -1,13 +1,13 @@
-html, body, div, h1, h2, p, form, input, main, label, section {
+html , body , div , h1 , h2 , p , form , input , main , label , section {
   border: 0;
   font-family: sans-serif;
-	font-size: 100%;
-	margin: 0;
-	padding: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 main {
-  background-image: linear-gradient(rgb(255, 255, 255), rgb(211, 216, 232));
+  background-image: linear-gradient(white, rgb(211, 216, 232));
   display: flex;
   height: 600px;
   justify-content: center;
@@ -18,7 +18,7 @@ img {
 }
 
 .texto {
-  color: rgb(11 , 56 , 97);
+  color: rgb(11 ,56 ,97);
   font-size: 20px;
   font-weight: bold;
   line-height: 29px;
@@ -31,8 +31,8 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
   height: 600px;
-  width: 450px;
   margin: 40px;
+  width: 450px;
 }
 
 .direita {
@@ -41,6 +41,6 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
   height: 600px;
-  width: 450px;
   margin: 40px;
+  width: 450px;
 }
