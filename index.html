@@ -9,20 +9,23 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   </head>
 <body>
-    <h1>teste</h1>
     <section class="top-bar">
-        <div>
-            <h1>facebook</h1>
-        </div>
-        <div>
-            <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
-            <input type="text" name="email-phone" id="user-email-phone">
-        </div>
-            <label for="password">Senha</label>
-            <input type="password" name="password" id="password">
-            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a>
-        <div>
-            <button id="button-login">Entrar</button>
+        <div class="bar-container">
+            <h1 class="logo">facebook</h1>
+            <div class="login-container">
+                <div class="email-container">
+                    <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+                    <input type="text" name="email-phone" id="user-email-phone">
+                </div>
+                <div class="password-container">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" id="password">
+                    <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a>
+                </div>    
+                <div class="button-container">
+                    <button id="button-login">Entrar</button>
+                </div>
+            </div>    
         </div>
     </section>
 
