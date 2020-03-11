@@ -20,13 +20,15 @@
         <div class="facebook-logo">
           <img src="imagem/facebook.png" alt="nome facebook">
         </div>
-        <div>
-          <label for="user">E-mail ou telefone</label>
-          <input id="user-email-phone-label" type="text" name="user">
-          <label for="user">Senha</label>
-          <input type="password" name="user">
-          <button id="button-login">Entrar</button>
-        </div>
+        <form class="form">
+          <label class="user-email"  for="user-email-phone-label">E-mail ou telefone
+            <input  id="user-email-phone-label" type="text" name="user" style="background: rgb(232, 240, 254)">
+          </label>
+          <label class="user-email"  for="user-password-label">Senha
+            <input  id="user-password-label"type="password" name="user" style="background: rgb(232, 240, 254)">
+          </label>
+          <button class="user-email" id="button-login">Entrar</button>
+          </form>
       </header>
     </html>
     <script src="script.js"></script>
