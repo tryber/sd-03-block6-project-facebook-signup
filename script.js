@@ -1,11 +1,11 @@
 const input = document.getElementById('user-email-phone');
 
 window.onload = function () {
-	const submitLogin = document.getElementById('button-login');
-	const submitForm = document.getElementById('facebook-register');
+  const submitLogin = document.getElementById('button-login');
+  const submitForm = document.getElementById('facebook-register');
 
-	submitLogin.addEventListener('click', submit);
-	submitForm.addEventListener('click', verificaFormulario);
+  submitLogin.addEventListener('click', submit);
+  submitForm.addEventListener('click', verificaFormulario);
 }
 
 // login
@@ -21,7 +21,7 @@ window.onload = function () {
 // submit
 
 function submit() {
-	alert(input.value);
+  alert(input.value);
 }
 
 // function verificaFormulario() {

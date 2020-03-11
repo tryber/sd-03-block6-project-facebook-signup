@@ -1,9 +1,9 @@
 .top-bar {
-	background-color: #3b5998;
-	display: flex;
+  background-color:#3b5998;
+  display: flex;
 }
 
 .loginArea {
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
