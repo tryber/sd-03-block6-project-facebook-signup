@@ -8,11 +8,38 @@
 }
 
 .forms-header {
+  color: rgb(156, 180, 216);
   display: flex;
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   width: 500px;
+=======
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 500px;
+}
+
+.forms-informacao-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.corpo {
+  color: #0e385f;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.informacoes-header {
+  display: flex;
+  flex-wrap: wrap;
+>>>>>>> 9c6d501b1d7c4968c48c2db33e0589e971acc477
 }
 
 .forms-informacao-container {
