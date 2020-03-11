@@ -1,0 +1,14 @@
+body{
+    
+}
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: aqua;
+    border: 2px solid red;
+    width: 100vw;
+    height: 50vw;
+
+}
+
