@@ -3,18 +3,43 @@ html, body {
     width: 100%;
 }
 
-header {
-    background-color: blue;
-    height: 100px;
+.top-bar {
     width: 100%;
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    min-height: 42px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.loggedout_menubar_container {
     display: flex;
     justify-content: space-between;
+    padding-top: 13px;
+    width: 980px;
+    margin: 0;
 }
 
-header img {
-    width: auto;
-    height: 50px;
-    margin-right: 10px;
+#facebook-logo{
+    max-width: 200px;
 }
 
+.menu_login_container {
+    color: white;
 
+}
+
+table[Attributes Style] {
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
