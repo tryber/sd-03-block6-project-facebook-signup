@@ -11,9 +11,9 @@ body {
 }
 
 .main {
+  align-content: center;
   background: linear-gradient(white, #d3d8e8);
   display: flex;
-  align-content: center;
 }
 
 .main .form-register {
