@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(59, 89, 152);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1014px;
+}
+
+.email-senha {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.texto1 {
+  color: #0e385f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+}
