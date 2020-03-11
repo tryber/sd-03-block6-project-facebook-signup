@@ -80,6 +80,26 @@ body {
   background-color: #3b5998;
 }
 
+.lado-direito{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-sobrenome{
+    display: flex;
+    flex-direction: row;
+}
+
+.resgitro{
+    display: flex;
+    flex-direction: column;
+}
+
+.generos{
+    display: flex;
+    flex-direction: row;
+}
+
 #text1{
     font-size: 36px;
     margin-bottom: 150px;
