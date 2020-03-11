@@ -6,3 +6,13 @@ body {
 .form-new-user {
   display: flex;
 }
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-box:first-child{
+    flex-direction: row;
+}
