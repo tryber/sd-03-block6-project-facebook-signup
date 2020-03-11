@@ -1,0 +1,13 @@
+.top-bar {
+  align-items: baseline;
+  background-color: rgb(59 , 89 , 152);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.forms-header {
+  display: flex;
+  justify-content: space-between;
+}
