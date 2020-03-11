@@ -2,10 +2,33 @@ header {
   background-color: rgb(56, 88, 152);
   color: white;
   display: flex;
-  justify-content: space-between;
+  font-style: inherit;
+  font-family: sans-serif;
+  justify-content: space-around;
+  max-width: 1300px;
+}
+
+h1 {
+  font-size: 12px;
 }
 
 .user-login {
   display: flex;
   flex-direction: row;
+  font-size: 12px;
+}
+
+.bt-entrar {
+  background-color: rgb(62, 97, 168);
+  border: 1px solid rgb(48, 76, 130);
+  border-radius: 5px;
+  color: white;
+}
+
+.facebook-logo {
+  height: 80px;
+}
+
+.forgot-link {
+  color: rgb(162, 180, 221);
 }
