@@ -1,4 +1,6 @@
-// const month = ['Jan', 'Fev', 'Mar', 'Abr', 'Maio', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
+// const month = ['Jan', 'Fev', 'Mar', 'Abr',
+//'Maio', 'Jun', 'Jul', 'Ago', 'Set',
+//'Out', 'Nov', 'Dez'];
 
 // month.forEach((e) => {
 //   const option = document.createElement('option');
