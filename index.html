@@ -2,37 +2,45 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/> 
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook - Log In or Sign Up</title>
 </head>
 
-<body style="margin: 0; font-family: Arial, Helvetica, sans-serif;" >
-    <header style="background-color: #3b5998 ; background-image: linear-gradient(#4e69a2, #3b5998 50%); padding: 10px;">
-        <section style="display: flex; flex-direction: row; justify-content: space-around;">
-            <div style="padding: 0; margin-top: 0;">
-                <h4 style="padding: 0;width: 24px; height: 32px; font-size: 2.2rem; color: #fff; margin: 0;margin-right: 25px;">facebook</h4>
+<body>
+    <header>
+        <section class="section-container">
+            <div class="logo-container">
+                <h4 class="logo">facebook</h4>
             </div>
             <div>
-                <form style="display: flex; flex-direction: row; width: 400px;">
-                    <div style="flex-direction: column; margin-right: 10px;">
+                <form class="login-container">
+                    <div class="email-container">
                         <div>
-                            <label style="color: #fff; font-size: 12px; line-height: 18px;">E-mail or Phone</label><br>
-                            <input class="login" style="border: 1px solid #1d2a5b; margin: 0; padding: 4px;">
+                            <label>E-mail or Phone</label>
                         </div>
+                        <input class="login">
                     </div>
-                    <div style="flex-direction: row;">
-                        <div >
-                            <label style="color: #fff; margin-bottom: 10px; font-size: 12px; line-height: 18px">Password</label>
-                            <input style="border: 1px solid #1d2a5b; margin: 0; padding: 4px;">
+                    <div class=" password-container">
+                        <div>
+                            <label>Password</label>
+                            <input>
                         </div>
-                        <div style="color: #9cb4d8; font-size: 12px; margin-top: 5px; ">Forgot account?</div>
+                        <div class="forgot-account">Forgot account?</div>
                     </div>
-                    <button style="background-color: #4267b2; border: 1px solid #29487d; padding: 2px 6px; border-radius: 2px; cursor: pointer; display: inline-block; font-size: 12px; line-height: 18px; margin: 15px; color: #fff; font-weight: bold; padding: 0px 10px; height: 25px; margin-top: 20px;">Login</button>
+                    <button class="btn-login">Login</button>
+
                 </form>
             </div>
         </section>
     </header>
-
+    <div>
+        <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+        <div class="img-pessoas">
+            <img src="img-facebook.png">
+        </div>
 </body>
+​
 
 </html>
