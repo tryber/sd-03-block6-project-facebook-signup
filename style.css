@@ -1,8 +1,9 @@
-* {
-  border: chartreuse 1px solid;
-}
 body {
   margin: 0;
+}
+
+div {
+  border: tomato solid 1px;
 }
 
 .top-bar {
@@ -15,3 +16,4 @@ body {
 .a {
   font-size: 36px;
 }
+
