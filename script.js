@@ -9,7 +9,6 @@ function funcaoAlert() {
   alert(`${userEmailPhone.value}`);
 }
 
-
 // event listeners
 
 buttonLogin.addEventListener('click', funcaoAlert);
