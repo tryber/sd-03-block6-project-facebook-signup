@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook</title>
@@ -48,7 +54,7 @@
         </fieldset>
         <fieldset>
           <label for="">Data de nascimento</label>
-          <input type="date" />
+          <input type="text" id="datepicker" />
           <br />
         </fieldset>
         <fieldset>
@@ -63,5 +69,11 @@
         <button id="facebook-register">Cadastre-se</button>
       </form>
     </section>
+    <script src="pikaday.js"></script>
+    <script>
+      var picker = new Pikaday({
+        field: document.getElementById('datepicker')
+      });
+    </script>
   </body>
 </html>
