@@ -1,4 +1,5 @@
 body {
+  display: flex;
   margin: 0;
 }
 
@@ -16,4 +17,3 @@ div {
 .a {
   font-size: 36px;
 }
-
