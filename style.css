@@ -1,31 +1,19 @@
 body {
-<<<<<<< HEAD
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
 .top-bar {
-=======
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-​ header {
->>>>>>> a24cfbc4f94ae43ba1bd1ac59ce412faabee9833
   background-color: #3b5998;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
   padding: 10px;
 }
-<<<<<<< HEAD
 
 .section-container {
-=======
-​ .section-container {
->>>>>>> a24cfbc4f94ae43ba1bd1ac59ce412faabee9833
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-<<<<<<< HEAD
 
 .logo-container {
   margin-top: 0;
@@ -43,27 +31,10 @@ body {
 }
 
 .login-container {
-=======
-​ .logo-container {
-  padding: 0;
-  margin-top: 0;
-}
-​ .logo {
-  padding: 0;
-  width: 24px;
-  height: 32px;
-  font-size: 2.2rem;
-  color: #fff;
-  margin: 0;
-  margin-right: 25px;
-}
-​ .login-container {
->>>>>>> a24cfbc4f94ae43ba1bd1ac59ce412faabee9833
   display: flex;
   flex-direction: row;
   width: 400px;
 }
-<<<<<<< HEAD
 
 .user-email-phone {
   flex-direction: column;
@@ -71,28 +42,16 @@ body {
 }
 
 .user-email-phone label {
-=======
-​ .email-container {
-  flex-direction: column;
-  margin-right: 10px;
-}
-​ .email-container label {
->>>>>>> a24cfbc4f94ae43ba1bd1ac59ce412faabee9833
   color: #fff;
   font-size: 12px;
   line-height: 18px;
 }
-<<<<<<< HEAD
 
 .user-email-phone input {
-=======
-​ .email-container input {
->>>>>>> a24cfbc4f94ae43ba1bd1ac59ce412faabee9833
   border: 1px solid #1d2a5b;
   margin: 0;
   padding: 4px;
 }
-<<<<<<< HEAD
 
 .password-container {
   flex-direction: row;
@@ -106,33 +65,16 @@ body {
 }
 
 .password-container input {
-=======
-​ .password-container {
-  flex-direction: row;
-}
-​ .password-container label {
-  color: #fff;
-  margin-bottom: 10px;
-  font-size: 12px;
-  line-height: 18px;
-}
-​ .password-container input {
->>>>>>> a24cfbc4f94ae43ba1bd1ac59ce412faabee9833
   border: 1px solid #1d2a5b;
   margin: 0;
   padding: 4px;
 }
-<<<<<<< HEAD
 
 .forgot-account {
-=======
-​ .forgot-account {
->>>>>>> a24cfbc4f94ae43ba1bd1ac59ce412faabee9833
   color: #9cb4d8;
   font-size: 12px;
   margin-top: 5px;
 }
-<<<<<<< HEAD
 
 .button {
   background-color: #4267b2;
@@ -148,20 +90,4 @@ body {
   margin-top: 20px;
   margin: 15px;
   padding: 0 10px;
-=======
-​ .btn-login {
-  background-color: #4267b2;
-  border: 1px solid #29487d;
-  border-radius: 2px;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 18px;
-  font-size: 12px;
-  margin: 15px;
-  color: #fff;
-  font-weight: bold;
-  padding: 0px 10px;
-  height: 25px;
-  margin-top: 20px;
->>>>>>> a24cfbc4f94ae43ba1bd1ac59ce412faabee9833
 }
