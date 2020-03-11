@@ -48,6 +48,10 @@ input {
   border-radius: 0;
 }
 
+.inputRadio {
+
+}
+
 ::placeholder {
   color: rgb(189, 199, 216);
   font-size: 18px;
@@ -110,6 +114,18 @@ input {
   margin: 30px 0;
 }
 
+.buttonCadastro {
+  background-color: rgb(59, 110, 34);
+  border-radius: 5px;
+  box-shadow: rgb(164, 227, 110);
+  color: white;
+  font-size: 19px;
+  font-weight: 700;
+  padding: 10px;
+  text-align: center;
+  width: 194px;
+}
+
 .button-login {
   background-color: rgb(66, 103, 178);
   border: 1px solid rgb(41, 72, 125);
@@ -155,9 +171,19 @@ label {
   font-size: 12px;
 }
 
+.labelGender {
+  color: rgb(29, 33, 41);
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 .login {
   height: 82px;
   margin-right: 200px;
+  padding-left: 3px;
+  padding-right: 10px;
+  vertical-align: middle;
 }
 
 .login li {
