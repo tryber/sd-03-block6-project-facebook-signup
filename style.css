@@ -4,8 +4,6 @@ body {
 
 .top-bar {
   background-color: rgb(59, 89, 152);
-  display: flex;
-  justify-content: flex-end;
   height: 70px;
   padding: 13px;
   width: 100%;
