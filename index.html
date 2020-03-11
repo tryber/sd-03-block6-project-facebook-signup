@@ -12,7 +12,7 @@
 
   <header>
     <div class="top-bar">
-      <h1 id="facebook-logo" class="face-logo">
+      <h1 class="facebook-logo">
         <a href="https://www.facebook.com/">
           <img src="/img/facebook-logo-2.png" title="Ir para a página inicial do Facebook">
         </a>
@@ -26,8 +26,8 @@
           </tr>
           <tr>
             <td><input type="email" id="user-email-phone"></td>
-            <td><input type="password"></td>
-            <td><label><input value="Entrar" type="submit" id="button-login"></label></td>
+            <td><input type="password" id="user-password"></td>
+            <td><label><button id="button-login">Entrar</button></label></td>
           </tr>
         </tbody>
       </table>
@@ -55,13 +55,13 @@
       <input type="date"><br>
       <label>Gênero</label><br>
 
-      <input type="radio" id="male" name="gender" value="male">
+      <input type="radio" id="male" name="gender" value="Masculino">
       <label for="male">Masculino</label>
 
-      <input type="radio" id="female" name="gender" value="female">
+      <input type="radio" id="female" name="gender" value="Feminino">
       <label for="female">Feminino</label>
 
-      <input type="radio" id="other" name="gender" value="other">
+      <input type="radio" id="other" name="gender" value="Personalizado">
       <label for="other">Personalizado</label><br>
 
       <button id="facebook-register">Cadastre-se</button>
