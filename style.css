@@ -1,28 +1,33 @@
 body {
-  margin: 0px;
-}
-
-.facebook-logo {
-  height: 34px;
-  overflow: hidden;
-
-}
-
-.facebook-logo img {
-    width: 170px;
-}
-
-.form {
-  display: flex;
-  justify-content: space-between;
-  height: 25px;
-  width: 500px;
+  margin: 0;
 }
 
 .top-bar {
+  align-items: center;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
   display: flex;
   height: 82px;
   justify-content: space-around;
+}
+
+.facebook-logo {
+  align-items: flex-end;
+}
+
+.facebook-logo img {
+  height: 90px;
+  width: 170;
+}
+
+.form {
   align-items: center;
+  color: #ccd0d5;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  width: 530px;
+}
+
+.user-email {
+  margin-left: 25px;
 }
