@@ -4,9 +4,8 @@ html,head,body,footer {
     font-size:12px;
     margin:0;
     padding:0;
-    }
-    
-    .top-bar {
+}
+.top-bar {
     width:100%;
     background-color:#3b5998;
     background-image:linear-gradient(#4e69a2,#3b599850);
@@ -16,18 +15,16 @@ html,head,body,footer {
     z-index:1;
     display:flex;
     justify-content:center;
-    }
-    
-    .loggedout_menubar_container {
+}
+.loggedout_menubar_container {
     display:flex;
     justify-content:space-between;
     padding-top:13px;
     width:980px;
     color:#FFF;
     font-size:12px;
-    }
-    
-    .inputText {
+}
+.inputText {
     -webkit-appearance:none;
     border:1px solid #0d1942;
     border-radius:0;
@@ -35,9 +32,8 @@ html,head,body,footer {
     height:14px;
     margin:0;
     padding:3px;
-    }
-    
-    .uiButtonConfirm {
+}
+.uiButtonConfirm {
     color:#FFF;
     background-color:#4267b2;
     border:1px solid #29487d;
@@ -47,20 +43,17 @@ html,head,body,footer {
     font-weight:700;
     line-height:18px;
     padding:2px 5px;
-    }
-    
-    .uiButtonConfirm:hover {
+}
+.uiButtonConfirm:hover {
     background-color:#305296;
-    }
-    
-    ._3ma {
+}
+._3ma {
     font-family:'Freight Sans Bold', Helvetica, Arial, sans-serif!important;
     font-weight:700!important;
     letter-spacing:normal;
     text-rendering:optimizelegibility;
-    }
-    
-    .uiButtonCadastre-se {
+}
+.uiButtonCadastre-se {
     background:linear-gradient(#67ae55,#578843);
     font-size:19px;
     margin-top:10px;
@@ -73,69 +66,58 @@ html,head,body,footer {
     cursor:pointer;
     border-radius:5px;
     padding:7px 20px;
-    }
-    
-    .uiButtonCadastre-se:hover {
+}
+.uiButtonCadastre-se:hover {
     background:linear-gradient(#86c077,#578843);
-    }
-    
-    .section {
+}
+.section {
     display:flex;
     width:100%;
     height:600px;
     justify-content:center;
     background:linear-gradient(white,#D3D8E8);
     margin:0;
-    }
-    
-    .mid_container {
+}
+.mid_container {
     display:flex;
     width:980px;
     justify-content:space-between;
-    }
-    
-    .right-item {
+}
+.right-item {
     width:580px;
-    }
-    
-    .left-item {
+}
+.left-item {
     padding-top:20px;
     width:400px;
-    }
-    
-    .moveDown {
+}
+.moveDown {
     padding-top:10px;
-    }
-    
-    .nameText {
+}
+.nameText {
     padding-top:10px;
     display:flex;
     justify-content:space-between;
-    }
-    
-    .inputName {
+}
+.inputName {
     font-size:18px;
     border:1px solid #ccd0d5;
     border-radius:5px;
     width:172px;
     margin:0;
     padding:8px 10px;
-    }
-    
-    .inputReg {
+}
+.inputReg {
     font-size:18px;
     border:1px solid #ccd0d5;
     border-radius:5px;
     width:377px;
     margin:0;
     padding:8px 10px;
-    }
-    
-    .nascimento_container {
+}
+.nascimento_container {
     display:flex;
-    }
-    
-    .pageFooter {
+}
+.pageFooter {
     width:980px;
     max-width:980px;
     flex-direction:column;
@@ -143,64 +125,55 @@ html,head,body,footer {
     display:flex;
     color:#737373;
     margin:0 auto;
-    }
-    
-    .lenguages {
+}
+.lenguages {
     padding-top:8px;
     display:flex;
     list-style-type:none;
     justify-content:flex-start;
-    }
-    
-    a {
+}
+a {
     color:#385898;
     cursor:pointer;
     text-decoration:none;
-    }
-    
-    a:hover {
+}
+a:hover {
     color:#385898;
     cursor:pointer;
     text-decoration:underline;
-    }
-    
-    .moreOptions {
+}
+.moreOptions {
     flex-wrap:wrap;
     display:flex;
     list-style-type:none;
     justify-content:flex-start;
-    }
-    
-    footer {
+}
+footer {
     display:flex;
     margin:0;
-    }
-    
-    #facebook-logo {
+}
+#facebook-logo {
     max-width:350px;
     height:55px;
     padding-top:5px;
     right:20px;
     top:5px;
     position:relative;
-    }
-    
-    table {
+}
+table {
     display:table;
     border-collapse:separate;
     border-spacing:10px 3px;
     border-color:grey;
     margin:0;
-    }
-    
-    #pageFooter {
+}
+#pageFooter {
     color:#737373;
     width:980px;
     display:block;
     margin:0 auto;
-    }
-    
-    ._5iyx {
+}
+._5iyx {
     color:#0e385f;
     font-size:20px;
     font-weight:700;
@@ -208,37 +181,32 @@ html,head,body,footer {
     margin-top:40px;
     width:450px;
     word-spacing:-1px;
-    }
-    
-    #fcb {
+}
+#fcb {
     color:#333;
     font-weight:600;
     font-size:36px;
-    }
-    
-    #fcb_g {
+}
+#fcb_g {
     color:#90949c;
     font-size:16px;
     font-weight:700;
-    }
-    
-    ._58mt {
+}
+._58mt {
     color:#1d2129;
     font-size:18px;
     font-weight:400;
     line-height:18px;
     padding:0 10px 0 3px;
-    }
-    
-    .saibaMais {
+}
+.saibaMais {
     background-image:url(/rsrc.php/v3/yN/r/DQDvQ2X3Nby.png);
     background-size:auto;
     background-repeat:no-repeat;
     display:inline-block;
     height:56px;
     width:56px;
-    }
-    
-    .lenguages li,.moreOptions li {
+}
+.lenguages li,.moreOptions li {
     margin:5px;
-    }
+}
