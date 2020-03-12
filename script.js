@@ -1,3 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
-  var picker = new Pikaday({ field: document.getElementById('datepicker') });
+document.addEventListener('DOMContentLoaded', function () {
+  const picker = new Pikaday({ field: document.getElementById('datepicker') });
 });
