@@ -1,45 +1,38 @@
-* {
-    padding: 0 0;
-    margin: 0 0;
-}
-
 .top-bar {
-    display: flex;
-    justify-content: space-around;
-    width: ;
-    background-color: #3b5998;
-    color: white;
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-around;
 }
 
 .bar-container {
-    display: flex;
-    width: 900px;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
 }
 
 .logo {
-    margin: 15px 0;
-    color: white;
+  color: white;
+  margin: 15px 0;
 }
 
 .login-container {
-    display: flex;
+  display: flex;
 }
 
 .email-container {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
 .password-container {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 20px;
-    
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
 }
 
 .button-container {
+<<<<<<< HEAD
     align-self: center;
     margin-top: 8px;
     
@@ -53,10 +46,26 @@
   color: #0e385f;
   font-size: 20px;
   font-weight: bold;
+=======
+  align-self: center;
+  margin-top: 8px;
+}
+
+.section-cadastro-container {
+  background: linear-gradient(white, #d3d8e8);
+}
+
+.frase {
+  color: #0e385f;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+>>>>>>> b05ff2e597643ceddd1c02978b6250885459a370
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
   word-spacing: -1px;
+<<<<<<< HEAD
   font-family: inherit;
 }
 
@@ -69,11 +78,25 @@
 }
 
 .form-container{
+=======
+}
+
+.cadastro-container {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.form-container {
+>>>>>>> b05ff2e597643ceddd1c02978b6250885459a370
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
 
+<<<<<<< HEAD
 .name-container{
   display: flex;
   flex-direction: row;
@@ -96,3 +119,25 @@
     font-size: 18px;
 }
 
+=======
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-input {
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0;
+  width: 172px;
+}
+
+.lastname-input {
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0;
+  width: 172px;
+}
+>>>>>>> b05ff2e597643ceddd1c02978b6250885459a370
