@@ -9,7 +9,7 @@ body {
 }
 
 .conteudo {
-  background-color: rgb(233,235,238);
+  background-color: rgb(233, 235, 238);
   display: flex;
   flex-direction: row;
   height: 500px;
@@ -20,12 +20,11 @@ body {
 .facebook-logo {
   height: 34px;
   width: 170px;
-  
 }
 
 @font-face {
   font-family: 'Custom Font';
-  src: url("./FACEBOLF.OTF");
+  src: url('facebolf.otf');
 }
 
 .formulario {
@@ -46,7 +45,7 @@ body {
 }
 
 header h1 {
-  font-family: 'Custom Font';
+  font-family: Custom Font,sans-serif;
   color: white;
   margin-bottom: -10px;
 }
@@ -65,7 +64,7 @@ header label {
 }
 
 .top-bar {
-  background: linear-gradient(rgb(77,104,160),rgb(59,89,152));
+  background: linear-gradient(rgb(77, 104, 160), rgb(59, 89, 152));
   display: flex;
   justify-content: space-around;
   width: 100%;
