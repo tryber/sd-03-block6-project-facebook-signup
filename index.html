@@ -25,14 +25,14 @@
         <table class="login">
           <tr>
             <thead>
-              <label for="email" class="text-label-login"
+              <label for="email" class="text-label-login" id="user-email-phone-label"
                 >Email ou telefone</label
               >
             </thead>
             <input
               type="text"
               name="email"
-              id="email"
+              id="user-email-phone"
               class="loginesenha"
               placeholder="E-mail ou telefone"
             />
@@ -44,13 +44,13 @@
             <input
               type="password"
               name="senha"
-              id="senha"
+              id="user-password"
               class="loginesenha"
               placeholder="Senha"
             />
           </tr>
           <tr>
-            <button type="submit" class="submit-login btn btn-primary">
+            <button type="submit" id="button-login" class="submit-login btn btn-primary">
               Entrar
             </button>
           </tr>
@@ -110,7 +110,7 @@
       <label for="genero" class="container" id="container">
         <p>Gênero</p>
         <label for="masculino">
-          <input type="radio" name="masculino" id="masculino" />
+          <input type="radio" name="Masculino" id="masculino" />
           Masculino
         </label>
         <label for="feminino">
