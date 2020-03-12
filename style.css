@@ -25,12 +25,12 @@ ul {
 }
 
 header {
-	align-items: center;
-  background: rgb(59,89,152);
+  align-items: center;
+  background: rgb(59 , 89 , 152);
   border-bottom: 1px solid rgb(19 , 55 , 131);
   display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .top-bar {
