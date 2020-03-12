@@ -29,7 +29,7 @@ body {
         url('facebolf-webfont.ttf')  format('truetype'),
         url('facebolf-webfont.svg#svgFontName') format('svg');
 }
-}
+
 .formulario {
   display: flex;
   flex-direction: column;
