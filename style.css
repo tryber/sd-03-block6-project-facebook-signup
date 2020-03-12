@@ -94,6 +94,32 @@ span {
 
 .input-model {
   background: rgb(232, 240, 254);
+  border: 1px solid black;
   margin-top: 4px;
+  padding: 2px;
   width: 142px;
+}
+
+.enviar-button {
+  background: #4466ad;
+  border: 1px solid #2f4981;
+  border-radius: 2px;
+  color: white;
+  padding: 4px;
+}
+
+.name-genero {
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.input-genero {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.inputs {
+  margin-left: 60px;
 }
