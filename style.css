@@ -150,6 +150,7 @@
             width: 100%;
             height: 35px;
             justify-content: space-around;
+            padding: 5px;
         }
         
         .namesub {
@@ -165,4 +166,110 @@
             border: 1px solid #ccd0d5;
             font-size: 15px;
             padding: 8px 10px;
+        }
+        
+        #emailphone {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+            height: 80px;
+            justify-content: space-between;
+        }
+        
+        #date {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 45%;
+            height: 50px;
+        }
+        
+        #date>label {
+            color: #90949c;
+            font-size: 15px;
+            padding: 0;
+            width: 135px;
+            height: 20px;
+            font-weight: bold;
+        }
+        
+        .date-A {
+            border-radius: 0;
+            font-size: 10px;
+            width: 45px;
+            height: 10px;
+        }
+        
+        #date>div {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 30px;
+        }
+        
+        #generos {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            height: 50px;
+            padding: 5px;
+        }
+        
+        #generos>p {
+            color: #90949c;
+            font-size: 15px;
+            font-weight: bold;
+            padding: 0;
+            width: 135px;
+            height: 20px;
+            margin: 0;
+        }
+        
+        #generos>div {
+            font-size: 13px;
+        }
+        
+        #obs {
+            display: flex;
+            padding: 5px;
+        }
+        
+        #obs>p {
+            font-size: 8px;
+            color: #90949c;
+            width: 260px;
+            height: 35px;
+        }
+        
+        #btnCadastro {
+            padding: 5px;
+            width: 150px;
+            height: 35px;
+        }
+        
+        #btnCadastro>button {
+            width: 140px;
+            background: linear-gradient(#67ae55, #578843);
+            background-color: #69a74e;
+            border: 1px solid;
+            padding: 7px 20px;
+            text-align: center;
+            border-radius: 5px;
+            color: #fff;
+            cursor: pointer;
+            text-shadow: 0 1px 2px rgba(0, 0, 0, .5);
+            box-shadow: inset 0 1px 1px #a4e388;
+            border-color: #3b6e22 #3b6e22 #2c5115;
+        }
+        
+        #aviso {
+            font-size: 8px;
+            color: #90949c;
+            padding: 0;
+            width: 300px;
+            height: 20px;
+            margin-top: 8px;
         }
