@@ -6,9 +6,9 @@ html , body , div , input , p , label , section , main , form {
 
 .button-login {
   align-items: flex-start;
+  background-attachment: scroll;
   background-clip: border-box;
   background-color: rgb(66, 103, 178);
-  background-attachment: scroll;
   border: 1px solid rgb(41, 72, 125);
   color: white;
   cursor: pointer;
