@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Facebook - entre ou cadastre-se</title>
     <script src="https://kit.fontawesome.com/e47adab8ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,59 +25,63 @@
             </form>
         </div>
     </header>
-    <section>
-        <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
-        <img src="images/networking.png" id="facebook-networking" alt="imagem com mapa mundi e pessoas conectadas por linhas">
-    </section>
-    <section>
-        <h1>Abra uma conta</h1>
-        <p>É rápido e fácil.</p>
-        <form action="">
-            <div>
-                <div>
-                    <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="Sobrenome">
+    <div id="main">
+        <section id="main-left">
+            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img src="images/networking.png" id="facebook-networking" alt="imagem com mapa mundi e pessoas conectadas por linhas">
+        </section>
+        <section id="main-right">
+            <div id="left-header">
+                <h1>Abra uma conta</h1>
+                <p>É rápido e fácil.</p>
+            </div>
+            <form action="">
+                <div id="form-cadastro">
+                    <div id="full-name">
+                        <input type="text" class='form-control' placeholder="Nome">
+                        <input type="text" id="sobrenome" class='form-control' placeholder="Sobrenome">
+                    </div>
+                    <input type="text" class='form-control' placeholder="Celular ou email">
+                    <input type="password" class='form-control' placeholder="Nova senha">
                 </div>
-                <input type="text" placeholder="Celular ou email">
-                <input type="password" placeholder="Nova senha">
-            </div>
-            <div>
-                <label for="data-cadastro">Data de nascimento</label>
-                <input type="text" id="data-cadastro" placeholder="dd/mm/aaaa">
-                <a href=""><i class="fas fa-question-circle"></i></a>
-            </div>
-            <div>
-                <p>Gênero</p>
-                <input type="radio" name="genero" id="genero-feminino" ><label for="genero-feminino">Feminino</label>
-                <input type="radio" name="genero" id="genero-masculino"><label for="genero-masculino">Masculino</label>
-                <input type="radio" name="genero" id="genero-Personalizado"><label for="genero-Personalizado">Personalizado</label>
-                <a href=""><i class="fas fa-question-circle"></i></a>
-            </div>
-            <div id="gen-personalizado">
-                <select name="">
-                    <option disabled selected>Selecione seu pronome</option>
-                    <option value="Feminino">Feminino: "Deseje a ela um feliz aniversário!"</option>
-                    <option value="Masculino">Masculino: "Deseje a ele um feliz aniversário!"</option>
-                    <option value="Neutro">Neutro: "Deseje a ele(a) um feliz aniversário!"</option>
-                </select>
-                <p>O seu pronome fica visível para todos.</p>
-                <input type="text" placeholder="Gênero (opcional)">
-            </div>
+                <div>
+                    <label for="data-cadastro">Data de nascimento</label>
+                    <input type="text" id="data-cadastro" class='form-control' placeholder="dd/mm/aaaa">
+                    <a href=""><i class="fas fa-question-circle"></i></a>
+                </div>
+                <div>
+                    <p>Gênero</p>
+                    <input type="radio" name="genero" id="genero-feminino" ><label for="genero-feminino">Feminino</label>
+                    <input type="radio" name="genero" id="genero-masculino"><label for="genero-masculino">Masculino</label>
+                    <input type="radio" name="genero" id="genero-Personalizado"><label for="genero-Personalizado">Personalizado</label>
+                    <a href=""><i class="fas fa-question-circle"></i></a>
+                </div>
+                <div id="gen-personalizado">
+                    <select class='form-control-sm' name="">
+                        <option disabled selected>Selecione seu pronome</option>
+                        <option value="Feminino">Feminino: "Deseje a ela um feliz aniversário!"</option>
+                        <option value="Masculino">Masculino: "Deseje a ele um feliz aniversário!"</option>
+                        <option value="Neutro">Neutro: "Deseje a ele(a) um feliz aniversário!"</option>
+                    </select>
+                    <p>O seu pronome fica visível para todos.</p>
+                    <input type="text" class='form-control' placeholder="Gênero (opcional)">
+                </div>
+                <div>
+                    <p>
+                        Ao clicar em Cadastre-se, você concorda com nossos Termos,
+                        Política de Dados e Política de Cookies. Você pode receber
+                        notificações por SMS e pode cancelar isso quando quiser.
+                    </p>
+                </div>
+                <button id="facebook-register">Cadastre-se</button>
+            </form>
             <div>
                 <p>
-                    Ao clicar em Cadastre-se, você concorda com nossos Termos,
-                    Política de Dados e Política de Cookies. Você pode receber
-                    notificações por SMS e pode cancelar isso quando quiser.
+                    Criar uma Página para uma celebridade, banda ou empresa.
                 </p>
             </div>
-            <button id="facebook-register">Cadastre-se</button>
-        </form>
-        <div>
-            <p>
-                Criar uma Página para uma celebridade, banda ou empresa.
-            </p>
-        </div>
-    </section>
+        </section>
+    </div>
 </body>
 <script src="script.js"></script>
 </html>
