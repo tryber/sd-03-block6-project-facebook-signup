@@ -1,4 +1,4 @@
-jQuery(function () {
+const jQuery = jQuery(function () {
   jQuery('#datepicker').datepicker({
     dateFormat: 'dd-mm-yy',
   });
