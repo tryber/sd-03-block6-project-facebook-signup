@@ -19,7 +19,7 @@ function submit() {
 // function verificaFormulario() {
 // }
 
-window.onload = function () {
+window.onload = function() {
   const submitLogin = document.getElementById('button-login');
   // const submitForm = document.getElementById('facebook-register');
 
