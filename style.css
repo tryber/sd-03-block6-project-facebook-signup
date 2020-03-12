@@ -32,21 +32,6 @@
 }
 
 .button-container {
-<<<<<<< HEAD
-    align-self: center;
-    margin-top: 8px;
-    
-}
-
-/* meu */
-.section-cadastro-container{
-  background: linear-gradient(white, #D3D8E8);
-}
-.frase{
-  color: #0e385f;
-  font-size: 20px;
-  font-weight: bold;
-=======
   align-self: center;
   margin-top: 8px;
 }
@@ -60,25 +45,10 @@
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
->>>>>>> b05ff2e597643ceddd1c02978b6250885459a370
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
   word-spacing: -1px;
-<<<<<<< HEAD
-  font-family: inherit;
-}
-
-.cadastro-container{
-  width: 900px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: 0 auto;
-}
-
-.form-container{
-=======
 }
 
 .cadastro-container {
@@ -90,36 +60,11 @@
 }
 
 .form-container {
->>>>>>> b05ff2e597643ceddd1c02978b6250885459a370
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
-.name-container{
-  display: flex;
-  flex-direction: row;
-  
-}
-
-#name-input{
-  width: 172px;
-  border-color: #bdc7d8;
-    border-radius: 5px;
-    margin: 0;
-    font-size: 18px;
-}
-
-#lastname-input{
-  width: 172px;
-  border-color: #bdc7d8;
-    border-radius: 5px;
-    margin: 0;
-    font-size: 18px;
-}
-
-=======
 .name-container {
   display: flex;
   flex-direction: row;
@@ -140,4 +85,3 @@
   margin: 0;
   width: 172px;
 }
->>>>>>> b05ff2e597643ceddd1c02978b6250885459a370
