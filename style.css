@@ -140,14 +140,14 @@ body {
   color: #90949c;
   font-size: 16px;
   font-weight: 700;
-  margin: 0;
+  margin: 10px 0 5px;
 }
 
 .register-form .p4 {
   color: #777;
   font-size: 11px;
   line-height: 14.7px;
-  margin: 0;
+  margin: 11px 0;
 }
 
 .register-form .p5 {
