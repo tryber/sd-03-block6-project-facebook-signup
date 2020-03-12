@@ -1,6 +1,6 @@
 function verificaData() {
   let day = document.getElementById('day')
-  () ? return true : return false;
+  (true) ? return true : return false;
 }
 
 function criaConta () {
@@ -19,7 +19,7 @@ function LOADED() {
   buttonCadastreSe.addEventListener('click', criaConta);
 
   console.log(picker);
-  
+
 }
 
 window.onload = LOADED();

@@ -32,6 +32,7 @@
         </section>
         <form action="." method="GET" class="criar-conta">
             <span>Abra uma conta</span>
+            <!-- É fácil e Rápido-->
             <fieldset class="inputs-label-container">
                 <!-- Nome -->
                 <!-- Sobrenome -->
@@ -42,11 +43,11 @@
                 <input type="password" placeholder="Nova Senha">
             </fieldset>
             <fieldset class="inputs-label-container">
-                <label for="data">Data de nascimento</label>
+                <label for="data"><h3>Data de nascimento</h3></label>
                     <input type="datetime" id="data" placeholder="dd/mm/aaaa">
             </fieldset>
             <fieldset class="inputs-label-container">
-                <h3 for="genero">Gênero</h3>
+                <h3>Gênero</h3>
                 <div>
                     <label for="genero-feminino"><input type="radio" name="genero" id="genero-feminino">Feminino</label>
                     <label for="genero-masculino"><input type="radio" name="genero" id="genero-masculino">Masculino</label>
@@ -62,7 +63,7 @@
     <script>src="script.js"</script>
     <script src="pikaday.js"></script>
     <script>
-        let picker = new Pikaday({ 
+        let picker = new Pikaday({
             field: document.getElementById('data'),
             format: 'DD MMM YYYY',
             onSelect: function() {
