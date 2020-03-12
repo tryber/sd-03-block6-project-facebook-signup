@@ -24,10 +24,11 @@ body {
 
 @font-face {
   font-family: 'facebook_letter_facesregular';
-  src: url('facebolf-webfont.woff2') format('woff2'),
-       url('facebolf-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
+  src:  url('facebolf-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('facebolf-webfont.woff') format('woff'), 
+        url('facebolf-webfont.ttf')  format('truetype'),
+        url('facebolf-webfont.svg#svgFontName') format('svg');
+}
 }
 .formulario {
   display: flex;
