@@ -38,8 +38,8 @@ body {
 }
 .corpo {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 2%;
 }
 
@@ -70,5 +70,4 @@ body {
 .cadastro-form {
   margin: auto;
   width: 80%;
-
 }
