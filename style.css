@@ -129,8 +129,8 @@ header {
 }
 
 .middle input {
-  border-radius: 5px;
   border: 1px solid #bdc7d8;
+  border-radius: 5px;
   font-size: 18px;
   height: 21px;
   margin-bottom: 10px;
