@@ -84,6 +84,42 @@ table input {
   color: #e9ebee;
   padding: 2px 5px;
 }
+ 
+.label_area {
+  display: flex;
+}
+
+.login_area {
+  display: flex;
+ }
+ 
+ .link_area{
+   flex: 1;
+ }
+
+ .user_label {
+   flex: 1;
+ }
+
+ .user_passw_label {
+   flex: 1;
+ }
+
+ .user_input {
+   flex: 1;
+}
+
+ .user_passw_input {
+   flex: 1;
+}
+
+ .loginBtn {
+   flex: 1;
+}
+
+ .link_passw {
+   flex: 1;
+ }
 
 .flexContainer {
   display: block;
