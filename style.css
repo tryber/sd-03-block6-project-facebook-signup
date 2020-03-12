@@ -23,7 +23,7 @@ body {
 }
 
 @font-face {
-  font-family: 'facebook_letter_facesregular';
+  font-family: facebook_letter_facesregular;
   src:  url('facebolf-webfont.eot?#iefix') format('embedded-opentype'),
         url('facebolf-webfont.woff') format('woff'),
         url('facebolf-webfont.ttf')  format('truetype'),
@@ -66,7 +66,7 @@ label {
 
 .logo {
   color: white;
-  font-family: facebook_letter_facesregular,sans-serif;
+  font-family: facebook_letter_facesregular, sans-serif;
   margin-bottom: -5px;
 }
 
