@@ -57,8 +57,12 @@ body {
 }
 
 .abra-sua-conta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 80px;
   margin-left: 10%;
-  width: 20%;
+  width: 43%;
 }
 
 .welcome-text {
@@ -69,6 +73,17 @@ body {
 }
 
 .cadastro-form {
+  color: #1d2129;
   margin: auto;
   width: 80%;
+}
+
+.lado-direito .account-title {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+span {
+  color: #1d2129;
 }
