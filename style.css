@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 12px;
-  padding: 4px 8px ;
+  padding: 4px 8px;
 }
 
 .forms-informacao-container input {
@@ -57,7 +57,7 @@ body {
 .corpo {
   color: #0e385f;
   font-size: 23px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
