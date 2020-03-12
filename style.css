@@ -1,85 +1,85 @@
 body {
-    background-color: rgb( 228, 231, 240);
-    color: white;
-    margin: 0;
-    padding: 0;
+  background-color: rgb(228, 231, 240);
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    align-items: center;
-    background-color: rgb(59, 89, 151);
-    display: flex;
-    flex-direction: row;
-    height: 78px;
-    justify-content: center;
-    width: 100vw;
+  align-items: center;
+  background-color: rgb(59, 89, 151);
+  display: flex;
+  flex-direction: row;
+  height: 78px;
+  justify-content: center;
+  width: 100vw;
 }
 
 .login-button {
-    background-color: rgb(91, 123, 188);
-    border: 0.5px #365899 solid;
-    border-radius: 1px;
-    height: 22px;
-    width: 46px;
+  background-color: rgb(91, 123, 188);
+  border: 0.5px #365899 solid;
+  border-radius: 1px;
+  height: 22px;
+  width: 46px;
 }
 
 .text-input-login {
-    color: white;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 18px;
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
 }
 
 .logo-face {
-    width: 171px;
+  width: 171px;
 }
 
 .text-input {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 16px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
 
 }
 
 .input-style {
-    border: 1px #1d2a5b solid;
-    height: 14px;
-    padding: 3px;
-    width: 142px;
+  border: 1px #1d2a5b solid;
+  height: 14px;
+  padding: 3px
+  width: 142px;
 }
 
 .forget-password {
-    color: #9cb4d8;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 18px;
-    text-decoration: none;
+  color: #9cb4d8;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
 }
 
 .div-form {
-    align-items: center;
-    display: flex;
-    height: 64px;
-    justify-content: space-between;
-    width: 378px;
+  align-items: center;
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  width: 378px;
 }
 
 .telefone-email, .senha-input {
-    height: 64px;
-    width: 148px;
+  height: 64px;
+  width: 148px;
 }
 
 .h-container {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 78px;
-    justify-content: space-around;
-    width: 980px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 78px;
+  justify-content: space-around; 
+  width: 980px;
 }
