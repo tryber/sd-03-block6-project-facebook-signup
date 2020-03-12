@@ -8,10 +8,10 @@ body {
     max-width: 90%;
     padding: 0;
     unicode-bidi: embed;
-  }
+}
 
-  .cabecalho {
-    background-color: #3B5998;
+.cabecalho {
+    background-color: #3b5998;
     color: #fff;
     height: 82px;
     width: 100%;
@@ -21,22 +21,22 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
+}
 
-  button {
+button {
     color: black;
     margin-top: 18px;
     margin-left: 10px;
-  }
+}
 
-  form {
+form {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap-reverse;
-  }
+}
 
-  .footer {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,24 +44,24 @@ body {
     flex-wrap: wrap;
     max-width: 800px;
     margin-left: 450px;
-  }
+}
 
-  #user-email-phone-label {
+#user-email-phone-label {
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
     font-weight: 700;
     margin-right: 30px;
-  }
+}
 
-  .texto {
+.texto {
     font-size: 20px;
     width: 460px;
-  }
+}
 
   .article {
-    margin-left: 250px;
-    display: flex;
-    justify-content: center;
-  }
+        margin-left: 250px;
+        display: flex;
+        justify-content: center;
+}
   
