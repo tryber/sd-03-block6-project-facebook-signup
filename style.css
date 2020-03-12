@@ -26,6 +26,10 @@ header div label {
     font-size: 12px;
 }
 
+header-left {
+    width: 100px;
+}
+
 .header-right {
     display: flex;
     flex-flow: column wrap;
@@ -54,6 +58,4 @@ header div label {
 
 .facebook-logo {
     color: white;
-    height: 34px;
-    width: 170px;
 }
