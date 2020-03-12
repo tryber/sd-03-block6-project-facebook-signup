@@ -10,7 +10,7 @@
 <body>
     <header class="top-bar">
        <h1 class="facebook-logo">facebook</h1>
-        <forms class="forms-header">
+        <form action="." method="GET" class="forms-header">
             <div class="forms-informacao-container">
                 <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
                 <input type="email" name="user-email-phone" id="user-email-phone">
@@ -23,13 +23,52 @@
             <div class="forms-informacao-container forms-header-button">
                 <button type="submit" id="button-login">Entrar</button>
             </div>
-        </forms>
+        </form>
     </header>
     <section class="corpo">
-        O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+        <section class="texto-imagem">
+            O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+            <img id="facebook-networking" src="networking.png" alt="">
+        </section>
+        <form action="." method="GET" class="criar-conta">
+            <span>Abra uma conta</span>
+            <fieldset class="inputs-label-container">
+                <!-- Nome -->
+                <!-- Sobrenome -->
+            </fieldset>
+            <fieldset class="inputs-label-container">
+                <!-- Celular ou email -->
+                <!-- Nova senha -->
+                <input type="password" placeholder="Nova Senha">
+            </fieldset>
+            <fieldset class="inputs-label-container">
+                <label for="data">Data de nascimento</label>
+                    <input type="datetime" id="data" placeholder="dd/mm/aaaa">
+            </fieldset>
+            <fieldset class="inputs-label-container">
+                <label for="genero">Gênero</label>
+                <div>
+                    <label for="genero-feminino"><input type="radio" name="genero" id="genero-feminino">Feminino</label>
+                    <label for="genero-masculino"><input type="radio" name="genero" id="genero-masculino">Masculino</label>
+                    <label for="genero-personalizado"><input type="radio" name="genero" id="genero-personalizado">Personalizado</label>
+                </div>
+            </fieldset>
+            <button type="submit" id="facebook-register">Cadastre-se</button>
+        </form>
     </section>
-    <img id="facebook-networking" src="networking.png" alt="">
-    <span>Abra uma conta</span>
+    <footer>
+        
+    </footer>
     <script>src="script.js"</script>
+    <script src="pikaday.js"></script>
+    <script>
+        let picker = new Pikaday({ 
+            field: document.getElementById('data'),
+            format: 'DD MMM YYYY',
+            onSelect: function() {
+                console.log(this.getMoment().format('DD MMMM YYYY'));
+            }
+        });
+    </script>
 </body>
 </html>
