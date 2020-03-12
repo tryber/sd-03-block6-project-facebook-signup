@@ -5,7 +5,7 @@ a {
 }
 
 .abrir-conta {
-  justify-content: self-end;
+  justify-content: flex-end;
 }
 
 body {
