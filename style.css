@@ -1,4 +1,5 @@
 body {
+  background: linear-gradient(white, #D3D8E8);
   border: 0;
   font: inherit;
   font-size: 100%;
@@ -108,9 +109,15 @@ span {
   padding: 4px;
 }
 
+.data-name {
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+
 .name-genero {
+  font-weight: 700;
   margin: auto;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-top: 10px;
   width: 80%;
 }
@@ -130,4 +137,22 @@ span {
 
 .icone-interrogacao {
   margin-left: 15px;
+}
+
+.cor-cinza {
+  color: #90949c;
+  font-size: 16px;
+}
+.termos {
+  color: #777;
+  font-size: 11px;
+  height: 42px;
+  line-height: 15px;
+  margin: 11px 0 0 52px;
+  width: 316px;
+}
+
+.termos a {
+  color: #385898;
+  text-decoration: none;
 }
