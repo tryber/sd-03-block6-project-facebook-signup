@@ -1,3 +1,4 @@
+
 body { 
     margin: 0;
 }
@@ -61,6 +62,11 @@ label {
     vertical-align: middle;
 }
 
+td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
 table tr td {
     padding: 0 0 0 14px;
 }
@@ -69,21 +75,16 @@ table tr td {
     padding-top: 4px;
 }
 
-td, textarea {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
-}
-
 .login-texto {
     border: 1px solid #ccd0d5;
     border-color: #1d2a5b;
     border-radius: 0;
     margin: 0;
+    padding: 3px;
     padding-bottom: 4px;
     width: 142px;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding: 3px;
 }
 .login-button {
     border-radius: 2px;
@@ -107,7 +108,7 @@ td, textarea {
     color: #4b4f56;
     cursor: pointer;
     display: inline-block;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica , Arial , sans-serif;
     font-size: 12px;
     font-weight: bold;
     line-height: 18px;
@@ -116,7 +117,7 @@ td, textarea {
     white-space: nowrap;
 }
 
-.login-button,.login-buttonSuppressed:active,.login-buttonSuppressed:focus,.login-buttonSuppressed:hover {
+.login-button ,.login-buttonSuppressed:active ,.login-buttonSuppressed:focus ,.login-buttonSuppressed:hover {
     background-color:#3b5998;
     border: 1px solid #181a1f;
 }
