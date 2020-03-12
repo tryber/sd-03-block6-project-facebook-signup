@@ -63,14 +63,14 @@ section{
 }
 
 .enter-button {
-  width: 55px;
-  height: 25px;
-  margin-top: 20px;
   border: 1px solid #4F62A9;
+  font-weight: 800;
+  font-size: 0.75rem;
+  height: 25px;
   background-color: #4F7AC2;
   color: white;
-  font-size: 0.75rem;
-  font-weight: 800;
+  margin-top: 20px;
+  width: 55px;
 }
 
 .enter-button:hover {
@@ -103,6 +103,6 @@ section{
     flex-direction: row;
 }
 
-#text1{
+.text1{
     font-size: 36px;
 }
