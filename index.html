@@ -4,27 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook</title>
+    <title>Facebook – entre ou cadastre-se</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header class="top-bar">
-        <img class="facebook-logo" src="facebook_logo.png" alt="Logo do Facebook">
-        <section>
-            <form id="user-login" class="user-login" action="" method="get">
+        <section class="header-section">
+            <img class="facebook-logo" src="facebook_logo.png" alt="Logo do Facebook">  
+            <form class="user-login" id="user-login" action="" method="get">
                 <div class="user">
-                    <h1 id="user-email-phone-label">Email ou telefone</h1>
-                    <label for="user-email-phone"></label>
-                    <input type="text" id="user-email-phone" name="user-email-phone">
+                    <label for="user-email-phone">Email ou telefone</label><br>
+                    <input type="text" class="user-email-phone" id="user-email-phone" name="user-email-phone">
+                    <p>hidden</p>
                 </div>
                 <div class="pass">
-                    <h1 id="senha">Senha</h1>
-                    <label for="user-password"></label>
-                    <input type="password" id="user-password" name="user-password">
+                    <label for="user-password">Senha</label><br>
+                    <input type="password" class="user-password" id="user-password" name="user-password">
                     <p class="forgot-link">Esqueceu a conta?</p>
                 </div>
-                <button class="bt-entrar">Entrar</button>
+                <button id="button-login" class="button-login">Entrar</button>
             </form>
         </section>
     </header>
@@ -51,8 +50,8 @@
                 <label for="personalizado">Personalizado</label>
             </section>
             <button id="facebook-register">Cadastre-se</button>
-    </article>
-    </form>
+        </form>
+    </article>    
     <script src="script.js"></script>
 </body>
 

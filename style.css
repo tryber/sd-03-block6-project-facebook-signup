@@ -1,36 +1,76 @@
-header {
-  background-color: rgb(56, 88, 152);
-  color: white;
-  display: flex;
-  font-style: inherit;
-  font-family: sans-serif;
-  justify-content: space-around;
-  max-width: 1300px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+/*HEADER*/
+
+header {
+  align-items: center;
+  background-color: rgb(56, 88, 152);
+  display: flex;
   font-size: 12px;
+  justify-content: center;
+}
+
+.button-login {
+  background-color: rgb(62, 97, 168);
+  border: 1px solid rgb(48, 76, 130);
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  height: 24px;
+  padding-left: 30px;
+  width: 48px;
+}
+
+.facebook-logo {
+  height: 78px;
+  margin-left: -18px;
+}
+
+.forgot-link {
+  color: rgb(156, 180, 216);
+}
+
+.header-section {
+  color: white;
+  display: flex;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: inherit;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.user-email-phone {
+  margin: 0;
+  padding: 0;
+  
+}
+.user-password {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
 }
 
 .user-login {
+  align-items: flex-start;
   display: flex;
-  flex-direction: row;
-  font-size: 12px;
-}
-
-form {
-  display: flex;
-  flex-flow: column;
+  flex-flow: row;
   justify-content: flex-end;
 }
+
+.user-login:last-child {
+  align-items: center;
+}
+
+/*ARTICLE*/
 
 article {
   display: flex;
   padding: 20px;
-}
-
-.radio {
-  flex-flow: nowrap row;
 }
 
 input {
@@ -44,17 +84,6 @@ input {
   justify-content: flex-start;
 }
 
-.bt-entrar {
-  background-color: rgb(62, 97, 168);
-  border: 1px solid rgb(48, 76, 130);
-  border-radius: 5px;
-  color: white;
-}
-
-.facebook-logo {
-  height: 80px;
-}
-
-.forgot-link {
-  color: rgb(162, 180, 221);
+.radio {
+  flex-flow: nowrap row;
 }
