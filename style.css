@@ -1,5 +1,10 @@
-body {
+html, body, div, span, p, h1, h2, h3, img, strong, label, table, form, article, aside, section {
   margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 .top-bar {
