@@ -24,36 +24,38 @@
             <button id="button-login ">Entrar</button>
         </div>
     </header>
-    <section class="content-container">
-        <span class="facebook-quote">
+    <div class="main-grid">
+        <section class="content-container">
+            <span class="facebook-quote">
         <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
       </span>
-        <img src="/images/networking.png " alt="pessoas ao redor do mundo ligadas pelo Facebook " id="facebook-networking ">
-    </section>
+            <img src="./images/networking.png " alt="pessoas ao redor do mundo ligadas pelo Facebook " id="facebook-networking ">
+        </section>
 
-    <section class="form-conteiner ">
-        <span class="new-account-text ">
+        <section class="form-container ">
+            <span class="new-account-text ">
         <h1>Abra uma conta</h1>
       </span>
-        <span class="new-account-text ">
-        <p>É rápido e fácil.</p>
+            <span class="new-account-text ">
+        <p class="sub-header ">É rápido e fácil.</p>
       </span>
-        <form action=" " method="post ">
-            <input type="text " name="nome " id="name-text " placeholder="Nome ">
-            <input type="text " name="sobrenome " id="surname-text " placeholder="Sobrenome ">
-            <input type="text " name="telefone " id="phone-email " placeholder="Celular ou email ">
-            <input type="text " name="senha " id="user-password " placeholder="Nova senha ">
-            <label for="datepicker ">Data de nascimento</label>
-            <input type="text " name="data-de-nascimento " id="datepicker " placeholder="dd/mm/aaaa ">
-            <span>
-          <p>Gênero</p>
+            <form action=" " method="post ">
+                <input type="text " name="nome " id="name-text " placeholder="Nome ">
+                <input type="text " name="sobrenome " id="surname-text " placeholder="Sobrenome ">
+                <input type="text " name="telefone " id="phone-email " placeholder="Celular ou email ">
+                <input type="text " name="senha " id="user-password " placeholder="Nova senha ">
+                <label for="datepicker " class="datepicker-label ">Data de nascimento</label>
+                <input type="text " name="data-de-nascimento " id="datepicker " placeholder="dd/mm/aaaa ">
+                <span>
+          <p class="gender-title ">Gênero</p>
         </span>
-            <input type="radio " name="gender " id="feminino " value="feminino " required><label for="feminino ">Feminino</label>
-            <input type="radio " name="gender " id="masculino " value="masculino "><label for="masculino ">Masculino</label>
-            <input type="radio " name="gender " id="personalizado " value="personalizado "><label for="personalizado ">Personalizado</label>
-            <button type="submit " id="facebook-register ">Cadastre-se</button>
-        </form>
-    </section>
+                <input type="radio " name="gender " id="feminino " value="feminino " required><label for="feminino ">Feminino</label>
+                <input type="radio " name="gender " id="masculino " value="masculino "><label for="masculino ">Masculino</label>
+                <input type="radio " name="gender " id="personalizado " value="personalizado "><label for="personalizado ">Personalizado</label>
+                <button type="submit " id="facebook-register ">Cadastre-se</button>
+            </form>
+        </section>
+    </div>
 
     <script src="pikaday.js "></script>
     <script>
