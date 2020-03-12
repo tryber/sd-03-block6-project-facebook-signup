@@ -82,6 +82,7 @@ table input {
   border-color: #1c1e21;
   border-radius: 5%;
   color: #e9ebee;
+  flex: 1;
   padding: 2px 5px;
 }
 
@@ -110,10 +111,6 @@ table input {
 }
 
 .user_passw_input {
-  flex: 1;
-}
-
-.loginBtn {
   flex: 1;
 }
 
