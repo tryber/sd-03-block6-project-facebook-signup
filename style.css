@@ -12,6 +12,16 @@ section {
   background: linear-gradient(white, #d3d8e8);
 }
 
+a {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
 .facebook-logo {
   height: 34px;
   margin-top: 27px;
@@ -51,6 +61,7 @@ header {
   display: flex;
   flex-direction: column;
   margin-top: 8px;
+  margin-left: 16px;
 }
 
 .col {
@@ -61,6 +72,7 @@ header {
 .forgot-pass {
   color: #9cb4d8;
   font-size: 12px;
+  margin-top: 6px;
   text-decoration: none;
 }
 
@@ -85,18 +97,20 @@ header {
 }
 
 .left {
-  width: 60%;
+  width: 57%;
 }
 
 .right {
-  width: 40%;
+  width: 43%;
 }
 
 .middle {
   display: flex;
+  padding-bottom: 30px;
 }
 
 .open-account {
+  margin-bottom: 8px;
   color: #333;
   font-size: 36px;
   font-weight: 600;
@@ -116,6 +130,7 @@ header {
   margin-bottom: 10px;
   padding: 8px 10px;
   width: 377px;
+  font-size: 18px;
 }
 
 .name {
@@ -136,6 +151,7 @@ header {
 }
 
 .gen {
+  margin-top: 10px;
   display: flex;
 }
 
@@ -144,6 +160,7 @@ header {
   font-size: 18px;
   line-height: 18px;
   padding: 0 10px 0 3px;
+  font-weight: 400;
 }
 
 .gen input {
@@ -226,4 +243,53 @@ header {
 .date {
   margin-bottom: 5px;
   margin-top: 10px;
+}
+
+.langs {
+  display: flex;
+  list-style-type: none;
+  margin-top: 22px;
+}
+
+.langs li {
+  margin-right: 15px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.links li {
+  margin-bottom: 8px;
+  margin-right: 20px;
+}
+
+.pageFooter {
+  color: #737373;
+  font-size: 12px;
+  margin: 0 auto;
+  width: 986px;
+}
+
+.copyright {
+  font-size: 11px;
+}
+
+.line {
+  border-bottom: 1px solid #dddfe2;
+}
+
+.button-login {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+  line-height: 18px;
+  margin-top: 22px;
+  padding: 2px 6px;
+  text-decoration: none;
 }
