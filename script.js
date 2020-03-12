@@ -1,25 +1,22 @@
 function verificaData() {
-  let day = document.getElementById('day')
-  return day
+  const day = document.getElementById('day');
+  return day;
 }
 
-function criaConta () {
+function criaConta() {
   preventDefault();
-  let verificador = true;// Se chegar como true no final ta td certo, caso contrario, dados inválidos
-  verificador = verificador * verificaData();
+  let verificador = true;// Se chegar como true no final ta td certo
+  verificador *= verificaData();
   if (verificador) {
-
+    return(true)
   } else {
     window.alert('Dados inválidos');
   }
 }
 
 function LOADED() {
-  let buttonCadastreSe = document.getElementById('facebook-register');
+  const buttonCadastreSe = document.getElementById('facebook-register');
   buttonCadastreSe.addEventListener('click', criaConta);
-
-  console.log(picker);
-
 }
 
 window.onload = LOADED();
