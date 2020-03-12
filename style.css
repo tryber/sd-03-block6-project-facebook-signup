@@ -44,12 +44,10 @@ header {
   line-height: 16px;
 
 }
-
 .input-style {
-  border: 1px #1d2a5b solid;
-  height: 14px;
-  padding: 3px
-  width: 142px;
+    border: 1px #1d2a5b solid;
+    height: 14px;
+    padding: 3px;
 }
 
 .forget-password {
@@ -82,4 +80,19 @@ header {
   height: 78px;
   justify-content: space-around; 
   width: 980px;
+}
+.lado-esquerdo {
+  height: 1000px;
+  width: 60vw;
+  background-color: red;
+
+}
+
+.lado-esquerdo p{
+  color: #0E385F;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
 }
