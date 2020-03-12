@@ -1,3 +1,9 @@
+.article {
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+  }
+
 body {
   background: white;
   color: #1c1e21;
@@ -10,6 +16,12 @@ body {
   unicode-bidi: embed;
 }
 
+button {
+    color: black;
+    margin-top: 18px;
+    margin-left: 10px;
+  }
+
 .cabecalho {
   background-color: #3b5998;
   color: white;
@@ -21,12 +33,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-button {
-  color: black;
-  margin-top: 18px;
-  margin-left: 10px;
 }
 
 form {
@@ -46,6 +52,11 @@ form {
   margin-left: 450px;
 }
 
+.texto {
+    font-size: 20px;
+    width: 460px;
+  }
+
 #user-email-phone-label {
   display: inline-block;
   max-width: 100%;
@@ -53,15 +64,3 @@ form {
   font-weight: 700;
   margin-right: 30px;
 }
-
-.texto {
-  font-size: 20px;
-  width: 460px;
-}
-
-.article {
-  margin-left: 250px;
-  display: flex;
-  justify-content: center;
-}
-  
