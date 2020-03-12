@@ -1,8 +1,8 @@
 body {
     background-color: rgb( 228, 231, 240);
     color: white;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 header {
@@ -15,12 +15,12 @@ header {
     width: 100vw;
 }
 
-#button-login {
+.login-button {
     background-color: rgb(91, 123, 188);
     border: 0.5px #365899 solid;
     border-radius: 1px;
     height: 22px;
-    width: 46px;  
+    width: 46px;
 }
 
 .text-input-login {
@@ -32,10 +32,10 @@ header {
     line-height: 18px;
 }
 
-#facebook-logo {
+.logo-face {
     width: 171px;
-   
 }
+
 .text-input {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
@@ -44,11 +44,12 @@ header {
     line-height: 16px;
 
 }
+
 .input-style {
     border: 1px #1d2a5b solid;
     height: 14px;
-    width: 142px;
     padding: 3px;
+    width: 142px;
 }
 
 .forget-password {
@@ -65,16 +66,16 @@ header {
     align-items: center;
     display: flex;
     height: 64px;
-    width: 378px;
     justify-content: space-between;
+    width: 378px;
 }
 
-#email-telefone, #senha {
+.telefone-email, .senha-input {
     height: 64px;
     width: 148px;
 }
 
-#header-container {
+.h-container {
     align-items: center;
     display: flex;
     flex-direction: row;
