@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Facebook Clone By Rodrigo and Gabriel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="libs/DatePickerX.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="top-bar">
+        <img src="imgs/facebook-logo.PNG" class="facebook-logo"></img>
+        <div class="log-in">
+            <form>
+                <table>
+                    <tbody>
+                        <tr id="labels-login" class="labels-login">
+                            <td>
+                                <label id='user-email-phone-label' title="Email ou telefone" for="email">Email ou telefone</label>
+                            </td>
+                            <td>
+                                <label id='user-password-label' for="senha">Senha</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="form-control" type="email" name='email' id='user-email-phone'>
+                            </td>
+                            <td>
+                                <input class="form-control" type="password" name='senha' id='user-password'>
+                            </td>
+                            <td>
+                                <label for='botaoEntrar' id='label-entrar'>
+                                    <input type="button" value="Entrar" id="button-login" class="button-login">
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="td-email-senha">
+                                <div>
+                                    <a href="#" id="esqueceu">Esqueceu a conta?</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </header>
+	<section id="main" class="main">
+		<article id="connect" class="connect">
+            <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
+            <img src="imgs/mapa-facebook.png" alt="" id="facebook-networking">
+		</article>
+
+		<article id="newuser" class="newuser">
+			<h2>Abra uma conta</h2>
+			<h4>É rápido e fácil.</h4>
+
+			<div class="form-new-user">
+				<form id="register">
+
+					<div class="input-box">
+						<input type="text" id="name" placeholder="Nome" id="name" required>
+						<input type="text" id="secondname" placeholder="Sobrenome" required>
+					</div>
+
+					<div class="input-box">
+						<input type="text" id="celoremail" placeholder="Celular ou email" required>
+					</div>
+
+					<div class="input-box">
+						<input type="password" id="password" placeholder="Nova senha" required>
+					</div>
+
+					<div class="input-box">
+						<h3>Data de nascimento</h3>
+						<input type="text" placeholder="dd/mm/aaaa" id="datepicker" required>
+					</div>
+
+					<div class="radio-box">
+						<h3>Gênero</h3>
+						<label class="radio">
+							<input type="radio" name="gender" id="gender" value="Feminino">
+							Feminino
+						  </label>
+						  <label class="radio">
+							<input type="radio" name="gender" id="gender" value="Masculino">
+							Masculino
+						  </label>
+						  <label class="radio">
+							  <input type="radio" name="gender" id="gender" value="Personalizado">
+							  Personalizado
+						  </label>
+					</div>
+						<button type="submit" id="facebook-register">Cadastre-se</button>
+				</form>
+			</div>
+		</article>
+	</section>
+
+	<footer class="footer" id="footer"></footer>
+<script type="text/javascript" src="libs/DatePickerX.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
