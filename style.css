@@ -1,0 +1,245 @@
+html , body , div , p , form , input , main , label , section {
+  border: 0;
+  font-family: sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(56, 88, 152);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-image: linear-gradient(white, rgb(211, 216, 232));
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+img {
+  height: 195px;
+}
+
+h1 {
+  color: rgb(51, 51, 51);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+h2 {
+  color: rgb(51, 51, 51);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+input {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.inputHeight {
+  height: 39px;
+}
+
+.inputHeader {
+  border-radius: 0;
+}
+
+::placeholder {
+  color: rgb(189, 199, 216);
+  font-size: 18px;
+  padding: 0 5px;
+}
+
+.texto {
+  color: rgb(11, 56, 97);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  width: 400px;
+  word-spacing: -1px;
+}
+
+.esquerda {
+  align-content: flex-start;
+  display: flex;
+  flex-flow: column wrap;
+  height: 600px;
+  margin: 40px;
+  width: 450px;
+}
+
+.direita {
+  align-content: flex-start;
+  display: flex;
+  flex-flow: column wrap;
+  height: 600px;
+  margin: 40px;
+  width: 450px;
+}
+
+.nome {
+  width: 194px;
+}
+
+.pLabel {
+  color: rgb(144, 148, 156);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+
+.pAgree {
+  color: rgb(119, 119, 119);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+  margin: 25px 0;
+  width: 340px;
+}
+
+.pCriar {
+  color: rgb(102, 102, 102);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.buttonCadastro {
+  background-color: rgb(59, 110, 34);
+  border: 1px solid rgb(44, 81, 21);
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px rgb(164, 227, 136);
+  color: white;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  width: 194px;
+}
+
+.button-login {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  height: 24px;
+  margin: 21px 0 0 15px;
+  width: 50px;
+}
+
+.facebook-logo {
+  height: 75px;
+  margin-left: 170px;
+  margin-top: 12px;
+  width: 205px;
+}
+
+header {
+  align-items: center;
+  background-image: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152));
+  border-bottom: 1px solid rgb(29, 42, 91);
+  display: flex;
+  height: 82px;
+  justify-content: space-between;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.input-password , .user-email-phone {
+  background-color: rgb(232, 240, 254);
+  border: 1px solid rgb(29, 42, 91);
+  height: 20px;
+  margin-top: 3px;
+  width: 150px;
+}
+
+label {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.labelGender {
+  color: rgb(29, 33, 41);
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.login {
+  height: 82px;
+  margin-right: 200px;
+  padding-left: 3px;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.login li {
+  display: list-item;
+  margin-left: 15px;
+}
+
+.login ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.senha a {
+  color: rgb(140, 171, 194);
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(229, 226, 226);
+  border-top: 1px solid rgb(198, 198, 245);
+  color: rgb(11, 56, 97);
+  display: flex;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  height: 60px;
+  justify-content: center;
+  width: 100%;
+}
+
+.luma , .rodrigo {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 100%;
+  margin-left: 20%;
+  text-align: center;
+  width: 100%;
+}
+
+i {
+  color: rgb(84, 87, 230);
+  font-size: 20px;
+  margin-left: 10px;
+}
