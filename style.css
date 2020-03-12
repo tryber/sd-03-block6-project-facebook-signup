@@ -41,18 +41,21 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 2%;
+  margin-top: 5%;
 }
 
 .lado-direito {
   background-color: yellow;
   flex-direction: row;
-  width: 40%;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 38%;
 }
 
 .lado-esquerdo {
   background-color: grey;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
+  font-weight: bold;
   width: 40%;
 }
 
@@ -62,7 +65,7 @@ body {
   flex-wrap: wrap;
   height: 80px;
   margin-left: 10%;
-  width: 43%;
+  width: 50%;
 }
 
 .welcome-text {
@@ -81,6 +84,7 @@ body {
 .lado-direito .account-title {
   color: #333;
   font-size: 36px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
