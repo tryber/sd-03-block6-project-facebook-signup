@@ -9,7 +9,7 @@ header {
   display: flex;
   flex-direction: row;
   height: 82px;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -23,9 +23,9 @@ header > form {
 }
 
 header > form > div {
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-    max-height: 23px;
-    max-width: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  max-height: 23px;
+  max-width: 150px;
 }
