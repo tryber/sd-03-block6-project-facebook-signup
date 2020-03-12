@@ -5,7 +5,7 @@ body {
 }
 
 a {
-  color: rgb(59 , 89 , 152);
+  color: rgb(59, 89, 152);
   cursor: pointer;
   text-decoration: none;
 }
@@ -26,8 +26,8 @@ ul {
 
 header {
   align-items: center;
-  background: rgb(59 , 89 , 152);
-  border-bottom: 1px solid rgb(19 , 55 , 131);
+  background: rgb(59, 89, 152);
+  border-bottom: 1px solid rgb(19, 55, 131);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -96,7 +96,7 @@ header {
 }
 
 .pageFooter {
-  color: rgb(115 , 115 , 115);
+  color: rgb(115, 115, 115);
   font-size: 12px;
   margin: 0 auto;
   width: 985px;
@@ -107,14 +107,14 @@ header {
 }
 
 .partial-box {
-  border-color: rgb(115 , 115 , 115);
+  border-color: rgb(115, 115, 115);
   border-style: solid;
   border-width: 0.04em;
 }
 
 .button-login {
-  background-color: rgb(66 , 103 , 178);
-  border: 1px solid rgb(41 , 72 , 125);
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
   border-radius: 2px;
   color: white;
   cursor: pointer;
@@ -126,5 +126,5 @@ header {
 }
 
 .button-login:hover {
-  background-color: rgb(54 , 88 , 153);
+  background-color: rgb(54, 88, 153);
 }
