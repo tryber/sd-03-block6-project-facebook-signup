@@ -12,17 +12,17 @@ const input = document.getElementById('user-email-phone');
 // const radioPersonForm = document.getElementById('personForm');
 // submit
 
-function submit () {
+function submit() {
   alert(input.value);
 }
 
 // function verificaFormulario() {
 // }
 
-window.onload = function () {
+window.onload = function() {
   const submitLogin = document.getElementById('button-login');
   // const submitForm = document.getElementById('facebook-register');
 
-  submitLogin.addEventListener ('click', submit);
+  submitLogin.addEventListener('click', submit);
   // submitForm.addEventListener('click', verificaFormulario);
 };
