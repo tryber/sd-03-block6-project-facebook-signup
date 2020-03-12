@@ -1,42 +1,8 @@
-body{
-    margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 12px;
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
 }
-
-section{
-    color: #0e385f;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 29px;
-    margin-top: 40px;
-    margin-left: 50px;
-    width: 450px;
-    word-spacing: -1px;
-}
-
-.top-bar {
-  display: flex;
-  justify-content: space-between;
-  background-color: #3b5998;
-  color: white;
-  padding-top: 26px;
-  padding-bottom: 12px;
-}
-
-.top-bar .facebook-logo {
-  font-family: Helvetica;
-  font-weight: 800;
-  font-size: 40px;
-  margin-left: 17%;
-}
-
-.login-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-right: 15%;
-  }
 
 .email-phone {
   display: flex;
@@ -50,38 +16,80 @@ section{
   padding-bottom: 5px;
 }
 
+.enter-button {
+  background-color: #4F7AC2;
+  border: 1px solid #4F62A9;
+  color: white;
+  font-weight: 800;
+  font-size: 0.75rem;
+  height: 25px;
+  margin-top: 20px;
+  width: 55px;
+}
+.enter-button:hover {
+  background-color: #3b5998;
+}
+.generos {
+  display: flex;
+  flex-direction: row;
+}
+.lado-direito{
+  display: flex;
+  flex-direction: column;
+  margin-left: 275px;
+}
+.login-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-right: 15%;
+}
+
 .password {
   display: flex;
   flex-direction: column;
   padding-right: 15px;
   width: 150px;
 }
-
 .password label {
   font-size: 0.85rem;
   padding-bottom: 5px;
 }
-
-.enter-button {
-  border: 1px solid #4F62A9;
-  font-weight: 800;
-  font-size: 0.75rem;
-  height: 25px;
-  background-color: #4F7AC2;
-  color: white;
-  margin-top: 20px;
-  width: 55px;
+section {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  margin-left: 50px;
+  width: 450px;
+  word-spacing: -1px;
 }
 
-.enter-button:hover {
+.text1{
+  font-size: 36px;
+}
+.tudo{
+  display: flex;
+  flex-direction: row;
+}
+
+.top-bar {
   background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 26px;
+  padding-bottom: 12px;
 }
 
-.lado-direito{
-    display: flex;
-    flex-direction: column;
-    margin-left: 275px;
+.top-bar .facebook-logo {
+  font-family: Helvetica;
+  font-size: 40px;
+  font-weight: 800;
+  margin-left: 17%;
 }
+
 
 .nome-sobrenome{
     display: flex;
@@ -93,16 +101,4 @@ section{
     flex-direction: column;
 }
 
-.generos{
-    display: flex;
-    flex-direction: row;
-}
 
-.tudo{
-    display: flex;
-    flex-direction: row;
-}
-
-.text1{
-    font-size: 36px;
-}
