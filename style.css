@@ -4,7 +4,7 @@
   color: white;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: wrap;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10pt;
   height: 100px;
@@ -17,42 +17,43 @@ a {
   color: #9cb4d8;
 }
 
-.abra_conta{
+.abra_conta {
   margin-bottom: -10px;
 
 }
 
-h1{
-font-size: 36px;
-
+h1 {
+  font-size: 36px;
 }
+
 section {
   background-color: #e9ebee;
   display: flex;
-  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+  font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
   justify-content: flex-start;
 }
 
-input, select {
+input , select {
   font-size: 15pt;
   margin: 5px 5px 5px 0;
 }
 
 .blocoEsq {
   color: #3b5998;
-  padding: 80px 0;
-  margin-top: -80px ;
-  margin-left: 50px ;
+  padding: 80px 0; 
+  margin-left: 50px;
+  margin-top: -80px;
   width: 65%;
 }
+
 .blocoEsq p {
   color: rgb(36, 66, 131);
   font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
   font-size: 22px;
+  margin-bottom: -70px;
   margin-left: 25px;
   margin-top: 50px;
-  margin-bottom: -70px;
-  text-overflow: initial;  
+  text-overflow: initial;
 }
 
 .blocoDir {
@@ -60,12 +61,17 @@ input, select {
   flex-direction: column;
   margin-right: 100px;
   margin-top: -15px;
-  width: 48%;  
+  width: 48%;
 }
 
-.blocoDir input, select {
-  border-radius: 5px;
-  
+table input {
+  margin-right: -125px;
+  padding-right: -15px;
+  width: 91%;
+}
+
+.blocoDir input , select {
+  border-radius: 5px;  
 }
 
 .formCadastro {
@@ -75,85 +81,78 @@ input, select {
 }
 
 .loginBtn {
-  background-color: #4267B2;
+  background-color: #4267b2;
   border-color: #1c1e21;
   border-radius: 5%;
   color: #e9ebee;
   padding: 2px 5px;
 }
 
-.registerBtn {
-  background-color: #60A04E;
+.flexContainer {
+  display: block;
 }
 
-.flexContainer{
- display: block;
-}
-
-.facebook-networking{
+.facebook-networking {
   display: flex;
   margin-left: 90px;
   margin-right: auto;
   width: 70%;
 }
 
-.facebook-logo{
-  margin-left:-70px;
-  margin-right:220px;
-  padding-left:-30px;
-  padding-right:120px;
+.facebook-logo {
+  margin-left: -70px;
+  margin-right: 220px;
+  padding-left: -30px;
+  padding-right: 120px;
 }
 
-table input{
- margin-right: -125px;
- width: 91%;
- padding-right: -15px;
-}
 
-table a{
+table a {
   text-decoration: none;
 }
 
-.nomeSobrenome{
+.nomeSobrenome {
   display: flex;
 }
 
-.nomeSobrenome input{
-flex:1;
-height: 60%;
-margin-bottom: 20px;
-margin-right: 15px;
-width: 50%;
+.nomeSobrenome input {
+  flex: 1;
+  height: 60%;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  width: 50%;
 }
 
-.divNascimento{
+.divNascimento {
   margin-bottom: 13px;
-  margin-top: 12px;  
+  margin-top: 12px; 
 }
 
 .divNascimento label {
   color: rgb(138, 140, 143);
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 
-.termos{
+.termos {
   color: rgb(138, 140, 143);
   font-size: 12px;
   text-align: left;
 }
 
-.registerBtn{
-border-radius: 8px;
-color: white;
-font-size: 18px;
-height: 45px;
-margin-top: 10px;
-text-justify: auto;
-text-decoration: none;
-width: 150px;
+.registerBtn {
+  background-color: #60a04e;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  height: 45px;
+  margin-top: 10px;
+  text-decoration: none;
+  text-justify: auto;
+  width: 150px;
 }
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color:rgb(153,153,153);
+  color: rgb(153,153,153);
   opacity: 1; /* Firefox */
 }
