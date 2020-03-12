@@ -79,9 +79,9 @@
         #mainContent {
             display: flex;
             flex-direction: row;
+            background: linear-gradient(white, #D3D8E8);
             width: 100vw;
             height: 500px;
-            ;
         }
         
         #ladoEsquerdo {
@@ -90,32 +90,79 @@
             justify-content: flex-start;
             align-items: center;
             margin-top: 20px;
-            width: 4000px;
+            width: 55vw;
             height: 365px;
-            ;
         }
         
-        #ladoEsquerdo h3 {
+        #ladoEsquerdo>h3 {
             justify-content: center;
             align-items: center;
-            word-spacing: 5px;
-            font-size: 17px;
-            width: 400px;
-            line-height: 16px;
-            height: 50px;
+            font-size: 18px;
+            width: 350px;
+            font-weight: bold;
+            line-height: 25px;
+            word-spacing: -1px;
+            height: 85px;
+            color: #0e385f;
             margin: 0;
         }
         
         #mapa {
             margin-top: 0px;
             background-image: url(./OBaVg52wtTZ.png);
+            background-position-y: top;
             background-size: contain;
-            background-position: center;
             background-repeat: no-repeat;
-            width: 400px;
-            height: 400px;
+            width: 350px;
+            height: 350px;
         }
         
-        section h1 {
-            background-color: red;
+        #ladoDireito {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: flex-start;
+            align-items: center;
+            align-items: flex-start;
+            width: 40vw;
+            height: 100%;
+        }
+        
+        #ladoDireito>h1 {
+            margin: 20px 0 0 0;
+            font-size: 24px;
+            color: #333;
+            width: 200px;
+            height: 30px;
+        }
+        
+        #ladoDireito>h3 {
+            margin-top: 5px;
+            font-size: 13px;
+            color: #333;
+            width: 200px;
+            height: 25px;
+        }
+        
+        #nomesobre {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 35px;
+            justify-content: space-around;
+        }
+        
+        .namesub {
+            position: relative;
+            width: 40%;
+            height: 15px;
+            margin-left: -20px;
+        }
+        
+        .input-A {
+            border-color: #bdc7d8;
+            border-radius: 5px;
+            border: 1px solid #ccd0d5;
+            font-size: 15px;
+            padding: 8px 10px;
         }
