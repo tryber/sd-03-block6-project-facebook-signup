@@ -61,15 +61,5 @@
 
     </footer>
     <script>src="script.js"</script>
-    <script src="pikaday.js"></script>
-    <script>
-        let picker = new Pikaday({
-            field: document.getElementById('data'),
-            format: 'DD MMM YYYY',
-            onSelect: function() {
-                console.log(this.getMoment().format('DD MMMM YYYY'));
-            }
-        });
-    </script>
 </body>
 </html>
