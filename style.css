@@ -102,17 +102,21 @@ label {
 .link {
   display: flex;
   justify-content: center;
+
 }
 
 .links-uteis {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  list-style: none;
 }
 
 .lista-idiomas {
   display: flex;
   flex-direction: row;
+  list-style: none;
+  text-decoration: none;
 }
 
 .logo {
