@@ -1,24 +1,21 @@
-* {
-    padding: 0 0;
-    margin: 0 0;
-}
+
 
 .top-bar {
-    display: flex;
-    justify-content: space-around;
     background-color: #3b5998;
     color: white;
+    display: flex;
+    justify-content: space-around;
 }
 
 .bar-container {
     display: flex;
-    width: 900px;
     justify-content: space-between;
+    width: 900px;
 }
 
 .logo {
-    margin: 15px 0;
     color: white;
+    margin: 15px 0;
 }
 
 .login-container {
@@ -28,62 +25,65 @@
 .email-container {
     display: flex;
     flex-direction: column;
-    
 }
 
 .password-container {
     display: flex;
     flex-direction: column;
-    padding: 0px 20px;
-    
+    padding: 0 20px;
 }
 
 .button-container {
     align-self: center;
     margin-top: 8px;
-    
 }
 
 .section-cadastro-container{
     background: linear-gradient(white, #D3D8E8);
   }
-  .frase{
+
+.frase{
     color: #0E385F;
+    font-family: inherit;
     font-size: 20px;
     font-weight: bold;
     line-height: 29px;
     margin-top: 40px;
     width: 450px;
     word-spacing: -1px;
-    font-family: inherit;
   }
-  .cadastro-container{
-    width: 900px;
+
+.cadastro-container{
+    align-content: center;
     display: flex;
     justify-content: center;
-    align-content: center;
     margin: 0 auto;
+    width: 900px;
   }
-  .form-container{
+
+.form-container{
     display: flex;
     flex-direction: column;
     margin-top: 20px;
   }
-  .name-container{
+
+.name-container{
     display: flex;
     flex-direction: row;
   }
-  #name-input{
+
+.name-input{
     width: 172px;
     border-color: #BDC7D8;
-      border-radius: 5px;
-      margin: 0;
-      font-size: 18px;
+    border-radius: 5px;
+    margin: 0;
+    font-size: 18px;
   }
-  #lastname-input{
-    width: 172px;
+
+.lastname-input {
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0;
     border-color: #BDC7D8;
-      border-radius: 5px;
-      margin: 0;
-      font-size: 18px;
+    width: 172px;
   }
