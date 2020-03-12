@@ -1,0 +1,62 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: #3b5998;
+  border-bottom: 1px solid #133783;
+  display: flex;
+  height: 78px;
+  justify-content: space-between;
+  padding-top: 13px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bar {
+  align-items: center;
+  background-color: #3b5998;
+  display: flex;
+  height: 78px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.cor-button {
+  background-color: #4267b2;
+  border: 1px solid #133783;
+  color: white;
+}
+
+.bar label {
+  color: white;
+}
+
+.network {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+
+.texto {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.input {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
