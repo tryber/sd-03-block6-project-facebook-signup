@@ -65,7 +65,7 @@ body {
   flex-flow: row wrap;
   height: 80px;
   margin-left: 10%;
-  width: 53%;
+  width: 55%;
 }
 
 .welcome-text {
@@ -126,4 +126,4 @@ span {
 
 .inputs input {
   margin-right: 5px;
-}
+} 
