@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="css/redmond/jquery-ui-1.8.13.custom.css" rel="stylesheet" />
     <title>Facebook - Projeto 06</title>
   </head>
 
@@ -12,13 +13,14 @@
     <html>
       <header class="top-bar">
         <div class="facebook-logo">
-          <img src="imagem/facebook.png" alt="nome facebook">
+          <img src="imagem/facebook1.png" alt="nome facebook">
         </div>
         <form class="form">
-          <label class="user-email"  for="user-email-phone" id="user-email-phone-label">Email ou telefone
-          <input id="user-email-phone" type="text" name="user" style="background: rgb(232, 240, 254);">
-          </label>
-          <label class="user-email"  for="user-password-label">Senha
+          <div class="formulario">
+            <label class="user-email"  for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+            <input id="user-email-phone" type="text" name="user" style="background: rgb(232, 240, 254);">
+          </div>
+          <label class="user-email"  for="user-password">Senha
           <input id="user-password"type="password" name="user" style="background: rgb(232, 240, 254);">
           </label>
           <button class="user-email" id="button-login" style="margin-top: 19px;">Entrar</button>
@@ -47,6 +49,8 @@
           </form>
           <section>
             <p>Data de nascimento</p>
+            <input type="datetime">
+
           </section>
         </article>
 

@@ -20,8 +20,8 @@ body {
 }
 
 .facebook-logo img {
-  height: 90px;
-  width: 170;
+  height: 150px;
+  width: 200px;
 }
 
 .form {
@@ -33,6 +33,6 @@ body {
   width: 530px;
 }
 
-.user-email {
-  margin-left: 25px;
+.formulario {
+  width: 240px;
 }
