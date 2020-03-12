@@ -38,6 +38,11 @@ body {
   width: 50%;
 }
 
+.gender {
+  display: flex; 
+  flex-direction: row;
+}
+
 .map-h2 {
   font-size: 28px;
   line-height: 36px;
