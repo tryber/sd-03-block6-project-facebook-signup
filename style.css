@@ -17,8 +17,8 @@ a {
   color: #9cb4d8;
 }
 
-#abra_conta{
- margin-bottom: -10px;
+.abra_conta{
+  margin-bottom: -10px;
 
 }
 
@@ -31,8 +31,6 @@ section {
   display: flex;
   font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
   justify-content: flex-start;
-  
-
 }
 
 input, select {
@@ -42,34 +40,32 @@ input, select {
 
 .blocoEsq {
   color: #3b5998;
-  margin-top: -80px ;
-  margin-left: 50px ;  
   padding: 80px 0;
+  margin-top: -80px ;
+  margin-left: 50px ;
   width: 65%;
 }
 .blocoEsq p {
+  color: rgb(36, 66, 131);
   font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
   font-size: 22px;
-  color: rgb(36, 66, 131);
   margin-left: 25px;
   margin-top: 50px;
   margin-bottom: -70px;
-  font-weight: 900;
-  text-overflow: initial;
-  
+  text-overflow: initial;  
 }
 
 .blocoDir {
   display: flex;
   flex-direction: column;
-  width: 48%;
   margin-right: 100px;
   margin-top: -15px;
-  
+  width: 48%;  
 }
 
 .blocoDir input, select {
   border-radius: 5px;
+  
 }
 
 .formCadastro {
@@ -90,29 +86,28 @@ input, select {
   background-color: #60A04E;
 }
 
-#flexContainer{
-display: block;
+.flexContainer{
+ display: block;
 }
 
-#facebook-networking{
- display: flex;
- width: 70%;
- margin-left: 90px;
- margin-right: auto;
+.facebook-networking{
+  display: flex;
+  margin-left: 90px;
+  margin-right: auto;
+  width: 70%;
 }
 
 .facebook-logo{
- margin-left: -70px;
- margin-right: 220px;
- padding-right: 120px;
- padding-left: -30px;
+  margin-left:-70px;
+  margin-right:220px;
+  padding-left:-30px;
+  padding-right:120px;
 }
 
 table input{
+ margin-right: -125px;
  width: 91%;
  padding-right: -15px;
- margin-right: -125px;
- 
 }
 
 table a{
@@ -124,17 +119,16 @@ table a{
 }
 
 .nomeSobrenome input{
+flex:1;
+height: 60%;
 margin-bottom: 20px;
 margin-right: 15px;
-1px solid #ccd0d5;
 width: 50%;
-height: 60%;
-flex:1;
 }
 
 .divNascimento{
-  margin-top: 12px;
   margin-bottom: 13px;
+  margin-top: 12px;  
 }
 
 .divNascimento label {
@@ -143,21 +137,21 @@ flex:1;
 }
 
 
-#termos{
+.termos{
   color: rgb(138, 140, 143);
   font-size: 12px;
   text-align: left;
 }
 
 .registerBtn{
-border-radius: 8px;  
-width: 150px;
+border-radius: 8px;
+color: white;
+font-size: 18px;
 height: 45px;
 margin-top: 10px;
-color: white;
 text-justify: auto;
-font-size: 18px;
 text-decoration: none;
+width: 150px;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color:rgb(153,153,153);
