@@ -17,11 +17,13 @@
         
         #logoContainer {
             background-image: url(./facebook-logo-9.png);
+            color: white;
             background-size: cover;
             background-position: center;
-            width: 165px;
+            size: 14px;
+            width: 175px;
             height: 65px;
-            margin-left: 95px;
+            margin-left: 10%;
         }
         
         header>form {
@@ -61,11 +63,59 @@
             align-items: center;
             font-size: 9px;
             width: 50px;
-            height: 30px;
+            height: 100%;
+            ;
         }
         
         .form2>p {
+            position: absolute;
+            top: 16px;
             color: white;
-            padding: 9px;
+            padding: 5px;
             border: 1px solid black;
+            bottom: px;
+        }
+        
+        #mainContent {
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: 500px;
+            ;
+        }
+        
+        #ladoEsquerdo {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 20px;
+            width: 4000px;
+            height: 365px;
+            ;
+        }
+        
+        #ladoEsquerdo h3 {
+            justify-content: center;
+            align-items: center;
+            word-spacing: 5px;
+            font-size: 17px;
+            width: 400px;
+            line-height: 16px;
+            height: 50px;
+            margin: 0;
+        }
+        
+        #mapa {
+            margin-top: 0px;
+            background-image: url(./OBaVg52wtTZ.png);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 400px;
+            height: 400px;
+        }
+        
+        section h1 {
+            background-color: red;
         }
