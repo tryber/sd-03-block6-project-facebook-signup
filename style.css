@@ -36,3 +36,39 @@ body {
 .formulario {
   width: 240px;
 }
+.corpo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.lado-direito {
+  background-color: yellow;
+  flex-direction: row;
+  width: 40%;
+}
+
+.lado-esquerdo {
+  background-color: grey;
+  font-size: 20px;
+  width: 40%;
+}
+
+.abra-sua-conta {
+  margin-left: 10%;
+  width: 20%;
+}
+
+.welcome-text {
+  color: #0e385f;
+  font-size: 20px;
+  margin: 0;
+  width: 70%;
+}
+
+.cadastro-form {
+  margin: auto;
+  width: 80%;
+
+}
