@@ -40,36 +40,18 @@
       <h3>É rápido e fácil.</h3>
       <form class="formCadastro" action="localhost/register/">
         <div class="nomeSobrenome">
-          <input type="text" id="nome" name="nome" placeholder="Nome">
-          <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+          <input type="text" id="nome" name="nome" placeholder="Nome" required>
+          <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome" required>
         </div>
-        <input type="email" id="user-email-phone" name="username" placeholder="Celular ou email">
-        <input type="password" name="password" placeholder="Nova senha">
-        <div class="divNascimento">
-          <label for="data">Data de nascimento</label>
-          <select id="data">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </select>
-          <select id="data">
-            <option>Abril</option>
-            <option>Maio</option>
-            <option>Junho</option>
-          </select>
-          <select id="data">
-            <option>1990</option>
-            <option>1991</option>
-            <option>1992</option>
-          </select>
-        </div>
+        <input type="email" id="user-email-phone" name="username" placeholder="Celular ou email" required>
+        <input type="password" name="password" placeholder="Nova senha" required>
+        <label for="dataNascimento">Data de nascimento</label>
+        <input type="date" id="dataNascimento" placeholder="dd/mm/aaaa" required>
         <label for="genero" class="seletorGenero">Gênero<br>
-          <input type="radio" id="homem" name="genero" value="1">
-          <label for="homem">Masculino</label>
-          <input type="radio" id="mulher" name="genero" value="2">
+          <input type="radio" id="mulher" name="genero" value="1">
           <label for="mulher">Feminino</label>
+          <input type="radio" id="homem" name="genero" value="2">
+          <label for="homem">Masculino</label>
           <input type="radio" id="custom" name="genero" value="-1">
           <label for="custom">Personalizado</label>
         </label>
