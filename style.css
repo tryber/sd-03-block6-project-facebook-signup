@@ -51,10 +51,10 @@ form {
 }
 
 .inputemail {
+  align-self: flex-end;
   display: flex;
   flex-direction: column;
   margin-right: 16px;
-  align-self: flex-end;
   margin-top: -4px;
 }
 
