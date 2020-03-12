@@ -1,5 +1,57 @@
-.top-bar {
-  background-color: rgb(59, 89, 152);
+html, body, div, input, p, label, section, main, form {
+  font-family: Helvetica, Arial, Sans-serif;
+  margin: 0;
+  padding: 0;
+} 
+
+.button-login {
   display: flex;
-  justify-content: space-between;
+  align-items: flex-start;
+  background-clip: border-box;
+  background-color: rgb(66, 103, 178);
+  background-attachment: scroll;
+  border: 1px solid rgb(41, 72, 125);
+  color: white;
+  cursor: pointer;
+  font-size: 12pt;
+  height: 22px;
+  margin: 12px 0 0 15px;
+  width: 56px;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(59, 89, 152);
+  border-bottom: 1px solid #1d2a5b;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+}
+
+.login , .password {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-weight: normal;
+  width: 40%;
+  padding-left: 1px;
+}
+
+.user-email-phone , .senha {
+  border: 1px solid #1d2a5b;
+}
+
+.container-head {
+  color: white;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+small {
+  color: #9cb4d8;
+  margin-top: 3px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: left;
 }
