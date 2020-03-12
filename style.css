@@ -117,9 +117,13 @@ span {
 
 .input-genero {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 .inputs {
   margin-left: 60px;
+}
+
+.inputs input {
+  margin-right: 5px;
 }
