@@ -87,7 +87,7 @@ table input {
 }
 
 .button_area {
-  display: 2;
+  display: inline;
 }
 
 .label_area {
