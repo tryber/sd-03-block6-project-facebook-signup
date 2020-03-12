@@ -16,20 +16,20 @@
             </div>
             <div>
                 <form class="login-container">
-                    <div class="user-email-phone">
+                    <div class="user-email-phone" id="user-email-phone">
                         <div>
-                            <label>E-mail or Phone</label>
+                            <label for="user-email-phone">E-mail ou telefone</label>
                         </div>
-                        <input class="login">
+                        <input class="login" name="user-email-phone" id="user-email-phone">
                     </div>
                     <div class=" password-container">
                         <div>
-                            <label>Password</label>
-                            <input>
+                            <label for="senha">Senha</label>
+                            <input id="user-password" name="senha">
                         </div>
-                        <div class="forgot-account">Forgot account?</div>
+                        <div class="forgot-account">Esqueceu a conta?</div>
                     </div>
-                    <button class="button-login">Entrar</button>
+                    <button class="button-login" id="button-login">Entrar</button>
 
                 </form>
             </div>
@@ -38,7 +38,7 @@
     <div>
         <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
         <div class="img-pessoas">
-            <img src="img-facebook.png">
+            <img id="facebook-networking" src="img-facebook.png">
         </div>
         <section class="abrir-conta">
 
@@ -134,6 +134,7 @@
                     </select>
                 </div>
         </section>
+        <h2>Gênero</h2>
         <div>
             <input type="radio" name="sexo" value="Masculino">
             <h2>Masculino</h2>
