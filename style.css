@@ -18,6 +18,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 ul {
   padding: 0;
 }
@@ -60,8 +64,8 @@ header {
 .col-top-bar {
   display: flex;
   flex-direction: column;
-  margin-top: 8px;
   margin-left: 16px;
+  margin-top: 8px;
 }
 
 .col {
@@ -77,7 +81,8 @@ header {
 }
 
 .user-email-phone {
-  height: 20px;
+  height: 14px;
+  padding: 3px 3px 4px 3px;
   width: 142px;
 }
 
@@ -110,10 +115,10 @@ header {
 }
 
 .open-account {
-  margin-bottom: 8px;
   color: #333;
   font-size: 36px;
   font-weight: 600;
+  margin-bottom: 8px;
   padding: 20px 0 5px;
 }
 
@@ -124,13 +129,13 @@ header {
 }
 
 .middle input {
-  border: 1px solid #bdc7d8;
   border-radius: 5px;
+  border: 1px solid #bdc7d8;
+  font-size: 18px;
   height: 21px;
   margin-bottom: 10px;
   padding: 8px 10px;
   width: 377px;
-  font-size: 18px;
 }
 
 .name {
@@ -151,16 +156,16 @@ header {
 }
 
 .gen {
-  margin-top: 10px;
   display: flex;
+  margin-top: 10px;
 }
 
 .gen label {
   color: #1d2129;
   font-size: 18px;
+  font-weight: 400;
   line-height: 18px;
   padding: 0 10px 0 3px;
-  font-weight: 400;
 }
 
 .gen input {
@@ -177,11 +182,6 @@ header {
   line-height: 14.74px;
   margin: 11px 0;
   width: 316px;
-}
-
-.middle a {
-  color: #385898;
-  text-decoration: none;
 }
 
 .sign {
@@ -224,6 +224,10 @@ header {
   text-transform: none;
   width: 194px;
   word-spacing: 0;
+}
+
+.sign:hover {
+  background: linear-gradient(#79bc64, #578843);
 }
 
 .create-page {
@@ -289,7 +293,11 @@ header {
   cursor: pointer;
   font-weight: 800;
   line-height: 18px;
-  margin-top: 22px;
+  margin-top: 20px;
   padding: 2px 6px;
   text-decoration: none;
+}
+
+.button-login:hover {
+  background-color: #365899;
 }
