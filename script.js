@@ -1,6 +1,6 @@
 function verificaData() {
   let day = document.getElementById('day')
-  (true) ? return true : return false;
+  return day
 }
 
 function criaConta () {
