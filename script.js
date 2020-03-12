@@ -4,4 +4,4 @@ window.onload = function () {
     const emailTelefone = document.getElementById('user-email-phone');
     window.alert(`Olá, ${emailTelefone.value}`);
   });
-}
+};
