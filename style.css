@@ -1,0 +1,59 @@
+body {
+    background: #fff;
+    color: #1C1E21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    margin-top: 100px;
+    max-width: 90%;
+    padding: 0;
+    unicode-bidi: embed;
+  }
+  .cabecalho {
+    background-color: #3B5998;
+    color: #fff;
+    height: 82px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    min-width: 980px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  button {
+    color: black;
+    margin-top: 18px;
+    margin-left: 10px;
+  }
+  form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 176px;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-left: 450px;
+  }
+  #user-email-phone-label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    margin-right: 30px;
+  }
+  .texto {
+    font-size: 20px;
+    width: 460px;
+  }
+  .article {
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+  }
