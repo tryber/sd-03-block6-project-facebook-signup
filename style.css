@@ -91,3 +91,8 @@ body {
 span {
   color: #1d2129;
 }
+
+.inpur-model {
+  background: rgb(232, 240, 254);
+  width:142px; margin-top: 4px;
+}
