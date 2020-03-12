@@ -44,11 +44,12 @@ header {
   line-height: 16px;
 
 }
+
 .input-style {
-    border: 1px #1d2a5b solid;
-    height: 14px;
-    padding: 3px;
-    width: 130px;
+  border: 1px #1d2a5b solid;
+  height: 14px;
+  padding: 3px;
+  width: 130px;
 }
 
 .forget-password {
@@ -69,7 +70,7 @@ header {
   width: 378px;
 }
 
-.telefone-email, .senha-input {
+.telefone-email , .senha-input {
   height: 64px;
   width: 148px;
 }
@@ -79,7 +80,7 @@ header {
   display: flex;
   flex-direction: row;
   height: 78px;
-  justify-content: space-around; 
+  justify-content: space-around;
   width: 980px;
 }
 
@@ -90,8 +91,8 @@ header {
 
 }
 
-.lado-esquerdo p{
-  color: #0E385F;
+.lado-esquerdo p {
+  color: #0e385F;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
