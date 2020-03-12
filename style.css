@@ -87,12 +87,10 @@ header {
 .lado-esquerdo {
   height: 1000px;
   width: 60vw;
-  background-color: red;
-
 }
 
 .lado-esquerdo p {
-  color: #0e385F;
+  color: #0e385f;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
