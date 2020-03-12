@@ -12,10 +12,10 @@ a {
     background-color: #3b5998;
     background-image: linear-gradient(#4e69a2, #3b5998 50%);
     border-bottom: 1px solid #133783;
+    line-height: 1.34;
     min-height: 42px;
     position: relative;
     width: 100%;
-    line-height: 1.34;
 }
 
 .top-bar {
@@ -24,16 +24,16 @@ a {
 }
 
 .face-logo-fundo {
+    background-position: 0 -196px;
+    height: 34px;
     margin-top: 17px;
     width: 170px;
-    height: 34px;
-    background-position: 0 -196px;
 }
 
 .facebook-logo {
     background-image: url(../imagens/EPGryeIJYdE.png);
+    background-repeat: no-repeat;
     background-size: auto;
-    background-repeat: no-repeat
 }
 
 .header_nav {
@@ -53,6 +53,7 @@ a {
     font-weight: normal;
     padding-left: 1px;
 }
+
 label {
     color: #606770;
     cursor: default;
@@ -60,27 +61,28 @@ label {
     vertical-align: middle;
 }
 
-
 table tr td {
     padding: 0 0 0 14px;
 }
+
 .login_form_label_field {
     padding-top: 4px;
 }
+
 td, textarea {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
 }
+
 .login-texto {
-    margin: 0;
-    width: 142px;
-    padding-bottom: 4px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     border: 1px solid #ccd0d5;
     border-color: #1d2a5b;
     border-radius: 0;
     margin: 0;
+    padding-bottom: 4px;
+    width: 142px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
     padding: 3px;
 }
 .login-button {
@@ -118,6 +120,7 @@ td, textarea {
     background-color:#3b5998;
     border: 1px solid #181a1f;
 }
+
 .login-buttonConfirm {
     background-color: #4267b2;
     border-color: #29487d;
