@@ -82,7 +82,7 @@ header {
 
 .user-email-phone {
   height: 14px;
-  padding: 3px 3px 4px 3px;
+  padding: 3px;
   width: 142px;
 }
 
@@ -199,17 +199,11 @@ header {
   border-top-style: solid;
   border-top-width: 1px;
   box-shadow: rgb(164, 227, 136) 0 1px 1px 0 inset;
-  box-sizing: border-box;
   color: white;
   cursor: pointer;
-  direction: ltr;
   font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
   font-size: 19px;
   font-style: normal;
-  font-variant-caps: normal;
-  font-variant-east-asian: normal;
-  font-variant-ligatures: normal;
-  font-variant-numeric: normal;
   font-weight: 700;
   height: 39px;
   letter-spacing: normal;
@@ -217,13 +211,9 @@ header {
   margin: 10px 0;
   min-width: 194px;
   padding: 7px 20px;
-  position: relative;
-  text-align: center;
-  text-indent: 0;
   text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
   text-transform: none;
   width: 194px;
-  word-spacing: 0;
 }
 
 .sign:hover {
