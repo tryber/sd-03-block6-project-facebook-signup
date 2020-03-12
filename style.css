@@ -94,6 +94,27 @@ label {
   font-size: small;
 }
 
+.linha {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+}
+
+.links-uteis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.lista-idiomas {
+  display: flex;
+  flex-direction: row;
+}
+
 .logo {
   color: white;
   font-family: facebook_letter_facesregular, sans-serif;
