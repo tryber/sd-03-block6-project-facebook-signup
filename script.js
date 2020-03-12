@@ -15,3 +15,10 @@ document.getElementById('register').addEventListener('submit', (e) => {
 
   alert(`${value} - ${checked}`);
 });
+
+document.getElementById('login').addEventListener('submit', (e) => {
+  e.preventDefault();
+  const login = document.getElementById('user-email-phone');
+  const password = document.getElementById('user-password');
+  alert(`E-mail ou Telefone: ${login.value}`);
+});
