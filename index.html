@@ -14,12 +14,12 @@
   <form>
     <table>
       <tr>
-        <td><label for="username">Email ou telefone</label></td>
-        <td><label for="password" id="user-email-phone-label">Senha</label></td>
+        <td><label for="username" id="user-email-phone-label">Email ou telefone</label></td>
+        <td><label for="password" id="user-pass-label">Senha</label></td>
       </tr>
       <tr>
         <td><input type="email" id="user-email-phone" name="username"></td>
-        <td><input type="password" name="password" id="user-password"></td>
+        <td><input type="password" id="user-password" name="password"></td>
         <td><button type="submit" id="button-login" class="loginBtn">Entrar</button></td>
       </tr>
       <tr>
@@ -43,7 +43,7 @@
           <input type="text" id="nome" name="nome" placeholder="Nome">
           <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
         </div>
-        <input type="email" id="user-email-phone" name="username" placeholder="E-mail ou Telefone">
+        <input type="email" id="user-email-phone" name="username" placeholder="Celular ou email">
         <input type="password" name="password" placeholder="Nova senha">
         <div class="divNascimento">
           <label for="data">Data de nascimento</label>
@@ -65,8 +65,7 @@
             <option>1992</option>
           </select>
         </div>
-        <label for="genero">Gênero<br>
-
+        <label for="genero" class="seletorGenero">Gênero<br>
           <input type="radio" id="homem" name="genero" value="1">
           <label for="homem">Masculino</label>
           <input type="radio" id="mulher" name="genero" value="2">
@@ -75,13 +74,11 @@
           <label for="custom">Personalizado</label>
         </label>
         <h6>Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update">Termos</a>, <a href="https://www.facebook.com/about/privacy/update">Política de Dados</a> e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</h6>
-        <button class="registerBtn">Cadastre-se</button>
+        <button class="registerBtn" id="facebook-register">Cadastre-se</button>
       </form>
     </div>
   </div>
 </section>
-<footer>
-
-</footer>
+<script src="scripts.js"></script>
 </body>
 </html>
