@@ -16,16 +16,16 @@ body {
 }
 
 .section-map {
+  background-color: #edf0f5;
   display: flex;
   justify-content: space-around;
-  background-color: #edf0f5;
 }
 
 .open-account {
+  font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
   font-size: 36px;
   line-height: 1.2;
   margin-bottom: 5px;
-  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
 }
 
 .easy {
@@ -38,7 +38,7 @@ body {
   width: 50%;
 }
 
-.section-map .div-map h2 {
+.map-h2 {
   font-size: 28px;
   line-height: 36px;
   padding: 42px 0 24px;
