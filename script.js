@@ -3,3 +3,4 @@ document.getElementById('button-login').addEventListener('click', function () {
   document.getElementById('user-email-phone').value = '';
   document.getElementById('user-password').value = '';
 });
+
