@@ -1,4 +1,6 @@
+@import url(//db.onlinewebfonts.com/c/6640e7ca2806a81a6db64cca70835d63?family=FreightSansCdW01-Medium);
 body {
+  font-family: FreightSansCdW01-Medium, Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -6,6 +8,7 @@ body {
 .cabecalho {
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .conteudo {
@@ -13,10 +16,13 @@ body {
   display: flex;
   flex-direction: row;
   height: 500px;
-  padding-left: 95px;
+  padding-left: 20px;
   width: 100%;
 }
 
+.encaixe {
+width: 80%;
+}
 .facebook-logo {
   height: 34px;
   width: 170px;
@@ -30,9 +36,25 @@ body {
     url('facebolf-webfont.svg#svgFontName') format('svg');
 }
 
+@font-face {font-family: FreightSansCdW01-Medium;
+  src: url('//db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.eot');
+  src: url('//db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.eot?#iefix') format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.woff2') format('woff2'),
+    url('//db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.woff') format('woff'),
+    url('//db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.ttf') format('truetype'),
+    url('//db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.svg#FreightSansCdW01-Medium') format('svg');
+}
 .formulario {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.genero {
+  display: flex;
+  width: max-content;
 }
 
 header {
@@ -58,6 +80,12 @@ header {
   justify-content: space-around;
 }
 
+.inputs {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 85%;
+}
 label {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
@@ -68,6 +96,28 @@ label {
   color: white;
   font-family: facebook_letter_facesregular, sans-serif;
   margin-bottom: -5px;
+}
+
+.nomes {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+}
+
+.radiodata {
+  display: flex;
+  flex-direction: column;
+}
+
+.registrar {
+  background: linear-gradient(rgb(160, 223, 133), rgb(88, 138, 69));
+  border-radius: 5px;
+  color: white;
+  font-weight: bolder;
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
 }
 
 .top-bar {
