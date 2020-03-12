@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Facebook - entre ou cadastre-se</title>
   <link rel="stylesheet" href="style.css">
-  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
 </head>
 <body>
@@ -26,49 +25,50 @@
             <a href='#'>Esqueceu a conta?</a>
           </li>
           <button id='button-login' class='button-login'><b>Entrar</b></button>
-      </ul>
+        </ul>
       </form>
     </section>
   </header>
   <main>
-      <section class="esquerda">
-        <p class="texto">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
-        <img src="images/networking.png" alt="Pessoas conectadas pelo mundo" id="facebook-networking">
-      </section>
-      <section class="direita">
-        <h1>Abra uma conta</h1> <br>
-        <h2>É rápido e fácil.</h2>
-        <form action="post">
-          <div>
-            <input type="text" placeholder="Nome" class="nome inputHeight">
-            <input type="text" placeholder="Sobrenome" class="nome inputHeight">
-            <input type="text" placeholder="Celular ou email" size="39px" class="inputHeight">
-            <input type="text" placeholder="Celular ou email" size="39px" class="inputHeight">
-            <input type="password" name="senha" id="senha" placeholder="Nova senha" size="39px" class="inputHeight">
-          </div>
-          <div>
-            <p class="pLabel">Data de nascimento</p>
-            <input type="text" id="datepicker" class="inputHeight" placeholder="dd/mm/aaaa">
-          </div>
-          <div>
-            <p class="pLabel">Gênero</p>
-            <input type="radio" name="feminino" id="feminino">
-            <label for="gender" class="labelGender">Feminino</label>
-            <input type="radio" for="gender" name="masculino" id="masculino">
-            <label for="gender" class="labelGender">Masculino</label>
-            <input type="radio" name="personalizadp" id="personalizadp">
-            <label for="gender" class="labelGender">Personalizado</label>
-          </div>
-          <div>
-            <p class="pAgree">Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update">Termos</a>,<a href="https://www.facebook.com/about/privacy/update">, Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
-          </div>
-        </form>
-        <button id="facebook-register" class="buttonCadastro">Cadastre-se</button>
+    <section class="esquerda">
+      <p class="texto">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <img src="images/networking.png" alt="Pessoas conectadas pelo mundo" id="facebook-networking">
+    </section>
+    <section class="direita">
+      <h1>Abra uma conta</h1> <br>
+      <h2>É rápido e fácil.</h2>
+      <form action="post">
         <div>
-          <p class="pCriar"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+          <input type="text" placeholder="Nome" class="nome inputHeight">
+          <input type="text" placeholder="Sobrenome" class="nome inputHeight">
+          <input type="text" placeholder="Celular ou email" size="39px" class="inputHeight">
+          <input type="text" placeholder="Celular ou email" size="39px" class="inputHeight">
+          <input type="password" name="senha" id="senha" placeholder="Nova senha" size="39px" class="inputHeight">
         </div>
-      </section>
+        <div>
+          <p class="pLabel">Data de nascimento</p>
+          <input type="text" id="datepicker" class="inputHeight" placeholder="dd/mm/aaaa">
+        </div>
+        <div>
+          <p class="pLabel">Gênero</p>
+          <input type="radio" name="feminino" id="feminino">
+          <label for="gender" class="labelGender">Feminino</label>
+          <input type="radio" for="gender" name="masculino" id="masculino">
+          <label for="gender" class="labelGender">Masculino</label>
+          <input type="radio" name="personalizadp" id="personalizadp">
+          <label for="gender" class="labelGender">Personalizado</label>
+        </div>
+        <div>
+          <p class="pAgree">Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update">Termos</a>,<a href="https://www.facebook.com/about/privacy/update">, Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+        </div>
+      </form>
+      <button id="facebook-register" class="buttonCadastro">Cadastre-se</button>
+      <div>
+        <p class="pCriar"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+      </div>
+    </section>
   </main>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
 </body>
 </html>
