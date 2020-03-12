@@ -81,7 +81,7 @@
             flex-direction: row;
             background: linear-gradient(white, #D3D8E8);
             width: 100vw;
-            height: 500px;
+            height: 550px;
         }
         
         #ladoEsquerdo {
@@ -124,7 +124,7 @@
             justify-content: flex-start;
             align-items: center;
             align-items: flex-start;
-            width: 40vw;
+            width: 38vw;
             height: 100%;
         }
         
@@ -147,6 +147,7 @@
         #nomesobre {
             display: flex;
             flex-direction: row;
+            cursor: text;
             width: 100%;
             height: 35px;
             justify-content: space-around;
@@ -246,15 +247,17 @@
         
         #btnCadastro {
             padding: 5px;
-            width: 150px;
-            height: 35px;
+            width: 180px;
+            height: 55px;
         }
         
         #btnCadastro>button {
-            width: 140px;
+            width: 180px;
+            height: 35px;
             background: linear-gradient(#67ae55, #578843);
             background-color: #69a74e;
             border: 1px solid;
+            font-size: 20px;
             padding: 7px 20px;
             text-align: center;
             border-radius: 5px;
@@ -266,10 +269,35 @@
         }
         
         #aviso {
-            font-size: 8px;
-            color: #90949c;
+            font-size: 10px;
+            font-weight: bold;
+            border-top: 1px solid #dddfe2;
+            color: #666;
             padding: 0;
             width: 300px;
             height: 20px;
             margin-top: 8px;
+        }
+        
+        #lastContent {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            width: 100vw;
+            height: 110px;
+        }
+        
+        #lastContent>div {
+            cursor: pointer;
+            color: #666;
+            font-size: 13px;
+            line-height: 22px;
+            width: 75%;
+            word-spacing: 12px;
+        }
+        
+        .borderbt {
+            border-bottom: 1px solid #dddfe2;
         }
