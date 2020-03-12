@@ -22,8 +22,8 @@ body {
   align-items: center;
   background-color: #3b5998;
   display: flex;
-  justify-content: space-between;
   height: 78px;
+  justify-content: space-between;
   margin: 0 auto;
   width: 980px;
 }
@@ -41,14 +41,13 @@ body {
 .network {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   width: 420px;
 }
 
 .texto {
   color: #0e385f;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600px;
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
