@@ -31,14 +31,16 @@ header-left {
 }
 
 .gender-container {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .facebook-logo {
-  color: white;
-  height: 34px;
-  width: 170px;
+    color: white;
+    height: auto;
+    margin-right: 100px;
+    margin-top: 5px;
+    width: 210px;
 }
 
 .header-right {
@@ -67,13 +69,7 @@ header-left {
     white-space: nowrap;
 }
 
-<<<<<<< HEAD
-.facebook-logo {
-    color: white;
-}
-=======
 .radio-buttons {
-  flex-direction: row;
-  margin-bottom: 20px;
+    flex-direction: row;
+    margin-bottom: 20px;
 }
->>>>>>> f0fa76a815e69f97bf77e48f8f29771ed6d1db31
