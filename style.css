@@ -4,6 +4,10 @@ a {
   text-decoration: none;
 }
 
+.abrir-conta {
+  justify-self: self-end;
+}
+
 body {
   background: white;
   color: #1c1e21;
@@ -16,15 +20,40 @@ body {
   unicode-bidi: embed;
 }
 
+button {
+  background-color: #4267b2;
+  border: 0;
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font: 400 13.3333px Arial;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
 .clear_login {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0 auto;
   padding-top: 13px;
   width: 980px;
   zoom: 1;
 }
 
+.container-texto {
+  margin-right: 15px;
+  width: 565px;
+}
+
+.conteudo-principal {
+  display: flex;
+  justify-content: space-between;
+}
+
 .facebook-logo {
-  float: left;
+  justify-self: flex-start;
 }
 
 h1 {
@@ -66,7 +95,7 @@ h1 {
 }
 
 .menu_login {
-  float: right;
+  justify-self: flex-end;
 }
 
 .menu_login_container {
@@ -85,6 +114,17 @@ table {
 
 td {
   padding: 0 0 0 14px;
+}
+
+.texto-principal {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 900;
+  justify-self: flex-start;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
 }
 
 .top-bar {
