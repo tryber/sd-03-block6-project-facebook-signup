@@ -1,0 +1,91 @@
+.top-bar {
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+
+.logo {
+  color: white;
+  margin: 15px 0;
+}
+
+.login-container {
+  display: flex;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.button-container {
+  align-self: center;
+  margin-top: 8px;
+}
+
+.section-cadastro-container {
+  background: linear-gradient(white, #d3d8e8);
+}
+
+.frase {
+  color: #0e385f;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.cadastro-container {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-input {
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0;
+  width: 172px;
+}
+
+.lastname-input {
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin: 0;
+  width: 172px;
+}
+
+.facebook-logo {
+  width: 200px;
+}
