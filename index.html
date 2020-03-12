@@ -6,19 +6,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top-bar">
-    <img src="fb-logo.png" alt="Facebook Logo" class='facebook-logo'>
-    <div class="right">
-        <div class="user-email-phone">
-            <label for="user-email-phone">Email ou telefone</label>
-            <input type="text" name="user-email-phone" id="user-email-phone">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="https://www.facebook.com/"><img src="fb-logo.png" alt=""></a>
+                
+            </div>
+            <div class="form">
+                <form class="formulario" action="">
+                    <div class="inputemail">
+                        <label class="labelinput" for="">Email ou telefone</label>
+                        <input class="input" type="text">
+                    </div>
+                    <div class="inputpassword">
+                        <label class="labelinput" for="">Senha</label>
+                        <input class="input" type="password">
+                        <a class="linkpassword" href="#">Esqueceu a conta?</a>
+                    </div>
+                        <input class="inputbtn" type="submit" value="Entrar">
+                </form>                
+            </div>    
         </div>
-        <div class="user-password">
-            <label for="user-password">Senha</label>
-            <input type="text" name="user-password" id="user-password">
-        </div>
-        <button id="button-login">Entrar</button>
-    </div>
-</header>
+    </header>
 </body>
 </html>
