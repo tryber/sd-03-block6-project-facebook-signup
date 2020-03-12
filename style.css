@@ -1,0 +1,97 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: auto;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: #3b5998;
+  border-bottom: 1px solid #133783;
+  cursor: pointer;
+  display: flex;
+  height: 78px;
+  justify-content: space-between;
+  padding-top: 13px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bar {
+  align-items: center;
+  background-color: #3b5998;
+  display: flex;
+  height: 78px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.bar label {
+  color: white;
+}
+
+.network {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+
+.texto {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.input {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+/*  .cadastroButton {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  height: 50px;
+  letter-spacing: 1px;
+  position: relative;
+  width: 150px;
+ } */
+
+button {
+  cursor: pointer;
+}
+
+td {
+  font-size: 10px;
+}
+
+.entrada {
+  width: 130px;
+}
+
+.networking {
+  height: 195px;
+  width: 537px;
+}
+
+.contrato {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+}
