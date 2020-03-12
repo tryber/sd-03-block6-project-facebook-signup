@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <header class="top-bar">
         <section class="section-container">
             <div class="logo-container">
@@ -17,7 +18,7 @@
             <div>
                 <form class="login-container">
                     <div class="user-email-phone">
-                        <div >
+                        <div>
                             <label id='user-email-phone-label'>Email ou telefone</label>
                         </div>
                         <input type="text" id="user-email-phone">
@@ -34,30 +35,36 @@
             </div>
         </section>
     </header>
-    <section>
-        <div>
-            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+
+    <section class="section-map">
+
+        <div class="div-map">
+            <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+
             <div class="img-pessoas">
                 <img id="facebook-networking" src="img-facebook.png">
             </div>
-            <section class="abrir-conta">
+        </div>
 
-                <p>Abra uma conta </p>
-                <p>É rápido e fácil.</p>
+        <section class="abrir-conta">
+            <div>
+                <div >
+                    <h2 class="open-account">Abra uma conta </h2>
+                    <div class="easy">É rápido e fácil.</div>
+                </div>
 
                 <form class="criar-conta">
                     <div>
-                        <input type="text" placeholder="Nome">
+                        <div>
+                            <input type="text" placeholder="Nome">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Sobrenome">
+                        </div>
                     </div>
-
-                    <div>
-                        <input type="text" placeholder="Sobrenome">
-                    </div>
-
                     <div>
                         <input type="email" placeholder="Celular ou email">
                     </div>
-
                     <div>
                         <input type="password" placeholder="Senha">
                     </div>
@@ -67,21 +74,27 @@
                         <input name="nascimento-dia" class="nascimento">
                         </input>
                     </div>
-            </section>
-            <div>
-                <p>Masculino</p>
-                <input type="radio" name="sexo" value="Masculino">
+                    <span>
+                        <span style="display: flex; flex-direction: row;">
+                            <span>
+                                <input type="radio" name="sexo" value="Masculino">
+                                <label>Masculino</label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sexo" value="Feminino">
+                                <label>Feminino</label>
+                            </span>
+                            <span>
+                                <input type="radio" name="sexo" value="Personalisar">
+                                <label>Personalisar</label>
             </div>
-            <div>
-                <p>Feminino</p>
-                <input type="radio" name="sexo" value="Feminino">
+            </span>
+            </span>
+            </form>
             </div>
-            <div>
-                <p>Personalisar</p>
-                <input type="radio" name="sexo" value="Personalisar">
-            </div>
-        </div>
+        </section>
     </section>
+
     <script src="./script.js"></script>
 </body>
 </html>

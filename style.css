@@ -3,10 +3,46 @@ body {
   margin: 0;
 }
 
+.abrir-conta {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
 .top-bar {
   background-color: #3b5998;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
   padding: 10px;
+}
+
+.section-map {
+  display: flex;
+  justify-content: space-around;
+  background-color: #edf0f5;
+}
+
+.open-account {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+}
+
+.easy {
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.div-map {
+  flex-direction: column;
+  width: 50%;
+}
+
+.section-map .div-map h2 {
+  font-size: 28px;
+  line-height: 36px;
+  padding: 42px 0 24px;
+  width: 456px;
 }
 
 .section-container {
