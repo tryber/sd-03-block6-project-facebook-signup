@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  </head>
+<body>
+    <section class="top-bar">
+        <div class="bar-container">
+            <img src="../sd-03-block6-project-facebook-signup/images/facebook-logo.png" alt="" class="facebook-logo">
+            <div class="login-container">
+                <div class="email-container">
+                    <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+                    <input type="text" name="email-phone" id="user-email-phone">
+                </div>
+                <div class="password-container">
+                    <label for="user-password">Senha</label>
+                    <input type="password" name="password" id="user-password">
+                    <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a>
+                </div>
+                <div class="button-container">
+                    <button id="button-login">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-cadastro-container">
+      <div class="cadastro-container">
+          <div>
+            <p class="frase">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img id="facebook-networking" src="images/networking.png" alt width="537" height="195">
+        </div>
+        <div class="form-container">
+            <h1>Abra uma conta</h1>
+            <p>É rápido e fácil.</p>
+            <form action="get">
+                <div class="name-container">
+                    <input type="text" name="" class="name-input" id="name-input" placeholder="Nome">
+                    <input type="text" name="" class="lastname-input" id="lastname-input" placeholder="Sobrenome">
+                </div>
+                <input type="text" name="" id="phone" placeholder="Celular ou email">
+                <input type="password" name="" id="new-password" placeholder="Nova senha">
+                <h2>Data de nascimento</h2>
+                  <input data-provide="datepicker" id="datepicker" placeholder="dd/mm/aaaa">
+                <label for="">Gênero</label>
+                <div>
+                  <input type="radio" name="genero" id="" value="Feminino" />
+                  <label for="">Feminino</label>
+                  <input type="radio" name="genero" id="" value="Masculino" />
+                  <label>Masculino</label>
+                  <input type="radio" name="genero" id="" value="Personalizado" />
+                  <label>Personalizado</label>
+                </div>
+                <button id="facebook-register">Cadastre-se</button>
+            </form>
+            <p>Criar uma Página para uma celebridade, banda ou empresa.</p>
+          </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
