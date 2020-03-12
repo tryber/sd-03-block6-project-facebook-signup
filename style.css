@@ -30,6 +30,17 @@ header-left {
     width: 100px;
 }
 
+.gender-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.facebook-logo {
+  color: white;
+  height: 34px;
+  width: 170px;
+}
+
 .header-right {
     display: flex;
     flex-flow: column wrap;
@@ -56,6 +67,13 @@ header-left {
     white-space: nowrap;
 }
 
+<<<<<<< HEAD
 .facebook-logo {
     color: white;
 }
+=======
+.radio-buttons {
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+>>>>>>> f0fa76a815e69f97bf77e48f8f29771ed6d1db31
