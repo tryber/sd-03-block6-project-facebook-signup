@@ -11,7 +11,7 @@
     <header class="top-bar">
         <img src="imgs/facebook-logo.PNG" class="facebook-logo"></img>
         <div class="log-in">
-            <form>
+            <form id="login">
                 <table>
                     <tbody>
                         <tr id="labels-login" class="labels-login">
@@ -24,14 +24,14 @@
                         </tr>
                         <tr>
                             <td>
-                                <input class="form-control" type="email" name='email' id='user-email-phone'>
+                                <input class="form-control" type="email" name='email' id='user-email-phone' required>
                             </td>
                             <td>
-                                <input class="form-control" type="password" name='senha' id='user-password'>
+                                <input class="form-control" type="password" name='senha' id='user-password' required>
                             </td>
                             <td>
                                 <label for='botaoEntrar' id='label-entrar'>
-                                    <input type="button" value="Entrar" id="button-login" class="button-login">
+                                    <button type="submit" id="button-login" class="button-login">Entrar</button>
                                 </label>
                             </td>
                         </tr>
@@ -51,7 +51,7 @@
 	<section id="main" class="main">
 		<article id="connect" class="connect">
             <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
-            <img src="imgs/mapa-facebook.png" alt="" id="facebook-networking">
+            <img src="imgs/networking.png" alt="" id="facebook-networking">
 		</article>
 
 		<article id="newuser" class="newuser">
