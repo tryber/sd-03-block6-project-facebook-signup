@@ -3,19 +3,16 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
-
 .email-phone {
   display: flex;
   flex-direction: column;
   padding-right: 15px;
   width: 150px;
 }
-
 .email-phone label {
   font-size: 0.85rem;
   padding-bottom: 5px;
 }
-
 .enter-button {
   background-color: #4F7AC2;
   border: 1px solid #4F62A9;
@@ -44,7 +41,10 @@ body {
   flex-direction: row;
   margin-right: 15%;
 }
-
+.nome-sobrenome {
+  display: flex;
+  flex-direction: row;
+}
 .password {
   display: flex;
   flex-direction: column;
@@ -54,6 +54,10 @@ body {
 .password label {
   font-size: 0.85rem;
   padding-bottom: 5px;
+}
+.resgitro {
+  display: flex;
+  flex-direction: column;
 }
 section {
   color: #0e385f;
@@ -73,7 +77,6 @@ section {
   display: flex;
   flex-direction: row;
 }
-
 .top-bar {
   background-color: #3b5998;
   color: white;
@@ -82,23 +85,9 @@ section {
   padding-top: 26px;
   padding-bottom: 12px;
 }
-
 .top-bar .facebook-logo {
   font-family: Helvetica;
   font-size: 40px;
   font-weight: 800;
   margin-left: 17%;
 }
-
-
-.nome-sobrenome{
-    display: flex;
-    flex-direction: row;
-}
-
-.resgitro{
-    display: flex;
-    flex-direction: column;
-}
-
-
