@@ -107,3 +107,19 @@ span {
   color: white;
   padding: 4px;
 }
+
+.name-genero {
+  margin: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.input-genero {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.inputs {
+  margin-left: 60px;
+}
