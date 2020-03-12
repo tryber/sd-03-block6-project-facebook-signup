@@ -11,6 +11,8 @@ body {
   align-items: center;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
   display: flex;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
   height: 82px;
   justify-content: space-around;
 }
@@ -20,21 +22,20 @@ body {
 }
 
 .facebook-logo img {
-  height: 150px;
-  width: 150px;
+  width: 200px;
 }
 
 .form {
-  align-items: center;
-  color: #ccd0d5;
+  color: #fff;
   display: flex;
   height: 50px;
-  justify-content: space-between;
-  width: 530px;
+  justify-content: space-around;
+  width: 420px;
 }
 
 .formulario {
-  width: 240px;
+  margin-bottom: 4px;
+  width: 160px;
 }
 
 .corpo {
@@ -45,14 +46,12 @@ body {
 }
 
 .lado-direito {
-  background-color: yellow;
   flex-direction: row;
   font-family: Helvetica, Arial, sans-serif;
   width: 38%;
 }
 
 .lado-esquerdo {
-  background-color: grey;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 700;
