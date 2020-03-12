@@ -24,23 +24,28 @@
         </div>
         <div class="password">
           <label>Senha</label>
-          <input type="password" name="senha" class="senha" />
+          <input type="password" name="senha" id="user-password" class="senha" />
           <small>Esqueceu a conta?</small>
         </div>
         <div btn-entrar>
-          <button id="button-login" class="button-login" type="submit">
-            Entrar
-          </button>
+          <button id="button-login" class="button-login"
+          type="submit">Entrar</button>
         </div>
       </div>
     </header>
     <main>
-      <section>
+      <section class="box-left">
         <h3>
           O Facebook ajuda você a se conectar e compartilhar com as pessoas que
           fazem parte da sua vida.
         </h3>
-        <img src="networking.png" alt="networking" />
+        <img src="networking.png" id="facebook-networking" alt="networking" />
+      </section>
+      <section class="box-right">
+        <input type="text" class="nome">
+        <input type="text" class="sobrenome">
+        <input type="text" class="phone-email">
+        <input type="text" class="nova-senha">
       </section>
     </main>
   </body>
