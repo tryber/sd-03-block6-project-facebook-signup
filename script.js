@@ -1,13 +1,11 @@
 $(function(){
-  $("#datepicker").datepicker({
-      dateFormat: "dd-mm-yy"
+  $('#datepicker').datepicker({
+    dateFormat: 'dd-mm-yy',
   });
 });
 
 const emailInput = document.getElementById('user-email-phone');
 const loginBtn = document.getElementById('button-login');
-loginBtn.addEventListener('click', LoginAlert);
-
-function LoginAlert() {
+loginBtn.addEventListener('click', function LoginAlert() {
   alert(emailInput.value);
-}
+});
