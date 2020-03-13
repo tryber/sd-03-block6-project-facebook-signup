@@ -128,14 +128,14 @@ h1 {
 
 .ladoDados {
   background-color: rgb(234, 237, 244);
-  justify-content: flex-end;
   height: 800px;
+  justify-content: flex-end;
 }
 
 .ladoFoto {
   background-color: rgb(234, 237, 244);
-  justify-content: flex-start;
   height: 800px;
+  justify-content: flex-start;
 }
 
 .logo {
