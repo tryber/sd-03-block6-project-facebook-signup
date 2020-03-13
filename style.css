@@ -48,12 +48,6 @@ header {
   padding: 0;
 }
 
-.user-password {
-  margin: 0;
-  padding: 0;
-  padding-left: 30px;
-}
-
 .user-login {
   align-items: flex-start;
   display: flex;
@@ -63,6 +57,12 @@ header {
 
 .user-login:last-child {
   align-items: center;
+}
+
+.user-password {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
 }
 
 /* ARTICLE */
