@@ -4,10 +4,6 @@ h1 , h2 , h3 , h4 , p {
   padding: 0;
 }
 
-div , section , span {
-  border: 1px solid red;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -30,6 +26,17 @@ body {
   display: flex;
   height: 500px;
   justify-content: space-around;
+}
+
+span label {
+  color: #1c1e21;
+  font-size: 18px;
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+span h2 {
+  margin-bottom: 10px;
 }
 
 .open-account {

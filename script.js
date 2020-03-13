@@ -7,6 +7,6 @@ botaoLogin.addEventListener('click', function () {
 /* eslint-env jquery*/
 $(function () {
   $('#datepicker').datepicker({
-    dateFormat: 'dd/mm/aaaa',
+    dateFormat: 'dd/mm/yy',
   });
 });
