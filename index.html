@@ -1,13 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Facebook - Projeto 06</title>
-</head>
-<body>
-  
-  <script src="script.js"></script>
-</body>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="imagem/png" href="imagem/icone" />
+    <title>Facebook - entre ou cadastre-se</title>
+  </head>
+
+  <body>
+    <html>
+      <header class="top-bar">
+        <div class="facebook-logo">
+          <img src="imagem/facebook1.png" alt="nome facebook">
+        </div>
+        <form class="form">
+          <div class="formulario">
+            <label class="formulario" for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+            <input class="input-model" id="user-email-phone" type="text" name="user">
+          </div>
+          <div class="formulario">
+            <label for="user-password">Senha</label>
+            <input class="input-model" id="user-password" type="password" name="user">
+          </div>
+          <div>
+            <button class="enviar-button" id="button-login" style="margin-top: 16px;">Entrar</button>
+          </div>
+        </form>
+      </header>
+      <section class="corpo">
+        <article class="lado-esquerdo">
+          <section>
+            <p class="welcome-text">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
+              sua vida.</p>
+          </section>
+          <section>
+            <img src="imagem/networking.png" id="facebook-networking" class="networking-img"
+              alt="imagem de pessoas em conexão">
+          </section>
+        </article>
+        <article class="lado-direito">
+          <section class="abra-sua-conta">
+            <span class="account-title">Abra uma conta</span>
+            <span>É rápido e fácil.</span>
+          </section>
+          <section class="cadastro-form">
+            <form action="" method="" enctype="multipart/form-data">
+              <input type="text" placeholder="Nome">
+              <input type="text" placeholder="Sobrenome">
+              <input type="text" placeholder="Celular ou email">
+              <input type="password" placeholder="Nova senha">
+            </form>
+            <section>
+              <p class="cor-cinza data-name">Data de nascimento</p>
+              <input type="datetime" placeholder="dd/mm/aaaa" class="date-nasc">
+              <img src="imagem/interrogração.png" alt="icone de interrogação" width="20px">
+            </section>
+          </section>
+          <section class="genero">
+            <p class="name-genero cor-cinza">Gênero</p>
+            <section class="inputs">
+              <input class="input-genero" type="radio" name="genero" value="Feminino">Feminino
+              <input class="input-genero" type="radio" name="genero" value="Masculino">Masculino
+              <input class="input-genero" type="radio" name="genero" value="Personalizado">Personalizado
+              <div>
+                <img class="icone-interrogacao" src="imagem/interrogração.png" alt="icone de interrogação" width="20px">
+              </div>
+            </section>
+          </section>
+          <section class="termos cor-cinza">
+            <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de
+                Dados</a> e <a href="#">Política de Cookies.</a>Você pode receber notificações por SMS e pode cancelar
+              isso quando quiser.</p>
+          </section>
+          <section>
+            <button class="btn-cadastro" id="facebook-register">Cadastre-se</button>
+          </section>
+        </article>
+      </section>
+
+      <script src="script.js"></script>
+  </body>
+
 </html>

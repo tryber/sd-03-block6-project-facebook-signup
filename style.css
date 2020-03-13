@@ -1,0 +1,176 @@
+body {
+  background: linear-gradient(white, #d3d8e8);
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.top-bar {
+  align-items: center;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  display: flex;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  height: 82px;
+  justify-content: space-around;
+}
+
+.facebook-logo {
+  align-items: flex-end;
+}
+
+.facebook-logo img {
+  width: 200px;
+}
+
+.form {
+  color: white;
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  width: 420px;
+}
+
+.formulario {
+  margin-bottom: 4px;
+  width: 160px;
+}
+
+.corpo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.lado-direito {
+  flex-direction: row;
+  font-family: Helvetica, Arial, sans-serif;
+  width: 38%;
+}
+
+.lado-esquerdo {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  width: 40%;
+  word-spacing: -1px;
+}
+
+.abra-sua-conta {
+  display: flex;
+  flex-flow: row wrap;
+  height: 80px;
+  margin-left: 10%;
+  width: 55%;
+}
+
+.welcome-text {
+  color: #0e385f;
+  font-size: 20px;
+  margin: 0;
+  width: 450px;
+}
+
+.cadastro-form {
+  color: #1d2129;
+  margin: auto;
+  width: 80%;
+}
+
+.lado-direito .account-title {
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+span {
+  color: #1d2129;
+}
+
+.input-model {
+  background: rgb(232, 240, 254);
+  border: 1px solid black;
+  margin-top: 4px;
+  padding: 2px;
+  width: 142px;
+}
+
+.enviar-button {
+  background: #4466ad;
+  border: 1px solid #2f4981;
+  border-radius: 2px;
+  color: white;
+  padding: 4px;
+}
+
+.data-name {
+  font-weight: 700;
+  margin: 10px 0 5px;
+}
+
+.name-genero {
+  font-weight: 700;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  width: 80%;
+}
+
+.input-genero {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.inputs {
+  margin-left: 60px;
+}
+
+.inputs input {
+  margin-right: 5px;
+}
+
+.icone-interrogacao {
+  margin-left: 15px;
+}
+
+.cor-cinza {
+  color: #90949c;
+  font-size: 16px;
+}
+
+.termos {
+  color: #777;
+  font-size: 11px;
+  height: 42px;
+  line-height: 15px;
+  margin: 11px 0 0 52px;
+  width: 316px;
+}
+
+.termos a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.btn-cadastro {
+  background-color: #69a74e;
+  background-image: linear-gradient(#67ae55, #578843);
+  border-bottom: 1px solid rgb(44, 81, 21);
+  border-left: 1px solid rgb(59, 110, 34);
+  border-radius: 4px;
+  border-right: 1px solid rgb(59, 110, 34);
+  border-top: 1px solid rgb(59, 110, 34);
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  margin: 20px 0 0 52px;
+  padding: 7px 30px;
+  text-shadow: black;
+}
