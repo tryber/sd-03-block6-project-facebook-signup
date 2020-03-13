@@ -90,7 +90,7 @@ table input {
   max-width: 600px;
 }
 
-.email-area { 
+.email-area {
   display: flex;
   flex-direction: column;
   max-width: 170px;
@@ -103,7 +103,7 @@ table input {
 
 .password-area {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   max-width: 170px;
 }
 
