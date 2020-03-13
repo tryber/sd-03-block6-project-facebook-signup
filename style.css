@@ -1,10 +1,10 @@
-h1 ,h2 ,h3 ,h4 ,p {
+h1 , h2 , h3 , h4 , p {
   color: #1c1e21;
   margin: 0;
   padding: 0;
 }
 
-div ,section ,span {
+div , section , span {
   border: 1px solid red;
 }
 
@@ -120,7 +120,7 @@ body {
   flex-direction: row;
 }
 
-.input-nascimento ,.input-senha ,.input-email {
+.input-nascimento , .input-senha , .input-email {
   width: 473.5px;
 }
 
