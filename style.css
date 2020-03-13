@@ -17,7 +17,6 @@ header {
   background: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
   display: flex;
   font-size: 12px;
-  font-family: Helvetica, Arial, sans-serif;
   font-style: inherit;
   justify-content: space-around;
   max-width: 100%;
@@ -56,7 +55,6 @@ h1 {
 .header-section {
   color: white;
   display: flex;
-  font-family: Helvetica, Arial, sans-serif;
   font-style: inherit;
   justify-content: space-between;
   width: 980px;
@@ -90,7 +88,6 @@ h1 {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
   flex-direction: row;
-  font-family: Helvetica, Arial, sans-serif;
   justify-self: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -105,9 +102,9 @@ h1 {
 /* ARTICLE */
 article {
   display: flex;
-  padding: 10px;
   font-weight: 700;
   flex-flow: column nowrap;
+  padding: 10px;
 }
 
 .abraConta {
@@ -125,14 +122,14 @@ input {
 }
 
 .cadastro > input , .cadastro > div > input {
+  background-color: transparent;
   border-color: #bdc7d8;
   border-radius: 5px;
   border: 1px solid #ccd0d5;
   color: #1c1e21;
   font-size: 18px;
-  padding: 8px 10px;
   margin: 5px;
-  background-color: transparent;
+  padding: 8px 10px;
 }
 
 .leftSide {
@@ -145,10 +142,10 @@ input {
   font-size: 20px;
   font-weight: 700;
   line-height: 29px;
+  margin-right: 15px;
   margin-top: 40px;
   width: 450px;
   word-spacing: -1px;
-  margin-right: 15px;
 }
 
 .radio {
@@ -167,14 +164,14 @@ input {
 .registerButton {
   background: linear-gradient(#67ae55, #578843);
   background-color: #69a74e;
-  box-shadow: inset 0 1px 1px #a4e388;
-  border-color: #3b6e22 #3b6e22 #2c5115;
-  font: 2000 13.333px FreightSansLight, Helvetica, sans-serif;
   border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
   border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
   color: white;
   cursor: pointer;
   display: inline-block;
+  font: 2000 13.333px FreightSansLight, Helvetica, sans-serif;
   letter-spacing: 1px;
   margin: 0;
   max-width: 194px;
