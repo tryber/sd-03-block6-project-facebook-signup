@@ -15,9 +15,13 @@ body {
   padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+/* HEADER */
+>>>>>>> bfc50ac0c765f4d3c21db9ca7b51fd7848b7bc49
 header {
   align-items: center;
-  background-color: rgb(56, 88, 152);
+  background: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
   display: flex;
   font-size: 12px;
   font-family: Helvetica, Arial, sans-serif;
@@ -68,7 +72,10 @@ h1 {
 .user-email-phone {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   padding-right: 14px;
+=======
+>>>>>>> bfc50ac0c765f4d3c21db9ca7b51fd7848b7bc49
 }
 
 .user-password {
@@ -88,6 +95,7 @@ h1 {
   align-items: center;
 }
 
+<<<<<<< HEAD
 .abraConta {
   padding: 20px 0;
 }
@@ -103,6 +111,9 @@ h1 {
   padding-right: 10%;
 }
 
+=======
+/* ARTICLE */
+>>>>>>> bfc50ac0c765f4d3c21db9ca7b51fd7848b7bc49
 article {
   display: flex;
   padding: 10px;
