@@ -59,39 +59,40 @@
             <form class="criar-conta">
                 <div>
                     <div>
-                        <input type="text" placeholder="Nome">
-                        <input type="text" placeholder="Sobrenome">
+                        <input required="required" type="text" placeholder="Nome">
+                        <input required="required" type="text" placeholder="Sobrenome">
                     </div>
                     <div>
                     </div>
                 </div>
                 <div>
-                    <input type="email" placeholder="Celular ou email" class="input-email">
+                    <input required="required" type="email" placeholder="Celular ou email" class="input-email">
                 </div>
                 <div>
-                    <input type="password" placeholder="Nova senha" class="input-senha">
+                    <input required="required" type="password" placeholder="Nova senha" class="input-senha">
                 </div>
                 <div>
                     <h2>Data de nascimento</h2>
-                    <input placeholder="dd/mm/aaaa" id="datepicker" name="nascimento-dia" class="input-nascimento">
+                    <input required="required" placeholder="dd/mm/aaaa" id="datepicker" name="nascimento-dia" class="input-nascimento">
                 </div>
                 <span class="gender">
                     <span>
                         <h2 class="span-h2">Gênero</h2>
                         <span>
-                            <input type="radio" name="sexo" value="Feminino">
+                            <input required="required" type="radio" name="sexo" value="Feminino">
                             <label>Feminino</label>
                         </span>
                         <span>
-                            <input type="radio" name="sexo" value="Masculino">
+                            <input required="required" type="radio" name="sexo" value="Masculino">
                             <label>Masculino</label>
                         </span>
                         <span>
-                            <input type="radio" name="sexo" value="Personalizado">
+                            <input required="required" type="radio" name="sexo" value="Personalizado">
                             <label>Personalizado</label>
                         </span>
                     </span>
                 </span>
+                <button type="submit" id="facebook-register" class="facebook-register">Cadastre-se</button>
             </form>
         </section>
     </section>
