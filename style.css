@@ -17,6 +17,12 @@ body {
   border-bottom: 1px solid #dddfe2;
 }
 
+.btnCadastro {
+  height: 55px;
+  padding: 5px;
+  width: 180px;
+}
+
 .btnCadastro > button {
   background-color: #69a74e;
   border-color: #3b6e22 #3b6e22 #2c5115;
@@ -29,12 +35,6 @@ body {
   padding: 7px 20px;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  width: 180px;
-}
-
-.btnCadastro {
-  height: 55px;
-  padding: 5px;
   width: 180px;
 }
 
@@ -164,7 +164,8 @@ header > form {
   width: 75%;
   word-spacing: 12px;
 }
-.ladoDireito > h3 {
+
+.ladoDireito > .agaTress {
   color: #333;
   font-size: 13px;
   height: 25px;
@@ -181,7 +182,7 @@ header > form {
   width: 38vw;
 }
 
-.ladoDireito > h1 {
+.ladoDireito > .agaUm {
   color: #333;
   font-size: 24px;
   height: 30px;
@@ -198,7 +199,7 @@ header > form {
   width: 55vw;
 }
 
-.ladoEsquerdo > h3 {
+.ladoEsquerdo > .agatres {
   align-items: center;
   color: #0e385f;
   font-size: 18px;
@@ -219,7 +220,6 @@ header > form {
 }
 
 .mapa {
-  background-position-y: top;
   background-repeat: no-repeat;
   background-size: contain;
 }
