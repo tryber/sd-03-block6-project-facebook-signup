@@ -114,9 +114,10 @@ table input {
 
 .facebook-networking {
   display: flex;
-  margin-left: 90px;
+  flex-direction: column;
+  margin-left: 10px;
   margin-right: auto;
-  width: 70%;
+  width: 50%;
 }
 
 .facebook-logo {
