@@ -8,10 +8,6 @@ body {
   font-size: 12px;
   line-height: 1.34;
   margin: 0;
-}
-
-* {
-  margin: 0;
   padding: 0;
 }
 
@@ -70,12 +66,15 @@ h1 {
   margin: 0;
   padding: 0;
   padding-right: 14px;
+<<<<<<< HEAD
 }
 
 .user-password {
   margin: 0;
   padding: 0;
   padding-left: 30px;
+=======
+>>>>>>> f785bdaf39ec8a5ce376d56de16e4e30397c5a19
 }
 
 .user-login {
@@ -89,7 +88,20 @@ h1 {
   align-items: center;
 }
 
+<<<<<<< HEAD
 /* ARTICLE */
+=======
+.user-password {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.abraConta {
+  padding: 20px 0;
+}
+
+>>>>>>> f785bdaf39ec8a5ce376d56de16e4e30397c5a19
 .container {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
@@ -106,6 +118,10 @@ h1 {
   display: flex;
 }
 
+<<<<<<< HEAD
+=======
+/* ARTICLE */
+>>>>>>> f785bdaf39ec8a5ce376d56de16e4e30397c5a19
 article {
   display: flex;
   padding: 10px;
