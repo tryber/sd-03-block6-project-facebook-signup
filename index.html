@@ -10,24 +10,29 @@
 
 <body>
     <header class="top-bar">
-        <h1 class="facebook-logo">facebook</h1>
-        <form action="">
-            <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
-            <br>
-            <input type="email" id="user-email-phone">
-        </form>
-        <form action="" class="form">
-            <label for="senha">Senha</label>
-            <br>
-            <input type="password" class="senha" id="user-password">
-            <button id="button-login">Entrar</button>
-        </form>
+        <div class="header">
+            <h1 class="facebook-logo">facebook</h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="user-email-phone-label">Email ou telefone</td>
+                        <td>Senha</td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="user-email-phone" class="topInput"></td>
+                        <td><input type="password" id="user-password" class="topInput"></td>
+                        <td><button id="button-login">Entrar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </header>
     <section>
+        <div class="section">
         <p class="textoCanto">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua
             vida.</p>
-            <img src="Images/networking.png" alt="" id="facebook-networking">
-
+        <img src="Images/networking.png" alt="" id="facebook-networking">
+    </div>
     </section>
 
     <script src="script.js"></script>
