@@ -3,11 +3,10 @@
   padding: 0;
 }
 
-/*HEADER*/
-
+/* HEADER */
 header {
   align-items: center;
-  background-color: rgb(56, 88, 152);
+  background: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
   display: flex;
   font-size: 12px;
   justify-content: center;
@@ -47,8 +46,8 @@ header {
 .user-email-phone {
   margin: 0;
   padding: 0;
-  
 }
+
 .user-password {
   margin: 0;
   padding: 0;
@@ -66,8 +65,7 @@ header {
   align-items: center;
 }
 
-/*ARTICLE*/
-
+/* ARTICLE */
 article {
   display: flex;
   padding: 20px;
