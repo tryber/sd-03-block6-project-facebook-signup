@@ -31,7 +31,7 @@ a {
 }
 
 .facebook-logo {
-  background-image: url(../imagens/EPGryeIJYdE.png);
+  background-image: url('../imagens/EPGryeIJYdE.png');
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -49,7 +49,7 @@ a {
 }
 
 .login-bottom label {
-  color: #fff;
+  color: white;
   font-weight: normal;
   padding-left: 1px;
 }
@@ -79,11 +79,11 @@ table tr td {
   border-color: #1d2a5b;
   border-radius: 0;
   margin: 0;
+  -moz-appearance: none;
   padding: 3px;
   padding-bottom: 4px;
-  width: 142px;
   -webkit-appearance: none;
-  -moz-appearance: none;
+  width: 142px;
 }
 
 .login-button {
@@ -117,7 +117,7 @@ table tr td {
   white-space: nowrap;
 }
 
-.login-button , .login-buttonSuppressed:active , 
+.login-button , .login-buttonSuppressed:active ,
 .login-buttonSuppressed:focus , .login-buttonSuppressed:hover {
   background-color: #3b5998;
   border: 1px solid #181a1f;
@@ -129,7 +129,7 @@ table tr td {
 }
 
 .login-buttonConfirm input {
-  color: #fff;
+  color: white;
 }
 
 a {
