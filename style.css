@@ -1,21 +1,51 @@
+@font-face {
+  font-family: FreightSansLight;
+  src: url('FreightSansLight.otf');
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 1.34;
+  margin: 0;
+}
+
 header {
   background-color: rgb(56, 88, 152);
   color: white;
   display: flex;
+  font-size: 12px;
+  font-family: Helvetica, Arial, sans-serif;
   font-style: inherit;
-  font-family: sans-serif;
   justify-content: space-around;
-  max-width: 1300px;
+  max-width: 100%;
 }
 
 h1 {
-  font-size: 12px;
+  font-size: 36px;
+  margin-bottom: 5px;
+  margin-top: 0;
 }
 
 .user-login {
   display: flex;
   flex-direction: row;
   font-size: 12px;
+}
+
+.abraConta {
+  padding: 20px 0;
+}
+
+.container {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: row;
+  font-family: Helvetica, Arial, sans-serif;
+  justify-self: center;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 form {
@@ -26,29 +56,49 @@ form {
 
 article {
   display: flex;
-  padding: 20px;
+  padding: 10px;
+  font-weight: 700;
+  flex-flow: column nowrap;
+}
+
+form > input , .cadastro > div > input {
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  border: 1px solid #ccd0d5;
+  color: #1c1e21;
+  font-size: 18px;
+  padding: 8px 10px;
+  margin: 5px;
+  background-color: transparent;
 }
 
 .radio {
   flex-flow: nowrap row;
 }
 
-input {
-  margin: 15px;
-  padding: 10px;
-}
-
 .leftSide {
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
+  width: 565px;
 }
+
+.leftSide > p {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+  margin-right: 15px;
+}
+
 
 .bt-entrar {
   background-color: rgb(62, 97, 168);
   border: 1px solid rgb(48, 76, 130);
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
 
 .facebook-logo {
@@ -57,4 +107,36 @@ input {
 
 .forgot-link {
   color: rgb(162, 180, 221);
+}
+
+label {
+  color: #90949c;
+}
+
+.registerButton {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  font: 2000 13.333px FreightSansLight, Helvetica, sans-serif;
+  border: 1px solid;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  max-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+}
+
+.nome {
+  display: flex;
+}
+
+.disclaimer {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
 }
