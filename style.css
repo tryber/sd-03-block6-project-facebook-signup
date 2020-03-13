@@ -111,7 +111,6 @@ header div label {
 .main-grid {
   background: linear-gradient(white, #d3d8e8);
   display: grid;
-  grid-template-columns: 1fr 1fr;
   height: 100vh;
 }
 
