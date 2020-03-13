@@ -1,4 +1,4 @@
-#aviso {
+.aviso {
   border-top: 1px solid #dddfe2;
   color: #666;
   font-size: 10px;
@@ -15,7 +15,7 @@ body {
 .borderbt {
   border-bottom: 1px solid #dddfe2;
 }
-#btnCadastro > button {
+.btnCadastro > button {
   background-color: #69a74e;
   background: linear-gradient(#67ae55, #578843);
   border-color: #3b6e22 #3b6e22 #2c5115;
@@ -31,7 +31,7 @@ body {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   width: 180px;
 }
-#btnCadastro {
+.btnCadastro {
   height: 55px;
   padding: 5px;
   width: 180px;
@@ -42,7 +42,7 @@ body {
   height: 10px;
   width: 45px;
 }
-#date {
+.date {
   display: flex;
   flex-direction: column;
   height: 50px;
@@ -51,7 +51,7 @@ body {
   width: 45%;
 }
 
-#date > label {
+.date > label {
   color: #90949c;
   font-size: 15px;
   font-weight: bold;
@@ -60,13 +60,14 @@ body {
   width: 135px;
 }
 
-#date > div {
+.date > div {
   display: flex;
   flex-direction: row;
   height: 30px;
   width: 100%;
 }
-#emailphone {
+
+.emailphone {
   display: flex;
   flex-direction: column;
   height: 80px;
@@ -101,7 +102,7 @@ body {
   top: 16px;
 }
 
-#generos {
+.generos {
   display: flex;
   flex-direction: column;
   height: 50px;
@@ -110,11 +111,11 @@ body {
   width: 100%;
 }
 
-#generos > div {
+.generos > div {
   font-size: 13px;
 }
 
-#generos > p {
+.generos > p {
   color: #90949c;
   font-size: 15px;
   font-weight: bold;
@@ -159,7 +160,7 @@ header > form > div {
   padding: 8px 10px;
 }
 
-#ladoDireito {
+.ladoDireito {
   align-items: center;
   align-items: flex-start;
   display: flex;
@@ -170,7 +171,7 @@ header > form > div {
   width: 38vw;
 }
 
-#ladoDireito > h1 {
+.ladoDireito > h1 {
   color: #333;
   font-size: 24px;
   height: 30px;
@@ -178,7 +179,7 @@ header > form > div {
   width: 200px;
 }
 
-#ladoEsquerdo {
+.ladoEsquerdo {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -188,7 +189,7 @@ header > form > div {
   width: 55vw;
 }
 
-#ladoEsquerdo > h3 {
+.ladoEsquerdo > h3 {
   align-items: center;
   color: #0e385f;
   font-size: 18px;
@@ -201,7 +202,7 @@ header > form > div {
   word-spacing: -1px;
 }
 
-#mainContent {
+.mainContent {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
   flex-direction: row;
@@ -209,7 +210,7 @@ header > form > div {
   width: 100vw;
 }
 
-#mapa {
+.mapa {
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: contain;
@@ -223,7 +224,7 @@ header > form > div {
   width: 40%;
 }
 
-#nomesobre {
+.nomesobre {
   cursor: text;
   display: flex;
   flex-direction: row;
@@ -232,19 +233,19 @@ header > form > div {
   padding: 5px;
   width: 100%;
 }
-#obs {
+.obs {
   display: flex;
   padding: 5px;
 }
 
-#obs > p {
+.obs > p {
   color: #90949c;
   font-size: 8px;
   height: 35px;
   width: 260px;
 }
 
-#ladoDireito > h3 {
+.ladoDireito > h3 {
   color: #333;
   font-size: 13px;
   height: 25px;
@@ -252,7 +253,7 @@ header > form > div {
   width: 200px;
 }
 
-#lastContent {
+.lastContent {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -262,7 +263,7 @@ header > form > div {
   width: 100vw;
 }
 
-#lastContent > div {
+.lastContent > div {
   color: #666;
   cursor: pointer;
   font-size: 13px;
