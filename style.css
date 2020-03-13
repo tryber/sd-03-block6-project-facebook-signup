@@ -53,7 +53,8 @@ button {
 
 .conteudo-principal {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
 }
 
 .dataGenero {
@@ -66,9 +67,15 @@ button {
   border: 1px solid rgb(189, 199, 216);
   border-radius: 5px;
   font-size: 20px;
-  padding-bottom: 7px;
-  padding-left: 7px;
-  padding-top: 7px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-top: 8px;
+  width: 75%;
+}
+
+.nome {
+  padding-left: 10px;
+  width: 36%;
 }
 
 .facebook-logo {
@@ -121,16 +128,14 @@ h1 {
 
 .ladoDados {
   background-color: rgb(234, 237, 244);
-  float: left;
+  justify-content: flex-end;
   height: 800px;
-  width: 45%;
 }
 
 .ladoFoto {
   background-color: rgb(234, 237, 244);
-  float: left;
+  justify-content: flex-start;
   height: 800px;
-  width: 55%;
 }
 
 .logo {
