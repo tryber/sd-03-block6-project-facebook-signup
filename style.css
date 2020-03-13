@@ -79,10 +79,8 @@ table tr td {
   border-color: #1d2a5b;
   border-radius: 0;
   margin: 0;
-  -moz-appearance: none;
   padding: 3px;
   padding-bottom: 4px;
-  -webkit-appearance: none;
   width: 142px;
 }
 
