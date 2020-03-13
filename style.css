@@ -8,7 +8,7 @@ header {
     background-color: rgb(60, 89, 152);
     display: flex;
     height: 84px;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 100%;
 }
 
@@ -31,9 +31,14 @@ header div label {
     font-size: 20px;
     font-weight: bold;
     line-height: 29px;
-    margin-top: 40px;
+    margin: 40px 0 0 150px;
     width: 450px;
     word-spacing: -1px;
+}
+
+.content-container img {
+    display: block;
+    margin-left: 145px;
 }
 
 .datepicker-label {
@@ -45,15 +50,19 @@ header div label {
 .facebook-logo {
     color: white;
     height: auto;
-    margin-right: 190px;
-    margin-top: 5px;
+    margin: 5px 0 0 130px;
     width: 210px;
+}
+
+.form-container {
+    margin-left: 50px;
 }
 
 .form-container h1 {
     color: #333;
     font-size: 36px;
     font-weight: 600;
+    margin: 20px 0 5px 0;
 }
 
 .form-container input {
@@ -65,6 +74,10 @@ header div label {
     margin: 0;
     padding: 8px 10px;
     width: 172px;
+}
+
+.form-container p {
+    margin: 0;
 }
 
 .gender-container {
@@ -86,7 +99,7 @@ header div label {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
-    margin: 20px 180px 20px 0;
+    margin: 20px 350px 20px 0;
 }
 
 .header-right button {
