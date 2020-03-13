@@ -102,6 +102,11 @@ table input {
   margin-top: 10px;
 }
 
+.radio_Area{
+  display: flex;
+  margin-right: 10px;
+}
+
 .password-area {
   display: flex;
   flex-direction: column;
