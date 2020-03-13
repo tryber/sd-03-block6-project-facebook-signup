@@ -9,7 +9,7 @@ header {
   display: flex;
   height: 84px;
   justify-content: space-around;
-  max-width: 100%;
+  width: 100%;
 }
 
 header div input {
@@ -51,8 +51,7 @@ header div label {
 .facebook-logo {
   color: white;
   height: auto;
-  margin-left: 155px;
-  margin-right: 190px;
+  margin-left: -25px;
   margin-top: 5px;
   width: 210px;
 }
@@ -90,7 +89,7 @@ header div label {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
-  margin: 20px 180px 20px 0;
+  margin: 20px 180px 20px -700px;
 }
 
 .header-right button {
@@ -116,13 +115,13 @@ header div label {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   height: 100vh;
+  justify-content: center;
 }
 
 .name-surname-field {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
   margin-bottom: 10px;
 }
 
@@ -132,8 +131,8 @@ header div label {
 }
 
 .phone-mail {
+  justify-content: space-around;
   margin-bottom: 10px;
-  justify-content: stretch;
 }
 
 .phone-mail-pass-field {
