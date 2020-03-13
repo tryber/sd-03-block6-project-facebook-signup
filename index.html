@@ -39,16 +39,16 @@
             <input type="text" placeholder="Sobrenome" class="input sobrenome">
           </div>
           <div class="resgitro">
-            <input type="text" placeholder="Celular ou e-mail" class="input">
+            <input type="text" id="celularEmail" placeholder="Celular ou e-mail" class="input">
             <input type="password" placeholder="Nova senha" class="input">
             <span>Data de nascimento</span>
             <input type="text" placeholder="dd/mm/aaaa" class="input">
           </div>
           <div class="generos">
             <span>Gênero</span>
-            <input type="radio" name="gender"><label for="masculino">Masculino</label>
-            <input type="radio" name="gender" checked><label for="Feminino">Feminino</label>
-            <input type="radio" name="gender"><label for="Personalizado">Personalizado</label>
+            <input id="Feminino" type="radio" name="gender" checked><label for="Feminino">Feminino</label>
+            <input id="masculino" type="radio" name="gender"><label for="masculino">Masculino</label>
+            <input id="Personalizado" type="radio" name="gender"><label for="Personalizado">Personalizado</label>
           </div>
         </form>
         <button id="facebook-register">Cadastre-se</button>
