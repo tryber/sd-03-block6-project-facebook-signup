@@ -85,17 +85,13 @@ table input {
   flex: 1;
   padding: 2px 5px;
 }
-
-.button_area {
-  display: inline;
-}
-
 .label_area {
   display: flex;
 }
 
 .login_area {
   display: flex;
+  justify-content: space-around;
 }
 
 .link_area {
@@ -103,7 +99,7 @@ table input {
 }
 
 .user_label {
-  flex: 1;
+  flex: 0.5;
 }
 
 .user_passw_label {
@@ -112,10 +108,12 @@ table input {
 
 .user_input {
   flex: 1;
+  width: 70%;
 }
 
 .user_passw_input {
   flex: 1;
+  width: 70%;
 }
 
 .link_passw {
