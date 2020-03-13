@@ -26,10 +26,10 @@ header div label {
   font-size: 12px;
 }
 
-.content-container h2 {
+.facebook-quote {
   color: #0e385f;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
@@ -39,7 +39,7 @@ header div label {
 .datepicker-label {
   color: #90949c;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .facebook-logo {
@@ -50,7 +50,7 @@ header div label {
   width: 210px;
 }
 
-.form-container h1 {
+.new-account-text {
   color: #333;
   font-size: 36px;
   font-weight: 600;
@@ -75,7 +75,7 @@ header div label {
 .gender-title {
   color: #90949c;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .header-left {
@@ -111,7 +111,7 @@ header div label {
 .main-grid {
   background: linear-gradient(white, #d3d8e8);
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   height: 100vh;
 }
 
