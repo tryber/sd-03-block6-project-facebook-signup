@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script defer src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="./script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Log In or Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>
+
+    <header class="top-bar">
+        <section class="section-container">
+            <div class="logo-container">
+                <h4 class="facebook-logo">facebook</h4>
+            </div>
+            <div>
+                <form class="login-container">
+                    <div class="user-email-phone">
+                        <div>
+                            <label id='user-email-phone-label'>Email ou telefone</label>
+                            <input type="text" id="user-email-phone">
+                        </div>
+                    </div>
+                    <div class=" password-container">
+                        <div>
+                            <label>Password</label>
+                            <input type="password" id="user-password">
+                        </div>
+                        <div class="forgot-account">Forgot account?</div>
+                    </div>
+                    <button class="button-login" id="button-login">Entrar</button>
+                </form>
+            </div>
+        </section>
+    </header>
+
+    <section class="section-map">
+
+        <div class="div-map">
+            <div>
+                <h2 class="map-h2">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
+                    sua
+                    vida.</h2>
+            </div>
+            <img id="facebook-networking" src="networking.png">
+        </div>
+
+        <section class="abrir-conta">
+            <div>
+                <h2 class="open-account">Abra uma conta </h2>
+                <div class="easy">É rápido e fácil.</div>
+            </div>
+            <form class="criar-conta">
+                <div>
+                    <div>
+                        <input required="required" type="text" placeholder="Nome">
+                        <input required="required" type="text" placeholder="Sobrenome">
+                    </div>
+                    <div>
+                    </div>
+                </div>
+                <div>
+                    <input required="required" type="email" placeholder="Celular ou email" class="input-email">
+                </div>
+                <div>
+                    <input required="required" type="password" placeholder="Nova senha" class="input-senha">
+                </div>
+                <div>
+                    <h2>Data de nascimento</h2>
+                    <input required="required" placeholder="dd/mm/aaaa" id="datepicker" name="nascimento-dia"
+                        class="input-nascimento">
+                </div>
+                <span class="gender">
+                    <span>
+                        <h2 class="span-h2">Gênero</h2>
+                        <span>
+                            <input required="required" type="radio" name="sexo" value="Feminino" id="fem">
+                            <label for="fem">Feminino</label>
+                        </span>
+                        <span>
+                            <input required="required" type="radio" name="sexo" value="Masculino" id="masc">
+                            <label for="masc">Masculino</label>
+                        </span>
+                        <span>
+                            <input required="required" type="radio" name="sexo" value="Personalizado" id="pers">
+                            <label for="pers">Personalizado</label>
+                        </span>
+                    </span>
+                </span>
+                    <button type="submit" id="facebook-register" class="facebook-register">Cadastre-se</button>
+            </form>
+        </section>
+    </section>
+    <footer>
+        <h2>Designed by Eduardo Iannicelli - Trybe Course - Software Development </h2>
+    </footer>
+</body>
+</html>
