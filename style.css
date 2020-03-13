@@ -5,7 +5,7 @@ body {
 a {
   color: #9cb4d8;
   cursor: pointer;
-  font-weight: normal;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -51,7 +51,7 @@ a {
 
 .login-bottom label {
   color: white;
-  font-weight: normal;
+  font-weight: 400;
   padding-left: 1px;
 }
 
@@ -91,7 +91,7 @@ table tr td {
   display: inline-block;
   font-size: 12px;
   -webkit-font-smoothing: antialiased;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 18px;
   padding: 2px 6px;
   text-align: center;
@@ -109,15 +109,15 @@ table tr td {
   display: inline-block;
   font-family: Helvetica , Arial , sans-serif;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 18px;
   margin: 0;
   padding: 0;
   white-space: nowrap;
 }
 
-.login-button , .login-buttonSuppressed:active ,
-.login-buttonSuppressed:focus , .login-buttonSuppressed:hover {
+.login-button , .login-buttonSuppressed:active
+ , .login-buttonSuppressed:focus , .login-buttonSuppressed:hover {
   background-color: #3b5998;
   border: 1px solid #181a1f;
 }
