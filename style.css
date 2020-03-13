@@ -116,8 +116,7 @@ table tr td {
   white-space: nowrap;
 }
 
-.login-button , .login-buttonSuppressed:active
- , .login-buttonSuppressed:focus , .login-buttonSuppressed:hover {
+.login-button , .login-buttonSuppressed:hover {
   background-color: #3b5998;
   border: 1px solid #181a1f;
 }
