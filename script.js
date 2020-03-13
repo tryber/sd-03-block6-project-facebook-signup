@@ -4,4 +4,16 @@ window.onload = function () {
     const emailTelefone = document.getElementById('user-email-phone');
     window.alert(`Olá, ${emailTelefone.value}`);
   });
+          //let novaNome= document.getElementById('nome')
+    //let novaSobrenome= document.getElementById('sobrenome')
+    //let novaCelEmail= document.getElementById('celularEmail')
+    //let novaSenha= document.getElementById('novaSenha')
+    //let novaData= document.getElementById('data')
+    //let novaGenF= document.getElementById('Feminino')
+    //let novaGenM= document.getElementById('Masculino')
+    //let novaPers= document.getElementById('Personalizado')
+    //let botaoCadasatrar= document.getElementById('facebook-register')
+    //botaoCadasatrar.addEventListener('click', function(){
+    //    if(.value|| ||)
+    //})
 };
