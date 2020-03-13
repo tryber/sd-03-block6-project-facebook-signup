@@ -91,6 +91,7 @@ header {
 
 .lado-esquerdo p {
   color: #0e385f;
+  float: left;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-style: normal;
