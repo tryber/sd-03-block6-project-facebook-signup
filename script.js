@@ -12,5 +12,13 @@ register.addEventListener('click', function () {
   const celularEmail = document.getElementById('celularEmail');
   const dataNascimento = document.getElementById('data');
   const genero = document.getElementsByClassName('genero');
-  alert(`${nomeCad.value}\n${sobrenomeCad.value}\n${celularEmail.value}\n${dataNascimento.value}\n${genero}`);
+  let generoAchado = '';
+  
+  for (let i = 0; i < genero.length; i += 1){
+    if (genero[i].checked) {
+      generoAchado = genero[i].value;
+    }
+  }
+  
+  alert(`${nomeCad.value}\n${sobrenomeCad.value}\n${celularEmail.value}\n${dataNascimento.value}\n${generoAchado}`);
 });
