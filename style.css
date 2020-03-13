@@ -147,9 +147,33 @@ header > form {
   padding: 8px 10px;
 }
 
+.lastContent {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  justify-content: center;
+  width: 100vw;
+}
+
+.lastContent > div {
+  color: #666;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 22px;
+  width: 75%;
+  word-spacing: 12px;
+}
+.ladoDireito > h3 {
+  color: #333;
+  font-size: 13px;
+  height: 25px;
+  margin-top: 5px;
+  width: 200px;
+}
+
 .ladoDireito {
   align-items: center;
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -227,30 +251,4 @@ header > form {
   font-size: 8px;
   height: 35px;
   width: 260px;
-}
-
-.ladoDireito > h3 {
-  color: #333;
-  font-size: 13px;
-  height: 25px;
-  margin-top: 5px;
-  width: 200px;
-}
-
-.lastContent {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 110px;
-  justify-content: center;
-  width: 100vw;
-}
-
-.lastContent > div {
-  color: #666;
-  cursor: pointer;
-  font-size: 13px;
-  line-height: 22px;
-  width: 75%;
-  word-spacing: 12px;
 }
