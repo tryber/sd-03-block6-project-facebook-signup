@@ -9,9 +9,9 @@
 </head>
 <body>
     <header id="header" class="top-bar">
-        <section>
+        <div id="logoContainer">
             <img src="facebook-logo-9.png" alt="logo do Facebook" class="facebook-logo">
-        </section>
+        </div>
         <form action="">
             <div>
                 <div>
@@ -27,84 +27,110 @@
             </div>
         </form>
     </header>
-    <form action="">
-        <h1>Abra uma conta</h1></br>
-        <h2>É rápido e fácil.</h2>
-        <input type="text" placeholder="Nome" id="nome">
-        <input type="text" placeholder="Sobrenome" id="sobrenome"></br>
-        <input type="text" placeholder="Celular ou email" id="celularEmail"></br>
-        <input type="password" placeholder="Nova senha" id="novaSenha"></br>
-        <label>
-            Data de nascimento
-        </label></br>
-        <input type="date" placeholder="dd/mm/aaaa" id="data">
-        <label>
-            Gênero
-        </label></br>
-        <input type="radio" name="Feminino" id="Feminino">
-        <label for="feminino">Feminino</label>
-        <input type="radio" name="Masculino" id="Masculino">
-        <label for="masculino">Masculino</label>
-        <input type="radio" name="Personalizado" id="Personalizado">
-        <label for="personalizado">Personalizado</label></br>
-        <label>
-            Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você
-            pode receber notificações por SMS e pode cancelar isso quando quiser.
-        </label></br>
-        <button type="submit" id="facebook-register">Cadastre-se</button></br>
-        <label>
-            <a href="https://www.google.com.br/">Criar uma Página </a>para uma celebridade, banda ou empresa.
-        </label>
-    </form>
-    <section>
-        <h1>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h1>
-        <img src="networking.png" alt="imagem de mapa do Facebook" id="facebook-networking">
+    <section id="mainContent">
+        <div id="ladoEsquerdo">
+            <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
+            <div id="mapa">
+                <img src="networking.png" alt="imagem de mapa do Facebook" id="facebook-networking">
+            </div>
+        </div>
+        <div id="ladoDireito">
+            <h1>Abra uma conta</h1>
+            <h3>É rápido e fácil.</h3>
+
+            <form action="">
+                <div id="nomesobre">
+                    <input class="input-A namesub" type="text" placeholder="Nome">
+                    <input class="input-A namesub" type="text" placeholder="Sobrenome">
+                </div>
+                <div id='emailphone'>
+                    <input class="input-A" type="text" placeholder="Celular ou email">
+                    <input class="input-A" type="password" placeholder="Nova senha">
+                </div>
+                <div id="date">
+                    <label>
+                        Data de nascimento
+                    </label>
+                    <div>
+                        <input class="input-A date-A" type="number" id="dia" min="01" max="31" placeholder="Dia">
+                        <input class="input-A date-A" type="text" id="mes" placeholder="Mês">
+                        <input class="input-A date-A" type="number" id="Ano" min="1905" max="2020" placeholder="Ano">
+                    </div>
+                </div>
+                <div id="generos">
+                    <p>Gênero</p>
+                    <div>
+                        <input type="radio" name="feminino" id="Feminino">
+                        <label for="feminino">Feminino</label>
+                        <input type="radio" name="masculino" id="Masculino">
+                        <label for="masculino">Masculino</label>
+                        <input type="radio" name="personalizado" id="Personalizado">
+                        <label for="personalizado">Personalizado</label>
+                    </div>
+                </div>
+                <div id="obs">
+                    <p>
+                        Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+                    </p>
+                </div>
+                <div id="btnCadastro">
+                    <button type="submit" id="facebook-register">Cadastre-se</button>
+                </div>
+                <p id="aviso">
+                    <a href="https://www.google.com.br/">Criar uma Página </a>para uma celebridade, banda ou empresa.
+                </p>
+            </form>
+        </div>
     </section>
-    <section>
-        <a>Português (Brasil)</a>
-        <a href="https://www.google.com.br/">English (US)</a>
-        <a href="https://www.google.com.br/">Español</a>
-        <a href="https://www.google.com.br/">Français (France)</a>
-        <a href="https://www.google.com.br/">Italiano</a>
-        <a href="https://www.google.com.br/">Deutsch</a>
-        <a href="https://www.google.com.br/">العربية</a>
-        <a href="https://www.google.com.br/">हिन्दी</a>
-        <a href="https://www.google.com.br/">中文(简体)</a>
-        <a href="https://www.google.com.br/">日本語</a>
-        <button>+</button>
+    <section id="lastContent">
+        <div class="borderbt">
+            <a>Português (Brasil)</a>
+            <a href="https://www.google.com.br/">English (US)</a>
+            <a href="https://www.google.com.br/">Español</a>
+            <a href="https://www.google.com.br/">Français (France)</a>
+            <a href="https://www.google.com.br/">Italiano</a>
+            <a href="https://www.google.com.br/">Deutsch</a>
+            <a href="https://www.google.com.br/">العربية</a>
+            <a href="https://www.google.com.br/">हिन्दी</a>
+            <a href="https://www.google.com.br/">中文(简体)</a>
+            <a href="https://www.google.com.br/">日本語</a>
+            <button>+</button>
+        </div>
+        <div>
+            <a href="https://www.google.com.br/">Cadastre-se</a>
+            <a href="https://www.google.com.br/">Entrar</a>
+            <a href="https://www.google.com.br/">Messenger</a>
+            <a href="https://www.google.com.br/">Facebook Lite</a>
+            <a href="https://www.google.com.br/">Watch</a>
+            <a href="https://www.google.com.br/">Pessoas</a>
+            <a href="https://www.google.com.br/">Páginas</a>
+            <a href="https://www.google.com.br/">Categorias de Página</a>
+            <a href="https://www.google.com.br/">Locais</a>
+            <a href="https://www.google.com.br/">Jogos</a>
+            <a href="https://www.google.com.br/">Locais</a>
+            <a href="https://www.google.com.br/">Marketplace</a>
+            <a href="https://www.google.com.br/">Grupos</a>
+            <a href="https://www.google.com.br/">Instagram</a>
+            <a href="https://www.google.com.br/">Local</a>
+            <a href="https://www.google.com.br/">Campanhas de arrecadação de fundos</a>
+            <a href="https://www.google.com.br/">Serviços</a>
+            <a href="https://www.google.com.br/">Sobre</a>
+            <a href="https://www.google.com.br/">Criar anúncio</a>
+            <a href="https://www.google.com.br/">Criar Página</a>
+            <a href="https://www.google.com.br/">Desenvolvedores</a>
+            <a href="https://www.google.com.br/">Carreiras</a>
+            <a href="https://www.google.com.br/">Privacidade</a>
+            <a href="https://www.google.com.br/">Cookies</a>
+            <a href="https://www.google.com.br/">Opções de anúncio</a>
+            <a href="https://www.google.com.br/">Termos</a>
+            <a href="https://www.google.com.br/">Ajuda</a>
+        </div>
     </section>
-    <section>
-        <a href="https://www.google.com.br/">Cadastre-se</a>
-        <a href="https://www.google.com.br/">Entrar</a>
-        <a href="https://www.google.com.br/">Messenger</a>
-        <a href="https://www.google.com.br/">Facebook Lite</a>
-        <a href="https://www.google.com.br/">Watch</a>
-        <a href="https://www.google.com.br/">Pessoas</a>
-        <a href="https://www.google.com.br/">Páginas</a>
-        <a href="https://www.google.com.br/">Categorias de Página</a>
-        <a href="https://www.google.com.br/">Locais</a>
-        <a href="https://www.google.com.br/">Jogos</a>
-        <a href="https://www.google.com.br/">Locais</a>
-        <a href="https://www.google.com.br/">Marketplace</a>
-        <a href="https://www.google.com.br/">Grupos</a></br>
-        <a href="https://www.google.com.br/">Instagram</a>
-        <a href="https://www.google.com.br/">Local</a>
-        <a href="https://www.google.com.br/">Campanhas de arrecadação de fundos</a>
-        <a href="https://www.google.com.br/">Serviços</a>
-        <a href="https://www.google.com.br/">Sobre</a>
-        <a href="https://www.google.com.br/">Criar anúncio</a>
-        <a href="https://www.google.com.br/">Criar Página</a>
-        <a href="https://www.google.com.br/">Desenvolvedores</a>
-        <a href="https://www.google.com.br/">Carreiras</a>
-        <a href="https://www.google.com.br/">Privacidade</a>
-        <a href="https://www.google.com.br/">Cookies</a></br>
-        <a href="https://www.google.com.br/">Opções de anúncio</a>
-        <a href="https://www.google.com.br/">Termos</a>
-        <a href="https://www.google.com.br/">Ajuda</a></br>
-    </section>
+
     <script src="script.js"></script>
     <footer>
-        <p> © 2020</p>
+
+        <p>Breno Mesquita|Davi José © 2020</p>
     </footer>
 </body>
 </html>
