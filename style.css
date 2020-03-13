@@ -28,15 +28,15 @@ body {
   justify-content: space-around;
 }
 
+.span-h2 {
+  margin-bottom: 10px;
+}
+
 span label {
   color: #1c1e21;
   font-size: 18px;
   font-weight: 900;
   margin-right: 10px;
-}
-
-.span-h2 {
-  margin-bottom: 10px;
 }
 
 .open-account {
