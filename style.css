@@ -115,7 +115,6 @@ table input {
 .facebook-networking {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   margin-left: 10px;
   margin-right: auto;
   width: 50%;
