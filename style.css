@@ -99,6 +99,7 @@ table input {
 .button-area {
   align-self: center;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .password-area {
