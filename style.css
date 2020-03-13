@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  background: white;
+  background-color: rgb(234, 237, 244);
   color: #1c1e21;
   direction: ltr;
   display: block;
@@ -53,8 +53,11 @@ button {
 
 .conteudo-principal {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   position: relative;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .dataGenero {
@@ -104,7 +107,6 @@ h1 {
   height: 195px;
   margin-left: 175px;
   margin-top: 50px;
-  width: 537px;
 }
 
 .input {
@@ -122,6 +124,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
   padding-bottom: 4px;
+  padding-top: 4px;
   text-align: left;
   vertical-align: middle;
 }
