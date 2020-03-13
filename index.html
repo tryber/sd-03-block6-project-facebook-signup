@@ -14,18 +14,19 @@
     <img src="fblogo.png" width="250px" alt="Logotipo do Facebook">
   </div>
 
-  <div class="login_area">
-     <div class="label_area">
-      <label for="username" id="user-email-phone-label" class="user_label">Email ou telefone</label>
-      <label for="password" class="user_passw_label">Senha</label>
-      </div>
-        <input type="email" id="user-email-phone" name="username" class="user_input"/>
-        <input type="password" name="password" id="user-password" class="user_passw_input">
-        <button id="button-login" class="loginBtn"> Entrar </button>
-        <div class="link_area">
-          <a href="esqueciASenha.htm" class="link_passw">Esqueceu a conta?</a>
-        </div>
-  </div>
+  <div class="login-area">
+    <div class="email-area">
+        <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+        <input type="text" name="email-phone" id="user-email-phone">
+    </div>
+    <div class="password-area">
+        <label for="user-password">Senha</label>
+        <input type="password" name="password" id="user-password">
+        <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a>
+    </div>
+    <div class="button-area">
+        <button id="button-login" class="loginBtn">Entrar</button>
+    </div>
   </header>
 <section>
  <div class="flexContainer">

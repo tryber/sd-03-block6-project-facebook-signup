@@ -82,34 +82,29 @@ table input {
   border-color: #1c1e21;
   border-radius: 5%;
   color: #e9ebee;
-  padding: 2px 5px;
+  flex: 1;
 }
 
-.label_area {
+.login-area {
   display: flex;
+  max-width: 600px;
 }
 
-.login_area {
+.email-area { 
   display: flex;
+  flex-direction: column;
+  max-width: 170px;
 }
 
-.user_label {
-  flex: 1;
-  width: 50%;
+.button-area {
+  align-self: center;
+  margin-top: 10px;
 }
 
-.user_passw_label {
-  flex: 1;
-}
-
-.user_input {
-  flex: 1;
-  width: 50%;
-}
-
-.user_passw_input {
-  flex: 1;
-  width: 50%;
+.password-area {
+  display: flex;
+  flex-direction: column; 
+  max-width: 170px;
 }
 
 .flexContainer {
