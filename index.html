@@ -10,23 +10,23 @@
 
 <body>
     <header class="top-bar">
-        <img class="facebook-logo" src="facebook_logo.png" alt="Logo do Facebook">
-        <section>
-            <form id="user-login" class="user-login" action="" method="get">
+        <section class="header-section">
+            <img class="facebook-logo" src="facebook_logo.png" alt="Logo do Facebook">
+            <form class="user-login" id="user-login" action="" method="get">
                 <div class="user">
-                    <h4 id="user-email-phone-label">Email ou telefone</h4>
-                    <label for="user-email-phone"></label>
-                    <input type="text" id="user-email-phone" name="user-email-phone">
+                    <label for="user-email-phone">Email ou telefone</label><br>
+                    <input type="text" class="user-email-phone" id="user-email-phone" name="user-email-phone">
+                    <p>hidden</p>
                 </div>
                 <div class="pass">
-                    <h4 id="senha">Senha</h4>
-                    <label for="user-password"></label>
-                    <input type="password" id="user-password" name="user-password">
+                    <label for="user-password">Senha</label><br>
+                    <input type="password" class="user-password" id="user-password" name="user-password">
                     <p class="forgot-link">Esqueceu a conta?</p>
                 </div>
-                <button id="button-login" class="bt-entrar">Entrar</button>
+                <button id="button-login" class="button-login">Entrar</button>
             </form>
         </section>
+    </header>
     </header>
     <div class="container">
         <article class="leftSide">
@@ -54,7 +54,8 @@
                     <label for="mulher">Mulher</label>
                     <input type="radio" name="gender" id="personalizado" value="personalizado">
                     <label for="personalizado">Personalizado</label>
-                    <p class="disclaimer">Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                    <p class="disclaimer">Ao clicar em Cadastre-se, você concorda com nossos <a>Termos, Política de Dados</a> e <a>Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+                    </p>
                 </section>
                 <button id="facebook-register" class="registerButton">Cadastre-se</button>
             </form>

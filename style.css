@@ -10,27 +10,82 @@ body {
   margin: 0;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header {
+  align-items: center;
   background-color: rgb(56, 88, 152);
-  color: white;
   display: flex;
   font-size: 12px;
   font-family: Helvetica, Arial, sans-serif;
   font-style: inherit;
   justify-content: space-around;
   max-width: 100%;
+
 }
 
 h1 {
   font-size: 36px;
   margin-bottom: 5px;
   margin-top: 0;
+  justify-content: center;
+}
+
+.button-login {
+  background-color: rgb(62, 97, 168);
+  border: 1px solid rgb(48, 76, 130);
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  height: 24px;
+  width: 48px;
+}
+
+.facebook-logo {
+  height: 78px;
+  margin-left: -18px;
+}
+
+.forgot-link {
+  color: rgb(156, 180, 216);
+}
+
+
+.header-section {
+  color: white;
+  display: flex;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: inherit;
+  justify-content: space-between;
+  width: 980px;
+}
+
+.user-email-phone {
+  margin: 0;
+  padding: 0;
+  padding-right: 14px;
+}
+
+.user-password {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
 }
 
 .user-login {
+  align-items: flex-start;
   display: flex;
-  flex-direction: row;
-  font-size: 12px;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+
+.user-login:last-child {
+  align-items: center;
 }
 
 .abraConta {
@@ -48,12 +103,6 @@ h1 {
   padding-right: 10%;
 }
 
-form {
-  display: flex;
-  flex-flow: column;
-  justify-content: flex-end;
-}
-
 article {
   display: flex;
   padding: 10px;
@@ -61,7 +110,17 @@ article {
   flex-flow: column nowrap;
 }
 
-form > input , .cadastro > div > input {
+input {
+  margin: 15px;
+  padding: 10px;
+}
+
+.cadastro {
+  display: flex;
+  flex-flow: column;
+}
+
+.cadastro > input , .cadastro > div > input {
   border-color: #bdc7d8;
   border-radius: 5px;
   border: 1px solid #ccd0d5;
@@ -70,10 +129,6 @@ form > input , .cadastro > div > input {
   padding: 8px 10px;
   margin: 5px;
   background-color: transparent;
-}
-
-.radio {
-  flex-flow: nowrap row;
 }
 
 .leftSide {
@@ -101,15 +156,11 @@ form > input , .cadastro > div > input {
   cursor: pointer;
 }
 
-.facebook-logo {
-  height: 80px;
+.radio {
+  flex-flow: nowrap row;
 }
 
-.forgot-link {
-  color: rgb(162, 180, 221);
-}
-
-label {
+.cadastro > label {
   color: #90949c;
 }
 
