@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook - entre ou cadastre-se</title>
@@ -9,61 +9,65 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
 
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="top-bar">
-        <div class="header-left">
-            <img src="./images/fblogo.png" alt="logo do Facebook" class="facebook-logo">
-        </div>
-        <div class="header-right ">
-            <label for="user-email-phone ">Email ou telefone</label>
-            <input type="text " name="user-email-phone " id="user-email-phone ">
-            <label for="user-password ">Senha</label>
-            <input type="text " name="user-password " id="user-password ">
-            <button id="button-login ">Entrar</button>
-        </div>
+      <div class="header-left">
+        <img src="./images/fblogo.png" alt="logo do Facebook" class="facebook-logo">
+      </div>
+      <div class="header-right ">
+        <label for="user-email-phone ">Email ou telefone</label>
+        <input type="text " name="user-email-phone " id="user-email-phone ">
+        <label for="user-password ">Senha</label>
+        <input type="text " name="user-password " id="user-password ">
+        <button id="button-login ">Entrar</button>
+      </div>
     </header>
     <div class="main-grid">
-        <section class="content-container">
-            <span class="facebook-quote">
-        <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
-      </span>
-            <img src="./images/networking.png " alt="pessoas ao redor do mundo ligadas pelo Facebook " id="facebook-networking ">
-        </section>
-
-        <section class="form-container ">
-            <span class="new-account-text ">
-        <h1>Abra uma conta</h1>
-      </span>
-            <span class="new-account-text ">
-        <p class="sub-header ">É rápido e fácil.</p>
-      </span>
-            <form action=" " method="post ">
-                <input type="text " name="nome " id="name-text " placeholder="Nome ">
-                <input type="text " name="sobrenome " id="surname-text " placeholder="Sobrenome ">
-                <input type="text " name="telefone " id="phone-email " placeholder="Celular ou email ">
-                <input type="text " name="senha " id="user-password " placeholder="Nova senha ">
-                <label for="datepicker " class="datepicker-label ">Data de nascimento</label>
-                <input type="text " name="data-de-nascimento " id="datepicker " placeholder="dd/mm/aaaa ">
-                <span>
-          <p class="gender-title ">Gênero</p>
+      <section class="content-container">
+        <span class="facebook-quote">
+          <h2>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
         </span>
-                <input type="radio " name="gender " id="feminino " value="feminino " required><label for="feminino ">Feminino</label>
-                <input type="radio " name="gender " id="masculino " value="masculino "><label for="masculino ">Masculino</label>
-                <input type="radio " name="gender " id="personalizado " value="personalizado "><label for="personalizado ">Personalizado</label>
-                <button type="submit " id="facebook-register ">Cadastre-se</button>
-            </form>
-        </section>
+        <img src="./images/networking.png " alt="pessoas ao redor do mundo ligadas pelo Facebook "
+          id="facebook-networking ">
+      </section>
+
+      <section class="form-container ">
+        <span class="new-account-text ">
+          <h1>Abra uma conta</h1>
+        </span>
+        <span class="new-account-text ">
+          <p class="sub-header ">É rápido e fácil.</p>
+        </span>
+        <form action=" " method="post ">
+          <input type="text " name="nome " id="name-text " placeholder="Nome ">
+          <input type="text " name="sobrenome " id="surname-text " placeholder="Sobrenome ">
+          <input type="text " name="telefone " id="phone-email " placeholder="Celular ou email ">
+          <input type="text " name="senha " id="user-password " placeholder="Nova senha ">
+          <label for="datepicker " class="datepicker-label ">Data de nascimento</label>
+          <input type="text " name="data-de-nascimento " id="datepicker " placeholder="dd/mm/aaaa ">
+          <span>
+            <p class="gender-title ">Gênero</p>
+          </span>
+          <input type="radio " name="gender " id="feminino " value="feminino " required><label
+            for="feminino ">Feminino</label>
+          <input type="radio " name="gender " id="masculino " value="masculino "><label
+            for="masculino ">Masculino</label>
+          <input type="radio " name="gender " id="personalizado " value="personalizado "><label
+            for="personalizado ">Personalizado</label>
+          <button type="submit " id="facebook-register ">Cadastre-se</button>
+        </form>
+      </section>
     </div>
 
     <script src="pikaday.js "></script>
     <script>
-        const picker = new Pikaday({
-            field: document.getElementById('datepicker')
-        });
+      const picker = new Pikaday({
+        field: document.getElementById('datepicker')
+      });
     </script>
     <script src="script.js "></script>
-</body>
+  </body>
 
 </html>

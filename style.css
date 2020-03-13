@@ -1,126 +1,126 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: rgb(60, 89, 152);
-    display: flex;
-    height: 84px;
-    justify-content: space-around;
-    max-width: 100%;
+  background-color: rgb(60, 89, 152);
+  display: flex;
+  height: 84px;
+  justify-content: space-around;
+  max-width: 100%;
 }
 
 header div input {
-    border: 1px solid #ccd0d5;
-    border-color: #1d2a5b;
-    height: 14px;
-    margin: 5px 15px 3px 0;
-    padding: 3px;
-    width: 143px;
+  border: 1px solid #ccd0d5;
+  border-color: #1d2a5b;
+  height: 14px;
+  margin: 5px 15px 3px 0;
+  padding: 3px;
+  width: 143px;
 }
 
 header div label {
-    color: white;
-    font-size: 12px;
+  color: white;
+  font-size: 12px;
 }
 
 .content-container h2 {
-    color: #0e385f;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 29px;
-    margin-top: 40px;
-    width: 450px;
-    word-spacing: -1px;
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
 }
 
 .datepicker-label {
-    color: #90949c;
-    font-size: 16px;
-    font-weight: bold;
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .facebook-logo {
-    color: white;
-    height: auto;
-    margin-right: 190px;
-    margin-top: 5px;
-    width: 210px;
+  color: white;
+  height: auto;
+  margin-right: 190px;
+  margin-top: 5px;
+  width: 210px;
 }
 
 .form-container h1 {
-    color: #333;
-    font-size: 36px;
-    font-weight: 600;
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 .form-container input {
-    background-color: white;
-    border: 1px solid #ccd0d5;
-    border-radius: 5px;
-    color: #1c1e21;
-    font-size: 18px;
-    margin: 0;
-    padding: 8px 10px;
-    width: 172px;
+  background-color: white;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  color: #1c1e21;
+  font-size: 18px;
+  margin: 0;
+  padding: 8px 10px;
+  width: 172px;
 }
 
 .gender-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .gender-title {
-    color: #90949c;
-    font-size: 16px;
-    font-weight: bold;
+  color: #90949c;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .header-left {
-    width: 300px;
+  width: 300px;
 }
 
 .header-right {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    margin: 20px 180px 20px 0;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 20px 180px 20px 0;
 }
 
 .header-right button {
-    background-color: #4267b2;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
-    color: white;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 18px;
-    margin-top: 15px;
-    padding: 2px 6px;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: none;
-    vertical-align: top;
-    white-space: nowrap;
+  background-color: #4267b2;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 15px;
+  padding: 2px 6px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: none;
+  vertical-align: top;
+  white-space: nowrap;
 }
 
 .main-grid {
-    background: linear-gradient(white, #d3d8e8);
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1.2fr 1fr;
+  background: linear-gradient(white, #d3d8e8);
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  height: 100vh;
 }
 
 .radio-buttons {
-    flex-direction: row;
-    margin-bottom: 20px;
+  flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .sub-header {
-    color: #1d2129;
-    font-size: 19px;
+  color: #1d2129;
+  font-size: 19px;
 }
