@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script defer src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script defer src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script defer src="./script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook - Log In or Sign Up</title>
@@ -40,10 +44,11 @@
 
         <div class="div-map">
             <div>
-            <h2 class="map-h2">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua
-                vida.</h2>
+                <h2 class="map-h2">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
+                    sua
+                    vida.</h2>
             </div>
-                <img id="facebook-networking" src="networking.png">
+            <img id="facebook-networking" src="networking.png">
         </div>
 
         <section class="abrir-conta">
@@ -64,15 +69,15 @@
                     <input type="email" placeholder="Celular ou email" class="input-email">
                 </div>
                 <div>
-                    <input type="password" placeholder="Senha" class="input-senha">
+                    <input type="password" placeholder="Nova senha" class="input-senha">
                 </div>
                 <div>
                     <p>Data de Nascimento</p>
-                    <input placeholder="dd/mm/aaaa"  name="nascimento-dia" class="input-nascimento">
-                    </input>
+                    <input placeholder="dd/mm/aaaa" id="datepicker" name="nascimento-dia" class="input-nascimento">
                 </div>
                 <span class="gender">
                     <span>
+                        <h2>Gênero</h2>
                         <span>
                             <input type="radio" name="sexo" value="Masculino">
                             <label>Masculino</label>
@@ -90,7 +95,5 @@
             </form>
         </section>
     </section>
-
-    <script src="./script.js"></script>
 </body>
 </html>
