@@ -36,7 +36,13 @@ header div label {
   word-spacing: -1px;
 }
 
-.datepicker-label {
+.datepicker-field {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.datepicker-field label {
   color: #90949c;
   font-size: 16px;
   font-weight: 700;
@@ -45,9 +51,14 @@ header div label {
 .facebook-logo {
   color: white;
   height: auto;
+  margin-left: 155px;
   margin-right: 190px;
   margin-top: 5px;
   width: 210px;
+}
+
+.form-container {
+  width: 400px;
 }
 
 .form-container input {
@@ -58,7 +69,6 @@ header div label {
   font-size: 18px;
   margin: 0;
   padding: 8px 10px;
-  width: 172px;
 }
 
 .gender-container {
@@ -104,9 +114,37 @@ header div label {
 
 .main-grid {
   background: linear-gradient(white, #d3d8e8);
-  display: grid;
-  grid-template-columns: 580px 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   height: 100vh;
+}
+
+.name-surname-field {
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.name-field {
+  margin-right: 10px;
+  width: 199px;
+}
+
+.phone-mail {
+  margin-bottom: 10px;
+  justify-content: stretch;
+}
+
+.phone-mail-pass-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.surname-field {
+  margin-left: 10px;
+  width: 199px;
 }
 
 .new-account-text {

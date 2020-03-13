@@ -36,19 +36,27 @@
         <p class="new-account-text">Abra uma conta</p>
         <p class="sub-header ">É rápido e fácil.</p>
         <form action=" " method="post">
-          <input type="text" name="nome" id="name-text" placeholder="Nome">
-          <input type="text" name="sobrenome" id="surname-text" placeholder="Sobrenome" >
-          <input type="text" name="telefone" id="phone-email" placeholder="Celular ou email">
-          <input type="text" name="senha" id="user-password" placeholder="Nova senha">
-          <label for="datepicker" class="datepicker-label">Data de nascimento</label>
-          <input type="text" name="data-de-nascimento" id="datepicker" placeholder="dd/mm/aaaa">
-          <p class="gender-title">Gênero</p>
-          <input type="radio" name="gender" id="feminino" value="Feminino"><label
-            for="feminino ">Feminino</label>
-          <input type="radio" name="gender" id="masculino" value="Masculino"><label
-            for="masculino">Masculino</label>
-          <input type="radio" name="gender" id="personalizado" value="Personalizado"><label
-            for="personalizado">Personalizado</label>
+          <div class="name-surname-field">
+            <span class="name-field"><input type="text" name="nome" id="name-text" placeholder="Nome"></span>
+            <span class="surname-field"><input type="text" name="sobrenome" id="surname-text"
+                placeholder="Sobrenome"></span>
+          </div>
+          <div class="phone-mail-pass-field">
+            <span class="phone-mail"><input type="text" name="telefone" id="phone-email"
+                placeholder="Celular ou email"></span>
+            <span class="password"><input type="text" name="senha" id="user-password" placeholder="Nova senha"></span>
+          </div>
+          <div class="datepicker-field">
+            <label for="datepicker" class="datepicker-label">Data de nascimento</label>
+            <input type="text" name="data-de-nascimento" id="datepicker" placeholder="dd/mm/aaaa">
+          </div>
+          <div class="gender-field">
+            <p class="gender-title">Gênero</p>
+            <input type="radio" name="gender" id="feminino" value="Feminino"><label for="feminino ">Feminino</label>
+            <input type="radio" name="gender" id="masculino" value="Masculino"><label for="masculino">Masculino</label>
+            <input type="radio" name="gender" id="personalizado" value="Personalizado"><label
+              for="personalizado">Personalizado</label>
+          </div>
           <button type="submit" id="facebook-register">Cadastre-se</button>
         </form>
       </section>
