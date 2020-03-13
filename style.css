@@ -1,11 +1,17 @@
-h1, h2, h3, h4, p {
+h1,
+h2,
+h3,
+h4,
+p {
   color: #1c1e21;
   margin: 0;
   padding: 0;
 }
 
-div, section, span {
-  border: 1px solid red
+div,
+section,
+span {
+  border: 1px solid red;
 }
 
 body {
@@ -28,6 +34,7 @@ body {
 .section-map {
   background-color: #edf0f5;
   display: flex;
+  height: 500px;
   justify-content: space-around;
 }
 
@@ -61,10 +68,10 @@ body {
 }
 
 .section-container {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
 }
 
 .logo-container {
@@ -74,11 +81,11 @@ body {
 }
 
 .criar-conta input {
-  padding: 8px 10px;
-  font-size: 18px;
   border: 1px solid #bdc7d8;
   border-radius: 6px;
+  font-size: 18px;
   margin-bottom: 10px;
+  padding: 8px 10px;
 }
 
 .facebook-logo {
@@ -119,8 +126,10 @@ body {
   flex-direction: row;
 }
 
-.input-nascimento, .input-senha, .input-email {
-  width: -webkit-fill-available;
+.input-nascimento,
+.input-senha,
+.input-email {
+  width: 473.5px;
 }
 
 .password-container label {
