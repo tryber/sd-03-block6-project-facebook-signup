@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-direction: column;
   margin: 0;
 }
 
@@ -8,6 +9,11 @@ body {
   height: 70px;
   padding: 13px;
   width: 100%;
+}
+
+section {
+  align-self: center;
+  justify-self: center;
 }
 
 .a {
