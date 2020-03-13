@@ -20,14 +20,13 @@ header {
   font-style: inherit;
   justify-content: space-around;
   max-width: 100%;
-
 }
 
 h1 {
   font-size: 36px;
+  justify-content: center;
   margin-bottom: 5px;
   margin-top: 0;
-  justify-content: center;
 }
 
 .button-login {
@@ -95,15 +94,15 @@ h1 {
 }
 
 .content {
-  width: 980px;
   display: flex;
+  width: 980px;
 }
 
 /* ARTICLE */
 article {
   display: flex;
-  font-weight: 700;
   flex-flow: column nowrap;
+  font-weight: 700;
   padding: 10px;
 }
 
@@ -123,9 +122,9 @@ input {
 
 .cadastro > input , .cadastro > div > input {
   background-color: transparent;
+  border: 1px solid #ccd0d5;
   border-color: #bdc7d8;
   border-radius: 5px;
-  border: 1px solid #ccd0d5;
   color: #1c1e21;
   font-size: 18px;
   margin: 5px;
