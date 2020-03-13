@@ -20,7 +20,7 @@
         </div>
         <div class="password">
           <label>Senha</label>
-          <input type="password">
+          <input type="password" id="user-password">
         </div>
         <button id="button-login" class="enter-button">Entrar</button>
       </div>
@@ -32,7 +32,7 @@
       </section>
       <div class="lado-direito">
         <span id="text1" class="text1">Abra uma conta</span>
-        <span id="text2">É rápido e fácil</span>
+        <span id="text2">É rápido e fácil.</span>
         <form>
           <div class="nome-sobrenome">
             <input type="text" placeholder="Nome" class="input nome">
@@ -46,9 +46,9 @@
           </div>
           <div class="generos">
             <span>Gênero</span>
-            <input type="radio"><label for="masculino">Masculino</label>
-            <input type="radio"><label for="Feminino">Feminino</label for="masculino">
-            <input type="radio"><label for="Personalizado">Personalizado</label>
+            <input type="radio" name="gender"><label for="masculino">Masculino</label>
+            <input type="radio" name="gender" checked><label for="Feminino">Feminino</label>
+            <input type="radio" name="gender"><label for="Personalizado">Personalizado</label>
           </div>
         </form>
         <button id="facebook-register">Cadastre-se</button>
