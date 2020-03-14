@@ -6,7 +6,7 @@ $(document).ready(function () {
       email: {
         required: true,
         email: true,
-        email1: { matches:'[0-9]+', minlength:9, maxlength:9 },
+        email1: { matches: '[0-9]+', minlength: 9, maxlength: 9 },
       },
       password: {
         required: true,
@@ -15,7 +15,7 @@ $(document).ready(function () {
       bithdate: {
         required: true,
         date: true,
-      }
+      },
     },
   });
 
