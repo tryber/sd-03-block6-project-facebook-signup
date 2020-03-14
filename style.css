@@ -1,6 +1,6 @@
 @font-face {
-  font-family: FreightSansLight;
-  src: url('FreightSansLight.otf');
+  font-family: "FreightSansLight";
+  src: url('FreightSansLight.otf?#iefix') format('embedded-opentype');
 }
 
 body {
@@ -25,9 +25,9 @@ header {
 
 h1 {
   font-size: 36px;
+  justify-content: center;
   margin-bottom: 5px;
   margin-top: 0;
-  justify-content: center;
 }
 
 .button-login {
@@ -88,22 +88,20 @@ h1 {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
   flex-direction: row;
-  justify-self: center;
   padding-left: 10%;
   padding-right: 10%;
   width: 100%;
 }
 
 .content {
-  width: 980px;
   display: flex;
+  max-width: 980px;
 }
 
-/* ARTICLE */
 article {
   display: flex;
-  font-weight: 700;
   flex-flow: column nowrap;
+  font-weight: 700;
   padding: 10px;
 }
 
@@ -123,9 +121,9 @@ input {
 
 .cadastro > input , .cadastro > div > input {
   background-color: transparent;
+  border: 1px solid #ccd0d5;
   border-color: #bdc7d8;
   border-radius: 5px;
-  border: 1px solid #ccd0d5;
   color: #1c1e21;
   font-size: 18px;
   margin: 5px;
@@ -171,7 +169,7 @@ input {
   color: white;
   cursor: pointer;
   display: inline-block;
-  font: 2000 13.333px FreightSansLight, Helvetica, sans-serif;
+  font-family: FreightSansLight, Helvetica, sans-serif;
   letter-spacing: 1px;
   margin: 0;
   max-width: 194px;
