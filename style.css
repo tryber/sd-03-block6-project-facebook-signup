@@ -121,7 +121,7 @@ body {
   padding: 8px 10px;
 }
 
-.register-form input:nth-child( 1 ) {
+.register-form input:nth-child(1) {
   margin-right: 8px;
 }
 
@@ -185,8 +185,46 @@ body {
   padding-top: 15px;
 }
 
-.register-form div a {
+a {
   color: #385898;
   cursor: pointer;
   text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 980px;
+}
+
+.division {
+  border-bottom: 1px solid #dddfe2;
+  display: flex;
+  font-size: 1px;
+  height: 8px;
+  margin: 0 0 8px;
+}
+
+.linguas,
+.paginas {
+  align-content: center;
+  display: flex;
+}
+
+.linguas ul,
+.paginas ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.linguas ul li {
+  display: flex;
+  flex-flow: row wrap;
+  padding-right: 10px;
+}
+
+.paginas ul li {
+  display: flex;
+  flex-flow: row wrap;
+  padding-right: 20px;
 }
