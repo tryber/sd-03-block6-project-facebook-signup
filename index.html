@@ -57,8 +57,9 @@
     </main>
     <script src="script.js"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function () {
-      const picker = new Pikaday({ field: document.getElementById('datepicker') });
+      $( "#datepicker" ).datepicker({
+      changeMonth: true,
+      changeYear: true
       });
     </script>
   </body>
