@@ -15,10 +15,11 @@ body {
 header {
   align-items: center;
   background: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
+  border-bottom: 1px solid rgb(19, 55, 131);
   display: flex;
+  height: 82px;
   justify-content: space-around;
   max-width: 100%;
-
 }
 
 h1 {
@@ -37,6 +38,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   height: 24px;
+  margin-left: -1px;
   width: 48px;
 }
 
@@ -45,14 +47,15 @@ h1 {
 }
 
 .facebook-logo {
-  height: 78px;
-  margin-left: -18px;
+  align-self: flex-end;
+  display: flex;
+  margin-bottom: -1px;
+  width: 169px;
 }
 
 .forgot-link {
   color: rgb(156, 180, 216);
 }
-
 
 .header-section {
   color: white;
@@ -62,16 +65,21 @@ h1 {
   width: 980px;
 }
 
-.user-email-phone {
-  margin: 0;
-  padding: 0;
-  padding-right: 14px;
+.text-login {
+  font-weight: 400;
+  text-align: left;
 }
 
-.user-password {
+.user-email-phone,.user-password {
+  border-bottom: 1px solid rgb(29, 42, 91);
+  border-style: none;
+  color: rgb(28, 30, 33);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
   margin: 0;
-  padding: 0;
-  padding-left: 30px;
+  margin-right: 12px;
+  padding: 3px;
+  width: 142px;
 }
 
 .user-login {
@@ -79,6 +87,7 @@ h1 {
   display: flex;
   flex-flow: row;
   justify-content: flex-end;
+  margin-bottom: -10px;
 }
 
 .user-login:last-child {
@@ -198,30 +207,42 @@ input {
 }
 
 /* FOOTER */
-a:link , a:visited , a:hover , a:active {
-  text-decoration: none;
-}
-
 footer {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 980px;
   margin: 0 auto;
+  width: 980px;
+}
+
+a:link , a:visited , a:active {
+  color: rgb(56, 88, 152);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .footerLine {
   border: 0.5px solid  rgb(221, 223, 226);
   color: rgb(56, 88, 152);
+  margin-block-end: -1px;
+  margin-block-start: -1px;
   width: 980px;
 }
 
 .footerOthers {
   display: flex;
   flex-flow: row wrap;
+  height: 57px;
   justify-content: flex-start;
   list-style-type: none;
+  margin-bottom: 18px;
+  margin-left: -20px;
+  margin-top: 10px;
+  padding-inline-start: 0;
 }
 
 .footerOthers > li {
@@ -233,6 +254,9 @@ footer {
   flex-flow: row wrap;
   justify-content: flex-start;
   list-style-type: none;
+  margin-left: -10px;
+  margin-top: 20px;
+  padding-inline-start: 0;
 }
 
 .languages > li {
@@ -240,5 +264,11 @@ footer {
 }
 
 .selected {
-  color: #737373;
+  color: rgb(115, 115, 115);
+}
+
+.credits {
+  color: rgb(115, 115, 115);
+  font-size: 11px;
+  padding-bottom: 20px;
 }
