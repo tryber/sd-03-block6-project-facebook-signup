@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
   </head>
   <body>
     <header class="top-bar">
@@ -54,7 +55,9 @@
         </div>
       </section>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <script src="script.js"></script>
+    <script>
+      var picker = new Pikaday({ field: document.getElementById('datepicker') });
+    </script>
   </body>
 </html>
