@@ -58,16 +58,15 @@ button {
 }
 
 .main {
-  position: relative;
   margin: 0 auto;
+  position: relative;
   width: 980px;
 }
 
 .lateral-esquerda {
-  width: 50%;
   height: 0;
   position: absolute;
-
+  width: 50%;
 }
 
 .lateral-direita {
@@ -88,6 +87,6 @@ h2 {
 h3 {
   color: #1d2129;
   font-size: 19px;
-  font-weight: lighter;
+  font-weight: 1;
   margin: 0;
 }
