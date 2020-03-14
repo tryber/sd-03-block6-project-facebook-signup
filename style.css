@@ -1,5 +1,5 @@
 @font-face {
-  font-family: FreightSansLight;
+  font-family: "FreightSansLight";
   src: url('FreightSansLight.otf?#iefix') format('embedded-opentype');
 }
 
@@ -15,11 +15,11 @@ body {
 header {
   align-items: center;
   background: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
+  border-bottom: 1px solid rgb(19, 55, 131);
   display: flex;
   height: 82px;
   justify-content: space-around;
   max-width: 100%;
-  border-bottom:1px solid rgb(19, 55, 131);
 }
 
 h1 {
@@ -66,16 +66,16 @@ h1 {
 }
 
 .text-login {
-  font-weight: normal;
+  font-weight: 400;
   text-align: left;
 }
 
-.user-email-phone, .user-password {
-  border-bottom:1px solid rgb(29, 42, 91);
+.user-email-phone,.user-password {
+  border-bottom: 1px solid rgb(29, 42, 91);
   border-style: none;
   color: rgb(28, 30, 33);
-  font-family:Helvetica, Arial, sans-serif;
-  font-size:12px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
   margin: 0;
   margin-right: 12px;
   padding: 3px;
