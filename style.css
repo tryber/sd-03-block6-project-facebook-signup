@@ -112,3 +112,15 @@ h3 {
 .input100 {
   margin-top: 10px;
 }
+
+.data50 {
+  position: absolute;
+  left: 0;
+  width: 50%;
+}
+
+.cinzaclaro {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+}
