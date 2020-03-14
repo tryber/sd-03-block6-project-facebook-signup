@@ -32,14 +32,14 @@ button {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding-top: 13px;
   max-width: 980px;
+  padding-top: 13px;
 }
 
 .section {
   margin: 0 auto;
-  padding-top: 13px;
   max-width: 980px;
+  padding-top: 13px;
 }
 
 .textoCanto {
@@ -58,9 +58,9 @@ button {
 }
 
 .main {
+  display: flex;
   margin: 0 auto;
   max-width: 980px;
-  display: flex;
   justify-content: space-between;
 }
 
