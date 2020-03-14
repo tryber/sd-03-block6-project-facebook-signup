@@ -1,10 +1,9 @@
 body {
+  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(211, 216, 232, 1) 0%, rgba(251, 251, 251, 1) 100%);
   display: flex;
   flex-direction: column;
-  margin: 0;
   font-family: 'Lato', sans-serif;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(211, 216, 232, 1) 0%, rgba(251, 251, 251, 1) 100%);
+  margin: 0; 
 }
 
 .campo-email {
@@ -23,13 +22,12 @@ body {
 }
 
 .container {
-  display: flex;
-  align-self: center ;
+  align-self: center;
   border: 1px solid black;
+  display: flex;
+  height: 629px;
   justify-content: space-between;
   width: 900px;
-  height: 629px;
-
 }
 
 .container-login {
@@ -37,19 +35,15 @@ body {
 }
 
 .frase-motivacional {
-  flex-direction: column;
-  justify-content: center;
-  /* align-content: space-between; */
-  border: 1px solid red;
-  width: 480px;
-  height: 87px;
   color: #0e385f;
+  flex-direction: column;
   font-size: 16px;
   font-weight: 600;
-  margin-bottom: 0;
+  height: 87px;
+  justify-content: center;
   line-height: 23px;
+  margin-bottom: 0;
   margin-top: 40px;
   width: 450px;
-  height: 60px;
   word-spacing: -1px;
 }
