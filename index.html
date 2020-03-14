@@ -11,23 +11,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
     <header id="top-bar" class="top-bar">
       <a class="facebook-logo" href="https://www.facebook.com">facebook</a>
+      <div class="container-login">
+      <div class="campo-email">
       <label for="user-email-phone" id="user-email-phone-label"
         >Email ou telefone</label
       >
       <input type="text" id="user-email-phone" />
-      <label for="user-password" id="user-pass-label">Senha</label>
+      </div>
+      <!-- <label for="user-password" id="user-pass-label">Senha</label>
       <input type="password" id="user-password" />
-      <button id="button-login" class="button-login">Entrar</button>
+      <button id="button-login" class="button-login">Entrar</button> -->
+      </div>
     </header>
     <div class="container">
     <section>
-      <p class="frase-motivacional">
-        O Facebook ajuda você a se conectar e compartilhar com as pessoas que
-        fazem parte da sua vida.
+      <p class="frase-motivacional">O Facebook ajuda você a se conectar e<br />
+        compartilhar com as pessoas que fazem parte<br /> da sua vida.
       </p>
       <br />
       <img
@@ -44,6 +49,7 @@
       <p class="rapido-e-facil">
         É rápido e fácil.
       </p>
+      <div class="form"></div>
       <form action="" method="POST" class="registerForm">
         <fieldset>
           <input type="text" placeholder="Nome" />
@@ -70,6 +76,7 @@
         <button id="facebook-register">Cadastre-se</button>
       </form>
     </section>
+    </div>
   </div>
     <script src="pikaday.js"></script>
     <script>
