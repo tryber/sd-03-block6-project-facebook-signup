@@ -59,9 +59,9 @@ button {
 
 .main {
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 980px;
-  justify-content: space-between;
 }
 
 .lateral-esquerda {
