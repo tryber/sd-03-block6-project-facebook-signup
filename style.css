@@ -124,9 +124,15 @@ input {
 .cadastro {
   display: flex;
   flex-flow: column;
+  height: 422.828px;
+  width: 400px;
 }
 
-.cadastro > input , .cadastro > div > input {
+.nome > input {
+  width: 50%;
+}
+
+.cadastro > input , .cadastro > section > input {
   background-color: transparent;
   border: 1px solid #ccd0d5;
   border-color: #bdc7d8;
