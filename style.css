@@ -52,10 +52,14 @@ body {
   box-shadow: inset 0 1px 1px #a4e388;
   color: white;
   cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: normal;
   margin: 10px 0;
   min-width: 194px;
   padding: 7px 20px;
   text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
 }
 
 .top-bar td button {
@@ -83,6 +87,7 @@ body {
 .main {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
+  justify-content: center;
 }
 
 .main .description {
@@ -92,7 +97,12 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 29px;
+  margin: 0px 0 0 15px;
   word-spacing: -1px;
+}
+
+.main .description p {
+  margin: 40px 0 0;
 }
 
 .main .register-form {
@@ -102,7 +112,8 @@ body {
 }
 
 .register-form div input {
-  border: 1px solid #ccd0d5;
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
   color: #999;
   cursor: text;
   font-size: 18px;
@@ -112,6 +123,14 @@ body {
 
 .register-form input:nth-child( 1 ) {
   margin-right: 8px;
+}
+
+.register-form .min {
+  width: 172px;
+}
+
+.register-form .max {
+  width: 377px;
 }
 
 .register-form .text {
@@ -141,6 +160,14 @@ body {
   font-size: 16px;
   font-weight: 700;
   margin: 10px 0 5px;
+}
+
+.register-form .radio {
+  color: #1d2129;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 18px;
+  padding: 0 10px 0 3px;
 }
 
 .register-form .p4 {

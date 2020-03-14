@@ -34,7 +34,7 @@
     <article>
         <section class="main">
             <section class="description">
-                <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+                <p>O Facebook ajuda você a se conectar e<br>compartilhar com as pessoas que fazem parte<br>da sua vida.</p>
                 <img id="facebook-networking" src="./networking.png" alt="Networing">
             </section>
             <section class="register-form">
@@ -44,30 +44,34 @@
                 </div>
                 <form>
                     <div>
-                        <input id="firstname" placeholder="Nome" type="text">
-                        <input id="lastname" placeholder="Sobrenome" type="text">
+                        <input class="min" id="firstname" placeholder="Nome" type="text">
+                        <input class="min" id="lastname" placeholder="Sobrenome" type="text">
                     </div>
                     <div>
-                        <input placeholder="Celular ou email" type="text">
+                        <input class="max" placeholder="Celular ou email" type="text">
                     </div>
                     <div>
-                        <input id="" placeholder="Nova senha" type="password">
+                        <input class="max" id="" placeholder="Nova senha" type="password">
                     </div>
                     <div>
-                        <p class="p3">Data de nascimento</p>
-                        <input placeholder="dd/mm/aaaa" type="text">
+                        <p for="" class="p3">Data de nascimento</p>
+                        <div>
+                            <input class="min" placeholder="dd/mm/aaaa" type="text">
+                        </div>
                     </div>
                     <div>
-                        <p class="p3">Gênero</p>
-                        <input id="fem" name="gender" type="radio">
-                        <label for="fem">Feminino</label>
-                        <input id="masc"  name="gender" type="radio">
-                        <label for="masc">Masculino</label>
-                        <input id="per" name="gender" type="radio">
-                        <label for="per">Personalizado</label>
+                        <p for="" class="p3">Gênero</p>
+                        <div>
+                            <input id="feminino" name="gender" type="radio" value="Feminino">
+                            <label class="radio" for="feminino">Feminino</label>
+                            <input id="masculino"  name="gender" type="radio" value="Masculino">
+                            <label class="radio" for="masculino">Masculino</label>
+                            <input id="personalizado" name="gender" type="radio" value="Personalizado">
+                            <label class="radio" for="personalizado">Personalizado</label>
+                        </div>
                     </div>
                     <div>
-                        <p class="p4">Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update" target="_blank">Termos</a>, <a href="https://www.facebook.com/about/privacy/update">Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+                        <p class="p4">Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update" target="_blank">Termos</a>,<br><a href="https://www.facebook.com/about/privacy/update">Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode receber<br>notificações por SMS e pode cancelar isso quando quiser.</p>
                     </div>
                     <div>
                         <button id="facebook-register">Cadastre-se</button>
