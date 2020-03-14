@@ -151,17 +151,17 @@ table tr td {
 
 .botao {
   background: linear-gradient(#67ae55, #578843);
-  background-color: #4caF50;
+  background-color: #4caf50;
   border: 1px solid;
   border-color: #3b6e22 #3b6e22 #2c5115;
   border-radius: 5px;
   color: white;
   cursor: pointer;
   display: inline-block;
-  font-family: "Freight Sans Bold", Helvetica, Arial, sans-serif;
+  font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
   font-size: 16px;
-  padding: 7px 20px;
   margin: 4px 2px;
+  padding: 7px 20px;
   text-align: center;
   text-decoration: none;
 }
@@ -169,7 +169,6 @@ table tr td {
 .texto {
   color: #0e385f;
   font-size: 20px;
-  font: bold;
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
