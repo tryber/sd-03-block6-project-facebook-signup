@@ -107,8 +107,14 @@ a {
   word-spacing: -1px;
 }
 
+.final-text p {
+  color: #737373;
+  font-size: 11px;
+}
+
 .main .description p {
   margin: 40px 0 0;
+  width: 450px;
 }
 
 .main .register-form {
@@ -225,9 +231,4 @@ a {
   display: flex;
   flex-flow: row wrap;
   padding-right: 20px;
-}
-
-.final-text p {
-  color: #737373;
-  font-size: 11px;
 }
