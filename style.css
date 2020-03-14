@@ -221,7 +221,7 @@ a:hover {
   display: flex;
   flex-flow: row wrap;
   list-style-type: none;
-  margin: 12px 0px;
+  margin: 12px 0;
   padding: 0;
 }
 
