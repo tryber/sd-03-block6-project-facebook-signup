@@ -8,8 +8,7 @@ const userEmailPhone = document.getElementById('user-email-phone');
 function alertLogin() {
   if (userEmailPhone.value !== '') {
     alert(`${userEmailPhone.value}`);
-  }
-  else {
+  } else {
     alert('Digite seu email ou telefone');
   }
 }
