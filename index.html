@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./libs/DatePickerX.css">
     <link rel="stylesheet" href="./style.css">
     <title>Facebook – entre ou cadastre-se</title>
 </head>
@@ -56,17 +57,17 @@
                     <div>
                         <p for="" class="p3">Data de nascimento</p>
                         <div>
-                            <input class="min" placeholder="dd/mm/aaaa" type="text">
+                            <input class="min" placeholder="dd/mm/aaaa" type="text" id="datepicker">
                         </div>
                     </div>
                     <div>
                         <p for="" class="p3">Gênero</p>
                         <div>
-                            <input id="feminino" name="gender" type="radio" value="Feminino">
+                            <input class="gender" id="feminino" name="gender" type="radio" value="Feminino">
                             <label class="radio" for="feminino">Feminino</label>
-                            <input id="masculino"  name="gender" type="radio" value="Masculino">
+                            <input class="gender" id="masculino"  name="gender" type="radio" value="Masculino">
                             <label class="radio" for="masculino">Masculino</label>
-                            <input id="personalizado" name="gender" type="radio" value="Personalizado">
+                            <input class="gender" id="personalizado" name="gender" type="radio" value="Personalizado">
                             <label class="radio" for="personalizado">Personalizado</label>
                         </div>
                     </div>
@@ -74,7 +75,7 @@
                         <p class="p4">Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update" target="_blank">Termos</a>,<br><a href="https://www.facebook.com/about/privacy/update">Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode receber<br>notificações por SMS e pode cancelar isso quando quiser.</p>
                     </div>
                     <div>
-                        <button id="facebook-register">Cadastre-se</button>
+                        <button id="facebook-register" type="submit">Cadastre-se</button>
                     </div>
                     <div>
                         <p class="p5"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
@@ -83,5 +84,7 @@
             </section>
         </section>
     </article>
+    <script src="./libs/DatePickerX.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
