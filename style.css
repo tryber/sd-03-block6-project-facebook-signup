@@ -2,6 +2,7 @@ html , body , div , input , p , label , section , main , form {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
+  border: solid 0.1px red;
 }
 
 .button-login {
@@ -22,9 +23,10 @@ html , body , div , input , p , label , section , main , form {
 .top-bar {
   align-items: center;
   background-color: rgb(59, 89, 152);
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
   border-bottom: 1px solid #1d2a5b;
   display: flex;
-  height: 80px;
+  height: 82px;
   justify-content: space-around;
 }
 
@@ -33,11 +35,15 @@ html , body , div , input , p , label , section , main , form {
   flex-direction: column;
   font-size: 12px;
   padding-left: 1px;
-  width: 40%;
+  width: 142px;
 }
 
 .user-email-phone , .senha {
   border: 1px solid #1d2a5b;
+  padding-top: 4px;
+  padding-left: 4px;
+  margin-top: 4px;
+  margin-right: 4px;
 }
 
 .container-head {
@@ -47,13 +53,35 @@ html , body , div , input , p , label , section , main , form {
   margin-top: 10px;
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+}
+
 .box-left {
   display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+  margin-left: 100px;
+
 }
 
 .box-right {
   display: flex;
+  align-content: flex-start;
+  flex-flow: column wrap;
+  width: 50%;
+  /* margin-right: 50px;
+  margin-left: 50px; */
 }
+
+/* .mini-box-left {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+} */
 
 small {
   color: #9cb4d8;
@@ -65,4 +93,42 @@ small {
 
 small:hover {
   text-decoration: underline;
+}
+
+.text-left {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.facebook-networking {
+  width: 537px;
+  height: 195px;
+  border: 0;
+}
+
+.title-right {
+  font-size: 36px;
+  color: #333;
+  font-weight: 600;
+}
+
+.sub-title {
+  color: #1d2129;
+  font-size: 19px;
+}
+
+.registration-container {
+  padding: 8px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border-color: #bdc7d8;
+}
+
+.facebook-logo {
+  margin-top: 12px;
+  margin-right: 130px;
+  height: 74px;
 }
