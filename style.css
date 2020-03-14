@@ -66,16 +66,16 @@ button {
 .lateral-esquerda {
   height: 0;
   position: absolute;
-  width: 50%;
+  width: 60%;
 }
 
 .lateral-direita {
   margin-top: 0;
-  padding: 20px 0;
+  padding-top: 20px;
   position: absolute;
   right: 0;
   text-align: left;
-  width: 50%;
+  width: 40%;
 }
 
 h2 {
@@ -88,5 +88,17 @@ h3 {
   color: #1d2129;
   font-size: 19px;
   font-weight: 100;
-  margin: 0;
+  margin: 10px 0;
+}
+
+.nomes {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.input50 {
+  display: flex;
 }
