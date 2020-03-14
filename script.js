@@ -1,4 +1,1 @@
-$( "#datepicker" ).datepicker({
-  changeMonth: true,
-  changeYear: true
-});
+var picker = new Pikaday({ field: document.getElementById('datepicker') });
