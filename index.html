@@ -20,8 +20,8 @@
                         <td><label>Senha</label></td>
                     </tr>
                     <tr>
-                        <td><input id="user-email-phone" type="text"></td>
-                        <td><input id="user-password" type="password"></td>
+                        <td><input required id="user-email-phone" type="text"></td>
+                        <td><input required id="user-password" type="password"></td>
                         <td><button id="button-login">Entrar</button></td>
                     </tr>
                     <tr>
@@ -45,29 +45,29 @@
                 </div>
                 <form>
                     <div>
-                        <input class="min" id="firstname" placeholder="Nome" type="text">
-                        <input class="min" id="lastname" placeholder="Sobrenome" type="text">
+                        <input required class="min" id="firstname" placeholder="Nome" type="text">
+                        <input required class="min" id="lastname" placeholder="Sobrenome" type="text">
                     </div>
                     <div>
-                        <input class="max" id="newLoginInfo" placeholder="Celular ou email" type="text">
+                        <input required class="max" id="newLoginInfo" placeholder="Celular ou email" type="text">
                     </div>
                     <div>
-                        <input class="max" id="newPassword" placeholder="Nova senha" type="password">
+                        <input required class="max" id="newPassword" placeholder="Nova senha" type="password">
                     </div>
                     <div>
-                        <p for="" class="p3">Data de nascimento</p>
+                        <p class="p3">Data de nascimento</p>
                         <div>
-                            <input class="min" placeholder="dd/mm/aaaa" type="text" id="datepicker">
+                            <input required class="min" placeholder="dd/mm/aaaa" type="text" id="datepicker">
                         </div>
                     </div>
                     <div>
-                        <p for="" class="p3">Gênero</p>
+                        <p class="p3">Gênero</p>
                         <div>
-                            <input class="gender" id="feminino" name="gender" type="radio" value="Feminino">
+                            <input required class="gender" id="feminino" name="gender" type="radio" value="Feminino">
                             <label class="radio" for="feminino">Feminino</label>
-                            <input class="gender" id="masculino"  name="gender" type="radio" value="Masculino">
+                            <input required class="gender" id="masculino"  name="gender" type="radio" value="Masculino">
                             <label class="radio" for="masculino">Masculino</label>
-                            <input class="gender" id="personalizado" name="gender" type="radio" value="Personalizado">
+                            <input required class="gender" id="personalizado" name="gender" type="radio" value="Personalizado">
                             <label class="radio" for="personalizado">Personalizado</label>
                         </div>
                     </div>
