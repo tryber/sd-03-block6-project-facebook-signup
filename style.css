@@ -83,11 +83,19 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .top-bar td a {
   color: #9cb4d8;
   cursor: pointer;
   margin: 0 0 3px;
   text-decoration: none;
+}
+
+.top-bar td a:hover {
+  text-decoration: underline;
 }
 
 .main {
@@ -105,11 +113,6 @@ a {
   line-height: 29px;
   margin: 0 15px 0 0;
   word-spacing: -1px;
-}
-
-.final-text p {
-  color: #737373;
-  font-size: 11px;
 }
 
 .main .description p {
@@ -198,37 +201,39 @@ a {
 }
 
 .footer {
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
   width: 980px;
 }
 
 .division {
   border-bottom: 1px solid #dddfe2;
-  display: flex;
-  font-size: 1px;
-  height: 8px;
-  margin: 0 0 8px;
 }
 
-.linguas , .paginas {
-  align-content: center;
-  display: flex;
-}
-
-.linguas ul , .paginas ul {
+.linguas {
   display: flex;
   flex-flow: row wrap;
+  list-style-type: none;
+  margin: 22px 0 12px;
+  padding: 0;
 }
 
-.linguas ul li {
+.paginas {
   display: flex;
   flex-flow: row wrap;
-  padding-right: 10px;
+  list-style-type: none;
+  margin: 12px 0px;
+  padding: 0;
 }
 
-.paginas ul li {
-  display: flex;
-  flex-flow: row wrap;
-  padding-right: 20px;
+.linguas li {
+  margin: 0 10px 0 0;
+}
+
+.paginas li {
+  margin: 0 20px 8px 0;
+}
+
+.final-text {
+  color: #737373;
+  font-size: 11px;
 }
