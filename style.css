@@ -107,5 +107,8 @@ h3 {
   align-content: center;
   display: flex;
   flex-direction: column;
+}
+
+.input100 {
   margin-top: 10px;
 }
