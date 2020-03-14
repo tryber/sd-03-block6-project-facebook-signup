@@ -57,7 +57,9 @@
     </main>
     <script src="script.js"></script>
     <script>
-      let picker = new Pikaday({ field: document.getElementById('datepicker') });
+      document.addEventListener('DOMContentLoaded', function () {
+      const picker = new Pikaday({ field: document.getElementById('datepicker') });
+      });
     </script>
   </body>
 </html>
