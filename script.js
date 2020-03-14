@@ -1,38 +1,28 @@
-import emailAddress from 'formvalidation/dist/es6/validators/emailAddress';
+const input = document.getElementById('user-email-phone');
 
-const res1 = emailAddress().validate({
-    value: 'niceandsimple@example.com',
-    options: {
-        message: 'The value is not a valid email address',
-    },
-});
-// res1.valid === true
+// login
+// Formulario
+// const nomeForm = document.getElementById('nomeForm');
+// const sobreNomeForm = document.getElementById('sobrenomeForm');
+// const emailForm = document.getElementById('emailForm');
+// const senhaForm = document.getElementById('senhaForm');
+// const nascimentoForm = document.getElementById('senhaForm');
+// const radioFemForm = document.getElementById('femininoForm');
+// const radioMascForm = document.getElementById('masculinoForm');
+// const radioPersonForm = document.getElementById('personForm');
+// submit
 
-const res2 = emailAddress().validate({
-    value: 'just"not"right@example.com',
-    options: {
-        message: 'The value is not a valid email address',
-    },
-});
+function submit() {
+  alert(input.value);
+}
 
+// function verificaFormulario() {
+// }
 
+window.onload = function () {
+  const submitLogin = document.getElementById('button-login');
+  // const submitForm = document.getElementById('facebook-register');
 
-
-
-// function validar(campo) { 
-//     //se não desejar números é só remover da regex abaixo 
-//     var regex = '[^a-zA-Z0-9]+'; 
-//     if(campo.match(regex)) { 
-//     //encontrou então não passa na validação 
-//     return false; 
-//     } else 
-//     { 
-//     //não encontrou caracteres especiais 
-//     return true;
-//      }
-//      }
-
-
-//     let a = validar("Maria%")
-
-//     console.log(a)
+  submitLogin.addEventListener('click', submit);
+  // submitForm.addEventListener('click', verificaFormulario);
+};
