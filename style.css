@@ -1,10 +1,7 @@
-html,
-head,
-body,
-footer {
-  border: 0;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
-  margin: 0;
-  padding: 0;
-}
+html , body  , main , footer {
+    border: 0;
+    font-family: sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+  }
