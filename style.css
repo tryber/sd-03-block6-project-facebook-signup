@@ -32,13 +32,11 @@ button {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: 980px;
   padding-top: 13px;
+  width: 980px;
 }
 
 .section {
-  margin: 0 auto;
-  max-width: 980px;
   padding-top: 13px;
 }
 
@@ -54,30 +52,42 @@ button {
   border-bottom: 1px solid #133783;
   color: white;
   height: 82px;
+  margin: 0 auto;
+  min-width: 980px;
   position: relative;
 }
 
 .main {
-  display: flex;
-  justify-content: space-between;
+  position: relative;
   margin: 0 auto;
-  max-width: 980px;
+  width: 980px;
 }
 
 .lateral-esquerda {
-  width: 40%;
+  width: 50%;
+  height: 0;
+  position: absolute;
+
 }
 
 .lateral-direita {
   margin-top: 0;
   padding: 20px 0;
+  position: absolute;
+  right: 0;
   text-align: left;
-  width: 40%;
+  width: 50%;
 }
 
 h2 {
   color: #333;
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 36px;
+  margin: 0;
+}
+
+h3 {
+  color: #1d2129;
+  font-size: 19px;
+  font-weight: lighter;
   margin: 0;
 }
