@@ -11,20 +11,24 @@
 <body>
     <header class="top-bar">
         <section class="header-section">
-            <img class="facebook-logo" src="facebook_logo.png" alt="Logo do Facebook">
-            <form class="user-login" id="user-login" action="" method="get">
-                <div class="user">
-                    <label for="user-email-phone">Email ou telefone</label><br>
-                    <input type="text" class="user-email-phone" id="user-email-phone" name="user-email-phone">
-                    <p>hidden</p>
-                </div>
-                <div class="pass">
-                    <label for="user-password">Senha</label><br>
-                    <input type="password" class="user-password" id="user-password" name="user-password">
-                    <p class="forgot-link">Esqueceu a conta?</p>
-                </div>
-                <button id="button-login" class="button-login">Entrar</button>
-            </form>
+            <img class="facebook-logo" src="facebook1.png" alt="Logo do Facebook">
+            <table class="user-login" id="user-login">
+                <tr class="text-login">
+                  <td>Email ou telefone</td>
+                  <td>Senha</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td><input type="text" class="user-email-phone" id="user-email-phone" name="user-email-phone"></td>
+                  <td><input type="password" class="user-password" id="user-password" name="user-password"></td>
+                  <td><button id="button-login" class="button-login">Entrar</button></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td class="forgot-link">Esqueceu a conta?</td>
+                  <td></td>
+                </tr>
+            </table>
         </section>
     </header>
     <div class="container">
@@ -72,21 +76,21 @@
     <footer>
         <ul class="languages" data-nocookies="1">
             <li class="selected">Português (Brasil)</li>
-            <li><a class="other-language" dir="ltr" href="https://www.facebook.com/" title="English (US)">English (US)</a>
+            <li><a class="other-language" href="https://www.facebook.com/" title="English (US)">English (US)</a>
             </li>
-            <li><a class="other-language" dir="ltr" href="https://es-la.facebook.com/" title="Spanish">Español</a></li>
-            <li><a class="other-language" dir="ltr" href="https://fr-fr.facebook.com/" title="French (France)">Français
+            <li><a class="other-language" href="https://es-la.facebook.com/" title="Spanish">Español</a></li>
+            <li><a class="other-language" href="https://fr-fr.facebook.com/" title="French (France)">Français
                     (France)</a></li>
-            <li><a class="other-language" dir="ltr" href="https://it-it.facebook.com/" title="Italian">Italiano</a></li>
-            <li><a class="other-language" dir="ltr" href="https://de-de.facebook.com/" title="German">Deutsch</a></li>
+            <li><a class="other-language" href="https://it-it.facebook.com/" title="Italian">Italiano</a></li>
+            <li><a class="other-language" href="https://de-de.facebook.com/" title="German">Deutsch</a></li>
             <li><a class="other-language" dir="rtl" href="https://ar-ar.facebook.com/" title="Arabic">العربية</a></li>
-            <li><a class="other-language" dir="ltr" href="https://hi-in.facebook.com/" title="Hindi">हिन्दी</a></li>
-            <li><a class="other-language" dir="ltr" href="https://zh-cn.facebook.com/" title="Simplified Chinese (China)">中文(简体)</a>
+            <li><a class="other-language" href="https://hi-in.facebook.com/" title="Hindi">हिन्दी</a></li>
+            <li><a class="other-language" href="https://zh-cn.facebook.com/" title="Simplified Chinese (China)">中文(简体)</a>
             </li>
-            <li><a class="Japanese" dir="ltr" href="https://ja-jp.facebook.com/" title="Japanese">日本語</a></li>
-            <li><a role="button" class="_42ft _4jy0 _517i _517h _51sy" rel="dialog"
-                    ajaxify="/settings/language/language/?uri=https%3A%2F%2Fja-jp.facebook.com%2F&amp;source=www_list_selector_more"
-                    href="#" title="Mostrar mais idiomas"><i class="img sp_1cLUFecMJSs sx_e52bb9"></i></a></li>
+            <li><a class="Japanese" href="https://ja-jp.facebook.com/" title="Japanese">日本語</a></li>
+            <li><a role="button" class="button-plus" rel="dialog"
+                ajaxify="/settings/language/language/?uri=https%3A%2F%2Fja-jp.facebook.com%2F&amp;source=www_list_selector_more"
+                href="#" title="Mostrar mais idiomas"><i class="img sp_1cLUFecMJSs sx_e52bb9"></i></a><button>+</button></li>
         </ul>
         <hr class="footerLine">
         <ul class="footerOthers">
@@ -130,12 +134,8 @@
             <li><a data-nocookies="1" href="/policies?ref=pf" accesskey="9"
                     title="Leia os nossos termos e políticas.">Termos</a></li>
             <li><a href="/help/?ref=pf" accesskey="0" title="Acesse nossa Central de Ajuda.">Ajuda</a></li>
-            <li><a accesskey="6" class="accessible_elem" href="/settings"
-                    title="Visualize e edite suas configurações do Facebook.">Configurações</a></li>
-            <li><a accesskey="7" class="accessible_elem" href="/allactivity?privacy_source=activity_log_top_menu"
-                    title="Ver seu Registro de Atividades">Registro de Atividades</a></li>
         </ul>
-        <div><span><img src="https://facebook.com/security/hsts-pixel.gif"></span></div>
+        <div><span class="credits">Facebook © 2020</span></div>
     </footer>
     <script src="script.js"></script>
 </body>
