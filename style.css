@@ -77,6 +77,12 @@ body {
   background: none;
 }
 
+a {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .top-bar td a {
   color: #9cb4d8;
   cursor: pointer;
@@ -121,7 +127,7 @@ body {
   padding: 8px 10px;
 }
 
-.register-form input:nth-child(1) {
+.register-form input:nth-child( 1 ) {
   margin-right: 8px;
 }
 
@@ -185,12 +191,6 @@ body {
   padding-top: 15px;
 }
 
-a {
-  color: #385898;
-  cursor: pointer;
-  text-decoration: none;
-}
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -205,14 +205,12 @@ a {
   margin: 0 0 8px;
 }
 
-.linguas,
-.paginas {
+.linguas , .paginas {
   align-content: center;
   display: flex;
 }
 
-.linguas ul,
-.paginas ul {
+.linguas ul , .paginas ul {
   display: flex;
   flex-flow: row wrap;
 }
@@ -227,4 +225,9 @@ a {
   display: flex;
   flex-flow: row wrap;
   padding-right: 20px;
+}
+
+.final-text p {
+  color: #737373;
+  font-size: 11px;
 }
