@@ -33,19 +33,18 @@ button {
   justify-content: space-between;
   margin: 0 auto;
   padding-top: 13px;
-  width: 980px;
+  max-width: 980px;
 }
 
 .section {
   margin: 0 auto;
   padding-top: 13px;
-  width: 980px;
+  max-width: 980px;
 }
 
 .textoCanto {
   align-items: flex-start;
   display: flex;
-  width: 50%;
 }
 
 .top-bar {
@@ -56,4 +55,29 @@ button {
   color: white;
   height: 82px;
   position: relative;
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lateral-esquerda {
+  width: 40%;
+}
+
+.lateral-direita {
+  margin-top: 0;
+  padding: 20px 0;
+  text-align: left;
+  width: 40%;
+}
+
+h2 {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  margin: 0;
 }
