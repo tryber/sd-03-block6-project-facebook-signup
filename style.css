@@ -1,7 +1,10 @@
-html,head,body,footer {
-    border:0;
-    font-family:Helvetica, Arial, sans-serif;
-    font-size:12px;
-    margin:0;
-    padding:0;
+html,
+head,
+body,
+footer {
+	border: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
 }
