@@ -2,11 +2,11 @@ const datePicker = document.querySelector('#datepicker').DatePickerX;
 datePicker.init({ format: 'dd/mm/yyyy' });
 datePicker.setValue('14/03/1995');
 
-const loginInput = document.querySelector('#user-email-phone');
 const loginButton = document.querySelector('#button-login');
 
 function loginAlert() {
-  alert(`Email ou telefone: ${loginInput.value}`);
+  const loginInput = document.querySelector('#user-email-phone');
+  alert(`${loginInput.value}`);
 }
 
 loginButton.addEventListener('click', loginAlert);
