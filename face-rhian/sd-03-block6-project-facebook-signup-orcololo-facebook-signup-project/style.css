@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column; 
+  margin: 0;
+}
+
+.top-bar {
+  background-color: rgb(59, 89, 152);
+  height: 70px;
+  padding: 13px;
+  width: 100%;
+}
+
+.a {
+  font-size: 36px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  margin: 1px solid red;
+}
