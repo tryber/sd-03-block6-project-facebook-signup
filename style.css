@@ -195,14 +195,18 @@ a:link , a:visited , a:hover , a:active {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 980px;
+  margin: 0 auto;
 }
 
 .footerLine {
   border: 0.5px solid  rgb(221, 223, 226);
   color: rgb(56, 88, 152);
-  cursor: pointer;
+  width: 980px;
 }
 
 .footerOthers {
@@ -212,6 +216,10 @@ footer {
   list-style-type: none;
 }
 
+.footerOthers > li {
+  padding-left: 20px;
+}
+
 .languages {
   display: flex;
   flex-flow: row wrap;
@@ -219,5 +227,10 @@ footer {
   list-style-type: none;
 }
 
-.other-language {
+.languages > li {
+  padding-left: 10px;
+}
+
+.selected {
+  color: #737373;
 }
