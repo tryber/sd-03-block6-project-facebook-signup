@@ -1,12 +1,12 @@
-$(document).ready(function(){
-  $("#registration-form").validate({
+$(document).ready(function () {
+  $('#registration-form').validate({
     rules: {
-      firstname: "required",
-      lastname: "required",
+      firstname: 'required',
+      lastname: 'required',
       email: {
         required: true,
         email: true,
-        email: {matches:"[0-9]+",minlength:9, maxlength:9},
+        email1: { matches:'[0-9]+', minlength:9, maxlength:9 },
       },
       password: {
         required: true,
@@ -17,10 +17,9 @@ $(document).ready(function(){
         date: true,
       }
     },
+  });
 
-  })
+  $('#facebook-register').click({
 
-  $("#facebook-register").click({
-
-  })
-})
+  });
+});
