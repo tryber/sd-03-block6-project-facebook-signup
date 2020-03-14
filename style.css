@@ -1,12 +1,14 @@
-body {
-  margin: 0;
-}
-
 a {
   color: #9cb4d8;
   cursor: pointer;
   font-weight: 400;
   text-decoration: none;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header {
@@ -127,4 +129,57 @@ table tr td {
 
 .login-buttonConfirm input {
   color: white;
+}
+
+
+
+.corpo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.input{
+  border-radius: 5px;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.label{
+  color: white;
+}
+
+.quebra{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 420px;
+}
+
+.botao{
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #4CAF50;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+  padding: 7px 20px;
+  margin: 4px 2px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+}
+
+.texto{
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1;
 }
