@@ -94,8 +94,8 @@ h1 {
   background: linear-gradient(white, #d3d8e8);
   display: flex;
   flex-direction: row;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 13%;
+  padding-right: 13%;
   width: 100%;
 }
 
@@ -109,7 +109,6 @@ article {
   display: flex;
   flex-flow: column nowrap;
   font-weight: 700;
-  padding: 10px;
 }
 
 .abraConta {
