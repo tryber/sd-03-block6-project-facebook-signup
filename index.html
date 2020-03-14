@@ -9,7 +9,7 @@
     <header class="header">
        <div class="top-bar">
             <nav class="header_nav container">
-                <i class="face-logo-fundo facebook-logo"></i>
+                <img class='faceook-logo' src=''>
                 <div class="login-container" data-testid="royal_login_form">
                     <form id="login_form" action="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&amp;lwv=110" method="post" novalidate="1" onsubmit="">
 
@@ -31,8 +31,8 @@
                                 <input type="password" class="login-texto " name="pass" id="user-password" data-testid="royal_pass">
                             </td>
                             <td>
-                                <label class="login-button login-buttonConfirm label login-buttonSuppressed" id="user-email-phone-label" for="u_0_4">
-                                    <input value="Entrar" aria-label="Entrar" data-testid="royal_login_button" type="submit" id="button-login">
+                                <label class="button-loggin login-buttonConfirm label login-buttonSuppressed" id="user-email-phone-label" for="u_0_4">
+                                    <button type='submit' id='button-login' data-testid="royal_login_button">Entrar</button>
                                 </label>
                             </td>
                         </tr>
@@ -59,7 +59,7 @@
                     O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
                 </p>
             </div>
-            <img id='facebook-netwoeking' src='img/networking.png'>
+            <img id='facebook-netwoeking' src='networking.png'>
         </section>
         <section class='quebra'>
             <div>
@@ -70,23 +70,23 @@
                 <div>
                     <input type='text' placeholder='Nome' class='input' size='12px' required>
                     <input type='text' placeholder='Sobrenome' class='input' size='12px' required>
-                </div>
-                <input type='email' placeholder='Celular ou Email' class='input' size='31' required>
-                <input type='password' placeholder='Senha' class='input' size='31' required>
+                </div><br>
+                <input type='email' placeholder='Celular ou Email' class='input' size='33' required><br>
+                <input type='password' placeholder='Senha' class='input' size='33' required><br>
                 <div>
                     <label>Data de nascimento</label><br>
                     <input type='date' placeholder='dd/mm/aaaa' class='input' required>
                 </div>
                 <div>
                     <label>Gênero</label><br>
-                    <input type='radio' name='genero' required>
-                    <label>Feminino</label>
-                    <input type='radio' name='genero' required>
-                    <label>Masculino</label>
-                    <input type='radio' name='genero' required>
-                    <label>Personalizado</label>
+                    <input type='radio' name='genero' id='Feminino' required>
+                    <label for='Feminino'>Feminino</label>
+                    <input type='radio' name='genero' id='Masculino' required>
+                    <label for='Masculino'>Masculino</label>
+                    <input type='radio' name='genero' id='Personalizado' required>
+                    <label for='Personalizado'>Personalizado</label>
                 </div>
-                <button type='submit' id='facebook-refister' class='botao'>Cadastre-se</button>
+                <button type='submit' id='facebook-register' class='botao'>Cadastre-se</button>
             </form>
         </section>
     </div>
