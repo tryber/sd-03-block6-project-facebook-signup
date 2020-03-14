@@ -15,7 +15,7 @@ const radioButtons = document.querySelectorAll('.gender');
 const buttonCreate = document.querySelector('#facebook-register');
 
 function verificaDados() {
-  let firstName = document.querySelector('#firstname').value;
+  const firstName = document.querySelector('#firstname').value;
   let selectGender = '';
   for (let i = 0; i < radioButtons.length; i += 1) {
     if (radioButtons[i].checked) {

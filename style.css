@@ -121,7 +121,7 @@ body {
   padding: 8px 10px;
 }
 
-.register-form input:nth-child(1) {
+.register-form input:nth-child( 1 ) {
   margin-right: 8px;
 }
 
