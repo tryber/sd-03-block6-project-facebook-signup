@@ -45,12 +45,12 @@ h1 {
   align-self: flex-end;
   display: flex;
   margin-bottom: -1px;
-  width: 169px;}
+  width: 169px;
+}
 
 .forgot-link {
   color: rgb(156, 180, 216);
 }
-
 
 .header-section {
   color: white;
@@ -58,6 +58,11 @@ h1 {
   font-style: inherit;
   justify-content: space-between;
   width: 980px;
+}
+
+.text-login {
+  font-weight: 400;
+  text-align: left;
 }
 
 .user-email-phone , .user-password {
@@ -203,12 +208,12 @@ a:link , a:visited , a:hover , a:active {
 }
 
 footer {
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 980px;
   margin: 0 auto;
+  width: 980px;
 }
 
 a:link , a:visited , a:active {
@@ -225,6 +230,9 @@ a:hover {
   border: 0.5px solid  rgb(221, 223, 226);
   color: rgb(56, 88, 152);
   width: 980px;
+
+  /*  margin-block-end: -1px;
+  margin-block-start: -1px; */
 }
 
 .footerOthers {
@@ -236,7 +244,9 @@ a:hover {
   margin-bottom: 18px;
   margin-left: -20px;
   margin-top: 10px;
-  padding-inline-start: 0;
+
+  /*  padding-inline-start: 0;
+ */
 }
 
 .footerOthers > li {
