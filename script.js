@@ -25,7 +25,7 @@ document.getElementById('facebook-register').addEventListener('click', function 
     alert('A data de nascimento fornecida não é válida')
     validForm = false;
   }
-  if(validForm) {
+  if (validForm) {
     alert(`Nome: ${document.getElementById('name').value} ${document.getElementById('last-name').value}
     \nCelular ou E-mail: ${document.getElementById('phone-email').value}
     \nData de nascimento: ${document.getElementById('datepicker').value}
