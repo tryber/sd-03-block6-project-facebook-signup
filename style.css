@@ -101,8 +101,8 @@ h1 {
 
 .content {
   display: flex;
-  max-width: 980px;
   max-height: 629.828px;
+  max-width: 980px;
 }
 
 article {
@@ -139,20 +139,19 @@ input {
 
 .leftSide {
   display: flex;
-  width: 580px;
   height: 326;
+  width: 580px;
 }
 
 .leftSide > p {
   color: #0e385f;
   font-size: 20px;
   font-weight: 700;
-  line-height: 29px;
   height: 45px;
+  line-height: 29px;
   margin-top: 40px;
   width: 450px;
   word-spacing: -1px;
-
 }
 
 .leftSide img {
@@ -245,7 +244,7 @@ a:hover {
   margin-left: -20px;
   margin-top: 10px;
 
-  /*  padding-inline-start: 0;
+/*  padding-inline-start: 0;
  */
 }
 
@@ -260,7 +259,9 @@ a:hover {
   list-style-type: none;
   margin-left: -10px;
   margin-top: 20px;
-  padding-inline-start: 0;
+
+  /*   padding-inline-start: 0;
+ */
 }
 
 .languages > li {
