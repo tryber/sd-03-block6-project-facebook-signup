@@ -59,7 +59,7 @@ body {
   min-width: 194px;
   padding: 7px 20px;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .top-bar td button {
@@ -97,7 +97,7 @@ body {
   font-size: 20px;
   font-weight: 700;
   line-height: 29px;
-  margin: 0px 0 0 15px;
+  margin: 0 0 0 15px;
   word-spacing: -1px;
 }
 
@@ -165,7 +165,6 @@ body {
 .register-form .radio {
   color: #1d2129;
   font-size: 18px;
-  font-weight: normal;
   line-height: 18px;
   padding: 0 10px 0 3px;
 }
