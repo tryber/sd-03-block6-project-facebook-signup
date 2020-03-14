@@ -1,14 +1,22 @@
-body{
-    
-}
-.top-bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-color: aqua;
-    border: 2px solid red;
-    width: 100vw;
-    height: 50vw;
-
+body {
+  display: flex;
+  flex-direction: column; 
+  margin: 0;
 }
 
+.top-bar {
+  background-color: rgb(59, 89, 152);
+  height: 70px;
+  padding: 13px;
+  width: 100%;
+}
+
+.a {
+  font-size: 36px;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  margin: 1px solid red;
+}
