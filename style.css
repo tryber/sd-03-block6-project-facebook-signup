@@ -16,8 +16,6 @@ header {
   align-items: center;
   background: linear-gradient(rgb(78, 105, 162), rgb(59, 89, 152) 50%);
   display: flex;
-  font-size: 12px;
-  font-style: inherit;
   justify-content: space-around;
   max-width: 100%;
 
@@ -31,8 +29,8 @@ h1 {
 }
 
 .button-login {
-  background-color: rgb(62, 97, 168);
-  border: 1px solid rgb(48, 76, 130);
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
   border-radius: 2px;
   color: white;
   cursor: pointer;
@@ -40,6 +38,10 @@ h1 {
   font-weight: 700;
   height: 24px;
   width: 48px;
+}
+
+.button-login:hover {
+  background-color: rgb(59, 89, 152);
 }
 
 .facebook-logo {
@@ -185,4 +187,37 @@ input {
   color: #777;
   font-size: 11px;
   width: 316px;
+}
+
+/* FOOTER */
+a:link , a:visited , a:hover , a:active {
+  text-decoration: none;
+}
+
+footer {
+  align-items: center;
+  width: 980px;
+}
+
+.footerLine {
+  border: 0.5px solid  rgb(221, 223, 226);
+  color: rgb(56, 88, 152);
+  cursor: pointer;
+}
+
+.footerOthers {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.languages {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.other-language {
 }
