@@ -1,6 +1,68 @@
-.top-bar {
-    background-color: rgb(59, 89, 152);
-    display: flex;
-    justify-content: space-between;
+html , body , div , input , p , label , section , main , form {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+.button-login {
+  align-items: flex-start;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(66, 103, 178);
+  border: 1px solid rgb(41, 72, 125);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 12pt;
+  height: 22px;
+  margin: 12px 0 0 15px;
+  width: 56px;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(59, 89, 152);
+  border-bottom: 1px solid #1d2a5b;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+}
+
+.login , .password {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  padding-left: 1px;
+  width: 40%;
+}
+
+.user-email-phone , .senha {
+  border: 1px solid #1d2a5b;
+}
+
+.container-head {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.box-left {
+  display: flex;
+}
+
+.box-right {
+  display: flex;
+}
+
+small {
+  color: #9cb4d8;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 3px;
+  text-align: left;
+}
+
+small:hover {
+  text-decoration: underline;
+}
