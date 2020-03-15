@@ -57,7 +57,7 @@ h1 {
   display: flex;
   font-style: inherit;
   justify-content: space-between;
-  width: 980px;
+  min-width: 980px;
 }
 
 .text-login {
@@ -66,7 +66,6 @@ h1 {
 }
 
 .user-email-phone , .user-password {
-  border-bottom: 1px solid rgb(29, 42, 91);
   border-style: none;
   color: rgb(28, 30, 33);
   font-family: Helvetica, Arial, sans-serif;
@@ -229,14 +228,12 @@ a:hover {
   text-decoration: underline;
 }
 
-
 .footerLine {
   border: 0.5px solid  rgb(221, 223, 226);
   color: rgb(56, 88, 152);
+  margin-top: -1px;
+  margin-bottom: -1px;
   width: 980px;
-
-  /*  margin-block-end: -1px;
-  margin-block-start: -1px; */
 }
 
 .footerOthers {
@@ -248,9 +245,7 @@ a:hover {
   margin-bottom: 18px;
   margin-left: -20px;
   margin-top: 10px;
-
-  /*  padding-inline-start: 0;
- */
+  padding-left: 0;
 }
 
 .footerOthers > li {
@@ -262,11 +257,10 @@ a:hover {
   flex-flow: row wrap;
   justify-content: flex-start;
   list-style-type: none;
+  margin-bottom: 6px;
   margin-left: -10px;
-  margin-top: 20px;
-
-  /*   padding-inline-start: 0;
- */
+  margin-top: 18px;
+  padding-left: 0;
 }
 
 .languages > li {
