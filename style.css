@@ -64,14 +64,17 @@ p {
 .corpo {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 2.99%;
 }
 
 .lado-direito {
+  bottom: 17px;
   display: flex;
   flex-flow: row wrap;
   font-family: Helvetica, Arial, sans-serif;
+  right: 82.9px;
+  position: relative;
   width: 400px;
 }
 
@@ -80,7 +83,7 @@ p {
   font-size: 20px;
   font-weight: 700;
   height: 20%;
-  left: 37px;
+  left: 83px;
   line-height: 29px;
   position: relative;
   width: 40%;
@@ -92,6 +95,7 @@ p {
   flex-flow: row wrap;
   font-size: 19px;
   height: 80px;
+  margin-bottom: 10.5px;
   width: 273px;
 }
 
@@ -144,11 +148,16 @@ span {
   border-radius: 5px;
   font-size: 18px;
   height: 21px;
-  margin: 5px 3px;
+  margin: 5px 0;
   padding: 8px 10px;
   width: 172px;
 }
 
+.form-direito {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
 .big-box {
   width: 377px;
 }
