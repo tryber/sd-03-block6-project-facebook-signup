@@ -23,7 +23,7 @@ body {
   width: 180px;
 }
 
-.btnCadastro > .facebook-register {
+.btnCadastro > button {
   background-color: #69a74e;
   border: 1px solid;
   border-color: #3b6e22 #3b6e22 #2c5115;
@@ -90,7 +90,7 @@ body {
   width: 50px;
 }
 
-.form2 > p {
+.form2 > button {
   border: 1px solid black;
   color: white;
   padding: 5px;
