@@ -66,14 +66,15 @@ h1 {
 }
 
 .user-email-phone , .user-password {
-  border-style: none;
+  border: 1px solid rgb(28, 30, 33);;
   color: rgb(28, 30, 33);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   margin: 0;
   margin-right: 12px;
   padding: 3px;
-  width: 142px;
+  padding-bottom: 4px;
+  width: 140px;
 }
 
 .user-login {
@@ -206,8 +207,13 @@ input {
 }
 
 /* FOOTER */
-a:link , a:visited , a:hover , a:active {
+a:link , a:visited , a:active {
+  color: rgb(56, 88, 152);
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 footer {
@@ -219,13 +225,15 @@ footer {
   width: 980px;
 }
 
-a:link , a:visited , a:active {
-  color: rgb(56, 88, 152);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+.button-plus {
+  background-color: rgb(245, 246, 247);
+  border: 1px solid rgb(204, 208, 213);
+  border-radius: 2px;
+  color: rgb(75, 79, 86);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 9px;
 }
 
 .footerLine {
@@ -253,11 +261,12 @@ a:hover {
 }
 
 .languages {
+  align-items: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
   list-style-type: none;
-  margin-bottom: 6px;
+  margin-bottom: 9px;
   margin-left: -10px;
   margin-top: 18px;
   padding-left: 0;

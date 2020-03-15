@@ -24,3 +24,13 @@ $(function() {
       monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
   });
 });
+
+const languages = document.querySelectorAll('.languages')[0];
+const footerOthers = document.querySelectorAll('.footerOthers')[0];
+
+function paginaEmDesenvolvimento() {
+  alert('Página em desenvolvimento.');
+  event.preventDefault();
+}
+languages.addEventListener('click', paginaEmDesenvolvimento);
+footerOthers.addEventListener('click', paginaEmDesenvolvimento);
