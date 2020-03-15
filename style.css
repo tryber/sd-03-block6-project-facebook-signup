@@ -35,7 +35,7 @@ p {
   width: 169px;
 }
 
-.form {
+.login-form {
   bottom: 1px;
   color: white;
   display: flex;
@@ -160,7 +160,7 @@ span {
 }
 
 .big-box {
-  width: 377px;
+  width: 100%;
 }
 
 .data-name {
