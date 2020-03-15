@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="imagem/png" href="imagem/icone" />
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
     <title>Facebook - entre ou cadastre-se</title>
   </head>
 
@@ -46,15 +48,14 @@
             <span class="account-title">Abra uma conta</span>
             <span class="easy">É rápido e fácil.</span>
           </section>
-            <form class="form-direito" action="" method="" enctype="multipart/form-data">
-              <input class="form-box" type="text" placeholder="Nome">
-              <input class="form-box" type="text" placeholder="Sobrenome">
-              <input class="form-box big-box" type="text" placeholder="Celular ou email">
-              <input class="form-box big-box" type="password" placeholder="Nova senha">
-            </form>
-              <p class="cor-cinza data-name">Data de nascimento</p>
-              <input type="datetime" placeholder="dd/mm/aaaa" class="date-nasc">
-              <img src="imagem/interrogração.png" alt="icone de interrogação" width="20px">
+          <form class="form-direito" action="" method="" enctype="multipart/form-data">
+            <input class="form-box" type="text" placeholder="Nome" required>
+            <input class="form-box" type="text" placeholder="Sobrenome" required>
+            <input class="form-box big-box" type="email" placeholder="Celular ou email" required>
+            <input class="form-box big-box" type="password" placeholder="Nova senha" maxlength="8" required>
+          <p class="cor-cinza data-name">Data de nascimento</p>
+          <input type="text" placeholder="dd/mm/aaaa" id="datepicker" class="date-nasc">
+          <img src="imagem/interrogração.png" alt="icone de interrogação" width="20px">
 
           <section class="genero">
             <p class="name-genero cor-cinza">Gênero</p>
@@ -68,15 +69,18 @@
             </section>
           </section>
           <section class="termos cor-cinza">
-            <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de Dados</a> e <a href="#">Política de Cookies.</a>Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+            <p>Ao clicar em Cadastre-se, você concorda com nossos <a href="#">Termos</a>, <a href="#">Política de
+                Dados</a> e <a href="#">Política de Cookies.</a>Você pode receber notificações por SMS e pode cancelar
+              isso quando quiser.</p>
           </section>
           <section>
             <button type="submit" class="btn-cadastro" id="facebook-register" >Cadastre-se</button>
           </section>
+        </form>
         </article>
       </section>
-
       <script src="script.js"></script>
+      <script src="pikaday.js"></script>
   </body>
 
 </html>
