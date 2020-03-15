@@ -1,24 +1,22 @@
 let dadosPessoais =  document.querySelectorAll('.form-box');
 let botaoCadastro = document.querySelector('.btn-cadastro');
 function validaNome() {
-  let nome =  dadosPessoais[0];
-  let sobrenome =  dadosPessoais[1];
+  let nome = dadosPessoais[0];
+  let sobrenome = dadosPessoais[1];
   if (nome.value === '' || sobrenome.value === '') {
     return false;
   }
   return true;
 }
-function checarEmail(){
-  if ( dadosPessoais[2].value === "" 
-      || dadosPessoais[2].value.indexOf('@') === -1
-      || dadosPessoais[2].value.indexOf('.') === -1) {
-      return false;
-    }
+function checarEmail() {
+  if ( dadosPessoais[2].value == '' || dadosPessoais[2].value.indexOf('@') == -1 || dadosPessoais[2].value.indexOf('.') == -1) {
+    return false;
+  }
     return true;
 }
 function checarSenha() {
   let senha = dadosPessoais[3].value;
-  let tamanhoSenha = senha.length; 
+  let tamanhoSenha = senha.length;
   console.log(tamanhoSenha);
   if (senha === '' || tamanhoSenha < 8) {
     return false;
@@ -27,9 +25,9 @@ function checarSenha() {
 }
 function validarCadastro() {
   let erros = 0;
-  nome = validaNome(); 
+  nome = validaNome();
   senha = checarSenha();
-  email = checarEmail(); 
+  email = checarEmail();
   if (!email) {
     erros += 1;
   }
@@ -39,14 +37,14 @@ function validarCadastro() {
   if (!nome) {
     erros += 1;
   }
-  if (erros > 1) {
+  if (erros >= 1) {
     alert('Dados inválidos');
   }
   if (erros == 0) {
     let valorNome = dadosPessoais[0].value;
     let valorSobrenome = dadosPessoais[1].value;
     let valorEmail = dadosPessoais[2].value;
-    let genero = 'exemplo'; 
+    let genero = 'exemplo';
     let mensagem = `Nome: ${valorNome} ${valorSobrenome} - ${genero}, E-mail: ${valorEmail}`;
     alert(mensagem);
   }
