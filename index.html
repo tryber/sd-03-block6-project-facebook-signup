@@ -31,20 +31,21 @@
             <img id="facebook-networking" src="networking.png" alt="">
         </section>
         <form action="." method="GET" class="criar-conta">
-            <span>Abra uma conta</span>
-            <!-- É fácil e Rápido-->
+            <div id="AbraRapido">
+                <span id="AuC"><strong>Abra uma conta</strong></span>
+                <p id="ReF">É rápido e fácil.</p>
+            </div>
             <fieldset class="inputs-label-container">
-                <!-- Nome -->
-                <!-- Sobrenome -->
+                <input type="text" placeholder="Nome" id="nome" class="nomes">
+                <input type="text" placeholder="Sobrenome" class="nomes" id="sobrenome">
             </fieldset>
             <fieldset class="inputs-label-container">
-                <!-- Celular ou email -->
-                <!-- Nova senha -->
-                <input type="password" placeholder="Nova Senha">
+                <input type="email" placeholder="Celular ou email" class="celularEsenha" id="celularMail"><br>
+                <input type="password" placeholder="Nova Senha" class="celularEsenha" id="senha">
             </fieldset>
             <fieldset class="inputs-label-container">
                 <label for="data"><h3>Data de nascimento</h3></label>
-                    <input type="datetime" id="data" placeholder="dd/mm/aaaa">
+                    <input type="datetime" id="data" placeholder="dd/mm/aaaa" class="celularEsenha" id="data">
             </fieldset>
             <fieldset class="inputs-label-container">
                 <h3>Gênero</h3>
@@ -57,12 +58,12 @@
                     <label for="Personalizado">Personalizado</label>
                 </div>
             </fieldset>
-            <button type="submit" id="facebook-register">Cadastre-se</button>
+            <button type="submit" id="facebook-register" onclick="cadastro()">Cadastre-se</button>
         </form>
     </section>
     <footer>
 
     </footer>
-    <script>src="script.js"</script>
+    <script src="script.js"></script
 </body>
 </html>
