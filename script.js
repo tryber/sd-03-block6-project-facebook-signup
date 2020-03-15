@@ -14,7 +14,7 @@ function alertLogin() {
 }
 buttonLogin.addEventListener('click', alertLogin);
 
-const $;
+const $
 $(function () {
   $('#input-data').datepicker({
     dateFormat: 'dd/mm/yy',
