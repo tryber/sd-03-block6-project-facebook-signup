@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <title>Facebook</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="conteudo top-bar">
+        <img
+          class="facebook-logo"
+          src="facebook.png"
+          width="100px"
+          alt="Logo do facebook"
+        />
+      <div class="login">
+        <div class="coluna-barrasuperior">
+          <label id="user-email-phone-label" class="rotulo-superior" for="user-email-phone">Email ou telefone</label>
+          <input type="text" id="user-email-phone" class="user-email-phone" />
+        </div>
+        <div class="coluna-barrasuperior">
+          <label for="user-password" class="rotulo-superior">Senha</label>
+          <input type="password" id="user-password" class="user-email-phone" />
+          <a class="esqueceu-senha"  href>Esqueceu a conta?</a>
+        </div>
+        <div class="coluna-barrasuperior">
+          <button id="button-login" class="button-login">Entrar</button>
+        </div>
+      </div>
+    </div>
+    </header>
+    <section>
+      <div class="conteudo meio">
+        <div class="ladoesquerdo">
+          <p class="ajuda">
+            O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+          </p>
+          <img src="networking.png" alt="Imagem rede" class="mapa" id="facebook-networking" />
+        </div>
+        <div class="coluna direita">
+          <span class="abraconta">Abra uma conta</span>
+          <span class="rapido">É rápido e fácil.</span>
+          <div class="nome">
+            <input type="text" placeholder="Nome" />
+            <input type="text" placeholder="Sobrenome" />
+          </div>
+          <input type="text" id="celularouemail" placeholder="Celular ou email"/>
+          <input type="password" id="novasenha" placeholder="Nova senha"/>
+          <label class="data">Data de nascimento</label>
+          <input type="text" id="datepicker" placeholder="dd/mm/aaaa"/>
+          <label for="">Gênero</label>
+          <div class="genero">
+            <input type="radio" name="genero" id="feminino" value="Feminino">
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero"" id="masculino" value="Masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="personalizado" value="Personalizado">
+            <label for="personalizado">Personalizado</label>
+          </div>
+          <p class="politica">
+          "Ao clicar em Cadastrar-se, você concorda com nossos"
+          <a href>Termos</a>
+
+          </p>
+          <button class="cadastarse" id="facebook-register">Cadastrar-se</button>
+          <p class="criarpagina">
+            <a href>Criar uma página</a>
+            "  para uma celebridade, banda ou empresa."
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script>
+    new Pikaday({
+      field: document.getElementById('datepicker'),
+      format: 'DD/MM/YYYY',
+    });
+  </script>
+ <script src="script.js"></script>
+  </body>
+</html>
