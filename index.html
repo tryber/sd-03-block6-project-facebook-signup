@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook - entre ou cadastre-se</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/faviconfacebook.png" />
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+  <header class="top-bar">
+    <section class="section-container">
+      <div class="logo-container">
+        <h4 class="facebook-logo">facebook</h4>
+      </div>
+      <div>
+        <form class="login-container">
+          <div class="user-email-phone">
+            <div>
+              <label id='user-email-phone-label'>Email ou telefone</label>
+              <input type="text" id="user-email-phone">
+            </div>
+          </div>
+          <div class=" password-container">
+            <div>
+              <label>Senha</label>
+              <input type="password" id="user-password">
+            </div>
+            <div class="forgot-account">Esqueceu a conta?</div>
+          </div>
+          <button class="button-login" id="button-login">Entrar</button>
+        </form>
+      </div>
+    </section>
+  </header>
+
+  <section class="networking-container">
+
+    <div class="people-networking">
+      <div>
+        <h2 class='texto-networking'>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte
+          da
+          sua
+          vida.</h2>
+      </div>
+      <img id="facebook-networking" src="images/networking.png">
+    </div>
+
+    <section class="abrir-conta">
+      <div>
+        <h2 class='open-account'>Abra uma conta </h2>
+        <div class='open-account-subtitle'>É rápido e fácil.</div>
+      </div>
+      <form class="criar-conta">
+        <div>
+          <div class="nome-sobrenome">
+            <input required='required' type='text' placeholder='Nome' class='nome'>
+            <input required='required' type='text' placeholder='Sobrenome' class='nome'>
+          </div>
+          <div>
+            <input required="required" type="email" placeholder="Celular ou email" class="input-email email-senha">
+          </div>
+          <div>
+            <input required="required" type="password" placeholder="Nova senha" class="input-senha email-senha">
+          </div>
+          <section>
+            <div>
+              <p class="pLabel">Data de nascimento</p>
+              <input type="text" id="datepicker" class="inputHeight" placeholder="dd/mm/aaaa">
+            </div>
+            <img class='button-question2' src="images/question.png" alt="botão duvidas" width="30px">
+          </section>
+          <h2 class='section-title'>Gênero</h2>
+          <section class='genero'>
+            <div>
+              <input required="required" type="radio" name="sexo" value="Feminino" id="Feminino">
+              <label for="Feminino">Feminino</label>
+            </div>
+            <div>
+              <input required="required" type="radio" name="sexo" value="Masculino" id="Masculino">
+              <label for="Masculino">Masculino</label>
+            </div>
+            <div>
+              <input required="required" type="radio" name="sexo" value="Personalizado" id="Personalizado">
+              <label for="Personalizado">Personalizado</label>
+            </div>
+          </section>
+          <img class='button-question' src="images/question.png" alt="botão duvidas" width="30px">
+          <p class='termos'>Ao clicar em Cadastre-se, você concorda com nossos <a href=''>Termos,<br> Política de Dados
+              <span>e</span>
+              Política de Cookies.</a> Você pode
+            receber <br>notificações por SMS e pode cancelar isso quando quiser.</p>
+          <div>
+            <button type="submit" id="facebook-register" class="facebook-register">Cadastre-se</button>
+          </div>
+          <p class='termos2'><a href=''>Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+
+    </section>
+  </section>
+  <footer class="footer">
+    <div class='footer-container'>
+      <p class='footer-p'>
+        Português (Brasil) <a class='footer-a' href=''> English (US) Español Français (France) Italiano Deutsch العربية
+          हिन्दी 中文(简体) 日本語</a>
+        <button class="button-plus">+</button>
+      </p>
+      <hr>
+      <p class="footer-p2"> <a class='footer-a2' href=''>
+          Cadastre-se Entrar Messenger Facebook Lite
+          Watch
+          Pessoas
+          Páginas
+          Categorias de Página
+          Locais
+          Jogos
+          Locais
+          Marketplace
+          Grupos <br>
+          Instagram
+          Local
+          Campanhas de arrecadação de fundos
+          Serviços
+          Sobre
+          Criar anúncio
+          Criar Página
+          Desenvolvedores
+          Carreiras
+          Privacidade
+          Cookies<br>
+          Opções de anúncio
+          Termos
+          Ajuda
+        </a>
+      </p>
+      <p class="footer-p3">Facebook © 2020</p>
+    </div>
+  </footer>
+  <footer class="footer-dois">
+      <h2 class="by-me"> &#10145 Desenvolvido por Marcos Junior Climaco | Trybe &#10084 </h2>
+  </footer>
+</body>
+</html>
