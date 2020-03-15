@@ -54,9 +54,10 @@ body {
 }
 
 .logo-container {
+  height: 65px;
   margin-top: 0;
   padding: 0;
-  width: 200px;
+  width: 392px;
 }
 
 .criar-conta input {
@@ -100,7 +101,8 @@ body {
 .login-container {
   display: flex;
   flex-direction: row;
-  width: 400px;
+  height: 65px;
+  width: 392px;
 }
 
 .user-email-phone {
@@ -116,8 +118,10 @@ body {
 
 .user-email-phone input {
   border: 1px solid #1d2a5b;
+  height: 14px;
   margin: 0;
   padding: 4px;
+  width: 142px;
 }
 
 .password-container {
@@ -137,8 +141,10 @@ body {
 
 .password-container input {
   border: 1px solid #1d2a5b;
+  height: 14px;
   margin: 0;
   padding: 4px;
+  width: 142px;
 }
 
 .forgot-account {
