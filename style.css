@@ -66,7 +66,7 @@ h1 {
 }
 
 .user-email-phone , .user-password {
-  border: 1px solid rgb(28, 30, 33);;
+  border: 1px solid rgb(28, 30, 33);
   color: rgb(28, 30, 33);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -239,8 +239,8 @@ footer {
 .footerLine {
   border: 0.5px solid  rgb(221, 223, 226);
   color: rgb(56, 88, 152);
-  margin-top: -1px;
   margin-bottom: -1px;
+  margin-top: -1px;
   width: 980px;
 }
 
