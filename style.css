@@ -9,6 +9,10 @@ body {
   vertical-align: baseline;
 }
 
+p {
+  margin: 0;
+}
+
 .top-bar {
   align-items: center;
   background-image: linear-gradient(#4e69a2, #3b5998 50%);
@@ -65,15 +69,18 @@ body {
 }
 
 .lado-direito {
+  display: flex;
   flex-direction: row;
+  flex-flow: row wrap;
   font-family: Helvetica, Arial, sans-serif;
-  width: 38%;
+  width: 400px;
 }
 
 .lado-esquerdo {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: 700;
+  height: 20%;
   left: 37px;
   line-height: 29px;
   position: relative;
@@ -84,9 +91,9 @@ body {
 .abra-sua-conta {
   display: flex;
   flex-flow: row wrap;
+  font-size: 19px;
   height: 80px;
-  margin-left: 10%;
-  width: 55%;
+  width: 273px;
 }
 
 article .easy {
@@ -96,14 +103,14 @@ article .easy {
 .welcome-text {
   color: #0e385f;
   font-size: 20px;
-  margin: 0;
-  width: 450px;
+  width: 440px;
 }
 
 .cadastro-form {
+  display: flex;
   color: #1d2129;
-  margin: auto;
-  width: 80%;
+
+
 }
 
 .lado-direito .account-title {
@@ -135,6 +142,21 @@ span {
   padding: 4px 5px;
 }
 
+.form-box {
+  border: 1px solid #bdc;
+  border-radius: 5px;
+  height: 21px;
+  font-size: 18px;
+  margin: 5px 3px;
+  padding: 8px 10px;
+  width: 172px;
+  
+}
+
+.big-box {
+  width: 377px;
+}
+
 .data-name {
   font-weight: 700;
   margin: 10px 0 5px;
@@ -154,11 +176,11 @@ span {
 }
 
 .inputs {
-  margin-left: 60px;
+  padding: 8px 10px;
 }
 
 .inputs input {
-  margin-right: 5px;
+  font-size: 18px;
 }
 
 .icone-interrogacao {
@@ -168,6 +190,7 @@ span {
 .cor-cinza {
   color: #90949c;
   font-size: 16px;
+  width: 100%;
 }
 
 .termos {
