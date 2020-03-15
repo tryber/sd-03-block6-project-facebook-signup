@@ -2,152 +2,167 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook - Log In or Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook entre ou cadastre-se</title>
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <header class="top-bar">
-        <section class="section-container">
-            <div class="logo-container">
-                <h4 class="facebook-logo">facebook</h4>
-            </div>
+
+  <header class="top-bar">
+    <section class="section-container">
+      <div class="logo-container">
+        <h4 class="facebook-logo">facebook</h4>
+      </div>
+      <div>
+        <form class="login-container">
+          <div class="user-email-phone">
             <div>
-                <form class="login-container">
-                    <div class="user-email-phone" id="user-email-phone">
-                        <div>
-                            <label for="user-email-phone">E-mail ou telefone</label>
-                        </div>
-                        <input class="login" name="user-email-phone" id="user-email-phone">
-                    </div>
-                    <div class=" password-container">
-                        <div>
-                            <label for="senha">Senha</label>
-                            <input id="user-password" name="senha">
-                        </div>
-                        <div class="forgot-account">Esqueceu a conta?</div>
-                    </div>
-                    <button class="button-login" id="button-login">Entrar</button>
-
-                </form>
+              <label id='user-email-phone-label'>Email ou telefone</label>
+              <input type="text" id="user-email-phone">
             </div>
-        </section>
-    </header>
-    <div>
-        <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
-        <div class="img-pessoas">
-            <img id="facebook-networking" src="img-facebook.png">
-        </div>
-        <section class="abrir-conta">
+          </div>
+          <div class=" password-container">
+            <div>
+              <label>Password</label>
+              <input type="password" id="user-password">
+            </div>
+            <div class="forgot-account">Forgot account?</div>
+          </div>
+          <button class="button-login" id="button-login">Entrar</button>
+        </form>
+      </div>
+    </section>
+  </header>
 
-            <p>Abra uma conta </p>
-            <p>É rápido e fácil.</p>
+  <section class="networking-container">
 
-            <form class="criar-conta">
-                <div>
-                    <input type="text" placeholder="Nome">
-                </div>
-
-                <div>
-                    <input type="text" placeholder="Sobrenome">
-                </div>
-
-                <div>
-                    <input type="email" placeholder="Celular ou email">
-                </div>
-
-                <div>
-                    <input type="password" placeholder="Senha">
-                </div>
-
-                <div>
-                    <h2>Data de Nascimento</h2>
-                    <select name="nascimento-dia" class="nascimento">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                        <option value="13">13</option>
-                        <option value="14">14</option>
-                        <option value="15">15</option>
-                        <option value="16">16</option>
-                        <option value="17">17</option>
-                        <option value="18">18</option>
-                        <option value="19">19</option>
-                        <option value="20">20</option>
-                        <option value="21">21</option>
-                        <option value="22">22</option>
-                        <option value="23">23</option>
-                        <option value="24">24</option>
-                        <option value="25">25</option>
-                        <option value="26">26</option>
-                        <option value="27">27</option>
-                        <option value="28">28</option>
-                        <option value="29">29</option>
-                        <option value="30">30</option>
-                        <option value="31">31</option>
-                    </select>
-
-                    <select name="nascimento-mes" class="nascimento">
-                        <option value="01">Jan</option>
-                        <option value="02">Fev</option>
-                        <option value="03">Mar</option>
-                        <option value="04">Abr</option>
-                        <option value="05">Maio</option>
-                        <option value="06">Jun</option>
-                        <option value="07">Jul</option>
-                        <option value="08">Ago</option>
-                        <option value="09">Set</option>
-                        <option value="10">Out</option>
-                        <option value="11">Nov</option>
-                        <option value="12">Dez</option>
-                    </select>
-
-                    <select name="nascimento-ano" class="nascimento">
-                        <option value="12">2011</option>
-                        <option value="11">2010</option>
-                        <option value="10">2009</option>
-                        <option value="09">2008</option>
-                        <option value="08">2007</option>
-                        <option value="07">2006</option>
-                        <option value="06">2005</option>
-                        <option value="05">2004</option>
-                        <option value="04">2003</option>
-                        <option value="03">2002</option>
-                        <option value="07">2001</option>
-                        <option value="02">2000</option>
-                        <option value="01">1999</option>
-                        <option value="19">1998</option>
-                        <option value="18">1997</option>
-                        <option value="17">1996</option>
-                        <option value="16">1995</option>
-                    </select>
-                </div>
-        </section>
-        <h2>Gênero</h2>
-        <div>
-            <input type="radio" name="sexo" value="Masculino">
-            <h2>Masculino</h2>
-        </div>
-        <div>
-            <input type="radio" name="sexo" value="Feminino">
-            <h2>Feminino</h2>
-        </div>
-        <div>
-            <input type="radio" name="sexo" value="Personalisar">
-            <h2>Personalisar</h2>
-        </div>
+    <div class="people-networking">
+      <div>
+        <h2 class="texto-networking">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da
+          sua
+          vida.</h2>
+      </div>
+      <img id="facebook-networking" src="img-facebook.png">
     </div>
-    <script src="./script.js"></script>
+
+    <section class="abrir-conta">
+      <div>
+        <h2 class='open-account'>Abra uma conta </h2>
+        <div class="">É rápido e fácil.</div>
+      </div>
+      <form class="criar-conta">
+        <div>
+          <div>
+            <input required='required' type='text' placeholder='Nome' class='nome'>
+            <input required='required' type='text' placeholder='Sobrenome' class='nome'>
+          </div>
+        <div>
+          <input required="required" type="email" placeholder="Celular ou email" class="input-email email-senha">
+        </div>
+        <div>
+          <input required="required" type="password" placeholder="Nova senha" class="input-senha email-senha">
+        </div>
+        <section>
+          <h2 class="section-title">Data de Nascimento</h2>
+          <select name="nascimento-dia" class="nascimento-dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+
+          <select name="nascimento-mes" class="nascimento-mes">
+            <option value="01">Jan</option>
+            <option value="02">Fev</option>
+            <option value="03">Mar</option>
+            <option value="04">Abr</option>
+            <option value="05">Maio</option>
+            <option value="06">Jun</option>
+            <option value="07">Jul</option>
+            <option value="08">Ago</option>
+            <option value="09">Set</option>
+            <option value="10">Out</option>
+            <option value="11">Nov</option>
+            <option value="12">Dez</option>
+          </select>
+
+          <select name="nascimento-ano" class="nascimento-ano">
+            <option value="12">2011</option>
+            <option value="11">2010</option>
+            <option value="10">2009</option>
+            <option value="09">2008</option>
+            <option value="08">2007</option>
+            <option value="07">2006</option>
+            <option value="06">2005</option>
+            <option value="05">2004</option>
+            <option value="04">2003</option>
+            <option value="03">2002</option>
+            <option value="07">2001</option>
+            <option value="02">2000</option>
+            <option value="01">1999</option>
+            <option value="19">1998</option>
+            <option value="18">1997</option>
+            <option value="17">1996</option>
+            <option value="16">1995</option>
+          </select>
+        </section>
+        <h2 class='section-title'>Gênero</h2>
+        <section class='genero'>
+          <div>
+            <input type="radio" name="sexo" value="Masculino">
+            <label for="sexo">Masculino</label>
+          </div>
+          <div>
+            <input type="radio" name="sexo" value="Feminino">
+            <label for="sexo">Feminino</label>
+          </div>
+          <div>
+            <input type="radio" name="sexo" value="Personalisar">
+            <label for="sexo">Personalisar</label>
+          </div>
+        </section>
+        <img class='button-question' src="question.png" alt="botão duvidas" width="30px">
+        <p class='termos'>Ao clicar em Cadastre-se, você concorda com nossos <a href=''>Termos,<br> Política de Dados e
+            Política de Cookies.</a> Você pode
+          receber <br>notificações por SMS e pode cancelar isso quando quiser.</p>
+        <div>
+          <button type="submit" id="facebook-register" class="facebook-register">Cadastre-se</button>
+        </div>
+        <p class='termos2'><a href=''>Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+
+    </section>
+  </section>
+
 </body>
+
 </html>
