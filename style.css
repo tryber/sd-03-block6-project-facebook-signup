@@ -7,7 +7,6 @@ h1 , h2 , h3 , h4 , p {
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  overflow: hidden;
 }
 
 .abrir-conta {
@@ -24,16 +23,9 @@ body {
 .networking-container {
   background-color: #edf0f5;
   display: flex;
-  height: 500px;
+  height: 80%;
   justify-content: space-around;
-}
-
-.open-account {
-  font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
-  font-size: 36px;
-  line-height: 1.2;
-  margin-bottom: 5px;
-  margin-top: 25px;
+  padding-bottom: 50px;
 }
 
 .people-networking {
@@ -73,6 +65,24 @@ body {
   font-size: 18px;
   margin-bottom: 10px;
   padding: 8px 10px;
+}
+
+.open-account {
+  color: rgb(51, 51, 51);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.open-account-subtitle {
+  color: rgb(29, 33, 41);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .facebook-logo {
@@ -167,52 +177,12 @@ body {
   font-size: 19px;
   font-weight: 800;
   letter-spacing: normal;
+  margin-bottom: 20px;
+  margin-top: 20px;
   min-width: 175px;
   padding: 7px 20px;
   text-align: center;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-.termos {
-  color: rgb(119, 119, 119);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 11px;
-  font-style: normal;
-  line-height: 15px;
-}
-
-.termos a {
-  color: rgb(56, 88, 152);
-  text-decoration: none;
-}
-
-.termos2 {
-  color: rgb(102, 102, 102);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 17px;
-}
-
-.termos2 a {
-  color: rgb(56, 88, 152);
-  font-weight: 800;
-  text-decoration: none;
-}
-
-.section-title {
-  color: rgb(144, 148, 156);
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 21px;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-
-.button-question {
-  margin-bottom: 5px;
 }
 
 .nascimento-dia {
@@ -248,4 +218,110 @@ body {
   margin: 0;
   padding: 10px 8px;
   width: 377px;
+}
+
+.termos {
+  color: rgb(119, 119, 119);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 15px;
+}
+
+.termos a {
+  color: rgb(56, 88, 152);
+  text-decoration: none;
+}
+
+.termos2 {
+  color: rgb(102, 102, 102);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 17px;
+  padding-top: 15px;
+}
+
+.termos2 a {
+  color: rgb(56, 88, 152);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.section-title {
+  color: rgb(144, 148, 156);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.button-question {
+  margin-bottom: 5px;
+}
+
+.footer {
+  background-color: white;
+  margin: 0 auto;
+  width: 980px;
+}
+
+.footer-container {
+  height: 109px;
+  margin: 0 auto;
+  width: 962px;
+}
+
+.footer-p {
+  color: rgb(115, 115, 115);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: 20%;
+  line-height: 16px;
+  margin-top: 30px;
+  word-spacing: 10px;
+}
+
+.footer-a {
+  color: rgb(56, 88, 152);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: 20%;
+  line-height: 16px;
+  margin-top: 30px;
+  text-decoration: none;
+  word-spacing: 10px;
+}
+
+.footer-p2 {
+  color: rgb(115, 115, 115);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: 20%;
+  line-height: 16px;
+  margin: 0 auto;
+  word-spacing: 10px;
+}
+
+.footer-a2 {
+  color: rgb(56, 88, 152);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: 20%;
+  line-height: 16px;
+  margin-top: 30px;
+  text-decoration: none;
+  word-spacing: 10px;
 }
