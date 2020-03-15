@@ -8,10 +8,7 @@
     <link rel="icon" type="imagem/png" href="imagem/icone" />
     <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
-    <script src="pikaday.js"></script>
-    <script src="moment.js"></script>
     <title>Facebook - entre ou cadastre-se</title>
-
   </head>
 
   <body>
@@ -20,17 +17,18 @@
         <div class="facebook-logo">
           <img src="imagem/facebook1.png" alt="nome facebook">
         </div>
-        <form class="form">
+        <form class="login-form">
           <div class="formulario">
-            <label class="formulario" for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+            <label class="login-label" for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
             <input class="input-model" id="user-email-phone" type="text" name="user">
           </div>
           <div class="formulario">
-            <label for="user-password">Senha</label>
+            <label class="login-label" for="user-password">Senha</label>
             <input class="input-model" id="user-password" type="password" name="user">
+            <div class="esqueceu">Esqueceu a conta?</div>
           </div>
           <div>
-            <button class="enviar-button" id="button-login" style="margin-top: 16px;">Entrar</button>
+            <button class="enviar-button" id="button-login" style="margin-top: 18px;">Entrar</button>
           </div>
         </form>
       </header>
@@ -48,21 +46,18 @@
         <article class="lado-direito">
           <section class="abra-sua-conta">
             <span class="account-title">Abra uma conta</span>
-            <span>É rápido e fácil.</span>
+            <span class="easy">É rápido e fácil.</span>
           </section>
-          <section class="cadastro-form">
-            <form action="" method="" enctype="multipart/form-data">
-              <input type="text" placeholder="Nome">
-              <input type="text" placeholder="Sobrenome">
-              <input type="text" placeholder="Celular ou email">
-              <input type="password" placeholder="Nova senha">
-            </form>
-            <section>
-              <p class="cor-cinza data-name">Data de nascimento</p>
-              <input type="text" placeholder="dd/mm/aaaa" id="datepicker" class="date-nasc">
-              <img src="imagem/interrogração.png" alt="icone de interrogação" width="20px">
-            </section>
-          </section>
+          <form class="form-direito" action="" method="" enctype="multipart/form-data">
+            <input class="form-box" type="text" placeholder="Nome" required>
+            <input class="form-box" type="text" placeholder="Sobrenome" required>
+            <input class="form-box big-box" type="text" placeholder="Celular ou email" required>
+            <input class="form-box big-box" type="password" placeholder="Nova senha" maxlength="8" required>
+          </form>
+          <p class="cor-cinza data-name">Data de nascimento</p>
+          <input type="text" placeholder="dd/mm/aaaa" id="datepicker" class="date-nasc">
+          <img src="imagem/interrogração.png" alt="icone de interrogação" width="20px">
+
           <section class="genero">
             <p class="name-genero cor-cinza">Gênero</p>
             <section class="inputs">
@@ -80,11 +75,10 @@
               isso quando quiser.</p>
           </section>
           <section>
-            <button class="btn-cadastro" id="facebook-register">Cadastre-se</button>
+            <button type="submit" class="btn-cadastro" id="facebook-register">Cadastre-se</button>
           </section>
         </article>
       </section>
-
       <script src="script.js"></script>
       <script src="pikaday.js"></script>
   </body>
