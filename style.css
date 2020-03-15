@@ -11,8 +11,6 @@ body {
 
 .top-bar {
   background-color: rgb(59, 89, 152);
-  flex-direction: row;
-  justify-content: space-between;
   height: 70px;
   padding: 13px;
   width: 100%;
@@ -22,24 +20,55 @@ body {
   font-size: 36px;
 }
 
-.logo {}
+.facebook-logo {
+  height: auto;
+  margin-left: 90px;
+  margin-top: 200px; 
+  width: 170px;
+}
 
 .login {
+  align-items: flex-end;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  height: 50px;
+  justify-content: flex-end;
+  margin-right: 135px;
+  width: 600px
+}
+
+.text-login {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.input-login {
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  width: 144px;
 }
 
 .login-name {
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .login-senha {
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.container-top {
+  align-self: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .container {
   align-self: center;
-  border: 1px solid black;
   display: flex;
   height: 629px;
   justify-content: space-between;
@@ -47,21 +76,18 @@ body {
 }
 
 .content1 {
-  border: 1px solid red;
   flex-direction: column;
   height: 500px;
   width: 580px;
 }
 
 .area-para-cadastramento {
-  border: 1px solid red;
   flex-direction: column;
   height: 500px;
   width: 580px;
 }
 
 .frase-motivacional {
-  border: 1px solid red;
   color: #0e385f;
   flex-direction: column;
   font-size: 20px;
@@ -96,4 +122,38 @@ body {
   margin-bottom: 0;
   margin-top: -15px;
   width: 450px;
+}
+
+.inputFace {
+  border-radius: 5px;
+  border: 1px solid rgb(189,199,216);
+  font-size: 18px;
+  height: 35px;
+  width: 192px;
+  margin-right: 10px;
+}
+
+.inputFace2 {
+  border-radius: 5px;
+  border: 1px solid rgb(189,199,216);
+  font-size: 18px;
+  height: 35px;
+  width: 400px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.nascimento {
+  flex-direction: column;
+  height: auto;
+}
+
+.text-date-gen {
+  color:rgb(129, 132, 138);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.registerForm {
+  border: none;
 }

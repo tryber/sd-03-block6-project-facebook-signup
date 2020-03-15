@@ -16,27 +16,31 @@
   </head>
   <body>
     <header id="top-bar" class="top-bar">
+      <div class="container-top">
       <div class="logo">
-      <a class="facebook-logo" href="https://www.facebook.com">facebook</a>
+      <a class="facebook-logo" href="https://www.facebook.com">
+      <img src="fb-logo.png" />
+      </a>
       </div>
+      <div class="login">
       <div class="login-name">
-      <label for="user-email-phone" id="user-email-phone-label"
+      <label for="user-email-phone" id="user-email-phone-label" class="text-login"
         >Email ou telefone</label
       >
-      <input type="text" id="user-email-phone" />
+      <input type="text" id="user-email-phone" class="input-login" />
       </div>
       <div class="login-senha">
-      <label for="user-password" id="user-pass-label">Senha</label>
-      <input type="password" id="user-password" />
+      <label for="user-password" id="user-pass-label" class="text-login">Senha</label>
+      <input type="password" id="user-password" class="input-login" />
       </div>
       <button id="button-login" class="button-login">Entrar</button>
+     </div>
     </header>
+    </div>
     <div class="container">
     <section class="content1">
       <p class="frase-motivacional">
-        O Facebook ajuda você a se conectar e<br />
-        compartilhar com as pessoas que fazem parte<br />
-        da sua vida.
+        O Facebook ajuda você a se conectar e<br />compartilhar com as pessoas que fazem parte<br />da sua vida.
       </p>
       <br />
       <img
@@ -55,20 +59,20 @@
       </p>
       <form action="" method="POST" class="registerForm">
         <fieldset class="cadastro-nome-sobrenome">
-          <input type="text" placeholder="Nome" />
-          <input type="text" placeholder="Sobrenome" />
+          <input type="text" placeholder=" Nome" class="inputFace" />
+          <input type="text" placeholder=" Sobrenome" class="inputFace" />
           <br />
-          <input type="text" placeholder="Celular ou email" />
+          <input type="text" placeholder=" Celular ou email" class="inputFace2" />
           <br />
-          <input type="password" placeholder="Nova senha" />
+          <input type="password" placeholder=" Nova senha" class="inputFace2" />
         </fieldset>
-        <fieldset>
-          <label for="">Data de nascimento</label>
+        <fieldset class="nascimento">
+          <label for="" class="text-date-gen">Data de nascimento</label>
           <input type="date" id="datepicker" placeholder="dd/mm/aaaa" />
           <br />
         </fieldset>
         <fieldset>
-          <p>Gênero</p>
+          <p class="text-date-gen">Gênero</p>
           <input type="radio" name="genre" value="Feminino" />
           <label>Feminino</label>
           <input type="radio" name="genre" value="Masculino" />
