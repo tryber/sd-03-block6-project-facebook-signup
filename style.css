@@ -1,8 +1,8 @@
 body {
-  background: linear-gradient(0deg,
-        rgba(2, 0, 36, 1) 0%, 
-        rgba(211, 216, 232, 1) 0%, 
-        rgba(251, 251, 251, 1) 100%);
+  background: linear-gradient(0deg, 
+rgba(2, 0, 36, 1) 0%, 
+rgba(211, 216, 232, 1) 0%, 
+rgba(251, 251, 251, 1) 100%);
   display: flex;
   flex-direction: column;
   font-family: Lato, sans-serif;
@@ -137,8 +137,8 @@ fieldset {
   border-radius: 5px;
   font-size: 18px;
   height: 35px;
-  width: 192px;
   margin-right: 10px;
+  width: 192px;
 }
 
 .inputFace2 {
@@ -146,9 +146,9 @@ fieldset {
   border-radius: 5px;
   font-size: 18px;
   height: 35px;
-  width: 400px;
   margin-right: 10px;
   margin-top: 10px;
+  width: 400px;
 }
 
 .nascimento {
