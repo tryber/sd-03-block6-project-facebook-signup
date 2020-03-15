@@ -1,24 +1,22 @@
-let dadosPessoais = document.querySelectorAll('.form-box');
-let botaoCadastro = document.querySelector('.btn-cadastro');
+const dadosPessoais = document.querySelectorAll('.form-box');
+const botaoCadastro = document.querySelector('.btn-cadastro');
 function validaNome() {
-  let nome = dadosPessoais[0];
-  let sobrenome = dadosPessoais[1];
+  const nome = dadosPessoais[0];
+  const sobrenome = dadosPessoais[1];
   if (nome.value === '' || sobrenome.value === '') {
     return false;
   }
   return true;
 }
 function checarEmail() {
-  if (dadosPessoais[2].value === "" || dadosPessoais[2].value.indexOf('@') === -1
-    || dadosPessoais[2].value.indexOf('.') === -1) {
+  if (dadosPessoais[2].value === '' || dadosPessoais[2].value.indexOf('@') === -1 || dadosPessoais[2].value.indexOf('.') === -1) {
     return false;
   }
   return true;
 }
 function checarSenha() {
-  let senha = dadosPessoais[3].value;
-  let tamanhoSenha = senha.length;
-  console.log(tamanhoSenha);
+  const senha = dadosPessoais[3].value;
+  const tamanhoSenha = senha.length;
   if (senha === '' || tamanhoSenha < 8) {
     return false;
   }
@@ -26,9 +24,9 @@ function checarSenha() {
 }
 function validarCadastro() {
   let erros = 0;
-  nome = validaNome();
-  senha = checarSenha();
-  email = checarEmail();
+  const nome = validaNome();
+  const senha = checarSenha();
+  const email = checarEmail();
   if (!email) {
     erros += 1;
   }
@@ -38,15 +36,15 @@ function validarCadastro() {
   if (!nome) {
     erros += 1;
   }
-  if (erros > 1) {
+  if (erros >= 1) {
     alert('Dados inválidos');
   }
-  if (erros == 0) {
-    let valorNome = dadosPessoais[0].value;
-    let valorSobrenome = dadosPessoais[1].value;
-    let valorEmail = dadosPessoais[2].value;
-    let genero = 'exemplo';
-    let mensagem = `Nome: ${valorNome} ${valorSobrenome} - ${genero}, E-mail: ${valorEmail}`;
+  if (erros === 0) {
+    const valorNome = dadosPessoais[0].value;
+    const valorSobrenome = dadosPessoais[1].value;
+    const valorEmail = dadosPessoais[2].value;
+    const genero = 'exemplo';
+    const mensagem = `Nome: ${valorNome} ${valorSobrenome} - ${genero}, E-mail: ${valorEmail}`;
     alert(mensagem);
   }
 }
