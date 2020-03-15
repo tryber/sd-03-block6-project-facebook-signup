@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="dist/js/DatePickerX.min.js" defer></script>
     <script src="script.js" defer></script>
     <title>Página Inicial do Facebook</title>
 </head>
@@ -52,23 +54,29 @@
             <div class="formInputField">
                 <input type="password" placeholder="Nova senha">
             </div>
-            <div>
+            <div class="formInputField">
                 <p>Data de nascimento</p>
-                <input type="text" placeholder="dd/mm/aaaa">
+                <input type="text" placeholder="dd/mm/aaaa" id="data">
             </div>
-            <div>
+            <div class="formInputField">
                 <p>Gênero</p>
-                <div>
+            </div>
+            <div class="containerRadios">
+                <div class="radioGender">
                     <input type="radio" id="Feminino" name="gender" value="Feminino">
                     <label for="Feminino">Feminino</label>
+                </div>
+                <div class="radioGender">
                     <input type="radio" id="Masculino" name="gender" value="Masculino">
                     <label for="Masculino">Masculino</label>
+                </div>
+                <div class="radioGender">
                     <input type="radio" id="Personalizado" name="gender" value="Personalizado">
                     <label for="Personalizado">Personalizado</label>
                 </div>
-                <div>
-                    <button id="facebook-register">Cadastre-se</button>
-                </div>
+            </div>
+            <div class="buttonLogin">
+                <button id="facebook-register">Cadastre-se</button>
             </div>
         </section>
     </main>
