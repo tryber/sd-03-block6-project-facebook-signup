@@ -119,27 +119,27 @@ h3 {
 }
 
 #ReF {
-  color: #1D2129;
-  font-size: 19px
+  color: #1d2129;
+  font-size: 19px;
 }
 
 .inputs-label-container {
   font-size: 16px;
-  padding: 8px 0px;
+  padding: 8px 1px;
   width: -150px;
 }
 
 .nomes {
+  border-radius: 5px;
   font-family: Helvetica, sans-serif;
   font-size: 15px;
   height: 30px;
-  border-radius: 5px;
 }
 
 .celularEsenha {
-  font-family: Helvetica, sans-serif;
-  width: 341px;
-  height: 30px;
-  font-size: 15px;
   border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  height: 30px;
+  width: 341px;
 }
