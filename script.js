@@ -1,3 +1,5 @@
+const Pikaday = [];
+const picker;
 const picker = new Pikaday({
   field: document.getElementById('datepicker'),
   i18n: {
