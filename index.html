@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Facebook entre ou cadastre-se</title>
+  <title>Facebook - entre ou cadastre-se</title>
   <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
   <link rel="shortcut icon" href="faviconfacebook.png" />
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -68,7 +69,7 @@
           </div>
           <section>
             <h2 class="section-title">Data de nascimento</h2>
-            <select name="nascimento-dia" class="nascimento-dia">
+            <select required="required" name="nascimento-dia" class="nascimento-dia" id="nascimento-dia">
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -101,8 +102,7 @@
               <option value="30">30</option>
               <option value="31">31</option>
             </select>
-
-            <select name="nascimento-mes" class="nascimento-mes">
+            <select required="required" name="nascimento-mes" class="nascimento-mes" id="nascimento-dia">
               <option value="01">Jan</option>
               <option value="02">Fev</option>
               <option value="03">Mar</option>
@@ -116,8 +116,7 @@
               <option value="11">Nov</option>
               <option value="12">Dez</option>
             </select>
-
-            <select name="nascimento-ano" class="nascimento-ano">
+            <select required="required" name="nascimento-ano" class="nascimento-ano" id="nascimento-dia">
               <option value="12">2011</option>
               <option value="11">2010</option>
               <option value="10">2009</option>
@@ -200,6 +199,7 @@
           Ajuda
         </a>
       </p>
+      <p class="footer-p3">Facebook © 2020</p>
     </div>
   </footer>
 </body>
