@@ -11,18 +11,20 @@
 </head>
 <body>
     <header class="top-bar">
-        <div>
-            <img src="images/facebook-logo" class="facebook-logo" alt="logo do Facebook">
-        </div>
-        <div>
-            <form action="">
+        <div class="cabecalho">
+            <img src="images/facebook-logo-1.png" class="facebook-logo" alt="logo do Facebook">
+        <form action="" class="form-header">
+            <div class="form-email">
                 <label for="user-email-phone" id="user-email-phone-label" >Email ou telefone</label>
                 <input id="user-email-phone" type="text">
+            </div>
+            <div class="form-password">
                 <label for="user-password">Senha</label>
                 <input id="user-password" type="password">
-                <button id="button-login">Entrar</button>
                 <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a>
-            </form>
+            </div>
+            <button class="botao-entrar" id="button-login">Entrar</button>
+        </form>
         </div>
     </header>
     <div class="main">
@@ -51,9 +53,9 @@
                 </div>
                 <div>
                     <p>Gênero</p>
-                    <input type="radio" name="genero" id="genero-feminino" ><label for="genero-feminino">Feminino</label>
-                    <input type="radio" name="genero" id="genero-masculino"><label for="genero-masculino">Masculino</label>
-                    <input type="radio" name="genero" id="genero-Personalizado"><label for="genero-Personalizado">Personalizado</label>
+                    <input type="radio" name="genero" id="genero-feminino" value="Feminino"><label for="genero-feminino">Feminino</label>
+                    <input type="radio" name="genero" id="genero-masculino" value="Feminino"><label for="genero-masculino">Masculino</label>
+                    <input type="radio" name="genero" id="genero-Personalizado" value="Feminino"><label for="genero-Personalizado">Personalizado</label>
                     <a href=""><i class="fas fa-question-circle"></i></a>
                 </div>
                 <div class="gen-personalizado">
