@@ -53,6 +53,13 @@ body {
   width: 580px;
 }
 
+.area-para-cadastramento {
+  border: 1px solid red;
+  flex-direction: column;
+  height: 500px;
+  width: 580px;
+}
+
 .frase-motivacional {
   border: 1px solid red;
   color: #0e385f;
