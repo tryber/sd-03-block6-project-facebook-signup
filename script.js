@@ -1,5 +1,5 @@
-/*global Pikaday:true*/
-/*eslint no-undef: "error"*/
+/* global Pikaday:true */
+/* eslint no-undef: "error" */
 const pikaday = new Pikaday({
   field: document.getElementById('datepicker'),
   format: 'd/M/YYYY',
@@ -25,4 +25,4 @@ const pikaday = new Pikaday({
   },
 });
 
-Console.log(pikaday);
+console.log(pikaday);
