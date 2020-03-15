@@ -4,7 +4,7 @@ function submit() {
   alert(input.value);
 }
 
-window.onload = function() {
+window.onload = function () {
   const submitLogin = document.getElementById('button-login');
   submitLogin.addEventListener('click', submit);
 };
