@@ -1,5 +1,4 @@
-const Pikaday = [];
-new Pikaday({
+var pikaday = new Pikaday({
   field: document.getElementById('datepicker'),
   i18n: {
     previousMonth: 'Mês anterior',
@@ -9,3 +8,5 @@ new Pikaday({
     weekdaysShort: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'],
   },
 });
+
+pikaday = {};
