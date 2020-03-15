@@ -25,4 +25,4 @@ const pikaday = new Pikaday({
   },
 });
 
-console.log(pikaday);
+console.warn(pikaday);
