@@ -81,9 +81,14 @@ table input {
   flex-direction: column;
 }
 
-.nomeSobrenome {
-  display: flex;
-  justify-content: flex-start;
+.formCadastro label {
+  color: #90949c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.seletorGenero label {
+  width: 180px;
 }
 
 .loginBtn {
@@ -98,7 +103,9 @@ table input {
   background-color: #60a04e;
   border-radius: 7px;
   color: beige;
+  font-weight: bold;
   font-size: 13pt;
+  height: 40px;
   padding: 5px;
   width: 40%;
 }
