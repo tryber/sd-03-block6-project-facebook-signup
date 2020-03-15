@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,37 @@
     <title>Facebook - entre ou cadastre-se</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header" class="top-bar">
         <div class="logoContainer">
             <img src="facebook-logo-9.png" alt="logo do Facebook" class="facebook-logo">
         </div>
         <form action="">
-                <label for="email" class="user-email-phone-label">Email ou telefone</label>
-                <input type="email" class="user-email-phone">
-                <label for="password" class="user-password">Senha</label>
+            <div class='form1'>
+                <label for="email" id="user-email-phone-label">Email ou telefone</label>
+                <input type="email" id="user-email-phone">
+            </div>
+            <div class='form1'>
+                <label for="password">Senha</label>
                 <input type="password">
-                <a href="https://www.google.com.br/"> Esqueceu a conta?</a>
-            <button type="submit" class="button-login">Entrar</button></br>
+            </div>
+            <div class="form2">
+                <button type="submit" id="button-login">Entrar</button>
+            </div>
         </form>
+        </div>
     </header>
     <section class="mainContent">
         <div class="ladoEsquerdo">
-            <h3 class="agatres">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
+            <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
             <div class="mapa">
                 <img src="networking.png" alt="imagem de mapa do Facebook" id="facebook-networking">
             </div>
         </div>
         <div class="ladoDireito">
-            <h1 class="agaUm">Abra uma conta</h1>
-            <h3 class="agaTress">É rápido e fácil.</h3>
+            <h1>Abra uma conta</h1>
+            <h3>É rápido e fácil.</h3>
             <form action="">
                 <div class="nomesobre">
                     <input class="inputA namesub" type="text" placeholder="Nome">
@@ -48,14 +56,14 @@
                         <input type="date" class="inputA" type="number" placeholder="dd/mm/aaaa" value="dd/mm/aaaa">
                     </div>
                 </div>
-                <div id="generos">
+                <div class="generos">
                     <p>Gênero</p>
                     <div>
-                        <input type="radio" name="feminino" value="Feminino" id="Feminino">
+                        <input type="radio" name="feminino" id="Feminino" value="Feminino">
                         <label for="feminino">Feminino</label>
-                        <input type="radio" name="masculino" value="Masculino" id="Masculino">
+                        <input type="radio" name="masculino" id="Masculino" value="Masculino">
                         <label for="masculino">Masculino</label>
-                        <input type="radio" name="personalizado" value="Personalizado" id="Personalizado">
+                        <input type="radio" name="personalizado" id="Personalizado" value="Personalizado">
                         <label for="personalizado">Personalizado</label>
                     </div>
                 </div>
@@ -65,7 +73,7 @@
                     </p>
                 </div>
                 <div class="btnCadastro">
-                    <button type="submit" class="facebook-register">Cadastre-se</button>
+                    <button type="submit" id="facebook-register">Cadastre-se</button>
                 </div>
                 <p class="aviso">
                     <a href="https://www.google.com.br/">Criar uma Página </a>para uma celebridade, banda ou empresa.
@@ -73,7 +81,7 @@
             </form>
         </div>
     </section>
-    <section id="lastContent">
+    <section class="lastContent">
         <div class="borderbt">
             <a>Português (Brasil)</a>
             <a href="https://www.google.com.br/">English (US)</a>
