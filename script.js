@@ -1,18 +1,18 @@
 const dadosPessoais = document.querySelectorAll('.form-box');
 const botaoCadastro = document.querySelector('.btn-cadastro');
 function validaNome() {
-  let nome = dadosPessoais[0];
-  let sobrenome = dadosPessoais[1];
+  const nome = dadosPessoais[0];
+  const sobrenome = dadosPessoais[1];
   if (nome.value === '' || sobrenome.value === '') {
     return false;
   }
   return true;
 }
 function checarEmail() {
-  if ( dadosPessoais[2].value === '' || dadosPessoais[2].value.indexOf('@') === -1 || dadosPessoais[2].value.indexOf('.') === -1) {
+  if (dadosPessoais[2].value === '' || dadosPessoais[2].value.indexOf('@') === -1 || dadosPessoais[2].value.indexOf('.') === -1) {
     return false;
   }
-    return true;
+  return true;
 }
 function checarSenha() {
   const senha = dadosPessoais[3].value;
@@ -39,7 +39,7 @@ function validarCadastro() {
   if (erros >= 1) {
     alert('Dados inválidos');
   }
-  if (erros == 0) {
+  if (erros === 0) {
     const valorNome = dadosPessoais[0].value;
     const valorSobrenome = dadosPessoais[1].value;
     const valorEmail = dadosPessoais[2].value;
