@@ -124,3 +124,23 @@ h3 {
   font-weight: 700;
   margin-bottom: 5px;
 }
+
+.genero {
+  color: #1d2129;
+  display: flex;
+  font-size: 18px;
+}
+
+.margem {
+  margin-right: 15px;
+}
+
+input {
+  margin: 0 0 0 0;
+  position: relative;
+  top: -5px;
+}
+
+label {
+  position: relative;
+}
