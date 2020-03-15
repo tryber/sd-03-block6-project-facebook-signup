@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Facebook - entre ou cadastre-se</title>
   <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-  <link rel="shortcut icon" href="faviconfacebook.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/faviconfacebook.png" />
   <script type="text/javascript" src="script.js"></script>
 </head>
 
@@ -47,7 +48,7 @@
           sua
           vida.</h2>
       </div>
-      <img id="facebook-networking" src="networking.png">
+      <img id="facebook-networking" src="images/networking.png">
     </div>
 
     <section class="abrir-conta">
@@ -68,74 +69,11 @@
             <input required="required" type="password" placeholder="Nova senha" class="input-senha email-senha">
           </div>
           <section>
-            <h2 class="section-title">Data de nascimento</h2>
-            <select required="required" name="nascimento-dia" class="nascimento-dia" id="nascimento-dia">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-              <option value="13">13</option>
-              <option value="14">14</option>
-              <option value="15">15</option>
-              <option value="16">16</option>
-              <option value="17">17</option>
-              <option value="18">18</option>
-              <option value="19">19</option>
-              <option value="20">20</option>
-              <option value="21">21</option>
-              <option value="22">22</option>
-              <option value="23">23</option>
-              <option value="24">24</option>
-              <option value="25">25</option>
-              <option value="26">26</option>
-              <option value="27">27</option>
-              <option value="28">28</option>
-              <option value="29">29</option>
-              <option value="30">30</option>
-              <option value="31">31</option>
-            </select>
-            <select required="required" name="nascimento-mes" class="nascimento-mes" id="nascimento-dia">
-              <option value="01">Jan</option>
-              <option value="02">Fev</option>
-              <option value="03">Mar</option>
-              <option value="04">Abr</option>
-              <option value="05">Maio</option>
-              <option value="06">Jun</option>
-              <option value="07">Jul</option>
-              <option value="08">Ago</option>
-              <option value="09">Set</option>
-              <option value="10">Out</option>
-              <option value="11">Nov</option>
-              <option value="12">Dez</option>
-            </select>
-            <select required="required" name="nascimento-ano" class="nascimento-ano" id="nascimento-dia">
-              <option value="12">2011</option>
-              <option value="11">2010</option>
-              <option value="10">2009</option>
-              <option value="09">2008</option>
-              <option value="08">2007</option>
-              <option value="07">2006</option>
-              <option value="06">2005</option>
-              <option value="05">2004</option>
-              <option value="04">2003</option>
-              <option value="03">2002</option>
-              <option value="07">2001</option>
-              <option value="02">2000</option>
-              <option value="01">1999</option>
-              <option value="19">1998</option>
-              <option value="18">1997</option>
-              <option value="17">1996</option>
-              <option value="16">1995</option>
-            </select>
-            <img class='button-question2' src="question.png" alt="botão duvidas" width="30px">
+            <div>
+              <p class="pLabel">Data de nascimento</p>
+              <input type="text" id="datepicker" class="inputHeight" placeholder="dd/mm/aaaa">
+            </div>
+            <img class='button-question2' src="images/question.png" alt="botão duvidas" width="30px">
           </section>
           <h2 class='section-title'>Gênero</h2>
           <section class='genero'>
@@ -152,7 +90,7 @@
               <label for="Personalizado">Personalizado</label>
             </div>
           </section>
-          <img class='button-question' src="question.png" alt="botão duvidas" width="30px">
+          <img class='button-question' src="images/question.png" alt="botão duvidas" width="30px">
           <p class='termos'>Ao clicar em Cadastre-se, você concorda com nossos <a href=''>Termos,<br> Política de Dados
               <span>e</span>
               Política de Cookies.</a> Você pode
@@ -201,6 +139,9 @@
       </p>
       <p class="footer-p3">Facebook © 2020</p>
     </div>
+  </footer>
+  <footer class="footer-dois">
+      <h2 class="by-me"> &#10145 Desenvolvido por Marcos Junior Climaco | Trybe &#10084 </h2>
   </footer>
 </body>
 </html>
