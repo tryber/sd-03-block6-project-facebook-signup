@@ -1,6 +1,5 @@
 const Pikaday = [];
-const picker = 0;
-const picker = new Pikaday({
+new Pikaday({
   field: document.getElementById('datepicker'),
   i18n: {
     previousMonth: 'Mês anterior',
