@@ -3,10 +3,8 @@ const buttonRegister = document.getElementById('facebook-register');
 
 buttonLogin.addEventListener('click', function () {
   const userEmailPhone = document.getElementById('user-email-phone').value;
-  const userPassword = document.getElementById('user-password').value;
-  alert(`User: ${userEmailPhone} Senha: ${userPassword}`);
+  alert(userEmailPhone);
   document.getElementById('user-email-phone').value = '';
-  document.getElementById('user-password').value = '';
 });
 
 buttonRegister.addEventListener('click', function () {
