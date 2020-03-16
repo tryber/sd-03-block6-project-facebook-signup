@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+.bloco-esquerdo {
+  margin: 70px;
+}
+
 .cabecalho {
   display: flex;
   flex-direction: column;
@@ -13,7 +17,7 @@ body {
 .conteudo {
   background-color: rgb(233, 235, 238);
   display: flex;
-  flex-direction: row;
+  flex-flow: column,wrap;
   height: 500px;
   padding-left: 20px;
   width: 100%;
@@ -139,12 +143,13 @@ label {
 
 .registrar {
   background: linear-gradient(rgb(160, 223, 133), rgb(88, 138, 69));
-  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   color: white;
   font-weight: 800;
   margin: 10px;
-  padding: 10px;
-  width: 40%;
+  padding: 7px 20px;
+  width: 194px;
 }
 
 .top-bar {
