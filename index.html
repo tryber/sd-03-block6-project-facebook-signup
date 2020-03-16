@@ -1,0 +1,91 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="title"></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+       <div class="top-bar">
+        <nav class="header_nav">
+                  <i class="face-logo-fundo facebook-logo"></i>
+                <div class="login-container" data-testid="royal_login_form">
+                                            <table cellspacing="0" role="presentation">
+                            <tbody>
+                                <tr>
+                                    <td class="login-bottom">
+                                <label class="label" id="user-email-phone-label" for="email">Email ou telefone</label>
+                            </td>
+                            <td class="login-bottom">
+                                <label class="label" for="pass">Senha</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="email" class="login-texto " name="email" id="user-email-phone" data-testid="royal_email">
+                            </td>
+                            <td>
+                                <input type="password" class="login-texto " name="pass" id="user-password" data-testid="royal_pass">
+                            </td>
+                            <td>
+                                    <button id="button-login" class="button-login">Entrar</button>
+                                </td>
+                        </tr>
+                        <tr>
+                            <td class="login_form_label_field">
+
+                            </td>
+                            <td class="login_form_label_field">
+                                <div>
+                                    <a href="">Esqueceu a conta?</a>
+                                </div>
+                            </td></tr>
+                        </tbody>
+                    </table>
+                            </div>
+        </nav>
+    </div>
+    </header>
+    <main class="main">
+        <div class="container">
+           <div class="container-flex">
+            <div class="item-esquerda">
+                <div class="frase">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</div>
+                <img id="facebook-networking" alt="networking" class="img" src="img/networking.png" alt="" width="537" height="195">
+            </div>
+            <div class="item-direita">
+                <div class="pvl">
+                    <div class="abra-conta">
+                        <span>Abra uma conta</span>
+                    </div>
+                       <div class="rapido">É rápido e fácil.</div>
+                </div>
+                <form class='cadastro'>
+                    <div>
+                        <input type='text' placeholder="Nome" class='input' size='12px' required>
+                        <input type='text' placeholder="Sobrenome" class='input' size='12px' required>
+                    </div>
+                    <input type="text" placeholder="Celular ou email" />
+                    <input type="password" placeholder="Nova senha" />
+                    <div>
+                        <label for=''>Data de nascimento</label><br>
+                        <input type='date' placeholder='dd/mm/aaaa' class='input' required>
+                    </div>
+                    <label for="">Gênero</label>
+                    <div class="">
+                        <input type="radio" name="genre" id="" value="Feminino" />
+                        <label for="">Feminino</label>
+                        <input type="radio" name="genre" id="" value="Masculino" />
+                        <label>Masculino</label>
+                        <input type="radio" name="genre" id="" value="Personalizado" />
+                        <label>Personalizado</label>
+                      </div>
+                      <button class="sign" id="facebook-register">Cadastre-se</button>
+            </div>
+           </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
