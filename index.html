@@ -8,7 +8,7 @@
 <body>
     <header class="header">
        <div class="top-bar">
-        <nav class="header_nav container">
+        <nav class="header_nav">
                   <i class="face-logo-fundo facebook-logo"></i>
                 <div class="login-container" data-testid="royal_login_form">
                     <form id="login_form" action="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&amp;lwv=110" method="post" novalidate="1" onsubmit="">
@@ -32,7 +32,7 @@
                             </td>
                             <td>
                                 <label class="login-button login-buttonConfirm label login-buttonSuppressed" id="user-email-phone-label" for="u_0_4">
-                                    <input value="Entrar" aria-label="Entrar" data-testid="royal_login_button" type="submit" id="button-login">
+                                    <button type="submit" id="button-login">Entrar</button>
                                 </label>
                             </td>
                         </tr>
@@ -52,6 +52,46 @@
         </nav>
     </div>
     </header>
+    <main class="main">
+        <div class="container">
+           <div class="container-flex">
+            <div class="item-esquerda">
+                <div class="frase">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</div>
+                <img id="facebook-networking" alt="networking" class="img" src="https://static.xx.fbcdn.net/rsrc.php/v3/yi/r/OBaVg52wtTZ.png" alt="" width="537" height="195">
+            </div>
+            <div class="item-direita">
+                <div class="pvl">
+                    <div class="abra-conta">
+                        <span>Abra uma conta</span>
+                    </div>
+                       <div class="rapido">É rápido e fácil.</div>  
+                </div>
+                <form class='cadastro'>
+                    <div>
+                        <input type='text' placeholder="Nome" class='input' size='12px' required>
+                        <input type='text' placeholder="Sobrenome" class='input' size='12px' required>
+                    </div>
+                    <input type='email' placeholder='Celular ou Email' class='input' size='31' required>
+                    <input type='password' placeholder='Senha' class='input' size='31' required>
+                    <div>
+                        <label for=''>Data de nascimento</label><br>
+                        <input type='date' placeholder='dd/mm/aaaa' class='input' required>
+                    </div>
+                    <div>
+                        <label >Gênero</label><br>
+                        <input type='radio' name='genero' required>
+                        <label for='gênero'>Feminino</label>
+                        <input type='radio' name='genero' required>
+                        <label for='gênero'>Masculino</label>
+                        <input type='radio' name='genero'>
+                        <label for='gênero'>Personalizado</label required>
+                    </div>
+                    <button type='submit' id='facebook-refister' class='botao'>Cadastre-se</button>
+    
+            </div>
+           </div>
+        </div>
+    </main>
 </body>
 <script src="script.js"></script>
 </html>
