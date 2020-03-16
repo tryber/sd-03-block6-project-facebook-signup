@@ -1,7 +1,7 @@
 // libs
 window.DatePickerX.setDefaults(
-  {format:'dd/mm/yyyy',
-  weekDayLabels:['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom']}
+  { format:'dd/mm/yyyy',
+  weekDayLabels:['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom']},
 )
 document.getElementById('data').DatePickerX.init();
 // validação do form
@@ -23,32 +23,32 @@ new window.JustValidate('.form', {
       // custom: '^([0-9]{9})|([A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3})$',
       required: true,
       minLength: 3,
-      maxLength: 30
+      maxLength: 30,
     },
     radio: {
-      required: true
+      required: true,
     }
   },
   messages: {
     name: {
-      required: 'Este campo é obrigatório'
+      required: 'Este campo é obrigatório',
     },
     password: {
-      required: 'Este campo é obrigatório'
+      required: 'Este campo é obrigatório',
     },
     sob: {
-      required: 'Este campo é obrigatório'
+      required: 'Este campo é obrigatório',
     },
     strength : {
       required: 'Este campo é obrigatório',
       // custom: 'Digite um e-mail ou telefone válido'
     },
     radio : {
-      required: 'Uma opção é obrigatória'
+      required: 'Uma opção é obrigatória',
     }
   },
   colorWrong: "red",
-  focusWrongField: true
+  focusWrongField: true,
 });
 // variaveis
 const buttonLogin = document.querySelector('#button-login');
