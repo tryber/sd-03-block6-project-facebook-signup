@@ -1,0 +1,229 @@
+body {
+  background: linear-gradient(#fbfbfb, #d3d8e8);
+  display: flex;
+  flex-direction: column;
+  font-family: Lato, sans-serif;
+  margin: 0;
+}
+
+.top-bar {
+  background-color: rgb(59, 89, 152);
+  height: 70px;
+  padding: 13px;
+  width: 100%;
+}
+
+.a {
+  font-size: 36px;
+}
+
+.facebook-logo {
+  height: auto;
+  margin-left: 90px;
+  margin-top: 250px;
+  width: 270px;
+}
+
+.login {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: flex-end;
+  margin-right: 300px;
+  width: 600px;
+}
+
+.text-login {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.input-login {
+  height: 15px;
+  margin-right: 15px;
+  margin-top: 5px;
+  width: 144px;
+}
+
+.login-name {
+  flex-direction: row;
+}
+
+.login-senha {
+  flex-direction: row;
+}
+
+.container-top {
+  align-self: center;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container {
+  align-self: center;
+  display: flex;
+  height: 629px;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.content1 {
+  height: 500px;
+  margin-left: 0;
+  width: 580px;
+}
+
+.area-para-cadastramento {
+  flex-direction: column;
+  height: 500px;
+  width: 580px;
+}
+
+.frase-motivacional {
+  color: #0e385f;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 600;
+  height: 87px;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+  margin-bottom: 0;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.abra-conta {
+  color: #1c1e21;
+  font-size: 28px;
+  font-weight: 600;
+  height: 60px;
+  margin-bottom: 0;
+  margin-top: 40px;
+  width: 450px;
+}
+
+.rapido-e-facil {
+  color: #1c1e21;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 500;
+  height: 60px;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: -15px;
+  width: 450px;
+}
+
+fieldset {
+  border: none;
+}
+
+.datepicker {
+  margin-top: 10px;
+}
+
+.inputFace {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  font-size: 18px;
+  height: 35px;
+  margin-right: 10px;
+  width: 192px;
+}
+
+.inputFace2 {
+  border: 1px solid rgb(189, 199, 216);
+  border-radius: 5px;
+  font-size: 18px;
+  height: 35px;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 400px;
+}
+
+.nascimento {
+  flex-direction: column;
+  height: auto;
+}
+
+.text-date-gen {
+  color: rgb(129, 132, 138);
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.concordo {
+  color: #777;
+  font-size: 11px;
+}
+
+.registerForm {
+  border: none;
+}
+
+.facebook-register {
+  background: linear-gradient(#79bc64, #578843);
+  border: 1px solid #1f3118;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  height: 39px;
+  margin-left: 10px;
+  width: 194px;
+}
+
+ul {
+  padding: 0;
+}
+
+.language {
+  display: flex;
+  list-style-type: none;
+  margin-top: 22px;
+}
+
+.language li {
+  margin-right: 15px;
+}
+
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.link li {
+  margin-bottom: 8px;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: white;
+}
+
+.pageFooter {
+  background-color: white;
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+  margin: 0 auto;
+  width: 985px;
+}
+
+.copyright {
+  font-size: 11px;
+}
+
+.partial-box {
+  border-color: rgb(115, 115, 115);
+  border-style: solid;
+  border-width: 0.04em;
+}
