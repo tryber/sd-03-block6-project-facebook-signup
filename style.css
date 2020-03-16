@@ -180,3 +180,50 @@ fieldset {
   margin-left: 10px;
   width: 194px;
 }
+
+ul {
+  padding: 0;
+}
+
+.language {
+  display: flex;
+  list-style-type: none;
+  margin-top: 22px;
+}
+
+.language li {
+  margin-right: 15px;
+}
+
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.link li {
+  margin-bottom: 8px;
+  margin-right: 20px;
+}
+
+footer {
+  background-color: white;
+}
+
+.pageFooter {
+  background-color: white;
+  color: rgb(115, 115, 115);
+  font-size: 12px;
+  margin: 0 auto;
+  width: 985px;
+}
+
+.copyright {
+  font-size: 11px;
+}
+
+.partial-box {
+  border-color: rgb(115, 115, 115);
+  border-style: solid;
+  border-width: 0.04em;
+}
