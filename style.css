@@ -116,6 +116,11 @@ h2 {
   width: 80%;
 }
 
+.radioGender input {
+  margin: 0;
+  padding: 0;
+}
+
 .nome input:first-child {
   margin-left: 0;
   margin-right: 4em;
@@ -141,11 +146,6 @@ h2 {
   margin: 0;
   padding: 0;
   width: 20%;
-}
-
-.radioGender input {
-  margin: 0;
-  padding: 0;
 }
 
 .radioGender label {

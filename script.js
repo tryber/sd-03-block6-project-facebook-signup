@@ -1,11 +1,15 @@
 // libs
-window.DatePickerX.setDefaults(
-  { format: 'dd/mm/yyyy',
-    weekDayLabels: ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'] },
-);
+
+window.DatePickerX.setDefaults({
+  format: 'dd/mm/yyyy',
+  weekDayLabels: ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'],
+});
 document.getElementById('data').DatePickerX.init();
+
 // validação do form
-new window.JustValidate('.form', {
+
+let valida = null;
+valida = new window.JustValidate('.form', {
   rules: {
     name: {
       required: true,
@@ -50,27 +54,38 @@ new window.JustValidate('.form', {
   colorWrong: 'red',
   focusWrongField: true,
 });
+
+if (valida) {
+  alert('Validação carregada');
+}
+
+
 // variaveis
+
 const buttonLogin = document.querySelector('#button-login');
 const userEmailPhone = document.querySelector('#user-email-phone');
 const buttonCreateAccount = document.querySelector('#facebook-register');
 const form = document.querySelectorAll('.form input');
+
 // funcoes
+
 function funcaoAlert(event) {
-  event.preventDefault();
   if (event.currentTarget.value === '1') {
     alert(`${userEmailPhone.value}`);
-  } else {
-    let opt = document.getElementsByName('gender');
-    for (let i = 0; i < opt.length; i += 1) {
-      if (opt[i].checked) {
-        opt = opt[i].value;
-        console.log(opt);
-      }
-    }
-    alert(`${form[0].value} - ${opt}`);
   }
 }
+
+function funcaoAlertCad() {
+  let opt = document.getElementsByName('gender');
+  for (let i = 0; i < opt.length; i += 1) {
+    if (opt[i].checked) {
+      opt = opt[i].value;
+    }
+  }
+  alert(`${form[0].value} - ${opt}`);
+}
+
 // event listeners
+
 buttonLogin.addEventListener('click', funcaoAlert);
-buttonCreateAccount.addEventListener('click', funcaoAlert);
+buttonCreateAccount.addEventListener('click', funcaoAlertCad);
