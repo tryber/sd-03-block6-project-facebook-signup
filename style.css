@@ -110,15 +110,15 @@ h3 {
   width: 36%;
 }
 
-#AbraRapido {
+.AbraRapido {
   padding-top: 20px;
 }
 
-#AuC {
+.AuC {
   font-size: 36px;
 }
 
-#ReF {
+.ReF {
   color: #1d2129;
   font-size: 19px;
 }
