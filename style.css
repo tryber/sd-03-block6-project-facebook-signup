@@ -17,7 +17,7 @@ body {
 .conteudo {
   background-color: rgb(233, 235, 238);
   display: flex;
-  flex-flow: column,wrap;
+  flex-flow: column wrap;
   height: 500px;
   padding-left: 20px;
   width: 100%;
