@@ -58,9 +58,9 @@ document.getElementById('data').DatePickerX.init();
 // variaveis
 
 const buttonLogin = document.querySelector('#button-login');
-const userEmailPhone = document.querySelector('#user-email-phone');
+//const userEmailPhone = document.querySelector('#user-email-phone');
 const buttonCreateAccount = document.querySelector('#facebook-register');
-const form = document.querySelectorAll('.form input');
+//const form = document.querySelectorAll('.form input');
 
 // funcoes
 
@@ -82,5 +82,5 @@ const form = document.querySelectorAll('.form input');
 
 // event listeners
 
-buttonLogin.addEventListener('click', funcaoAlert);
-buttonCreateAccount.addEventListener('click', funcaoAlert);
+//buttonLogin.addEventListener('click', funcaoAlert);
+//buttonCreateAccount.addEventListener('click', funcaoAlert);
