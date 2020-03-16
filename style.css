@@ -128,12 +128,9 @@ table tr td {
 }
 
 .corpo {
+  background: linear-gradient(white, #d3d8e8);
   display: flex;
   justify-content: space-around;
-}
-
-#main {
-  background: linear-gradient(white, #d3d8e8);
 }
 
 .input {
@@ -141,6 +138,7 @@ table tr td {
   margin: 10px;
   margin-bottom: 10px;
   padding: 5px;
+  background: linear-gradient(white, #d3d8e8);
 }
 
 .quebra {
