@@ -1,0 +1,99 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title id="title"></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+       <div class="top-bar">
+            <nav class="header_nav">
+                <i class="face-logo-fundo facebook-logo"></i>
+                <div class="login-container" data-testid="royal_login_form">
+                    <form id="login_form">
+                        <table cellspacing="0" role="presentation">
+                            <tbody>
+                                <tr>
+                                    <td class="login-bottom">
+                                        <label class="label" id="user-email-phone-label" for="email">Email ou telefone</label>
+                                    </td>
+                                        <td class="login-bottom">
+                                        <label class="label" for="pass">Senha</label>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="email" class="login-texto " name="email" id="user-email-phone" data-testid="royal_email" required>
+                                    </td>
+                                    <td>
+                                        <input type="password" class="login-texto " name="pass" id="user-password" data-testid="royal_pass" required>
+                                    </td>
+                                    <td>
+                                        <button type='submit' id="button-login" class="button-login">Entrar</button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="login_form_label_field">
+
+                                    </td>
+                                    <td class="login_form_label_field">
+                                        <div>
+                                            <a href="https://www.facebook.com/recover/initiate?lwv=110&amp;ars=royal_blue_bar">Esqueceu a conta?</a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        </header>
+    <div class='corpo   '>
+        <section id='quebra'>
+            <div>
+                <p class='frase'>
+                    O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+                </p>
+            </div><br>
+            <img id='facebook-networking' alt="networking" class="img" src="img/networking.png" alt="" width="537" height="195">
+        </section>
+        <section class='quebra'>
+            <div class='pv1'>
+                <div class='abra-conta'>
+                    <span>Abra uma conta</span>
+                </div><br>
+                <div class='rapido'>É rápido e fácil.</div>
+            </div>
+            <form class='cadastro'>
+                <div>
+                    <input type='text' placeholder='Nome' class='input' size='12px' required>
+                    <input type='text' placeholder='Sobrenome' class='input' size='12px' required>
+                </div><br>
+                <input type='email' placeholder='Celular ou email' class='input' size='33' required><br>
+                <input type='password' placeholder='Nova senha' class='input' size='33' required><br>
+                <div>
+                    <label>Data de nascimento</label><br>
+                    <input type='date' placeholder='dd/mm/aaaa' class='input' required>
+                </div>
+                <div>
+                    <label>Gênero</label><br>
+                    <input type='radio' name='genre' value='Feminino' id='Feminino' required>
+                    <label for='Feminino' >Feminino</label>
+                    <input type='radio' name='genre' value='Masculino' id='Masculino' required>
+                    <label for='Masculino' >Masculino</label>
+                    <input type='radio' name='genre' value='Personalizado' id='Personalizado' required>
+                    <label for='Personalizado' >Personalizado</label>
+                </div>
+                <button type='submit'  id='facebook-register' class='botao'>Cadastre-se</button>
+            </form>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
