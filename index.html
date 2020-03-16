@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="dist/js/DatePickerX.min.js" defer></script>
+    <script src="just-validate.min.js" defer></script>
     <script src="script.js" defer></script>
     <title>Página Inicial do Facebook</title>
 </head>
@@ -26,7 +27,7 @@
                 <input type="password" name="user-password" id="user-password">
             </div>
             <div class="botaoHeader">
-                <button id="button-login">Entrar</button>
+                <button id="button-login" value="1">Entrar</button>
             </div>
         </div>
     </header>
@@ -40,44 +41,46 @@
                 <h1>Abra uma conta</h1>
                 <h2>É rápido e fácil.</h2>
             </div>
-            <div class="nomeEsobrenome">
-                <div class="formInputField nome">
-                    <input type="text" placeholder="Nome">
+            <form class="form">
+                <div class="nomeEsobrenome">
+                    <div class="formInputField nome">
+                        <input type="text" placeholder="Nome" data-validate-field="name" name="name">
+                    </div>
+                    <div class="formInputField nome">
+                        <input type="text" placeholder="Sobrenome" data-validate-field="sob" name="sob">
+                    </div>
                 </div>
-                <div class="formInputField nome">
-                    <input type="text" placeholder="Sobrenome">
+                <div class="formInputField">
+                    <input type="text" placeholder="Celular ou email" data-validate-field="strength" name="strength">
                 </div>
-            </div>
-            <div class="formInputField">
-                <input type="text" placeholder="Celular ou email">
-            </div>
-            <div class="formInputField">
-                <input type="password" placeholder="Nova senha">
-            </div>
-            <div class="formInputField">
-                <p>Data de nascimento</p>
-                <input type="text" placeholder="dd/mm/aaaa" id="data">
-            </div>
-            <div class="formInputField">
-                <p>Gênero</p>
-            </div>
-            <div class="containerRadios">
-                <div class="radioGender">
-                    <input type="radio" id="Feminino" name="gender" value="Feminino">
-                    <label for="Feminino">Feminino</label>
+                <div class="formInputField">
+                    <input type="password" placeholder="Nova senha" data-validate-field="password" name="password">
                 </div>
-                <div class="radioGender">
-                    <input type="radio" id="Masculino" name="gender" value="Masculino">
-                    <label for="Masculino">Masculino</label>
+                <div class="formInputField">
+                    <p>Data de nascimento</p>
+                    <input type="text" placeholder="dd/mm/aaaa" id="data">
                 </div>
-                <div class="radioGender">
-                    <input type="radio" id="Personalizado" name="gender" value="Personalizado">
-                    <label for="Personalizado">Personalizado</label>
+                <div class="formInputField">
+                    <p>Gênero</p>
                 </div>
-            </div>
-            <div class="buttonLogin">
-                <button id="facebook-register">Cadastre-se</button>
-            </div>
+                <div class="containerRadios">
+                    <div class="radioGender">
+                        <input type="radio" id="Feminino" name="gender" value="Feminino" data-validate-field="radio">
+                        <label for="Feminino">Feminino</label>
+                    </div>
+                    <div class="radioGender">
+                        <input type="radio" id="Masculino" name="gender" value="Masculino" data-validate-field="radio">
+                        <label for="Masculino">Masculino</label>
+                    </div>
+                    <div class="radioGender">
+                        <input type="radio" id="Personalizado" name="gender" value="Personalizado" data-validate-field="radio">
+                        <label for="Personalizado">Personalizado</label>
+                    </div>
+                </div>
+                <div class="buttonLogin">
+                    <button id="facebook-register" type="submit">Cadastre-se</button>
+                </div>
+            </form>
         </section>
     </main>
 </body>
