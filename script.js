@@ -1,12 +1,12 @@
 // libs
 window.DatePickerX.setDefaults(
-  { format:'dd/mm/yyyy',
-  weekDayLabels:['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom']},
-)
+  { format: 'dd/mm/yyyy',
+    weekDayLabels: ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'] },
+);
 document.getElementById('data').DatePickerX.init();
 // validação do form
 new window.JustValidate('.form', {
-  rules:{
+  rules: {
     name: {
       required: true,
     },
@@ -27,7 +27,7 @@ new window.JustValidate('.form', {
     },
     radio: {
       required: true,
-    }
+    },
   },
   messages: {
     name: {
@@ -39,15 +39,15 @@ new window.JustValidate('.form', {
     sob: {
       required: 'Este campo é obrigatório',
     },
-    strength : {
+    strength: {
       required: 'Este campo é obrigatório',
       // custom: 'Digite um e-mail ou telefone válido'
     },
-    radio : {
+    radio: {
       required: 'Uma opção é obrigatória',
-    }
+    },
   },
-  colorWrong: "red",
+  colorWrong: 'red',
   focusWrongField: true,
 });
 // variaveis
@@ -58,13 +58,13 @@ const form = document.querySelectorAll('.form input');
 // funcoes
 function funcaoAlert(event) {
   event.preventDefault();
-  if (event.currentTarget.value === '1'){
+  if (event.currentTarget.value === '1') {
     alert(`${userEmailPhone.value}`);
   } else {
     let opt = document.getElementsByName('gender');
-    for (let i = 0; i < opt.length; i+=1) {
-      if(opt[i].checked) {
-        opt = opt[i].value
+    for (let i = 0; i < opt.length; i += 1) {
+      if (opt[i].checked) {
+        opt = opt[i].value;
         console.log(opt);
       }
     }
