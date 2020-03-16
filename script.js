@@ -1,7 +1,7 @@
 const buttonLogin = document.getElementById('button-login');
 const buttonRegister = document.getElementById('facebook-register');
 
-buttonLogin.addEventListener('click', function() {
+buttonLogin.addEventListener('click', function () {
   const userEmailPhone = document.getElementById('user-email-phone').value;
   const userPassword = document.getElementById('user-password').value;
   const frase = `User: ${userEmailPhone} Senha: ${userPassword}`;
@@ -10,7 +10,5 @@ buttonLogin.addEventListener('click', function() {
   document.getElementById('user-password').value = '';
 });
 
-buttonRegister.addEventListener('click', function(){
+buttonRegister.addEventListener('click', function () {
 });
-
-
