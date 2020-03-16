@@ -1,0 +1,254 @@
+.aviso {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 10px;
+  height: 20px;
+  margin-top: 8px;
+  padding: 0;
+  width: 300px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.borderbt {
+  border-bottom: 1px solid #dddfe2;
+}
+
+.btnCadastro {
+  height: 55px;
+  padding: 5px;
+  width: 180px;
+}
+
+.btnCadastro > button {
+  background-color: #69a74e;
+  border: 1px solid;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px #a4e388;
+  cursor: pointer;
+  font-size: 20px;
+  height: 35px;
+  padding: 7px 20px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  width: 180px;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: space-between;
+  padding: 5px;
+  width: 45%;
+}
+
+.date > label {
+  color: #90949c;
+  font-size: 15px;
+  height: 20px;
+  padding: 0;
+  width: 135px;
+}
+
+.date > div {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  width: 100%;
+}
+
+.emailphone {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: space-between;
+  padding: 5px;
+  width: 95%;
+}
+
+.form1 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 8px;
+  height: 30px;
+  justify-content: center;
+  width: 125px;
+}
+
+.form2 {
+  align-items: center;
+  display: flex;
+  font-size: 9px;
+  height: 100%;
+  justify-content: center;
+  width: 50px;
+}
+
+.form2 > button {
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+  position: absolute;
+  top: 16px;
+}
+
+.generos {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+}
+
+.generos > div {
+  font-size: 13px;
+}
+
+.generos > p {
+  color: #90949c;
+  font-size: 15px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  width: 135px;
+}
+
+header {
+  align-items: center;
+  background-color: #3b5998;
+  display: flex;
+  flex-direction: row;
+  height: 82px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+header > form {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  margin-right: 10%;
+  min-width: 350px;
+}
+
+.inputA {
+  border: 1px solid #ccd0d5;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px 10px;
+}
+
+.lastContent {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  justify-content: center;
+  width: 100vw;
+}
+
+.lastContent > div {
+  color: #666;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 22px;
+  width: 75%;
+  word-spacing: 12px;
+}
+
+.ladoDireito > .agaTress {
+  color: #333;
+  font-size: 13px;
+  height: 25px;
+  margin-top: 5px;
+  width: 200px;
+}
+
+.ladoDireito {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 38vw;
+}
+
+.ladoDireito > .agaUm {
+  color: #333;
+  font-size: 24px;
+  height: 30px;
+  margin: 20px;
+  width: 200px;
+}
+
+.ladoEsquerdo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 365px;
+  margin-top: 20px;
+  width: 55vw;
+}
+
+.ladoEsquerdo > .agatres {
+  align-items: center;
+  color: #0e385f;
+  font-size: 18px;
+  height: 85px;
+  justify-content: center;
+  line-height: 25px;
+  margin: 0;
+  width: 350px;
+  word-spacing: -1px;
+}
+
+.mainContent {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-direction: row;
+  height: 550px;
+  width: 100vw;
+}
+
+.mapa {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.namesub {
+  height: 15px;
+  margin-left: -20px;
+  position: relative;
+  width: 40%;
+}
+
+.nomesobre {
+  cursor: text;
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  justify-content: space-around;
+  padding: 5px;
+  width: 100%;
+}
+
+.obs {
+  display: flex;
+  padding: 5px;
+}
+
+.obs > p {
+  color: #90949c;
+  font-size: 8px;
+  height: 35px;
+  width: 260px;
+}
