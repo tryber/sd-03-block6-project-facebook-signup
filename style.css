@@ -1,12 +1,8 @@
 body {
-<<<<<<< HEAD
-  display: flex;
-=======
   background: linear-gradient(#fbfbfb, #d3d8e8);
   display: flex;
   flex-direction: column;
   font-family: Lato, sans-serif;
->>>>>>> origin/rsfdev-facebook-signup-project
   margin: 0;
 }
 
@@ -20,8 +16,6 @@ body {
 .a {
   font-size: 36px;
 }
-<<<<<<< HEAD
-=======
 
 .facebook-logo {
   height: auto;
@@ -233,4 +227,3 @@ footer {
   border-style: solid;
   border-width: 0.04em;
 }
->>>>>>> origin/rsfdev-facebook-signup-project
