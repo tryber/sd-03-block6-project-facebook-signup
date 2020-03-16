@@ -28,9 +28,9 @@ function alertRegister() {
   }
   alert(text);
 }
-facebookRegister.addEventListener('click', alertRegister); */
+facebookRegister.addEventListener('click', alertRegister);
 
-/* $(function () {
+$(function () {
   $('#input-data').datepicker({
     dateFormat: 'dd/mm/yy',
     dayNames: ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo'],
