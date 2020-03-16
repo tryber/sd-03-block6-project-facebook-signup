@@ -74,4 +74,3 @@ function funcaoAlert(event) {
 // event listeners
 buttonLogin.addEventListener('click', funcaoAlert);
 buttonCreateAccount.addEventListener('click', funcaoAlert);
-// comentario teste
