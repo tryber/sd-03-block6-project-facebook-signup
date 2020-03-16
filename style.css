@@ -30,8 +30,8 @@ a {
 
 .container {
   margin-left: auto;
-	margin-right: auto;
-	min-width: 980px;
+  margin-right: auto;
+  width: 980px;
 }
 
 .face-logo-fundo {
@@ -65,9 +65,9 @@ a {
   padding-left: 1px;
 }
 
-#button-login {
+.buttonLogin {
   background: none;
-  border: none!important;
+  border: none;
   color: white;
   cursor: pointer;
   font-weight: 700;
@@ -147,14 +147,8 @@ table tr td {
   color: white;
 }
 
-.main{
-  background: linear-gradient(white, #D3D8E8);
-}
-
-.container {
-	max-width: 980px;
-	margin-left: auto;
-  margin-right: auto;
+.main {
+  background: linear-gradient(white, #d3d8e8);
 }
 
 .container-flex {
@@ -164,19 +158,19 @@ table tr td {
 }
 
 .item-esquerda {
-  width: 565px;
   margin-right: 15px;
+  width: 565px;
 }
 
 .item-direita {
-  width: 400px;
   margin-left: 15px;
+  width: 400px;
 }
 
 .frase {
   color: #0e385f;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 29px;
   margin-top: 40px;
   width: 450px;
@@ -184,13 +178,13 @@ table tr td {
 }
 
 .pvl {
-  padding-top: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-.abra-conta{
-  font-size: 36px;
+.abra-conta {
   color: #333;
+  font-size: 36px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -198,5 +192,5 @@ table tr td {
 .rapido {
   color: #1d2129;
   font-size: 19px;
-  font-weight: normal;
+  font-weight: 600;
 }
