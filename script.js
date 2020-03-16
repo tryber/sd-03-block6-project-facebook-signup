@@ -1,7 +1,3 @@
-document.getElementById('facebook-register').addEventListener('click', function () {
-  alert(document.forms.elements);
-});
-
 const buttonLogin = document.getElementById('button-login');
 const userEmailPhone = document.getElementById('user-email-phone');
 
@@ -14,7 +10,26 @@ function alertLogin() {
 }
 buttonLogin.addEventListener('click', alertLogin);
 
-const $
+const facebookRegister = document.getElementById('facebook-register');
+const inputNome = document.getElementById('input-nome');
+const inputSobrenome = document.getElementById('input-sobrenome');
+const inputCelularEmail = document.getElementById('input-celular-email');
+const inputSenha = document.getElementById('input-senha');
+const inputData = document.getElementById('input-data');
+const inputGenero = document.querySelector('radio').childNodes;
+function alertRegister() {
+  const cadastro = document.querySelector('.cadastro');
+  let text = '';
+  for (let i = 0; i < cadastro.length; i += 1) {
+    /*     if (cadastro.elements[i].value === '') {
+          alert('Dados inválidos');
+      } else { */
+    text += cadastro.elements[i].value + '<br>';
+  };
+  alert(text)
+}
+facebookRegister.addEventListener('click', alertRegister);
+
 $(function () {
   $('#input-data').datepicker({
     dateFormat: 'dd/mm/yy',

@@ -97,6 +97,7 @@ h1 {
   padding-left: 13%;
   padding-right: 13%;
   width: 100%;
+  height: auto;
 }
 
 .content {
@@ -109,29 +110,20 @@ article {
   display: flex;
   flex-flow: column nowrap;
   font-weight: 700;
+  align-items: flex-start;
 }
 
 .abraConta {
   padding: 20px 0;
 }
 
-input {
-  margin: 15px;
-  padding: 10px;
-}
-
 .cadastro {
   display: flex;
   flex-flow: column;
-  height: 422.828px;
   width: 400px;
 }
 
-.nome > input {
-  width: 50%;
-}
-
-.cadastro > input , .cadastro > section > input {
+.cadastro > * > input {
   background-color: transparent;
   border: 1px solid #ccd0d5;
   border-color: #bdc7d8;
@@ -140,6 +132,19 @@ input {
   font-size: 18px;
   margin: 5px;
   padding: 8px 10px;
+  width: 92%;
+}
+
+.nome > input {
+  width: 50%;
+}
+
+.date-field {
+  display: grid;
+}
+
+.cadastro > input:focus {
+  border: 2px solid red;
 }
 
 .leftSide {
@@ -165,13 +170,24 @@ input {
   width: 537px;
 }
 
+.genero {
+  position: relative;
+}
+
 .radio {
+  display: inline-block;
+  border-radius: 4px;
+  border-width: 1px;
   color: #1d2129;
-  flex-flow: nowrap row;
   font-size: 18px;
   font-weight: 500;
   line-height: 18px;
-  padding: 0 10px 0 3px;
+  padding: 5px 0 5px 4px;
+  flex-wrap: nowrap;
+}
+
+h2 {
+  color: #90949c;
 }
 
 .cadastro > label {
@@ -189,8 +205,9 @@ input {
   cursor: pointer;
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
   letter-spacing: 1px;
-  margin: 0;
+  margin: 10px;
   max-width: 194px;
   padding: 7px 20px;
   text-align: center;
@@ -203,7 +220,21 @@ input {
 .disclaimer {
   color: #777;
   font-size: 11px;
+  font-weight: 200;
   width: 316px;
+}
+
+.pgCorp {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.rightSide {
+  padding-bottom: 40px;
 }
 
 /* FOOTER */
