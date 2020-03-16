@@ -42,42 +42,38 @@
           <h2>Abra uma conta</h2>
           <h3>É rápido e fácil.</h3>
         </div>
-        <div class="nomes">
-          <input type="text" placeholder="Nome" class="input50">
-          <input type="text" placeholder="Sobrenome" class="input50">
-        </div>
-        <div class="conta">
-          <input type="text" placeholder="Celular ou email" class="input100">
-          <input type="password" placeholder="Nova senha" class="input100">
-        </div>
-        <div class="data50">
-          <h4 class="cinzaclaro">Data de nascimento</h4>
-          <input type="text" placeholder="dd/mm/aaaa" id="datepicker" class="data">
-        </div>
-        <div class="identidade">
-          <h4 class="cinzaclaro">Gênero</h4>
-          <div class="genero">
-            <div class="margem">
-              <label for="Feminino">
+        <form id="form" novalidate>
+          <div class="nomes">
+            <input type="text" placeholder="Nome" class="input50">
+            <input type="text" placeholder="Sobrenome" class="input50">
+          </div>
+          <div class="conta">
+            <input type="text" placeholder="Celular ou email" class="input100" id="pessoal">
+            <input type="password" placeholder="Nova senha" class="input100">
+          </div>
+          <div class="data50">
+            <h4 class="cinzaclaro">Data de nascimento</h4>
+            <input type="text" placeholder="dd/mm/aaaa" id="datepicker" class="data">
+          </div>
+          <div class="identidade">
+            <h4 class="cinzaclaro">Gênero</h4>
+            <div class="genero">
+              <div class="margem">
                 <input type="radio" id="Feminino" name="genero" value="Feminino" checked>
-                Feminino
-              </label>
-            </div>
-            <div class="margem">
-              <label for="Masculino">
+                <label for="Feminino">Feminino</label>
+              </div>
+              <div class="margem">
                 <input type="radio" id="Masculino" name="genero" value="Masculino">
-                Masculino
-              </label>
-            </div>
-            <div class="margem">
-              <label for="Personalizado">
+                <label for="Masculino">Masculino</label>
+              </div>
+              <div class="margem">
                 <input type="radio" id="Personalizado" name="genero" value="Personalizado">
-                Personalizado
-              </label>
+                <label for="Personalizado">Personalizado</label>
+              </div>
             </div>
           </div>
-        </div>
-        <button id="facebook-register" class="cadastro">Cadastre-se</button>
+          <button type="submit" id="facebook-register" class="cadastro">Cadastre-se</button>
+        </form>
       </section>
     </main>
     <script src="script.js"></script>
