@@ -70,7 +70,6 @@ const form = document.querySelectorAll('.form input');
 // funcoes
 
 function funcaoAlert(event) {
-  event.preventDefault();
   if (event.currentTarget.value === '1'){
     alert(`${userEmailPhone.value}`);
   } else {
