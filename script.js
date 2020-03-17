@@ -10,12 +10,6 @@ function alertLogin() {
 }
 buttonLogin.addEventListener('click', alertLogin);
 
-const facebookRegister = document.getElementById('facebook-register');
-const inputNome = document.getElementById('input-nome');
-const inputSobrenome = document.getElementById('input-sobrenome');
-const inputCelularEmail = document.getElementById('input-celular-email');
-const inputSenha = document.getElementById('input-senha');
-const inputData = document.getElementById('input-data');
 const inputGenero = document.querySelector('radio');
 function alertRegister() {
   const cadastro = document.querySelector('.cadastro');
@@ -25,7 +19,7 @@ function alertRegister() {
               alert('Dados inválidos');
           } else { */
 
-    text = `${text} ${cadastro.elements[i].value} \n`
+    text = `${text} ${cadastro.elements[i].value} \n`;
   }
   alert(text);
 }
