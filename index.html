@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="header">
+        <h1 class="facebook-logo">facebook</h1>
+        <table>
+          <tbody>
+            <tr>
+              <td id="user-email-phone-label">Email ou telefone</td>
+              <td>Senha</td>
+            </tr>
+            <tr>
+              <td><input type="email" id="user-email-phone" class="topInput"></td>
+              <td><input type="password" id="user-password" class="topInput"></td>
+              <td><button id="button-login">Entrar</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </header>
+    <main class="main">
+      <section class="lateral-esquerda">
+        <div class="section">
+          <p class="textoCanto">
+            O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
+          </p>
+          <img src="Images/networking.png" alt="" id="facebook-networking">
+        </div>
+      </section>
+      <section class="lateral-direita">
+        <div class="indicativos">
+          <h2>Abra uma conta</h2>
+          <h3>É rápido e fácil.</h3>
+        </div>
+        <form id="form" novalidate>
+          <div class="nomes">
+            <input type="text" placeholder="Nome" class="input50 inputstyle">
+            <input type="text" placeholder="Sobrenome" class="input50 inputstyle">
+          </div>
+          <div class="conta">
+            <input type="text" placeholder="Celular ou email" class="input100 inputstyle" id="pessoal">
+            <input type="password" placeholder="Nova senha" class="input100 inputstyle">
+          </div>
+          <div class="data50">
+            <h4 class="cinzaclaro">Data de nascimento</h4>
+            <input type="text" placeholder="dd/mm/aaaa" id="datepicker" class="data input50 inputstyle">
+          </div>
+          <div class="identidade">
+            <h4 class="cinzaclaro">Gênero</h4>
+            <div class="genero">
+              <div class="margem">
+                <input type="radio" id="Feminino" name="genero" value="Feminino" checked>
+                <label for="Feminino">Feminino</label>
+              </div>
+              <div class="margem">
+                <input type="radio" id="Masculino" name="genero" value="Masculino">
+                <label for="Masculino">Masculino</label>
+              </div>
+              <div class="margem">
+                <input type="radio" id="Personalizado" name="genero" value="Personalizado">
+                <label for="Personalizado">Personalizado</label>
+              </div>
+            </div>
+          </div>
+          <button type="submit" id="facebook-register" class="cadastro">Cadastre-se</button>
+        </form>
+      </section>
+    </main>
+    <script type="text/javascript" src="script.js"></script>
+    <script>
+      $( "#datepicker" ).datepicker({
+      changeMonth: true,
+      changeYear: true
+      });
+    </script>
+  </body>
+</html>
