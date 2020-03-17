@@ -248,6 +248,7 @@ ul {
 .phone-mail-pass-field {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .surname-field input {
