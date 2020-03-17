@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - entre ou cadastre-se</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script src="https://kit.fontawesome.com/ca9ac1d93d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class='top-bar'>
+    <a href='#'>
+      <img src='images/logo.png' id='facebook-logo' class='facebook-logo' alt='Logo Facebook'>
+    </a>
+    <section class='login'>
+      <form>
+        <ul class='form-login'>
+          <li class='email'>
+            <label id='user-email-phone-label'>Email ou telefone</label><br>
+            <input type="text" id='user-email-phone' class='user-email-phone inputHeader'>
+          </li>
+          <li class='senha'>
+            <label>Senha</label><br>
+            <input type='password' id='user-password' class='input-password inputHeader'><br>
+            <a href='#'>Esqueceu a conta?</a>
+          </li>
+          <button id='button-login' class='button-login'><b>Entrar</b></button>
+        </ul>
+      </form>
+    </section>
+  </header>
+  <main>
+    <section class="esquerda">
+      <p class="texto">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <img src="images/networking.png" alt="Pessoas conectadas pelo mundo" id="facebook-networking">
+    </section>
+    <section class="direita">
+      <h1>Abra uma conta</h1> <br>
+      <h2>É rápido e fácil.</h2>
+      <form action="post">
+        <div>
+          <input type="text" placeholder="Nome" id="nome" class="nome inputHeight">
+          <input type="text" placeholder="Sobrenome" id="sobrenome" class="nome inputHeight">
+          <input type="text" placeholder="Celular ou email" size="39px" class="inputHeight" id="contato">
+          <input type="password" name="senha" id="senha" placeholder="Nova senha" size="39px" class="inputHeight">
+        </div>
+        <div>
+            <p class="pLabel">Data de nascimento</p>
+            <input type="text" id="datepicker" class="inputHeight" placeholder="dd/mm/aaaa">
+          </div>
+          <div>
+            <p class="pLabel">Gênero</p>
+            <input type="radio" name="Feminino" id="Feminino" value="Feminino">
+            <label for="gender" class="labelGender">Feminino</label>
+            <input type="radio" for="gender" name="Masculino" id="Masculino" value="Masculino">
+            <label for="gender" class="labelGender">Masculino</label>
+            <input type="radio" name="Personalizado" id="Personalizado" value="Personalizado">
+            <label for="gender" class="labelGender">Personalizado</label>
+          </div>
+          <div>
+            <p class="pAgree">Ao clicar em Cadastre-se, você concorda com nossos <a href="https://www.facebook.com/legal/terms/update">Termos</a>,<a href="https://www.facebook.com/about/privacy/update">, Política de Dados</a> e <a href="https://www.facebook.com/policies/cookies/">Política de Cookies</a>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.</p>
+          </div>
+        </form>
+        <button id="facebook-register" class="buttonCadastro">Cadastre-se</button>
+        <div>
+          <p class="pCriar"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Criar uma Página</a> para uma celebridade, banda ou empresa.</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class='rodrigo'><p>Rodrigo Brezolin</p>
+        <a href='https://github.com/rdgbrezolin' target='_blank'><i class='fab fa-github-square'></i></a>
+        <a href='https://www.linkedin.com/in/rodrigobrezolin/' target='_blank'><i class="fab fa-linkedin"></i></a>
+      </section>
+      <section class='luma'><p>Luma Arruda</p>
+        <a href='https://github.com/lumaarruda' target='_blank'><i class='fab fa-github-square'></i></a>
+        <a href='https://www.linkedin.com/in/luma-arruda/' target='_blank'><i class="fab fa-linkedin"></i></a>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const picker = new Pikaday({ field: document.getElementById('datepicker') });
+      });
+    </script>
+  </body>
+  </html>

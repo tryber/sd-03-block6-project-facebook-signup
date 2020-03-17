@@ -1,12 +1,29 @@
-html , body , div , input , p , label , section , main , form {
+body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+.box-left {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: 100px;
+  width: 50%;
+}
+
+.box-right {
+  align-content: flex-start;
+  display: flex;
+  flex-flow: column wrap;
+  width: 50%;
+}
+
+.btn-entrar {
+  display: flex;
+}
+
 .button-login {
   align-items: flex-start;
-  background-attachment: scroll;
   background-clip: border-box;
   background-color: rgb(66, 103, 178);
   border: 1px solid rgb(41, 72, 125);
@@ -19,27 +36,6 @@ html , body , div , input , p , label , section , main , form {
   width: 56px;
 }
 
-.top-bar {
-  align-items: center;
-  background-color: rgb(59, 89, 152);
-  border-bottom: 1px solid #1d2a5b;
-  display: flex;
-  height: 80px;
-  justify-content: space-around;
-}
-
-.login , .password {
-  display: flex;
-  flex-direction: column;
-  font-size: 12px;
-  padding-left: 1px;
-  width: 40%;
-}
-
-.user-email-phone , .senha {
-  border: 1px solid #1d2a5b;
-}
-
 .container-head {
   color: white;
   display: flex;
@@ -47,12 +43,65 @@ html , body , div , input , p , label , section , main , form {
   margin-top: 10px;
 }
 
-.box-left {
-  display: flex;
+.facebook-logo {
+  height: 74px;
+  margin-right: 130px;
+  margin-top: 12px;
 }
 
-.box-right {
+.facebook-networking {
+  height: 195px;
+  width: 537px;
+}
+
+.facebook-register {
+  background: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+  border: 1px solid;
+  border-color: rgb(59, 110, 34) rgb(59, 110, 34) rgb(44, 81, 21);
+  border-radius: 5px;
+  box-shadow: inset 0 1px 1px rgb(164, 227, 136);
+  color: white;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  line-height: 126%;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.login , .password {
   display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  padding-left: 1px;
+  width: 142px;
+}
+
+main {
+  background-image: linear-gradient(white, rgb(211, 216, 232));
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.mini-box-left {
+  display: flex;
+  flex-flow: column;
+  margin-left: 200px;
+}
+
+.nome , .nova-senha , .phone-email , .sobrenome {
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+}
+
+.registration-container {
+  margin-top: 18px;
 }
 
 small {
@@ -65,4 +114,49 @@ small {
 
 small:hover {
   text-decoration: underline;
+}
+
+.sub-title {
+  color: #1d2129;
+  font-size: 19px;
+}
+
+.text-forms {
+  color: rgb(144, 148, 156);
+  font-size: 16px;
+  font-weight: 700;
+  margin: 9.5px 0 5px;
+  width: 400px;
+}
+
+.text-left {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 600;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.title-right {
+  color: #333;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(59, 89, 152);
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  border-bottom: 1px solid #1d2a5b;
+  display: flex;
+  height: 82px;
+  justify-content: space-around;
+}
+
+.senha , .user-email-phone {
+  border: 1px solid #1d2a5b;
+  margin-right: 4px;
+  margin-top: 4px;
+  padding-left: 4px;
+  padding-top: 4px;
 }
