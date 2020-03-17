@@ -1,6 +1,6 @@
 a {
-    text-decoration: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 body {
@@ -36,8 +36,8 @@ header div label {
 }
 
 ul {
-    padding: 0;
     list-style: none;
+    padding: 0;
 }
 
 .accept-text {
@@ -49,16 +49,6 @@ ul {
 
 .content-container {
     width: 725px;
-}
-
-.content-container h2 {
-    color: #0e385f;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 29px;
-    margin: 40px 0 0 150px;
-    width: 450px;
-    word-spacing: -1px;
 }
 
 .content-container img {
@@ -91,10 +81,10 @@ ul {
 
 .facebook-quote {
     color: #0e385f;
-    font-size: 20px;
     font-weight: 700;
+    font-size: 20px;
     line-height: 29px;
-    margin-top: 40px;
+    margin: 40px 0 0 150px;
     width: 450px;
     word-spacing: -1px;
 }
@@ -148,9 +138,9 @@ ul {
 }
 
 .gender-input input {
-    width: 13px;
     height: 13px;
     margin: 3px 3px 0 5px;
+    width: 13px;
 }
 
 .gender-input label {
@@ -164,14 +154,11 @@ ul {
 }
 
 .header-left {
-    width: 300px;
     padding-left: 180px;
+    width: 300px;
 }
 
 .header-right {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -255,7 +242,7 @@ ul {
     color: #333;
     font-size: 36px;
     font-weight: 600;
-    margin: 0
+    margin: 0;
 }
 
 .phone-mail-pass-field {
@@ -294,3 +281,4 @@ ul {
     margin-right: 10px;
     width: 192px;
 }
+
