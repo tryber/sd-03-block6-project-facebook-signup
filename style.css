@@ -80,7 +80,7 @@ body {
 }
 
 main {
-  background-color: linear-gradient(rgb(255, 255, 255), rgb(211, 216, 232));
+  background-image: linear-gradient( white, rgb(211, 216, 232));
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
@@ -92,7 +92,7 @@ main {
   margin-left: 200px;
 }
 
-.nome, .sobrenome, .phone-email, .nova-senha {
+.nome, .nova-senha, .phone-email, .sobrenome {
   font-size: 18px;
   border-color: #bdc7d8;
   border-radius: 5px;
@@ -132,7 +132,7 @@ small:hover {
 .text-left {
   color: #0e385f;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   width: 450px;
   word-spacing: -1px;
 }
@@ -140,7 +140,7 @@ small:hover {
 .title-right {
   color: #333;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .top-bar {
@@ -153,7 +153,7 @@ small:hover {
   justify-content: space-around;
 }
 
-.user-email-phone, .senha {
+.senha, .user-email-phone {
   border: 1px solid #1d2a5b;
   margin-top: 4px;
   margin-right: 4px;
