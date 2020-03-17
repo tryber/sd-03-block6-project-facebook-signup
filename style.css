@@ -1,0 +1,214 @@
+body {
+  background: linear-gradient(white, #d3d8e8);
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+fieldset {
+  border: none;
+  padding: unset;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(59, 89, 152);
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.facebook-logo {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding: 10px 50px 0 0;
+}
+
+.forms-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.forms-informacao-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.forms-informacao-container input {
+  border: 1px solid #ccd0d5;
+  margin: 5px 0;
+  padding: 3px 0;
+  width: 148px;
+}
+
+.forms-informacao-container button {
+  background-color: #4267b2;
+  border: #29487d solid 1px;
+  color: white;
+  cursor: pointer;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 21px 0;
+  padding: 2px 4px;
+}
+
+.forms-informacao-container a {
+  color: rgb(156, 180, 216);
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.corpo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.texto-imagem {
+  color: #0e385f;
+  flex-basis: 30vw;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-top: 40px;
+  padding-left: 10%;
+  word-spacing: -1px;
+}
+
+.criar-conta {
+  display: flex;
+  flex-basis: 40vw;
+  flex-direction: column;
+}
+
+.input-label-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 100%;
+}
+
+h3 {
+  color: #90949c;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.criar-conta > button {
+  background: linear-gradient(#67ae55, #578843);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  flex-basis: 41px;
+  font-family: Freight Sans Bold, Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  width: 36%;
+}
+
+.AbraRapido {
+  padding-top: 20px;
+}
+
+.AuC {
+  font-size: 36px;
+}
+
+.ReF {
+  color: #1d2129;
+  font-size: 19px;
+}
+
+.inputs-label-container {
+  font-size: 16px;
+  padding: 8px 1px;
+  width: -150px;
+}
+
+.nomes {
+  border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  height: 30px;
+}
+
+.celularEsenha {
+  border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  height: 30px;
+  width: 341px;
+}
+
+.data {
+  border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  height: 30px;
+  margin-right: -6px;
+}
+
+footer {
+  background-color: white;
+  color: gray;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.footer-wrapper {
+  margin-left: 120px;
+  width: 90%;
+}
+
+footer .abas {
+  border-bottom: 1px solid gray;
+  margin: auto;
+  width: 82%;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 0 10px 5px;
+}
+
+.selected-language {
+  color: gray;
+}
+
+footer a:any-link {
+  color: rgb(4, 78, 151);
+  text-decoration: none;
+}
+
+.autoria {
+  margin-left: 120px;
+}
+
+.Advertencia {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+}
+
+.Sugestao {
+  border-top: 1px solid #dddfe2;
+  color: #666;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.questionMark {
+  margin-left: 15px;
+}
