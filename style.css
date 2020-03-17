@@ -88,7 +88,8 @@ h3 {
   color: #1d2129;
   font-size: 19px;
   font-weight: 100;
-  margin: 10px 0;
+  margin-bottom: 25px;
+  margin-top: 10px;
 }
 
 .nomes {
@@ -97,10 +98,6 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 15px;
-}
-
-.input50 {
-  display: flex;
 }
 
 .conta {
@@ -113,16 +110,11 @@ h3 {
   margin-top: 10px;
 }
 
-.data50 {
-  left: 0;
-  width: 50%;
-}
-
 .cinzaclaro {
   color: #90949c;
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 .genero {
@@ -141,10 +133,6 @@ input {
   top: -5px;
 }
 
-label {
-  position: relative;
-}
-
 .cadastro {
   background: linear-gradient(#67ae55, #578843);
   background-color: #69a74e;
@@ -160,4 +148,18 @@ label {
   min-width: 194px;
   padding: 7px 20px;
   text-shadow: 0 1px 1px black;
+}
+
+.input50 {
+  display: flex;
+  width: 170px;
+}
+
+.inputstyle {
+  background-color: transparent;
+  border: 1px solid #ccd0d5;
+  border-color: #bdc7d8;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 8px 10px;
 }

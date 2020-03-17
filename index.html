@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -44,16 +44,16 @@
         </div>
         <form id="form" novalidate>
           <div class="nomes">
-            <input type="text" placeholder="Nome" class="input50">
-            <input type="text" placeholder="Sobrenome" class="input50">
+            <input type="text" placeholder="Nome" class="input50 inputstyle">
+            <input type="text" placeholder="Sobrenome" class="input50 inputstyle">
           </div>
           <div class="conta">
-            <input type="text" placeholder="Celular ou email" class="input100" id="pessoal">
-            <input type="password" placeholder="Nova senha" class="input100">
+            <input type="text" placeholder="Celular ou email" class="input100 inputstyle" id="pessoal">
+            <input type="password" placeholder="Nova senha" class="input100 inputstyle">
           </div>
           <div class="data50">
             <h4 class="cinzaclaro">Data de nascimento</h4>
-            <input type="text" placeholder="dd/mm/aaaa" id="datepicker" class="data">
+            <input type="text" placeholder="dd/mm/aaaa" id="datepicker" class="data input50 inputstyle">
           </div>
           <div class="identidade">
             <h4 class="cinzaclaro">Gênero</h4>
@@ -76,7 +76,7 @@
         </form>
       </section>
     </main>
-    <script src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <script>
       $( "#datepicker" ).datepicker({
       changeMonth: true,
