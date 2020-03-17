@@ -10,7 +10,8 @@ function alertLogin() {
 }
 buttonLogin.addEventListener('click', alertLogin);
 
-const inputGenero = document.querySelector('radio');
+/* const inputGenero = document.querySelector('radio');
+ */
 function alertRegister() {
   const cadastro = document.querySelector('.cadastro');
   let text = '';
