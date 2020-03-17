@@ -1,0 +1,1 @@
+new Pikaday({ field: document.getElementById('date'), format:'DD/MM/YYYY', });

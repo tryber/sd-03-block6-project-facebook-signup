@@ -1,0 +1,160 @@
+body {
+  font-family: FreightSansCdW01-Medium, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.bloco-esquerdo {
+  margin: 70px;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conteudo {
+  background-color: rgb(233, 235, 238);
+  display: flex;
+  flex-flow: column wrap;
+  height: 500px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.encaixe {
+  width: 80%;
+}
+
+.facebook-logo {
+  height: 34px;
+  width: 170px;
+}
+
+@font-face {
+  font-family: facebook_letter_facesregular;
+  src: url('facebolf-webfont.eot?#iefix') format('embedded-opentype'),
+    url('facebolf-webfont.woff') format('woff'),
+    url('facebolf-webfont.ttf')  format('truetype'),
+    url('facebolf-webfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+  font-family: FreightSansCdW01-Medium;
+  src: url('http://db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.eot');
+  src: url('http://db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.eot?#iefix') format('embedded-opentype'),
+    url('http://db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.woff2') format('woff2'),
+    url('http://db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.woff') format('woff'),
+    url('http://db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.ttf') format('truetype'),
+    url('http://db.onlinewebfonts.com/t/6640e7ca2806a81a6db64cca70835d63.svg#FreightSansCdW01-Medium') format('svg');
+}
+
+.formulario {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.genero {
+  display: flex;
+  width: max-content;
+}
+
+header {
+  padding: 10px;
+}
+
+.header-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2%;
+}
+
+.header-items {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.inputs {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 85%;
+}
+
+label {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+.linha {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+
+}
+
+.links-uteis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.lista-idiomas {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+  font-family: facebook_letter_facesregular, sans-serif;
+  margin-bottom: -5px;
+}
+
+.nomes {
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 40%;
+}
+
+.radiodata {
+  display: flex;
+  flex-direction: column;
+}
+
+.registrar {
+  background: linear-gradient(rgb(160, 223, 133), rgb(88, 138, 69));
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  font-weight: 800;
+  margin: 10px;
+  padding: 7px 20px;
+  width: 194px;
+}
+
+.top-bar {
+  background: linear-gradient(rgb(77, 104, 160), rgb(59, 89, 152));
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
