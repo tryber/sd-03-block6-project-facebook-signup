@@ -193,6 +193,7 @@ footer a:any-link {
 .autoria {
   margin-left: 120px;
 }
+
 .Advertencia {
   color: #777;
   font-size: 11px;
@@ -203,11 +204,11 @@ footer a:any-link {
   border-top: 1px solid #dddfe2;
   color: #666;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 700;
   margin-top: 10px;
   padding-top: 15px;
 }
 
 .questionMark {
-  margin-left: 15px;  
+  margin-left: 15px;
 }
