@@ -10,6 +10,7 @@ function alertLogin() {
 }
 buttonLogin.addEventListener('click', alertLogin);
 
+const facebookRegister = document.getElementById('facebook-register');
 /* const inputGenero = document.querySelector('radio');
  */
 function alertRegister() {
