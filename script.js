@@ -5,7 +5,7 @@ function cadastro() {
   const senha = document.getElementById('senha').value;
   const data = document.getElementById('data').value;
 
-  if (nome.length && sobrenome.length && celMail.length && senha.length && data.length > 0) {
+  if (nome.length && sobrenome.length && celMail.length && senha.length && data.length) {
     window.alert(`${nome} ${sobrenome} - ${celMail} - ${data}`);
   } else {
     window.alert('Dados inválidos.');
