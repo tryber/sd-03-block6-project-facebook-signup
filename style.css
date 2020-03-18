@@ -130,8 +130,8 @@ article {
 
 .leftSide img {
   height: 195px;
-  margin-top: 0;
   margin-right: 15px;
+  margin-top: 0;
   width: 537px;
 }
 
@@ -141,7 +141,7 @@ article {
 
 .abraConta {
   color: rgb(51, 51, 51);
-  padding: 20px 0 15px 0;
+  padding: 20px 0 15px;
 }
 
 .rapido-facil {
@@ -240,7 +240,7 @@ h2 {
   margin: 20px 0;
   padding: 7px 20px;
   text-align: center;
-  text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 1px 2px;
   width: 194px;
 }
 
