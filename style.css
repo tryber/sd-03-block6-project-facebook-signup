@@ -77,12 +77,12 @@ body {
   flex-direction: column;
   font-size: 8px;
   height: 30px;
-  justify-content: center;
+  justify-content: flex-end;
   width: 125px;
 }
 
 .form2 {
-  align-items: center;
+  align-items: flex-end;
   display: flex;
   font-size: 9px;
   height: 100%;
