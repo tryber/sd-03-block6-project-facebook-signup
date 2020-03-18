@@ -1,7 +1,6 @@
-window.onload = function () {
-  const botaoEmailTelefone = document.getElementById('button-login');
-  botaoEmailTelefone.addEventListener('click', function () {
+window.onload = () => {
+  document.getElementById('button-login').addEventListener('click', () => {
     const emailTelefone = document.getElementById('user-email-phone');
-    window.alert(`Olá, ${emailTelefone.value}`);
+    window.alert(`${emailTelefone.value}`);
   });
 };
