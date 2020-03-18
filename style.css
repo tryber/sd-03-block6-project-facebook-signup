@@ -91,19 +91,19 @@ h1 {
 
 /* ARTICLE */
 .container {
+  align-items: center;
   background: linear-gradient(white, #d3d8e8);
   display: flex;
   flex-direction: row;
   height: auto;
-  padding-left: 13%;
-  padding-right: 13%;
-  width: 100%;
+  justify-content: space-around;
+  max-width: 100%;
 }
 
 .content {
   display: flex;
-  max-height: 629.828px;
-  max-width: 980px;
+  justify-content: space-between;
+  width: 980px;
 }
 
 article {
@@ -113,8 +113,41 @@ article {
   font-weight: 700;
 }
 
+.leftSide {
+  display: flex;
+}
+
+.leftSide > p {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 0;
+  margin-top: 40px;
+  width: 450px;
+  word-spacing: -1px;
+}
+
+.leftSide img {
+  height: 195px;
+  margin-top: 0;
+  margin-right: 15px;
+  width: 537px;
+}
+
+.rightSide {
+  padding-bottom: 33px;
+}
+
 .abraConta {
-  padding: 20px 0;
+  color: rgb(51, 51, 51);
+  padding: 20px 0 15px 0;
+}
+
+.rapido-facil {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
 }
 
 .cadastro {
@@ -123,51 +156,47 @@ article {
   width: 400px;
 }
 
+.cadastro > label {
+  color: #90949c;
+}
+
 .cadastro > * > input {
-  background-color: transparent;
+  background-color: white;
   border: 1px solid #ccd0d5;
   border-color: #bdc7d8;
   border-radius: 5px;
   color: #1c1e21;
   font-size: 18px;
-  margin: 5px;
+  margin: 5px 0;
   padding: 8px 10px;
-  width: 92%;
-}
-
-.nome > input {
-  width: 50%;
-}
-
-.date-field {
-  display: grid;
+  width: 100%;
 }
 
 .cadastro > input:focus {
   border: 2px solid red;
 }
 
-.leftSide {
+.nome {
   display: flex;
-  height: 326;
-  width: 580px;
 }
 
-.leftSide > p {
-  color: #0e385f;
-  font-size: 20px;
-  font-weight: 700;
-  height: 45px;
-  line-height: 29px;
-  margin-top: 40px;
-  width: 450px;
-  word-spacing: -1px;
+input.input-celular-email , input.input-senha , input.datepicker {
+  width: 377px;
 }
 
-.leftSide img {
-  height: 195px;
-  margin-right: 15px;
-  width: 537px;
+input.datepicker {
+  margin-bottom: 0;
+  width: 377px;
+}
+
+h2 {
+  color: #90949c;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.date-field {
+  display: grid;
 }
 
 .genero {
@@ -183,14 +212,15 @@ article {
   font-weight: 500;
   line-height: 18px;
   padding: 5px 0 5px 4px;
+  position: relative;
 }
 
-h2 {
-  color: #90949c;
-}
-
-.cadastro > label {
-  color: #90949c;
+.disclaimer {
+  color: #777;
+  font-size: 11px;
+  font-weight: 200;
+  margin-top: 27px;
+  width: 316px;
 }
 
 .registerButton {
@@ -205,22 +235,13 @@ h2 {
   display: inline-block;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 19px;
-  letter-spacing: 1px;
-  margin: 10px;
-  max-width: 194px;
+  font-weight: 700;
+  height: 39px;
+  margin: 20px 0;
   padding: 7px 20px;
   text-align: center;
-}
-
-.nome {
-  display: flex;
-}
-
-.disclaimer {
-  color: #777;
-  font-size: 11px;
-  font-weight: 200;
-  width: 316px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+  width: 194px;
 }
 
 .pgCorp {
@@ -228,12 +249,8 @@ h2 {
   color: #666;
   font-size: 13px;
   font-weight: 700;
-  margin-top: 10px;
+  margin-top: 0;
   padding-top: 15px;
-}
-
-.rightSide {
-  padding-bottom: 40px;
 }
 
 /* FOOTER */

@@ -27,6 +27,8 @@ function alertRegister() {
 }
 facebookRegister.addEventListener('click', alertRegister);
 
+const disclaimer = document.querySelectorAll('.disclaimer')[0];
+const pgCorp = document.querySelectorAll('.pgCorp')[0];
 const languages = document.querySelectorAll('.languages')[0];
 const footerOthers = document.querySelectorAll('.footerOthers')[0];
 
@@ -34,5 +36,7 @@ function paginaEmDesenvolvimento() {
   alert('Página em desenvolvimento.');
   event.preventDefault();
 }
+disclaimer.addEventListener('click', paginaEmDesenvolvimento);
+pgCorp.addEventListener('click', paginaEmDesenvolvimento);
 languages.addEventListener('click', paginaEmDesenvolvimento);
 footerOthers.addEventListener('click', paginaEmDesenvolvimento);
